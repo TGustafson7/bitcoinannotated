@@ -10,6 +10,9 @@ btcPriceAtOrigin: "$2,300"
 creator: "Christian Langalis"
 sourcePlatform: "House Financial Services Committee"
 locked: true
+heroImage: "/images/entries/buy-bitcoin-sign.jpg"
+heroImageCaption: "Christian Langalis behind Federal Reserve Chair Janet Yellen during House Financial Services Committee testimony, July 12, 2017."
+heroImageCredit: "C-SPAN broadcast still."
 sources:
   - url: "https://www.coindesk.com/business/2024/04/11/bitcoin-sign-guy-is-auctioning-his-bitcoin-sign"
     label: "CoinDesk: Bitcoin Sign Guy Is Auctioning His Bitcoin Sign"

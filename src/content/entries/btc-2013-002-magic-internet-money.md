@@ -10,6 +10,9 @@ btcPriceAtOrigin: "$26"
 creator: "u/mavensbot"
 sourcePlatform: "Reddit"
 locked: true
+heroImage: "/images/entries/magic-internet-money.png"
+heroImageCaption: "Magic Internet Money: Bitcoin Wizard. Drawn in MS Paint by u/mavensbot, February 18, 2013."
+heroImageCredit: "Image courtesy of mavensbot."
 sources:
   - url: "https://paulbars.medium.com/magic-internet-money-how-a-reddit-ad-made-bitcoin-hit-1000-and-inspired-south-parks-art-b414ec7a5598"
     label: "Paul Bars: How a Reddit ad made Bitcoin hit $1000 (canonical history)"

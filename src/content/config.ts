@@ -1,5 +1,4 @@
 import { defineCollection, z } from 'astro:content';
-
 const entries = defineCollection({
   type: 'content',
   schema: z.object({
@@ -19,8 +18,10 @@ const entries = defineCollection({
       url: z.string().url(),
       label: z.string(),
     })).optional(),
+    heroImage: z.string().optional(),         // e.g. "/images/entries/genesis-block.jpg"
+    heroImageCaption: z.string().optional(),  // figcaption text
+    heroImageCredit: z.string().optional(),   // attribution line
     related: z.array(z.string()).optional(),  // catalog IDs of related entries
   }),
 });
-
 export const collections = { entries };

@@ -10,6 +10,9 @@ btcPriceAtOrigin: "—"
 creator: "Satoshi Nakamoto"
 sourcePlatform: "Bitcoin protocol"
 locked: true
+heroImage: "/images/entries/genesis-block.jpg"
+heroImageCaption: "The raw hex of Block 0. The embedded Times headline is visible in the right column, beginning at memory address 0x80."
+heroImageCredit: "Public domain — bitcoin's first block."
 sources:
   - url: "https://en.bitcoin.it/wiki/Genesis_block"
     label: "Bitcoin Wiki: Genesis block"

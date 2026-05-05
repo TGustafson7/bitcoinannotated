@@ -10,6 +10,9 @@ btcPriceAtOrigin: "$50,000"
 creator: "@CHAIRFORCE_BTC"
 sourcePlatform: "Twitter"
 locked: true
+heroImage: "/images/entries/laser-eyes.png"
+heroImageCaption: "Salvadoran President Nayib Bukele, June 2021 — adopted as his official Twitter avatar the day Bitcoin was passed as legal tender by El Salvador's congress."
+heroImageCredit: "Press Office of the Presidency of El Salvador."
 sources:
   - url: "https://bitcoinmagazine.com/culture/bitcoin-laser-eyes-origins"
     label: "Bitcoin Magazine: Origins of Bitcoin Laser Eyes (by the creator)"

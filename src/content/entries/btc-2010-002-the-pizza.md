@@ -10,6 +10,9 @@ btcPriceAtOrigin: "$0.0041"
 creator: "Laszlo Hanyecz"
 sourcePlatform: "BitcoinTalk"
 locked: true
+heroImage: "/images/entries/the-pizza.jpg"
+heroImageCaption: "Commemorative plaque inside the Papa John's on Atlantic Avenue, Jacksonville, Florida — donated by the Jacksonville Bitcoin Meetup."
+heroImageCredit: "Photograph via Wikimedia Commons."
 sources:
   - url: "https://bitcointalk.org/index.php?topic=137.0"
     label: "Original BitcoinTalk thread #137: 'Pizza for bitcoins?'"
