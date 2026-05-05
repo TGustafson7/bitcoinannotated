@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --paper: #f8f4ed;
+  --paper-warm: #f3ede0;
+  --ink: #1a1612;
+  --ink-soft: #3a352e;
+  --ink-mid: #6b6359;
+  --ink-faint: #998f80;
+  --line: #d8cfbe;
+  --line-soft: #e8e0cf;
+  --orange: #d97706;
+  --orange-deep: #b45309;
+  --display: 'EB Garamond', Georgia, serif;
+  --body: 'Inter Tight', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='1' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0.4 0 0 0 0 0.35 0 0 0 0 0.25 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+a { color: var(--orange-deep); text-decoration: underline; text-decoration-color: rgba(217, 119, 6, 0.3); text-underline-offset: 3px; }
+a:hover { text-decoration-color: var(--orange); }
+
+.page-wrap { max-width: 1180px; margin: 0 auto; padding: 32px 40px 80px; }
+
+/* TOPBAR */
+.topbar { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 56px; display: flex; justify-content: space-between; align-items: baseline; }
+.brand { font-family: var(--display); font-size: 24px; font-weight: 600; letter-spacing: -0.01em; color: var(--ink); text-decoration: none; }
+.brand em { font-style: italic; color: var(--orange); font-weight: 500; }
+.topbar nav { display: flex; gap: 28px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+.topbar nav a { color: var(--ink-mid); text-decoration: none; }
+.topbar nav a:hover { color: var(--orange); }
+.topbar nav a.active { color: var(--ink); }
+
+/* CATALOG ID BAR */
+.catalog-bar { font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; color: var(--ink-faint); text-transform: uppercase; display: flex; gap: 18px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 36px; }
+.catalog-bar .id { color: var(--orange-deep); font-weight: 700; }
+
+/* HERO */
+.hero { display: grid; grid-template-columns: 1.5fr 1fr; gap: 56px; margin-bottom: 56px; }
+.hero-kicker { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; color: var(--orange-deep); text-transform: uppercase; margin-bottom: 18px; font-weight: 700; }
+.hero h1 { font-family: var(--display); font-size: clamp(48px, 6vw, 80px); line-height: 0.98; letter-spacing: -0.025em; font-weight: 500; margin-bottom: 16px; }
+.hero h1 em { font-style: italic; color: var(--orange); font-weight: 500; }
+.hero .pronunciation { font-family: var(--mono); font-size: 13px; color: var(--ink-mid); margin-bottom: 22px; }
+.hero .deck { font-family: var(--display); font-style: italic; font-size: 22px; line-height: 1.4; color: var(--ink-soft); }
+
+.meta-card { border: 1px solid var(--line); padding: 28px; background: var(--paper-warm); }
+.meta-row { display: grid; grid-template-columns: 100px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px dashed var(--line-soft); font-size: 13px; }
+.meta-row:last-child { border-bottom: none; }
+.meta-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.15em; color: var(--ink-faint); text-transform: uppercase; padding-top: 2px; }
+.meta-value { color: var(--ink-soft); }
+.meta-value.locked::after { content: ' ✓'; color: var(--orange); font-weight: 700; }
+
+/* BODY PROSE */
+.prose { font-family: var(--display); font-size: 19px; line-height: 1.65; color: var(--ink-soft); max-width: 720px; }
+.prose p { margin-bottom: 1.2em; }
+.prose p:first-child::first-letter { font-size: 4em; line-height: 0.85; float: left; margin: 8px 12px -8px 0; color: var(--orange); font-weight: 600; }
+.prose h2 { font-family: var(--display); font-size: 32px; font-weight: 500; letter-spacing: -0.015em; margin: 1.6em 0 0.6em; line-height: 1.1; }
+.prose h2 em { font-style: italic; color: var(--orange); }
+.prose blockquote { border-left: 3px solid var(--orange); padding: 4px 0 4px 20px; margin: 1.2em 0; font-style: italic; color: var(--ink-mid); }
+
+/* INDEX (homepage) */
+.index-list { display: flex; flex-direction: column; }
+.index-row { display: grid; grid-template-columns: 140px 1fr 120px 100px; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--line-soft); align-items: baseline; text-decoration: none; transition: background 0.15s; }
+.index-row:hover { background: var(--paper-warm); }
+.index-row .id { font-family: var(--mono); font-size: 11px; color: var(--orange-deep); letter-spacing: 0.1em; font-weight: 700; }
+.index-row .title { font-family: var(--display); font-size: 22px; font-weight: 500; color: var(--ink); letter-spacing: -0.01em; }
+.index-row .era { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; color: var(--ink-faint); text-transform: uppercase; }
+.index-row .status { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; color: var(--ink-mid); text-transform: uppercase; text-align: right; }
+
+.era-divider { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; color: var(--orange-deep); text-transform: uppercase; padding: 36px 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 8px; font-weight: 700; }
+
+/* FOOTER */
+.entry-footer { margin-top: 80px; padding-top: 32px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; color: var(--ink-faint); letter-spacing: 0.08em; }
+
+@media (max-width: 720px) {
+  .page-wrap { padding: 24px 20px 60px; }
+  .hero { grid-template-columns: 1fr; gap: 32px; }
+  .hero h1 { font-size: 44px; }
+  .index-row { grid-template-columns: 1fr; gap: 6px; }
+  .index-row .status { text-align: left; }
+  .topbar { flex-direction: column; gap: 14px; }
+}

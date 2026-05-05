@@ -1,0 +1,56 @@
+---
+import BaseLayout from './BaseLayout.astro';
+const { entry } = Astro.props;
+const { data } = entry;
+const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(data.date);
+---
+
+<BaseLayout title={data.title} description={data.deck}>
+
+  <div class="catalog-bar">
+    <span class="id">{data.catalogId}</span>
+    <span>{data.era.toUpperCase()}</span>
+    <span>{data.status.toUpperCase()}</span>
+    <span>{formattedDate}</span>
+  </div>
+
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-kicker">{data.type}</div>
+      <h1>{data.title}</h1>
+      {data.pronunciation && <div class="pronunciation">{data.pronunciation}</div>}
+      <div class="deck">{data.deck}</div>
+    </div>
+
+    <aside class="meta-card">
+      <div class="meta-row"><span class="meta-label">Origin</span><span class="meta-value">{formattedDate}</span></div>
+      {data.creator && <div class="meta-row"><span class="meta-label">Creator</span><span class={`meta-value ${data.locked ? 'locked' : ''}`}>{data.creator}</span></div>}
+      {data.sourcePlatform && <div class="meta-row"><span class="meta-label">Source</span><span class="meta-value">{data.sourcePlatform}</span></div>}
+      <div class="meta-row"><span class="meta-label">Era</span><span class="meta-value">{data.era}</span></div>
+      <div class="meta-row"><span class="meta-label">Status</span><span class="meta-value">{data.status}</span></div>
+      <div class="meta-row"><span class="meta-label">Type</span><span class="meta-value">{data.type}</span></div>
+      {data.btcPriceAtOrigin && <div class="meta-row"><span class="meta-label">BTC at origin</span><span class="meta-value">{data.btcPriceAtOrigin}</span></div>}
+    </aside>
+  </section>
+
+  <article class="prose">
+    <slot />
+  </article>
+
+  {data.sources && data.sources.length > 0 && (
+    <section class="receipts">
+      <h2 style="font-family: var(--display); font-size: 24px; margin-top: 64px; margin-bottom: 18px; font-weight: 500;"><em style="color: var(--orange); font-style: italic;">Receipts</em></h2>
+      <ul style="list-style: none; font-family: var(--mono); font-size: 13px; line-height: 1.8;">
+        {data.sources.map((s) => (
+          <li>→ <a href={s.url}>{s.label}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <footer class="entry-footer">
+    <span>{data.catalogId} · Edition 1 · Last revised {formattedDate}</span>
+    <span>Suggest a correction →</span>
+  </footer>
+
+</BaseLayout>

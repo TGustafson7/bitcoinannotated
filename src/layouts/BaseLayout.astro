@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+const { title, description } = Astro.props;
+const fullTitle = title ? `${title} — The Bitcoin Annotated` : 'The Bitcoin Annotated';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description ?? 'An annotated archive of bitcoin\'s cultural artifacts.'} />
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="topbar">
+      <a href="/" class="brand">The Bitcoin <em>Annotated</em></a>
+      <nav>
+        <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Catalog</a>
+        <a href="/timeline" class={Astro.url.pathname === '/timeline' ? 'active' : ''}>Timeline</a>
+        <a href="/about" class={Astro.url.pathname === '/about' ? 'active' : ''}>About</a>
+      </nav>
+    </header>
+    <slot />
+  </div>
+</body>
+</html>
