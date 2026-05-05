@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="About" description="What this is, and what it isn't.">
+  <article class="about">
+    <header class="about-header">
+      <div class="about-eyebrow">About</div>
+      <h1>The Bitcoin <em>Annotated</em></h1>
+      <p class="about-deck">A reference work for bitcoin's cultural artifacts.</p>
+    </header>
+
+    <section class="about-body">
+      <p class="about-lede">
+        The Bitcoin Annotated is an editorially curated archive of the memes, phrases, events, and iconography that built bitcoin's culture. Each entry documents a specific cultural artifact — what it is, where it came from, who made it, what it means, and why it has lasted.
+      </p>
+
+      <h2>What we do</h2>
+      <p>
+        We catalog cultural artifacts. Not influencers, not market commentary, not investment advice. The artifact is always the subject; people appear in entries as creators, sources, or subjects.
+      </p>
+      <p>
+        Every entry is researched, sourced, and dated. We attribute creators by name where attribution is verifiable, and we mark provenance honestly when origins are diffuse. Where we cannot find a primary source for a claim, we say so.
+      </p>
+
+      <h2>What we don't do</h2>
+      <p>
+        We do not make trading recommendations. We do not predict prices. We do not cover altcoins. We do not write about people without writing about something they made. We do not generate images. We do not invent quotes. When we are uncertain about a fact, we publish the uncertainty.
+      </p>
+
+      <h2>Editorial standard</h2>
+      <p>
+        Each entry has a catalog ID, an origin date, a creator (where known), a source platform, an era, and at least one verifiable receipt — a primary source or a credible secondary one, linked at the bottom of the entry. The tone is plain, the framing is dry, and the joke — when there is one — is in the artifact itself, not in the writing about it.
+      </p>
+
+      <h2>The catalog</h2>
+      <p>
+        The catalog is small and growing. Entries are released as they are completed. The published count is always smaller than the work in progress.
+      </p>
+      <p>
+        Errors and omissions will happen. Where they do, we revise. Each entry carries an edition number and a last-revised date.
+      </p>
+
+      <h2>Provenance</h2>
+      <p>
+        The Bitcoin Annotated is published anonymously and is not affiliated with any company, fund, exchange, publication, or political organization. It accepts no advertising and runs no sponsorships. It is funded by nothing in particular.
+      </p>
+      <p>
+        Bitcoin only.
+      </p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .about {
+    max-width: 720px;
+    margin: 64px auto 96px;
+    padding: 0 24px;
+  }
+  .about-header {
+    margin-bottom: 56px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #d8cfb8;
+  }
+  .about-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6b6358;
+    margin-bottom: 18px;
+  }
+  .about h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: clamp(48px, 6vw, 72px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    font-weight: 500;
+    margin: 0 0 18px;
+    color: #1a1a1a;
+  }
+  .about h1 em {
+    font-style: italic;
+    color: #d97706;
+    font-weight: 400;
+  }
+  .about-deck {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #4a4a4a;
+    margin: 0;
+  }
+  .about-body {
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    line-height: 1.65;
+    color: #2a2a2a;
+  }
+  .about-lede {
+    font-size: 22px;
+    line-height: 1.55;
+    color: #1a1a1a;
+    margin: 0 0 48px;
+    font-weight: 400;
+  }
+  .about-body h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 48px 0 16px;
+    color: #1a1a1a;
+  }
+  .about-body p {
+    margin: 0 0 18px;
+  }
+  .about-body p:last-child {
+    margin-bottom: 0;
+  }
+</style>

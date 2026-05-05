@@ -6,7 +6,7 @@ const entries = defineCollection({
     title: z.string(),             // e.g. "The Pizza"
     pronunciation: z.string().optional(),
     deck: z.string(),              // italic subhead, ~1 sentence
-    era: z.enum(['Genesis', 'First Bull', 'Dark Forest', '2017 Run', 'Crypto Winter', 'DeFi/Covid', 'Institutional Entry', 'Frauds', 'Institutional Takeover', 'Now']),
+    era: z.enum(['Genesis', 'First Bull', 'Dark Forest', '2017 Run', 'The Long Wait', 'Pandemic Era', 'Institutional Entry', 'Frauds', 'Institutional Takeover', 'Now']),
     status: z.enum(['Living', 'Dormant', 'Foundational']),
     type: z.string(),              // "Catchphrase", "Iconography", "Event", etc.
     date: z.date(),                // origin date

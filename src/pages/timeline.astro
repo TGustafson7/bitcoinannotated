@@ -1,0 +1,191 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('entries');
+
+// Sort by date ascending (oldest first — newspaper-of-record feel)
+const sorted = entries.sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+
+// Group by year
+type EntryGroup = { year: number; entries: typeof sorted };
+const grouped: EntryGroup[] = [];
+for (const entry of sorted) {
+  const year = entry.data.date.getUTCFullYear();
+  const existing = grouped.find(g => g.year === year);
+  if (existing) {
+    existing.entries.push(entry);
+  } else {
+    grouped.push({ year, entries: [entry] });
+  }
+}
+
+const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
+  month: 'short',
+  day: 'numeric',
+  timeZone: 'UTC'
+}).format(date);
+---
+<BaseLayout title="Timeline" description="Bitcoin's cultural artifacts, in chronological order.">
+  <article class="timeline-page">
+    <header class="timeline-header">
+      <div class="timeline-eyebrow">Timeline</div>
+      <h1>Bitcoin's <em>cultural record</em>, in order.</h1>
+      <p class="timeline-deck">Every catalogued artifact, oldest to newest.</p>
+    </header>
+
+    <div class="timeline-body">
+      {grouped.map(group => (
+        <section class="year-block">
+          <div class="year-marker">
+            <span class="year">{group.year}</span>
+            <span class="year-rule"></span>
+          </div>
+          <ul class="year-entries">
+            {group.entries.map(entry => (
+              <li class="timeline-entry">
+                <a href={`/entries/${entry.slug}/`}>
+                  <span class="entry-date">{formatDate(entry.data.date)}</span>
+                  <span class="entry-title">{entry.data.title}</span>
+                  <span class="entry-era">{entry.data.era}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .timeline-page {
+    max-width: 880px;
+    margin: 64px auto 96px;
+    padding: 0 24px;
+  }
+  .timeline-header {
+    margin-bottom: 64px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #d8cfb8;
+  }
+  .timeline-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6b6358;
+    margin-bottom: 18px;
+  }
+  .timeline-page h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: clamp(40px, 5vw, 60px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    font-weight: 500;
+    margin: 0 0 18px;
+    color: #1a1a1a;
+  }
+  .timeline-page h1 em {
+    font-style: italic;
+    color: #d97706;
+    font-weight: 400;
+  }
+  .timeline-deck {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #4a4a4a;
+    margin: 0;
+  }
+  .year-block {
+    margin-bottom: 64px;
+  }
+  .year-marker {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .year {
+    font-family: 'EB Garamond', serif;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: #d97706;
+    line-height: 1;
+  }
+  .year-rule {
+    flex: 1;
+    height: 1px;
+    background: #d8cfb8;
+  }
+  .year-entries {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .timeline-entry {
+    border-bottom: 1px solid #ebe3d2;
+  }
+  .timeline-entry:last-child {
+    border-bottom: none;
+  }
+  .timeline-entry a {
+    display: grid;
+    grid-template-columns: 100px 1fr auto;
+    gap: 40px;
+    align-items: baseline;
+    padding: 20px 0;
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.12s ease;
+  }
+  .timeline-entry a:hover {
+    background: rgba(217, 119, 6, 0.04);
+  }
+  .entry-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #6b6358;
+    text-transform: uppercase;
+  }
+  .entry-id {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #d97706;
+    font-weight: 500;
+  }
+  .entry-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: #1a1a1a;
+    line-height: 1.2;
+  }
+  .timeline-entry a:hover .entry-title {
+    color: #d97706;
+  }
+  .entry-era {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #6b6358;
+    white-space: nowrap;
+  }
+  @media (max-width: 720px) {
+    .timeline-entry a {
+      grid-template-columns: 1fr;
+      gap: 6px;
+      padding: 18px 0;
+    }
+    .entry-era {
+      margin-top: 4px;
+    }
+  }
+</style>
