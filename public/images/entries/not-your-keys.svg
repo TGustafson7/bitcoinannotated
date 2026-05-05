@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+  <rect width="800" height="600" fill="#f8f4ed"/>
+  <text x="400" y="240"
+        font-family="EB Garamond, Georgia, serif"
+        font-size="68"
+        font-style="italic"
+        font-weight="500"
+        fill="#0a0a0a"
+        text-anchor="middle"
+        dominant-baseline="alphabetic">Not your keys,</text>
+  <text x="400" y="340"
+        font-family="EB Garamond, Georgia, serif"
+        font-size="68"
+        font-style="italic"
+        font-weight="500"
+        fill="#d97706"
+        text-anchor="middle"
+        dominant-baseline="alphabetic">not your coins.</text>
+  <line x1="280" y1="400" x2="520" y2="400" stroke="#d8cfb8" stroke-width="1"/>
+  <text x="400" y="440"
+        font-family="JetBrains Mono, ui-monospace, monospace"
+        font-size="14"
+        letter-spacing="0.18em"
+        fill="#666"
+        text-anchor="middle">ANDREAS ANTONOPOULOS · AUG 25, 2016</text>
+</svg>
