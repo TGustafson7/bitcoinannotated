@@ -11,8 +11,8 @@ creator: "Laszlo Hanyecz"
 sourcePlatform: "BitcoinTalk"
 locked: true
 heroImage: "/images/entries/the-pizza.jpg"
-heroImageCaption: "Commemorative plaque inside the Papa John's on Atlantic Avenue, Jacksonville, Florida — donated by the Jacksonville Bitcoin Meetup."
-heroImageCredit: "Photograph via Wikimedia Commons."
+heroImageCaption: "Laszlo Hanyecz with his sons and the two pizzas, photographed in his Florida home."
+heroImageCredit: "Photograph via Hanyecz, widely circulated."
 sources:
   - url: "https://bitcointalk.org/index.php?topic=137.0"
     label: "Original BitcoinTalk thread #137: 'Pizza for bitcoins?'"
