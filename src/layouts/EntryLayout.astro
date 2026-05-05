@@ -6,7 +6,6 @@ const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'nu
 ---
 <BaseLayout title={data.title} description={data.deck}>
   <div class="catalog-bar">
-    <span class="id">{data.catalogId}</span>
     <span>{data.era.toUpperCase()}</span>
     <span>{data.status.toUpperCase()}</span>
     <span>{formattedDate}</span>
@@ -53,7 +52,7 @@ const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'nu
     </section>
   )}
   <footer class="entry-footer">
-    <span>{data.catalogId} · Edition 1 · Last revised {formattedDate}</span>
+    <span>Edition 1 · Last revised {formattedDate}</span>
     <span>Suggest a correction →</span>
   </footer>
 </BaseLayout>

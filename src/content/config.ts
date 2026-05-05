@@ -2,7 +2,7 @@ import { defineCollection, z } from 'astro:content';
 const entries = defineCollection({
   type: 'content',
   schema: z.object({
-    catalogId: z.string(),         // e.g. "BTC.2010.002"
+    catalogId: z.string().optional(),         // e.g. "BTC.2010.002"
     title: z.string(),             // e.g. "The Pizza"
     pronunciation: z.string().optional(),
     deck: z.string(),              // italic subhead, ~1 sentence

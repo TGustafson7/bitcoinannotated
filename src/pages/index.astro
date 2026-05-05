@@ -6,7 +6,7 @@ const allEntries = await getCollection('entries');
 allEntries.sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
 
 // group by era
-const eraOrder = ['Genesis', 'First Bull', 'Dark Forest', '2017 Run', 'Crypto Winter', 'DeFi/Covid', 'Institutional Entry', 'Frauds', 'Institutional Takeover', 'Now'];
+const eraOrder = ['Genesis', 'First Bull', 'Dark Forest', '2017 Run', 'The Long Wait', 'Pandemic Era', 'Institutional Entry', 'Frauds', 'Institutional Takeover', 'Now'];
 const grouped = {};
 for (const era of eraOrder) grouped[era] = [];
 for (const entry of allEntries) grouped[entry.data.era].push(entry);
@@ -28,7 +28,7 @@ for (const entry of allEntries) grouped[entry.data.era].push(entry);
         <div class="era-divider">{era}</div>
         {grouped[era].map((entry) => (
           <a href={`/entries/${entry.slug}`} class="index-row">
-            <span class="id">{entry.data.catalogId}</span>
+            <span class="id">{new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(entry.data.date)}</span>
             <span class="title">{entry.data.title}</span>
             <span class="era">{entry.data.type}</span>
             <span class="status">{entry.data.status}</span>

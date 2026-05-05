@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+  <rect width="800" height="600" fill="#F7931A"/>
+  <text x="400" y="320"
+        font-family="EB Garamond, Georgia, serif"
+        font-size="120"
+        font-style="italic"
+        font-weight="400"
+        fill="#ffffff"
+        text-anchor="middle"
+        dominant-baseline="alphabetic">#F7931A</text>
+  <text x="400" y="380"
+        font-family="JetBrains Mono, ui-monospace, monospace"
+        font-size="18"
+        letter-spacing="0.2em"
+        fill="#ffffff"
+        opacity="0.7"
+        text-anchor="middle">RGB 247 · 147 · 26</text>
+</svg>
