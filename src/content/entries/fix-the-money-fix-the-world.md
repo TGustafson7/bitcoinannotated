@@ -1,7 +1,7 @@
 ---
 title: "Fix the Money, Fix the World"
 deck: "The bitcoiner's claim that monetary repair is the upstream fix for almost everything else."
-era: "Institutional Entry"
+era: "Institutional Takeover"
 type: "Phrase"
 date: 2021-06-25
 creator: "Aleks Svetski (popularizer)"
