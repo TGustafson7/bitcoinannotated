@@ -3,7 +3,6 @@ catalogId: "BTC.2021.002"
 title: "El Salvador Legal Tender"
 deck: "The first sovereign nation to make bitcoin legal tender alongside the dollar."
 era: "Institutional Takeover"
-status: "Living"
 type: "Sovereign Action"
 date: 2021-06-05
 creator: "Nayib Bukele / Republic of El Salvador"

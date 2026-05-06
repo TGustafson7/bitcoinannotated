@@ -3,7 +3,6 @@ catalogId: "BTC.2019.002"
 title: "Number Go Up"
 deck: "The meme that became a worldview."
 era: "The Long Wait"
-status: "Living"
 type: "Phrase"
 date: 2019-06-25
 sourcePlatform: "Bitcoin Twitter"

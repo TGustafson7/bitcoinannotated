@@ -3,7 +3,7 @@ catalogId: "BTC.2017.001"
 title: "The Buy Bitcoin Sign"
 deck: "A 22-year-old intern wrote two words on a yellow legal pad and held it up behind the chair of the Federal Reserve. Seven years later it sold for a million dollars."
 era: "2017 Run"
-status: "Foundational"
+foundational: true
 type: "Iconography / Event"
 date: 2017-07-12
 btcPriceAtOrigin: "$2,300"

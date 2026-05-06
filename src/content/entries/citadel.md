@@ -2,7 +2,6 @@
 title: "The Citadel"
 deck: "The 2013 Reddit post that gave bitcoin culture its longest-running thought experiment about what happens if it works."
 era: "First Bull"
-status: "Living"
 type: "Phrase"
 date: 2013-08-31
 creator: "Reddit user Luka_Magnotta"

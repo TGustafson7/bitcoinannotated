@@ -2,7 +2,6 @@
 title: "Bitcoin Fixes This"
 deck: "The phrase as both earnest claim and self-aware shitpost — same sentence, both meanings."
 era: "Pandemic Era"
-status: "Living"
 type: "Phrase"
 date: 2020-07-16
 creator: "Bitcoin Twitter, popularized by Jimmy Song"

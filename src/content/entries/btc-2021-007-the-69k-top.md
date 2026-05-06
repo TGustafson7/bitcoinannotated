@@ -3,7 +3,7 @@ catalogId: "BTC.2021.007"
 title: "The $69,000 Top"
 deck: "The cycle peak. The laser eyes' literal target. The number became a meme."
 era: "Institutional Takeover"
-status: "Foundational"
+foundational: true
 type: "Market Event"
 date: 2021-11-10
 sourcePlatform: "Bitcoin spot markets"

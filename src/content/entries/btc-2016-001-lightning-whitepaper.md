@@ -3,7 +3,6 @@ catalogId: "BTC.2016.001"
 title: "The Lightning Network Whitepaper"
 deck: "The scaling answer the small-blockers had been promising."
 era: "The Long Wait"
-status: "Living"
 type: "Document"
 date: 2016-01-14
 creator: "Joseph Poon and Thaddeus Dryja"

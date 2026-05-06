@@ -3,7 +3,6 @@ catalogId: "BTC.2019.004"
 title: "Stock-to-Flow"
 deck: "The chart that made a price seem inevitable."
 era: "The Long Wait"
-status: "Dormant"
 type: "Model / Iconography"
 date: 2019-03-22
 creator: "PlanB (pseudonym)"

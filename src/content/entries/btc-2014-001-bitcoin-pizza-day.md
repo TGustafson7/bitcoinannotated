@@ -3,7 +3,6 @@ catalogId: "BTC.2014.001"
 title: "Bitcoin Pizza Day"
 deck: "An expensive lunch becomes an annual holiday."
 era: "Dark Forest"
-status: "Living"
 type: "Holiday"
 date: 2014-05-22
 sourcePlatform: "Twitter, BitcoinTalk, the wider bitcoin community"

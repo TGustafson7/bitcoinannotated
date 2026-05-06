@@ -3,7 +3,7 @@ catalogId: "BTC.2025.002"
 title: "Free Ross"
 deck: "A decade-long campaign. Concluded January 21, 2025."
 era: "Now"
-status: "Foundational"
+foundational: true
 type: "Movement / Pardon"
 date: 2025-01-21
 creator: "Lyn Ulbricht, Free Ross campaign, Libertarian Party, bitcoin community"

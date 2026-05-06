@@ -1,4 +1,5 @@
 import { defineCollection, z } from 'astro:content';
+
 const entries = defineCollection({
   type: 'content',
   schema: z.object({
@@ -7,7 +8,7 @@ const entries = defineCollection({
     pronunciation: z.string().optional(),
     deck: z.string(),              // italic subhead, ~1 sentence
     era: z.enum(['Pre-Genesis', 'Genesis', 'First Bull', 'Dark Forest', '2017 Run', 'The Long Wait', 'Pandemic Era', 'Institutional Entry', 'Frauds', 'Institutional Takeover', 'Now']),
-    status: z.enum(['Living', 'Dormant', 'Foundational']),
+    foundational: z.boolean().optional(),
     type: z.string(),              // "Catchphrase", "Iconography", "Event", etc.
     date: z.date(),                // origin date
     btcPriceAtOrigin: z.string().optional(),  // e.g. "$0.0041"
@@ -24,4 +25,5 @@ const entries = defineCollection({
     related: z.array(z.string()).optional(),  // catalog IDs of related entries
   }),
 });
+
 export const collections = { entries };

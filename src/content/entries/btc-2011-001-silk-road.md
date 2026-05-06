@@ -3,7 +3,6 @@ catalogId: "BTC.2011.001"
 title: "Silk Road"
 deck: "The first place online where bitcoin actually bought something."
 era: "First Bull"
-status: "Dormant"
 type: "Marketplace"
 date: 2011-02-01
 creator: "Ross Ulbricht (\"Dread Pirate Roberts\")"

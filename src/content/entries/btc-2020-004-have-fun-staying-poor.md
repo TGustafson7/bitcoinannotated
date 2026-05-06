@@ -3,7 +3,6 @@ catalogId: "BTC.2020.004"
 title: "Have Fun Staying Poor"
 deck: "The harder-edged sibling of stay humble, stack sats."
 era: "Pandemic Era"
-status: "Living"
 type: "Phrase"
 date: 2020-09-15
 creator: "Udi Wertheimer (popularizer)"

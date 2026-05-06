@@ -3,7 +3,7 @@ catalogId: "BTC.2022.001"
 title: "The FTX Collapse"
 deck: "Eight billion dollars, evaporated over a single weekend."
 era: "Frauds"
-status: "Foundational"
+foundational: true
 type: "Fraud"
 date: 2022-11-11
 creator: "Sam Bankman-Fried / FTX Trading Ltd."

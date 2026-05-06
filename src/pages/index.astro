@@ -1,10 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-
 const allEntries = await getCollection('entries');
 allEntries.sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
-
 // group by year
 const grouped: { year: number; entries: typeof allEntries }[] = [];
 for (const entry of allEntries) {
@@ -16,7 +14,6 @@ for (const entry of allEntries) {
     grouped.push({ year, entries: [entry] });
   }
 }
-
 const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
   month: 'short',
   day: 'numeric',
@@ -41,7 +38,7 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
             <span class="id">{formatDate(entry.data.date)}</span>
             <span class="title">{entry.data.title}</span>
             <span class="era">{entry.data.type}</span>
-            <span class="status">{entry.data.status}</span>
+            <span class="status">{entry.data.foundational ? '★' : ''}</span>
           </a>
         ))}
       </>

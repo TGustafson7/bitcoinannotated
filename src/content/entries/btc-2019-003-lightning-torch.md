@@ -3,7 +3,7 @@ catalogId: "BTC.2019.003"
 title: "The Lightning Torch"
 deck: "A payment that traveled the world to prove the network worked."
 era: "The Long Wait"
-status: "Foundational"
+foundational: true
 type: "Event / Performance"
 date: 2019-01-19
 creator: "Hodlonaut (Magnus Granath)"

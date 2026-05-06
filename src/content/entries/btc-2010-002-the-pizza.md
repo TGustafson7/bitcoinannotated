@@ -3,7 +3,7 @@ catalogId: "BTC.2010.002"
 title: "The Pizza"
 deck: "Bitcoin's first commercial transaction, now an annual holiday and a permanent monument to early bitcoin's casualness about value."
 era: "Genesis"
-status: "Foundational"
+foundational: true
 type: "Event / Transaction"
 date: 2010-05-22
 btcPriceAtOrigin: "$0.0041"

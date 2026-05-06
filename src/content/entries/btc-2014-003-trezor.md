@@ -3,7 +3,7 @@ catalogId: "BTC.2014.003"
 title: "Trezor"
 deck: "The first hardware wallet, made by two Czechs in a Prague basement."
 era: "Dark Forest"
-status: "Foundational"
+foundational: true
 type: "Hardware"
 date: 2014-07-29
 creator: "Pavol \"Stick\" Rusnák and Marek \"Slush\" Palatinus"

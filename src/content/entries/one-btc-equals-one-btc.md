@@ -2,7 +2,6 @@
 title: "1 BTC = 1 BTC"
 deck: "The tautology that reframes bitcoin from a thing measured in dollars to a thing that measures everything else."
 era: "The Long Wait"
-status: "Living"
 type: "Phrase"
 date: 2019-02-23
 creator: "Pierre Rochard"

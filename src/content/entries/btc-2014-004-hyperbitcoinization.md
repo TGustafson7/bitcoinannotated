@@ -3,7 +3,6 @@ catalogId: "BTC.2014.004"
 title: "Hyperbitcoinization"
 deck: "The phrase that imagined the endgame."
 era: "The Long Wait"
-status: "Living"
 type: "Phrase"
 date: 2014-03-29
 creator: "Daniel Krawisz"

@@ -3,7 +3,7 @@ catalogId: "BTC.2017.003"
 title: "The ₿ Symbol"
 deck: "U+20BF, accepted into Unicode in June 2017."
 era: "2017 Run"
-status: "Foundational"
+foundational: true
 type: "Iconography"
 date: 2017-06-20
 creator: "The Unicode Consortium"

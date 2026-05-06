@@ -2,7 +2,7 @@
 title: "A Cypherpunk's Manifesto"
 deck: "Eric Hughes's 1993 declaration that privacy in the electronic age requires citizens to write the code themselves."
 era: "Pre-Genesis"
-status: "Foundational"
+foundational: true
 type: "Document"
 date: 1993-03-09
 creator: "Eric Hughes"

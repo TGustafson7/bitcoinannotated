@@ -7,7 +7,7 @@ const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'nu
 <BaseLayout title={data.title} description={data.deck}>
   <div class="catalog-bar">
     <span>{data.era.toUpperCase()}</span>
-    <span>{data.status.toUpperCase()}</span>
+    {data.foundational && <span>FOUNDATIONAL</span>}
     <span>{formattedDate}</span>
   </div>
   <section class="hero">
@@ -22,8 +22,8 @@ const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'nu
       {data.creator && <div class="meta-row"><span class="meta-label">Creator</span><span class={`meta-value ${data.locked ? 'locked' : ''}`}>{data.creator}</span></div>}
       {data.sourcePlatform && <div class="meta-row"><span class="meta-label">Source</span><span class="meta-value">{data.sourcePlatform}</span></div>}
       <div class="meta-row"><span class="meta-label">Era</span><span class="meta-value">{data.era}</span></div>
-      <div class="meta-row"><span class="meta-label">Status</span><span class="meta-value">{data.status}</span></div>
       <div class="meta-row"><span class="meta-label">Type</span><span class="meta-value">{data.type}</span></div>
+      {data.foundational && <div class="meta-row"><span class="meta-label">Foundational</span><span class="meta-value">Yes</span></div>}
       {data.btcPriceAtOrigin && <div class="meta-row"><span class="meta-label">BTC at origin</span><span class="meta-value">{data.btcPriceAtOrigin}</span></div>}
     </aside>
   </section>
@@ -56,7 +56,6 @@ const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'nu
     <span>Suggest a correction →</span>
   </footer>
 </BaseLayout>
-
 <style>
 .hero-image {
     margin: 48px auto 56px;

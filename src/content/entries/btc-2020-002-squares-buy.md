@@ -3,7 +3,6 @@ catalogId: "BTC.2020.002"
 title: "Square's First Buy"
 deck: "Jack Dorsey's payments company puts $50 million in bitcoin."
 era: "Pandemic Era"
-status: "Living"
 type: "Corporate Action"
 date: 2020-10-08
 creator: "Jack Dorsey / Square, Inc."

@@ -3,7 +3,6 @@ catalogId: "BTC.2021.003"
 title: "Tesla's $1.5 Billion"
 deck: "The corporate buy that launched a thousand headlines, and the sale that ended them."
 era: "Institutional Takeover"
-status: "Dormant"
 type: "Corporate Action"
 date: 2021-02-08
 creator: "Elon Musk / Tesla, Inc."

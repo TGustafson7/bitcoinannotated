@@ -3,7 +3,7 @@ catalogId: "BTC.2016.003"
 title: "The Bitfinex Hack"
 deck: "119,756 bitcoin stolen, recovered six years later by a tax investigator."
 era: "The Long Wait"
-status: "Foundational"
+foundational: true
 type: "Event"
 date: 2016-08-02
 creator: "Bitfinex (the exchange) / Ilya Lichtenstein and Heather Morgan (the hackers)"

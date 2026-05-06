@@ -3,7 +3,6 @@ catalogId: "BTC.2018.002"
 title: "Tick Tock Next Block"
 deck: "The phrase that bitcoiners use to keep their heads."
 era: "The Long Wait"
-status: "Living"
 type: "Phrase"
 date: 2018-01-01
 creator: "Bitcoin Twitter (organic origin)"

@@ -3,7 +3,7 @@ catalogId: "BTC.2014.002"
 title: "The Mt. Gox Collapse"
 deck: "850,000 bitcoin, gone."
 era: "Dark Forest"
-status: "Foundational"
+foundational: true
 type: "Fraud"
 date: 2014-02-24
 creator: "Mark Karpelès / Mt. Gox"

@@ -3,7 +3,7 @@ catalogId: "BTC.2009.001"
 title: "The Genesis Block"
 deck: "The first block in bitcoin's chain carried a headline from a London newspaper. Fifteen years on, that headline is the closest thing bitcoin has to scripture."
 era: "Genesis"
-status: "Foundational"
+foundational: true
 type: "Quote / Embedded artifact"
 date: 2009-01-03
 btcPriceAtOrigin: "—"

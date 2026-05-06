@@ -3,7 +3,6 @@ catalogId: "BTC.2014.005"
 title: "The Honey Badger of Money"
 deck: "Bitcoin's spirit animal. It does not care what you think."
 era: "The Long Wait"
-status: "Living"
 type: "Iconography / Meme"
 date: 2014-01-01
 creator: "Bitcoin community / Roger Ver (popularizer)"

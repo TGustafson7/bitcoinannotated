@@ -3,7 +3,7 @@ catalogId: "BTC.2009.002"
 title: "Running Bitcoin"
 deck: "Two words, posted to Twitter on a Sunday afternoon."
 era: "Genesis"
-status: "Foundational"
+foundational: true
 type: "Tweet"
 date: 2009-01-11
 creator: "Hal Finney"

@@ -3,7 +3,7 @@ catalogId: "BTC.2010.001"
 title: "Bitcoin Orange"
 deck: "#F7931A. The color the asset chose for itself."
 era: "Genesis"
-status: "Foundational"
+foundational: true
 type: "Iconography"
 date: 2010-11-01
 creator: "BitcoinTalk user \"bitboy\""

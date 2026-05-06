@@ -2,7 +2,6 @@
 title: "Orange-Pilled"
 deck: "The Matrix-derived phrase for the moment a person crosses over into believing bitcoin matters."
 era: "Pandemic Era"
-status: "Living"
 type: "Phrase"
 date: 2021-10-12
 creator: "Bitcoin Twitter, popularized via Bitcoin Magazine"

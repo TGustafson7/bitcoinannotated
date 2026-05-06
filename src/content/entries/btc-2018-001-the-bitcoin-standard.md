@@ -3,7 +3,7 @@ catalogId: "BTC.2018.001"
 title: "The Bitcoin Standard"
 deck: "The book that gave the maxis their argument."
 era: "The Long Wait"
-status: "Foundational"
+foundational: true
 type: "Book"
 date: 2018-04-24
 creator: "Saifedean Ammous"

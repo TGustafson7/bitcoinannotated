@@ -2,7 +2,6 @@
 title: "Down the Bitcoin Rabbit Hole"
 deck: "The bitcoin-coded usage of an inherited phrase, naming the months- or years-long process of becoming convinced."
 era: "The Long Wait"
-status: "Living"
 type: "Phrase"
 date: 2019-12-24
 creator: "Inherited from Lewis Carroll; bitcoin-coded usage crystallized by Gigi"

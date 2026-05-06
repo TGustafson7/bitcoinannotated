@@ -3,7 +3,7 @@ catalogId: "BTC.2008.001"
 title: "The Whitepaper"
 deck: "The nine-page PDF that started it."
 era: "Genesis"
-status: "Foundational"
+foundational: true
 type: "Document"
 date: 2008-10-31
 creator: "Satoshi Nakamoto"
