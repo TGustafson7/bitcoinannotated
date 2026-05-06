@@ -5,7 +5,7 @@ deck: "#F7931A. The color the asset chose for itself."
 era: "Genesis"
 status: "Foundational"
 type: "Iconography"
-date: 2010-02-24
+date: 2010-11-01
 creator: "BitcoinTalk user \"bitboy\""
 sourcePlatform: "BitcoinTalk"
 locked: true
@@ -22,7 +22,7 @@ related:
 ---
 Bitcoin orange — hexadecimal color code F7931A, a saturated, slightly amber shade roughly midway between traffic-cone and Halloween-pumpkin — has no formal status as the asset's official color. There is no Bitcoin Foundation that selected it. There is no style guide that mandates it. There is, in the strict sense, nobody at all whose authority would compel any particular bitcoin product, exchange, hardware wallet, T-shirt, or sticker to use the color rather than some other color. And yet, with rare exceptions, every bitcoin product, exchange, hardware wallet, T-shirt, and sticker uses the color. The convergence is the artifact.
 
-The color's earliest documented appearance is on a logo design posted to the BitcoinTalk forum on February 24, 2010, by a user with the handle *bitboy*. The thread — titled simply *Bitcoin logo* — proposed a circular badge with a stylized capital B at its center, rendered in white against a saturated orange field tilted at a slight angle. The B itself had two vertical strokes extending above and below the curves, the same configuration that would, seven years later, be inducted into Unicode at code point U+20BF. The orange in the original posting was rendered slightly differently than the canonical color became — the file's pixel values vary depending on the rendering engine — but the choice was made on that thread, in that color family, in February 2010, and has not been substantively revisited since.
+The color's earliest documented appearance is on a logo design posted to the BitcoinTalk forum on November 1, 2010, by a user with the handle *bitboy*. Earlier that year, on February 24, 2010, Satoshi Nakamoto had himself proposed a revised gold-coin logo with the two-stroke B that would, seven years later, be inducted into Unicode at code point U+20BF — but Satoshi's design was still rendered in gold against a coin-like background. Bitboy's November contribution was the structural change: he kept Satoshi's two-stroke B, rendered it in white, tilted it fourteen degrees to the right, and placed it on a flat orange field. The orange he chose was hex code #F7931A. The thread in which he posted the design has not been substantively revisited since. Bitboy's identity remains unknown. He acknowledged in the thread that the Mastercard logo had been a deliberate visual influence.
 
 Why orange, of all the colors. The most plausible answer, advanced by several members of that original BitcoinTalk discussion, is that the color signaled energy, warmth, and a sense of *value* without invoking the conventional color palette of established financial brands. Most banks were blue. The credit card networks were blue, red, or some combination. The American dollar was green. The euro was a kind of institutional teal. Orange was unclaimed, hot, optimistic, and slightly out-of-system in a way that suited the asset's positioning. There was no committee. There was no brand consultancy. There was a small group of people on a forum, in early 2010, agreeing that orange looked right.
 

@@ -5,21 +5,21 @@ deck: "The phrase that became a discipline."
 era: "The Long Wait"
 status: "Living"
 type: "Phrase"
-date: 2016-08-25
+date: 2016-01-01
 creator: "Andreas Antonopoulos (popularizer)"
-sourcePlatform: "YouTube / conference circuit"
+sourcePlatform: "Conference circuit / Mastering Bitcoin"
 locked: true
 heroImage: "/images/entries/not-your-keys.svg"
 heroImageCaption: "The phrase, popularized by Andreas Antonopoulos in August 2016."
 heroImageCredit: "Specimen rendering"
 sources:
-  - url: "https://www.youtube.com/watch?v=AcrEEnDLm58"
-    label: "Andreas Antonopoulos — Bitcoin Security: Bubble Boy and the Sewer Rat (August 2016)"
-  - url: "https://aantonop.com/about/"
-    label: "Andreas Antonopoulos — biographical context"
+  - url: "https://aantonop.com/"
+    label: "Andreas Antonopoulos — official site (talks, books, transcripts)"
+  - url: "https://github.com/bitcoinbook/bitcoinbook"
+    label: "Mastering Bitcoin (Antonopoulos, 2014; second edition 2017)"
 related: []
 ---
-*Not your keys, not your coins.* The phrase appears, in some form, in bitcoin community writing as early as 2014. Its widely-cited origin, however, is a talk delivered by Andreas Antonopoulos at the University of Nicosia in August 2016, in which Antonopoulos argued that the difference between a bitcoin user who held their own private keys and one who relied on a third-party custodian was not a difference of degree. It was a difference of kind. The talk, titled *Bitcoin Security: Bubble Boy and the Sewer Rat*, was uploaded to YouTube on August 25, 2016, and has since accumulated several million views. The phrase that crystallized from it has accumulated more.
+*Not your keys, not your coins.* The phrase has no single point of origin. It crystallized across Andreas Antonopoulos's prolific speaking and teaching activity in the period roughly between 2014 and 2016 — through Mastering Bitcoin (first edition published December 2014), through the Let's Talk Bitcoin podcast he co-hosted, through his teaching fellowship at the University of Nicosia's Digital Currencies program, and through dozens of conference talks and audience Q&A sessions delivered across multiple continents during those years. Antonopoulos was not the first person in the bitcoin community to articulate the underlying point — that a user storing bitcoin on a third-party exchange did not, in any meaningful cryptographic sense, own that bitcoin — but he was the figure most responsible for compressing the argument into a slogan that could be remembered, repeated, and printed on bumper stickers. The exact phrasing varied across his appearances. By 2016 the four-beat form *not your keys, not your coins* had stabilized as the canonical version, and by 2017 it was standard vocabulary across the bitcoin community.
 
 The mechanics of the claim are simple. Bitcoin's security model rests on the cryptographic relationship between a private key — a 256-bit number — and the public addresses derived from it. Whoever knows the private key can authorize transactions that move the associated bitcoin. Whoever does not know the private key cannot. If a user stores their bitcoin on an exchange, the exchange holds the private keys; the user holds an entry in the exchange's database that says they are entitled to a certain quantity of bitcoin. The two are not equivalent. Database entries can be frozen, lost, contested in bankruptcy, garnished by court order, exposed to the exchange's other liabilities, deleted by an attacker who compromises the exchange's infrastructure, or — in the cases of Mt. Gox, Bitfinex, QuadrigaCX, Celsius, Voyager, and FTX — simply not paid out, because the exchange was either insolvent, fraudulent, or both. Bitcoin held under one's own private keys, by contrast, requires no counterparty's solvency. The phrase compresses this distinction into a four-beat instruction.
 
