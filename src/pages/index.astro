@@ -5,13 +5,24 @@ import { getCollection } from 'astro:content';
 const allEntries = await getCollection('entries');
 allEntries.sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
 
-// group by era
-const eraOrder = ['Genesis', 'First Bull', 'Dark Forest', '2017 Run', 'The Long Wait', 'Pandemic Era', 'Institutional Entry', 'Frauds', 'Institutional Takeover', 'Now'];
-const grouped = {};
-for (const era of eraOrder) grouped[era] = [];
-for (const entry of allEntries) grouped[entry.data.era].push(entry);
----
+// group by year
+const grouped: { year: number; entries: typeof allEntries }[] = [];
+for (const entry of allEntries) {
+  const year = entry.data.date.getUTCFullYear();
+  const existing = grouped.find(g => g.year === year);
+  if (existing) {
+    existing.entries.push(entry);
+  } else {
+    grouped.push({ year, entries: [entry] });
+  }
+}
 
+const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
+  month: 'short',
+  day: 'numeric',
+  timeZone: 'UTC'
+}).format(date);
+---
 <BaseLayout>
   <section style="margin-bottom: 56px;">
     <h1 style="font-family: var(--display); font-size: clamp(48px, 6vw, 72px); line-height: 1; letter-spacing: -0.025em; font-weight: 500; margin-bottom: 18px;">
@@ -21,14 +32,13 @@ for (const entry of allEntries) grouped[entry.data.era].push(entry);
       The memes, phrases, events, and iconography that built bitcoin culture. Researched, sourced, dated, annotated.
     </p>
   </section>
-
   <div class="index-list">
-    {eraOrder.map((era) => grouped[era].length > 0 && (
+    {grouped.map((group) => (
       <>
-        <div class="era-divider">{era}</div>
-        {grouped[era].map((entry) => (
+        <div class="era-divider">{group.year}</div>
+        {group.entries.map((entry) => (
           <a href={`/entries/${entry.slug}`} class="index-row">
-            <span class="id">{new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(entry.data.date)}</span>
+            <span class="id">{formatDate(entry.data.date)}</span>
             <span class="title">{entry.data.title}</span>
             <span class="era">{entry.data.type}</span>
             <span class="status">{entry.data.status}</span>
@@ -37,7 +47,6 @@ for (const entry of allEntries) grouped[entry.data.era].push(entry);
       </>
     ))}
   </div>
-
   <footer class="entry-footer" style="margin-top: 80px;">
     <span>{allEntries.length} entries · refreshed weekly</span>
     <span>bitcoinannotated.com</span>

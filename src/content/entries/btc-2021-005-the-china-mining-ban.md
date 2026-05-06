@@ -1,0 +1,30 @@
+---
+catalogId: "BTC.2021.005"
+title: "The China Mining Ban"
+deck: "Half the world's hashrate, exiled in six weeks."
+era: "Institutional Takeover"
+status: "Foundational"
+type: "Sovereign Action"
+date: 2021-05-21
+creator: "State Council of the People's Republic of China"
+sourcePlatform: "Chinese central government"
+locked: true
+heroImage: "/images/entries/china-ban.png"
+heroImageCaption: "Global bitcoin mining hashrate distribution, before and after China's May 2021 mining ban."
+heroImageCredit: "Cambridge Centre for Alternative Finance."
+sources:
+  - url: "https://www.reuters.com/technology/china-bans-financial-payment-institutions-cryptocurrency-business-2021-05-18/"
+    label: "Reuters — China bans cryptocurrency business for financial institutions (May 2021)"
+  - url: "https://ccaf.io/cbnsi/cbeci/mining_map"
+    label: "Cambridge Centre for Alternative Finance — Bitcoin Mining Map"
+related: []
+---
+For most of bitcoin's history through 2021, the People's Republic of China was the geographic center of bitcoin mining. The country's combination of cheap hydroelectric power in Sichuan and Yunnan provinces during the rainy season, abundant cheap coal power in Xinjiang and Inner Mongolia during the dry season, manufacturing concentration of mining hardware in Shenzhen, and a regulatory environment that had alternated between tolerance and indifference, had produced by 2019 a mining concentration in which Chinese facilities accounted for approximately 65 to 75 percent of global bitcoin hashrate. The arrangement had been, throughout that period, the bitcoin community's most-discussed centralization concern. The protocol's resilience against any single jurisdictional actor depended on the absence of a single jurisdictional actor that controlled a majority of the hashrate. China's miners did not, individually, control the hashrate. The Chinese state's tolerance of them, however, was a single-point-of-failure that the bitcoin community had been gestured at for years without seriously confronting.
+
+The confrontation, when it came, was abrupt. On May 18, 2021, China's State Council Financial Stability and Development Committee — the highest-level financial regulatory body in the country — issued a statement reaffirming that financial institutions and payment processors were prohibited from facilitating cryptocurrency transactions, and announcing that authorities would *crack down on bitcoin mining and trading behavior*. The language was, by Chinese regulatory standards, unusually concrete. Within days, provincial governments in Inner Mongolia, Sichuan, Xinjiang, and Yunnan had announced specific implementation measures. By June 19, mining facilities in Sichuan — the largest concentration of hydroelectric mining in the country — had been ordered to cease operations. By the end of June, the Bitcoin network's global hashrate had fallen approximately fifty percent in six weeks. The asset's reported price followed, falling from approximately $58,000 in early May to below $30,000 by late July.
+
+What happened next was, in retrospect, the most extraordinary logistical migration in cryptocurrency's short history. Hundreds of thousands of mining machines — bulky industrial hardware, weighing tens of pounds each, requiring specific power and cooling infrastructure to operate — were physically packed up, loaded into shipping containers, and exported to other jurisdictions. The largest destination was the United States, where states with cheap electricity and accommodating regulatory environments — Texas in particular, but also Wyoming, North Dakota, Georgia, Kentucky, and Washington State — absorbed the migration over the subsequent eighteen months. Kazakhstan briefly became a major destination before its own electrical infrastructure proved inadequate to absorb the load. Russia, Canada, Norway, and Iceland received smaller flows. By the second half of 2022, the Cambridge Centre for Alternative Finance's bitcoin mining map showed the United States holding approximately 38 percent of global hashrate, China's reported share at zero, and the global distribution substantially more diversified than it had been at any prior point in bitcoin's history.
+
+The cultural significance of the China ban was that it provided, in the form of an unprecedented natural experiment, the most rigorous test bitcoin's decentralization had ever faced. A single jurisdiction had unilaterally prohibited an activity that comprised approximately two-thirds of the network's economic infrastructure. The network had not failed. The network had not even meaningfully degraded. Block times had risen briefly during the migration period — from the protocol's target of ten minutes to occasionally seventeen or eighteen minutes — but the difficulty adjustment mechanism, which automatically recalibrates mining difficulty every 2,016 blocks, had absorbed the disruption within two recalibration cycles. The network had continued processing transactions, settling blocks, and producing the next halving on schedule. The protocol's design, in other words, had survived its first contact with adversarial sovereign power.
+
+The deeper consequence was geopolitical. Bitcoin's center of mining gravity, after the ban, was no longer in a country whose government's tolerance was provisional. It was in a country — the United States — whose government, by 2024, would explicitly endorse mining as a national strategic priority. The bitcoin protocol's political alignment, which for the first decade of its existence had been ambiguously cosmopolitan, had been forcibly relocated to a single major Western democracy by the unilateral action of a competing major power. Whether this is good for bitcoin is a question that depends on one's view of which kinds of capture pose greater risks. That the relocation happened, and that the protocol survived it, is now part of the historical record.
