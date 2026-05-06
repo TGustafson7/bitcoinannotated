@@ -10,7 +10,7 @@ creator: "Casey Rodarmor"
 sourcePlatform: "Bitcoin protocol / ord client"
 locked: true
 heroImage: "/images/entries/ordinals.png"
-heroImageCaption: "The first ordinal inscription. Casey Rodarmor, January 21, 2023, block 774,016."
+heroImageCaption: "The first ordinal inscription. Casey Rodarmor, December 14, 2022, block 767,430."
 heroImageCredit: "Casey Rodarmor / Ordinal Theory"
 sources:
   - url: "https://docs.ordinals.com/"
@@ -19,7 +19,7 @@ sources:
     label: "ord — the reference Ordinals client on GitHub"
 related: []
 ---
-On January 21, 2023, an engineer named Casey Rodarmor inscribed an image of a small grey skull onto the bitcoin blockchain. The image was 793 bytes. It was embedded into the witness data of a single transaction in block 774,016. The technique that made the inscription possible — assigning sequential ordinal numbers to individual satoshis and using bitcoin's existing transaction infrastructure to attach arbitrary content to specific satoshis — had been documented by Rodarmor in a paper called *Ordinal Theory* published the previous month. The skull was the first non-financial artifact ever inscribed onto the bitcoin blockchain. By February 2023, there were tens of thousands of such inscriptions. By February 2024, there were tens of millions.
+On December 14, 2022, an engineer named Casey Rodarmor inscribed an image of a small grey skull onto the bitcoin blockchain. The image was 793 bytes. It was embedded into the witness data of a single transaction in block 767,430. The Ordinals protocol's public mainnet launch followed on January 21, 2023, and the trickle of inscriptions became a flood within days. The technique that made the inscription possible — assigning sequential ordinal numbers to individual satoshis and using bitcoin's existing transaction infrastructure to attach arbitrary content to specific satoshis — had been documented by Rodarmor in a paper called *Ordinal Theory* published the previous month. The skull was the first non-financial artifact ever inscribed onto the bitcoin blockchain. By February 2023, there were tens of thousands of such inscriptions. By February 2024, there were tens of millions.
 
 The technical mechanism that made Ordinals possible was, in a sense, latent in the protocol since 2021. The Taproot soft-fork upgrade, activated in November of that year, had restructured how transaction witness data was organized in ways that incidentally permitted significantly larger arbitrary data payloads than had previously been practical. Rodarmor's contribution was not to add a new capability to bitcoin but to recognize that an existing capability — designed and approved for other purposes — could also be used to embed images, audio files, executable code, and arbitrary text. The protocol had not been changed. The community's understanding of what the protocol could be used for had been.
 
