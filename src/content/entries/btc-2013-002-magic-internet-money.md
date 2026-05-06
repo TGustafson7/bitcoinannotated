@@ -55,7 +55,7 @@ How much of the price action was caused by the ad and how much by the broader 20
 
 There is an additional artifact worth recording. On November 13, 2013, exactly one week after the Reddit ad went live, *South Park* aired Season 17 Episode 7 — *Black Friday*, the first part of a three-episode arc parodying *Game of Thrones*. The episode prominently featured a hand-drawn flyer of the character Eric Cartman, depicted as a wizard king in flowing robes, in a composition that bears a striking — and many would say unmistakable — resemblance to the Magic Internet Money wizard.
 
-*South Park*'s art department drafted the flyer in early November 2013, three days after the bitcoin ad went live. The episode was already in production by then. Whether the resemblance is deliberate homage or coincidence has never been formally addressed by *South Park*'s creators. It is, regardless, the second time the same image had appeared on a major media platform within seven days, and the timing is difficult to attribute to chance.
+Whether the resemblance is deliberate homage or coincidence has never been formally addressed by *South Park*'s creators. Cartman's wizard-king costume in *Black Friday* drew on existing material from *South Park: The Stick of Truth*, then in pre-release marketing, so the visual lineage is not strictly causal. What is true is that the same wizard-in-robes silhouette appeared on two major media platforms within seven days. Readers can decide what to do with the timing.
 
 ## What the wizard means
 

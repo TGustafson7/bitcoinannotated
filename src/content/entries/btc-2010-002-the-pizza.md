@@ -21,7 +21,7 @@ related:
   - "BTC.2013.001"
 ---
 
-On May 22, 2010, the Florida-based programmer Laszlo Hanyecz paid 10,000 bitcoin for two pizzas from Papa John's. The transaction was arranged on the BitcoinTalk forum, in a thread Hanyecz himself had opened four days earlier titled *Pizza for bitcoins?* Another forum user, posting from the United Kingdom, ordered the pizzas online for delivery to Hanyecz's address. Hanyecz sent the bitcoin. The pizzas arrived. The transaction closed.
+On May 22, 2010, the Florida-based programmer Laszlo Hanyecz paid 10,000 bitcoin for two pizzas from Papa John's. The transaction was arranged on the BitcoinTalk forum, in a thread Hanyecz himself had opened four days earlier titled *Pizza for bitcoins?* Another forum user — a 19-year-old in California named Jeremy Sturdivant, posting under the handle *jercos* — ordered the pizzas from a Jacksonville Papa John's, paying with his own debit card. Hanyecz sent the bitcoin. The pizzas arrived. The transaction closed.
 
 It was, as far as anyone has been able to verify, the first time bitcoin had been used to purchase a physical good.
 
