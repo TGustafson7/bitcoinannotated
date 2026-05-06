@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <rect width="800" height="560" fill="#f8f4ed"/>
+
+  <text x="80" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5">PHRASE — INHERITED, BITCOIN-CODED</text>
+  <text x="720" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">DECEMBER 2019</text>
+
+  <text x="400" y="215" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="38" fill="#1a1a1a" text-anchor="middle" font-weight="500">down the bitcoin</text>
+  <text x="400" y="265" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="38" fill="#d97706" text-anchor="middle" font-weight="500">rabbit hole.</text>
+
+  <line x1="320" y1="320" x2="480" y2="320" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="360" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">"Begin at the beginning, and go on till you come</text>
+  <text x="400" y="380" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">to the end: then stop." — Lewis Carroll</text>
+
+  <line x1="280" y1="420" x2="520" y2="420" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="455" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">CRYSTALLIZED: GIGI, 21 LESSONS, DECEMBER 18 2019</text>
+  <text x="400" y="480" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">USAGE: DURATION OF CONVICTION, NOT THE OUTCOME</text>
+
+  <text x="80" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE VIII</text>
+</svg>

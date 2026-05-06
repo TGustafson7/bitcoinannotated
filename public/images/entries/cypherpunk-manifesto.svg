@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <rect width="800" height="560" fill="#f8f4ed"/>
+
+  <text x="80" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5">DOCUMENT — MAILING LIST POST</text>
+  <text x="720" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">9 MARCH 1993</text>
+
+  <text x="400" y="200" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="34" fill="#1a1a1a" text-anchor="middle" font-weight="500">A Cypherpunk's</text>
+  <text x="400" y="245" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="34" fill="#1a1a1a" text-anchor="middle" font-weight="500">Manifesto.</text>
+
+  <line x1="320" y1="290" x2="480" y2="290" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="345" font-family="EB Garamond, Garamond, serif" font-size="32" fill="#d97706" text-anchor="middle" font-weight="600" letter-spacing="2">CYPHERPUNKS WRITE CODE.</text>
+
+  <line x1="280" y1="395" x2="520" y2="395" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="430" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">AUTHOR: ERIC HUGHES — hughes@soda.berkeley.edu</text>
+  <text x="400" y="455" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">PHILOSOPHICAL ANTECEDENT TO BITCOIN — FIFTEEN YEARS PRIOR</text>
+
+  <text x="80" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE VI</text>
+</svg>
