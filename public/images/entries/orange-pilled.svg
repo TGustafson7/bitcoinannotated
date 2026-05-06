@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
+  <rect width="800" height="560" fill="#f8f4ed"/>
+
+  <text x="80" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5">PHRASE — CONVERSION (BINARY OUTCOME)</text>
+  <text x="720" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">CIRCA 2017–2021</text>
+
+  <circle cx="400" cy="240" r="58" fill="#d97706"/>
+  <ellipse cx="380" cy="222" rx="14" ry="6" fill="#f7a93a" opacity="0.7"/>
+
+  <text x="400" y="350" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="46" fill="#1a1a1a" text-anchor="middle" font-weight="500">orange-pilled.</text>
+
+  <line x1="320" y1="395" x2="480" y2="395" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="430" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">DERIVED FROM THE MATRIX (1999) — RED PILL → ORANGE</text>
+  <text x="400" y="455" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">FORMALIZED: BITCOIN MAGAZINE, OCTOBER 12 2021</text>
+
+  <text x="80" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE X</text>
+</svg>
