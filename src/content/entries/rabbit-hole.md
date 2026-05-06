@@ -4,12 +4,12 @@ deck: "The bitcoin-coded usage of an inherited phrase, naming the months- or yea
 era: "The Long Wait"
 status: "Living"
 type: "Phrase"
-date: 2019-12-18
+date: 2019-12-24
 creator: "Inherited from Lewis Carroll; bitcoin-coded usage crystallized by Gigi"
 sourcePlatform: "21 Lessons (book) / Bitcoin Twitter"
 locked: true
 heroImage: "/images/entries/rabbit-hole.svg"
-heroImageCaption: "Down the bitcoin rabbit hole — the framing crystallized by Gigi's 21 Lessons, published December 18, 2019."
+heroImageCaption: "Down the bitcoin rabbit hole — the framing crystallized by Gigi's 21 Lessons, published December 24, 2019."
 heroImageCredit: "Bitcoin Annotated, Plate VIII."
 sources:
   - url: "https://21lessons.com/"
@@ -22,7 +22,7 @@ related: []
 ---
 *Down the rabbit hole* is the phrase bitcoiners use for the experience of becoming convinced. The phrase is borrowed — Lewis Carroll's *Alice's Adventures in Wonderland* contributed the original, the Wachowskis' *Matrix* extended it as a metaphor for chosen disillusionment — but the bitcoin-coded usage is specific. It refers to the months- or years-long process by which a person who first encountered bitcoin as an investment, a curiosity, or a punchline gradually shifts worldview to the point where they regard bitcoin as the answer to a question they had not previously known how to phrase. The phrase is what bitcoiners say to each other to ask, without asking, *how long ago did this happen to you?*
 
-The bitcoin-specific framing of the phrase has a clean documented anchor. In December 2019, the pseudonymous writer Gigi self-published *21 Lessons: What I've Learned from Falling Down the Bitcoin Rabbit Hole*, a small philosophical book structured around twenty-one short essays and quotations from *Alice in Wonderland*. The book had begun, by Gigi's own account, as a single tweet attempting to summarize what he had learned from bitcoin. The tweet became a tweetstorm. The tweetstorm became three articles. The three articles became twenty-one. By the time the book reached print on December 18, 2019, the rabbit-hole framing was established — Gigi structures the reader's progress through the book as a parallel to Alice's progress through Wonderland, with each lesson opening on a Carroll quotation. The book has since been translated, audio-produced, and rendered as a virtual reality experience. It is widely cited as the canonical *literary* introduction to bitcoin, distinct from the canonical *economic* introduction by Saifedean Ammous.
+The bitcoin-specific framing of the phrase has a clean documented anchor. In December 2019, the pseudonymous writer Gigi self-published *21 Lessons: What I've Learned from Falling Down the Bitcoin Rabbit Hole*, a small philosophical book structured around twenty-one short essays and quotations from *Alice in Wonderland*. The book had begun, by Gigi's own account, as a single tweet attempting to summarize what he had learned from bitcoin. The tweet became a tweetstorm. The tweetstorm became three articles. The three articles became twenty-one. By the time the book reached print on December 24, 2019, the rabbit-hole framing was established — Gigi structures the reader's progress through the book as a parallel to Alice's progress through Wonderland, with each lesson opening on a Carroll quotation. The book has since been translated, audio-produced, and rendered as a virtual reality experience. It is widely cited as the canonical *literary* introduction to bitcoin, distinct from the canonical *economic* introduction by Saifedean Ammous.
 
 The phrase predates Gigi's book in scattered usage on Bitcoin Twitter and in long-form essays from 2017 onward, but earlier instances are difficult to anchor to a specific author. What Gigi's book did was give the experience a name, a shape, and a literary register. After 2019, *the bitcoin rabbit hole* circulates as if it had always been a fixed phrase — a noun phrase, with a definite article, denoting an experience the speaker assumes the listener has either had or has not had.
 
