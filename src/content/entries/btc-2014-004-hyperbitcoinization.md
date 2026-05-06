@@ -9,7 +9,7 @@ date: 2014-03-29
 creator: "Daniel Krawisz"
 sourcePlatform: "Satoshi Nakamoto Institute"
 locked: true
-heroImage: "/images/entries/hyperbitcoinization.png"
+heroImage: "/images/entries/hyperbitcoinization.svg"
 heroImageCaption: "The 2014 Nakamoto Institute essay that gave the phenomenon its name."
 heroImageCredit: "Satoshi Nakamoto Institute"
 sources:
