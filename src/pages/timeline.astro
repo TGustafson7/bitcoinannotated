@@ -25,6 +25,19 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
   day: 'numeric',
   timeZone: 'UTC'
 }).format(date);
+
+const eras = [
+  ['Pre-Genesis', 'The cypherpunk decades that prefigured bitcoin — the writings, protocols, and ideologies it descended from.'],
+  ['Genesis', 'The whitepaper, the genesis block, the first months. The system existed; almost no one knew.'],
+  ['First Bull', 'Bitcoin acquires a price, a community, and its first mythology. The pizza, the Silk Road, the Cyprus moment.'],
+  ['Dark Forest', 'The reckoning years. Mt. Gox, exit scams, hostile regulators. Bitcoin reveals it has predators, and the survivors learn to verify.'],
+  ['2017 Run', 'The first cycle that escaped containment. Mainstream attention, the block size wars, the symbol settles.'],
+  ['The Long Wait', 'The patient years between the cycles. Quiet building, slow accumulation, philosophy maturing.'],
+  ['Pandemic Era', 'Bitcoin meets unprecedented monetary expansion. Stack sats, have fun staying poor, memes harden into thesis.'],
+  ['Frauds', 'The year the centralized intermediaries collapsed. Terra/Luna, Celsius, FTX. A reckoning not unlike Mt. Gox eight years earlier.'],
+  ['Institutional Takeover', 'Wall Street, sovereign treasuries, and the ETFs arrive. Bitcoin acquires institutional credibility on its own terms.'],
+  ['Now', 'The present cycle. What we are watching unfold.'],
+];
 ---
 <BaseLayout title="Timeline" description="Bitcoin's cultural artifacts, in chronological order.">
   <article class="timeline-page">
@@ -33,6 +46,29 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
       <h1>Bitcoin's <em>cultural record</em>, in order.</h1>
       <p class="timeline-deck">Every catalogued artifact, oldest to newest.</p>
     </header>
+
+    <details class="era-key">
+      <summary>
+        <span class="era-key-label">How eras are defined</span>
+        <span class="era-key-meta">10 cultural eras</span>
+      </summary>
+      <div class="era-key-body">
+        <p class="era-key-lede">
+          Eras are not strict date ranges — they are registers. Two entries from the same year can sit in different eras if they belong to different cultural moments.
+        </p>
+        <dl class="era-list">
+          {eras.map(([name, def]) => (
+            <>
+              <dt>{name}</dt>
+              <dd>{def}</dd>
+            </>
+          ))}
+        </dl>
+        <p class="era-key-foot">
+          <a href="/methodology/">Read the full methodology →</a>
+        </p>
+      </div>
+    </details>
 
     <div class="timeline-body">
       {grouped.map(group => (
@@ -65,7 +101,7 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     padding: 0 24px;
   }
   .timeline-header {
-    margin-bottom: 64px;
+    margin-bottom: 32px;
     padding-bottom: 32px;
     border-bottom: 1px solid #d8cfb8;
   }
@@ -99,6 +135,105 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     color: #4a4a4a;
     margin: 0;
   }
+
+  /* ERA KEY DISCLOSURE */
+  .era-key {
+    margin-bottom: 56px;
+    background: #f5efe0;
+    border: 1px solid #e3dabe;
+    border-radius: 4px;
+  }
+  .era-key summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #6b6358;
+    transition: color 0.12s;
+  }
+  .era-key summary::-webkit-details-marker {
+    display: none;
+  }
+  .era-key summary:hover {
+    color: #1a1a1a;
+  }
+  .era-key-label {
+    font-weight: 500;
+  }
+  .era-key[open] .era-key-label::before {
+    content: '▴ ';
+  }
+  .era-key:not([open]) .era-key-label::before {
+    content: '▾ ';
+  }
+  .era-key[open] .era-key-label {
+    color: #1a1a1a;
+  }
+  /* Strip the duplicate triangle prefixes from the JSX since CSS handles them */
+  .era-key-label {
+    font-size: 11px;
+  }
+  .era-key-meta {
+    color: #9a8e72;
+    font-weight: 400;
+  }
+  .era-key-body {
+    padding: 4px 24px 24px;
+    border-top: 1px solid #e3dabe;
+  }
+  .era-key-lede {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #4a4a4a;
+    margin: 18px 0 22px;
+  }
+  .era-list {
+    margin: 0;
+    padding: 0;
+  }
+  .era-list dt {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #d97706;
+    font-weight: 600;
+    margin: 18px 0 4px;
+  }
+  .era-list dt:first-child {
+    margin-top: 0;
+  }
+  .era-list dd {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2a2a2a;
+  }
+  .era-key-foot {
+    margin: 24px 0 0;
+    padding-top: 16px;
+    border-top: 1px solid #e3dabe;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+  }
+  .era-key-foot a {
+    color: #d97706;
+    text-decoration: none;
+  }
+  .era-key-foot a:hover {
+    text-decoration: underline;
+  }
+
   .year-block {
     margin-bottom: 64px;
   }
@@ -152,13 +287,6 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     color: #6b6358;
     text-transform: uppercase;
   }
-  .entry-id {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
-    letter-spacing: 0.04em;
-    color: #d97706;
-    font-weight: 500;
-  }
   .entry-title {
     font-family: 'EB Garamond', serif;
     font-size: 24px;
@@ -186,6 +314,12 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     }
     .entry-era {
       margin-top: 4px;
+    }
+    .era-key summary {
+      padding: 12px 16px;
+    }
+    .era-key-body {
+      padding: 4px 16px 20px;
     }
   }
 </style>

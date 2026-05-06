@@ -1,0 +1,192 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Methodology" description="How the catalog is built, sourced, and organized.">
+  <article class="methodology">
+    <header class="m-header">
+      <div class="m-eyebrow">Methodology</div>
+      <h1>How the <em>catalog</em> is built.</h1>
+      <p class="m-deck">Sourcing standards, taxonomy, and editorial discipline.</p>
+    </header>
+
+    <section class="m-body">
+      <p class="m-lede">
+        The Bitcoin Annotated is built on three commitments: every entry is sourced, every claim is dated, and every artifact stands on its own. This page documents how the catalog is organized and how decisions get made.
+      </p>
+
+      <h2>Eras</h2>
+      <p>
+        Each entry is placed in one of ten cultural eras. Eras are not strict date ranges — they are registers. Two entries from the same year can sit in different eras if they belong to different cultural moments. The eras are defined as follows:
+      </p>
+
+      <dl class="era-list">
+        <dt>Pre-Genesis</dt>
+        <dd>The cypherpunk decades that prefigured bitcoin — the writings, protocols, and ideologies it descended from.</dd>
+
+        <dt>Genesis</dt>
+        <dd>The whitepaper, the genesis block, the first months. The system existed; almost no one knew.</dd>
+
+        <dt>First Bull</dt>
+        <dd>Bitcoin acquires a price, a community, and its first mythology. The pizza, the Silk Road, the Cyprus moment.</dd>
+
+        <dt>Dark Forest</dt>
+        <dd>The reckoning years. Mt. Gox, exit scams, hostile regulators. Bitcoin reveals it has predators, and the survivors learn to verify.</dd>
+
+        <dt>2017 Run</dt>
+        <dd>The first cycle that escaped containment. Mainstream attention, the block size wars, the symbol settles.</dd>
+
+        <dt>The Long Wait</dt>
+        <dd>The patient years between the cycles. Quiet building, slow accumulation, philosophy maturing.</dd>
+
+        <dt>Pandemic Era</dt>
+        <dd>Bitcoin meets unprecedented monetary expansion. Stack sats, have fun staying poor, memes harden into thesis.</dd>
+
+        <dt>Frauds</dt>
+        <dd>The year the centralized intermediaries collapsed. Terra/Luna, Celsius, FTX. A reckoning not unlike Mt. Gox eight years earlier.</dd>
+
+        <dt>Institutional Takeover</dt>
+        <dd>Wall Street, sovereign treasuries, and the ETFs arrive. Bitcoin acquires institutional credibility on its own terms.</dd>
+
+        <dt>Now</dt>
+        <dd>The present cycle. What we are watching unfold.</dd>
+      </dl>
+
+      <p class="era-note">
+        Some eras overlap in calendar time. <em>Dark Forest</em> and <em>The Long Wait</em> both run through the mid-2010s — the first captures the era's threats, the second its patience. Where an artifact could plausibly belong to either, the dominant register decides.
+      </p>
+
+      <h2>Foundational entries</h2>
+      <p>
+        A small subset of entries are flagged <em>foundational</em>. These are the cornerstone artifacts everything else descends from — the whitepaper, the genesis block, the symbol, the early phrases. Absence is the default. Most entries are not foundational; a handful are.
+      </p>
+
+      <h2>Sourcing</h2>
+      <p>
+        Every entry carries at least one verifiable receipt — a primary source where possible, a credible secondary source where not. Where an origin is genuinely unsettled, the entry says so. We prefer "earliest known appearance, exact origin unsettled" to a confident wrong claim.
+      </p>
+      <p>
+        Quotes are kept short and used sparingly. The catalog's job is to attribute, not to reproduce.
+      </p>
+
+      <h2>Voice</h2>
+      <p>
+        The voice is plain, dry, and reluctant-analyst. The artifact is the subject. When a person is involved, the thing they did is the subject. If an entry could be replaced with "[Person] is a bitcoiner who…" it is not an artifact entry.
+      </p>
+
+      <h2>Revisions</h2>
+      <p>
+        Errors and omissions will happen. Where they do, we revise. Each entry carries an edition number and a last-revised date. Corrections are welcomed.
+      </p>
+
+      <h2>What this catalog is not</h2>
+      <p>
+        Not a news site. Not a price tracker. Not a personality showcase. Not a place for crypto content — bitcoin only is editorial discipline. Status flags do not do voice work; voice carries vibe, schema carries facts.
+      </p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .methodology {
+    max-width: 720px;
+    margin: 64px auto 96px;
+    padding: 0 24px;
+  }
+  .m-header {
+    margin-bottom: 56px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #d8cfb8;
+  }
+  .m-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6b6358;
+    margin-bottom: 18px;
+  }
+  .methodology h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: clamp(48px, 6vw, 72px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    font-weight: 500;
+    margin: 0 0 18px;
+    color: #1a1a1a;
+  }
+  .methodology h1 em {
+    font-style: italic;
+    color: #d97706;
+    font-weight: 400;
+  }
+  .m-deck {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.4;
+    color: #4a4a4a;
+    margin: 0;
+  }
+  .m-body {
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    line-height: 1.65;
+    color: #2a2a2a;
+  }
+  .m-lede {
+    font-size: 22px;
+    line-height: 1.55;
+    color: #1a1a1a;
+    margin: 0 0 48px;
+    font-weight: 400;
+  }
+  .m-body h2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    margin: 48px 0 16px;
+    color: #1a1a1a;
+  }
+  .m-body p {
+    margin: 0 0 18px;
+  }
+  .m-body p:last-child {
+    margin-bottom: 0;
+  }
+  .era-list {
+    margin: 24px 0 32px;
+    padding: 0;
+  }
+  .era-list dt {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #d97706;
+    font-weight: 600;
+    margin: 22px 0 6px;
+  }
+  .era-list dt:first-child {
+    margin-top: 0;
+  }
+  .era-list dd {
+    margin: 0 0 0 0;
+    font-size: 18px;
+    line-height: 1.55;
+    color: #2a2a2a;
+  }
+  .era-note {
+    font-style: italic;
+    color: #6b6358;
+    font-size: 17px;
+    line-height: 1.5;
+    padding-left: 18px;
+    border-left: 2px solid #d8cfb8;
+    margin: 32px 0 8px;
+  }
+  .era-note em {
+    color: #1a1a1a;
+    font-style: italic;
+  }
+</style>
