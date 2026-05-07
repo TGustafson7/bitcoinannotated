@@ -203,3 +203,18 @@ The following categories are assumed clean unless something specific surfaces:
 **nothing-stops-this-train.svg** — ✓ Clean. Catalog's own work (Plate XVII). Phrase attributed to Lyn Alden in the artifact metadata.
 
 **the-big-print.jpg** — ⚠️ The Big Print cover (Lawrence Lepard, self-published February 2025). Author owns the cover. Self-published works typically have simpler clearance paths than traditionally-published books — direct contact with Lepard via @LawrenceLepard or his fund (Equity Management Associates) would be the path for permission. Standard fair use applies for website use.
+
+
+## May 7, 2026 (later session) — five new entries + one cleanup
+
+**the-antonopoulos-books.jpg** — ⚠️ Mastering Bitcoin first edition cover, O'Reilly Media (December 2014). O'Reilly owns the cover design. Standard fair use applies for editorial/commentary use on this site. Hero shows Mastering Bitcoin only; The Internet of Money Volume One (Merkle Bloom LLC, 2016) is referenced in the entry body but not depicted.
+
+**nothing-stops-this-train.svg** — ✓ Clean. Catalog's own work (Plate XVII). Phrase attributed to Lyn Alden in the artifact metadata.
+
+**the-big-print.jpg** — ⚠️ The Big Print cover (Lawrence Lepard, self-published February 2025). Author owns the cover. Self-published works typically have simpler clearance paths than traditionally-published books — direct contact with Lepard via @LawrenceLepard or his fund (Equity Management Associates) would be the path for permission. Standard fair use applies for editorial use.
+
+**mempool-space.png** — ✓ Clean. Mempool.space is open source under MIT license. Screenshot of the canonical block view, with founders publicly credited (Simon Lapscher / softsimon, and Wiz). No rights concern.
+
+**the-seed-phrase.svg** — ✓ Clean. Catalog's own work (Plate XVIII). Twelve words rendered are the first twelve of the BIP-39 wordlist (open standard, MIT-licensed reference implementation).
+
+**tick-tock-next-block** — Hero swapped from a mempool.space screenshot (PNG) to catalog's own SVG (Plate XIX). The change removes a third-party-image dependency and brings the entry into compliance with the Phrase-entries-get-plates rule. The previous PNG file has been deleted from the repo.
