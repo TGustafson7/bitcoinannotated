@@ -4,7 +4,8 @@ title: "Silk Road"
 deck: "The first place online where bitcoin actually bought something."
 era: "First Bull"
 type: "Marketplace"
-date: 2011-02-01
+date: 2011-02-06
+blockHeightAtOrigin: 106471
 creator: "Ross Ulbricht (\"Dread Pirate Roberts\")"
 sourcePlatform: "Tor hidden service"
 locked: true
