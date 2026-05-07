@@ -15,6 +15,7 @@ heroImageCredit: "Joseph Poon and Thaddeus Dryja"
 sources:
   - url: "https://lightning.network/lightning-network-paper.pdf"
     label: "The Bitcoin Lightning Network — Scalable Off-Chain Instant Payments (Poon & Dryja, January 2016)"
+    primary: true
   - url: "https://bitcoinmagazine.com/technical/the-lightning-network-the-second-layer-explained"
     label: "Bitcoin Magazine — The Lightning Network Explained"
 related: []

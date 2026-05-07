@@ -16,6 +16,7 @@ heroImageCredit: "Wiley."
 sources:
   - url: "https://saifedean.com/the-bitcoin-standard/"
     label: "Saifedean Ammous — The Bitcoin Standard, official book page"
+    primary: true
   - url: "https://www.wiley.com/en-us/The+Bitcoin+Standard%3A+The+Decentralized+Alternative+to+Central+Banking-p-9781119473862"
     label: "John Wiley & Sons — The Bitcoin Standard publication record"
 related: []

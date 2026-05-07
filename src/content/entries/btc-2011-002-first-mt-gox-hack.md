@@ -16,6 +16,7 @@ heroImageCredit: "Mt. Gox / contemporary screenshot"
 sources:
   - url: "https://web.archive.org/web/20110625115413/https://mtgox.com/press_release_20110630.html"
     label: "Mt. Gox official statement on the June 2011 incident (archived)"
+    primary: true
   - url: "https://blog.wizsec.jp/2015/04/the-missing-mtgox-bitcoins.html"
     label: "WizSec post-mortem analysis of Mt. Gox security failures"
 related:

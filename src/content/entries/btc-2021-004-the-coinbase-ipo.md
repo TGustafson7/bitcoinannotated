@@ -15,6 +15,7 @@ heroImageCredit: "Reuters."
 sources:
   - url: "https://www.sec.gov/Archives/edgar/data/1679788/000162828021003168/coinbaseglobalinc-sx1.htm"
     label: "Coinbase S-1 filing, February 2021"
+    primary: true
   - url: "https://www.coinbase.com/blog/coinbase-is-now-publicly-traded"
     label: "Coinbase — Coinbase is now publicly traded (April 14, 2021)"
 related: []

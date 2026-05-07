@@ -16,6 +16,7 @@ heroImageCredit: "Satoshi Nakamoto, bitcoin.org"
 sources:
   - url: "https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html"
     label: "Bitcoin: A Peer-to-Peer Electronic Cash System (original mailing list announcement)"
+    primary: true
   - url: "https://satoshi.nakamotoinstitute.org/emails/cryptography/1/"
     label: "Satoshi Nakamoto Institute — original email archive"
 related:

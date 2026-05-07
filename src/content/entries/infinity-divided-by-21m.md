@@ -14,6 +14,7 @@ heroImageCredit: "Bitcoin Annotated, Plate XI."
 sources:
   - url: "https://bt.cx/en/news/2022/07/05/Bitcoin-Everything-divided-by-21-million/"
     label: "BT.cx — Knut Svanholm, 'Bitcoin: Everything divided by 21 million' (July 5, 2022)"
+    primary: true
   - url: "https://stephanlivera.com/episode/304/"
     label: "Stephan Livera Podcast SLP304 — 'Is The Bitcoin Infinity Meme Wrong? With Knut Svanholm'"
   - url: "https://www.youtube.com/watch?v=efTzUToozhM"

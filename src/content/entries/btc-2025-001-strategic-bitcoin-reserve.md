@@ -15,6 +15,7 @@ heroImageCredit: "The White House (public domain)"
 sources:
   - url: "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/"
     label: "Executive Order — Establishment of the Strategic Bitcoin Reserve (March 6, 2025)"
+    primary: true
   - url: "https://home.treasury.gov/news/press-releases/sb0080"
     label: "Treasury Department implementation guidance, Strategic Bitcoin Reserve"
 related: []

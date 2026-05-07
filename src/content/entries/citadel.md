@@ -14,6 +14,7 @@ heroImageCredit: "Bitcoin Annotated, Plate XII."
 sources:
   - url: "https://www.reddit.com/r/Bitcoin/comments/1lfobc/i_am_a_timetraveler_from_the_future_here_to_beg/"
     label: "Reddit r/Bitcoin — original Luka_Magnotta post (August 31, 2013)"
+    primary: true
   - url: "https://thenextweb.com/news/bitcoin-time-traveler-reddit-cryptocurrency-history-post-edited-who"
     label: "The Next Web — 'The Bitcoin time-traveler Reddit post has been edited' (November 2019)"
   - url: "https://bitcoinmagazine.com/culture/the-citadel-v-nardo-from-meme-to-monument"

@@ -16,6 +16,7 @@ heroImageCredit: "Unicode Consortium / typographic specimen"
 sources:
   - url: "https://www.unicode.org/charts/PDF/U20A0.pdf"
     label: "Unicode — Currency Symbols code chart (₿ at U+20BF)"
+    primary: true
   - url: "https://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf"
     label: "Unicode proposal L2/15-229, Bitcoin Sign (Ken Shirriff, 2015)"
 related:

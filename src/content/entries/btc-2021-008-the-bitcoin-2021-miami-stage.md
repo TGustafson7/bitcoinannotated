@@ -17,6 +17,7 @@ sources:
     label: "Bitcoin Magazine — El Salvador adopts bitcoin as legal tender"
   - url: "https://www.youtube.com/watch?v=BR0YA4WIBHY"
     label: "Jack Mallers — Bitcoin 2021 keynote (full video)"
+    primary: true
 related: []
 ---
 On the afternoon of Saturday, June 5, 2021, Jack Mallers — the chief executive officer of the Lightning-payments company Strike, then twenty-seven years old — walked onto the main stage at the Bitcoin 2021 conference in Miami wearing a backwards baseball cap and proceeded, over the course of approximately twenty minutes, to cry. The tears were not the performance. The announcement they accompanied was. Mallers had spent the preceding several months as the operational link between the bitcoin community and the government of El Salvador, working with president Nayib Bukele's administration on the legal-tender legislation that would, within seventy-two hours of the keynote, be introduced to the Salvadoran Legislative Assembly. The video Mallers introduced from the stage — Bukele announcing, in English, that El Salvador would make bitcoin legal tender alongside the United States dollar — was the first sovereign-state adoption of a non-state currency in modern history. The footage of Mallers's introduction has been, in the years since, the most-circulated piece of bitcoin community video in the asset's history.

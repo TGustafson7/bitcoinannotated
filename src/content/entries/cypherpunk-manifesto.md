@@ -15,6 +15,7 @@ heroImageCredit: "Bitcoin Annotated, Plate VI."
 sources:
   - url: "https://nakamotoinstitute.org/library/cypherpunk-manifesto/"
     label: "Satoshi Nakamoto Institute — A Cypherpunk's Manifesto by Eric Hughes (March 9, 1993)"
+    primary: true
   - url: "https://www.activism.net/cypherpunk/manifesto.html"
     label: "Original distribution: activism.net cypherpunk archive"
   - url: "https://en.wikipedia.org/wiki/Eric_Hughes_(cypherpunk)"

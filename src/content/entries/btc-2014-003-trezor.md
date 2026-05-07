@@ -16,6 +16,7 @@ heroImageCredit: "SatoshiLabs"
 sources:
   - url: "https://blog.trezor.io/the-first-bitcoin-hardware-wallet-c63c0d24f9eb"
     label: "Trezor blog — The first bitcoin hardware wallet"
+    primary: true
   - url: "https://github.com/trezor/trezor-firmware"
     label: "Trezor firmware on GitHub (open source since launch)"
 related: []

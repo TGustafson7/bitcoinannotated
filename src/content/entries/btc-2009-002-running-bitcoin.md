@@ -16,6 +16,7 @@ heroImageCredit: "@halfin / Twitter"
 sources:
   - url: "https://twitter.com/halfin/status/1110302988"
     label: "@halfin original tweet"
+    primary: true
   - url: "https://bitcointalk.org/index.php?topic=155054.0"
     label: "Bitcoin and me — Hal Finney's BitcoinTalk essay (March 2013)"
 related:

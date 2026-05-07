@@ -15,6 +15,7 @@ heroImageCredit: "New York State Department of Financial Services"
 sources:
   - url: "https://www.dfs.ny.gov/industry_guidance/regulations/23nycrr200"
     label: "NYDFS — 23 NYCRR Part 200, Virtual Currencies"
+    primary: true
   - url: "https://www.coindesk.com/policy/2015/06/03/new-yorks-final-bitlicense-rules-text-and-analysis/"
     label: "CoinDesk — New York's final BitLicense rules: text and analysis"
 related:

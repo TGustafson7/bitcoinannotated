@@ -14,6 +14,7 @@ heroImageCredit: "Laszlo Hanyecz / BitcoinTalk"
 sources:
   - url: "https://bitcointalk.org/index.php?topic=137.0"
     label: "Laszlo Hanyecz original BitcoinTalk post (May 18, 2010)"
+    primary: true
   - url: "https://www.cbsnews.com/news/bitcoin-pizza-day-laszlo-hanyecz-60-minutes-2019-05-12/"
     label: "Anderson Cooper / 60 Minutes interview with Hanyecz (CBS, 2019)"
 related:

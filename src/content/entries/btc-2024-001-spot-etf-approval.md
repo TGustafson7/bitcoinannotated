@@ -16,6 +16,7 @@ heroImageCredit: "Contemporary financial media"
 sources:
   - url: "https://www.sec.gov/files/rules/sro/nysearca/2024/34-99306.pdf"
     label: "SEC Order Approving Spot Bitcoin ETPs (Release No. 34-99306, January 10, 2024)"
+    primary: true
   - url: "https://www.sec.gov/news/statement/gensler-statement-spot-bitcoin-011023"
     label: "Statement of Chair Gary Gensler on the approval"
 related:

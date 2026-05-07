@@ -17,6 +17,7 @@ sources:
     label: "Square — Bitcoin Investment Announcement (October 8, 2020)"
   - url: "https://www.sec.gov/Archives/edgar/data/1512673/000119312520269160/0001193125-20-269160-index.htm"
     label: "Square 8-K filing, October 8, 2020"
+    primary: true
 related: []
 ---
 On October 8, 2020 — fifty-eight days after MicroStrategy's initial bitcoin purchase had established the corporate-treasury template — Square, Inc., the payments company founded by Jack Dorsey in 2009, announced that it had purchased 4,709 bitcoin for approximately $50 million. The disclosure was made through a press release, an SEC Form 8-K, and a six-page accompanying white paper titled *Bitcoin Investment Whitepaper* that documented Square's reasoning, custody arrangements, and execution methodology. The dollar amount was modest by Square's standards — approximately one percent of the company's total assets — but the strategic significance was substantially larger than the figure suggested. Square was not a niche software company. It was a publicly traded payments processor with millions of merchant customers, a consumer payments product called Cash App that had introduced bitcoin trading to retail users in 2018, and a chief executive officer whose other public company, Twitter, made him among the most-watched executives in technology.

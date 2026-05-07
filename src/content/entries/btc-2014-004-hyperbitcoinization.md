@@ -15,6 +15,7 @@ heroImageCredit: "Satoshi Nakamoto Institute"
 sources:
   - url: "https://nakamotoinstitute.org/mempool/hyperbitcoinization/"
     label: "Daniel Krawisz, *Hyperbitcoinization*, March 29, 2014"
+    primary: true
 related:
   - "BTC.2021.002"
 ---

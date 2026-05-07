@@ -18,6 +18,7 @@ sources:
     label: "DOJ — Two Arrested for Alleged Conspiracy to Launder $4.5 Billion in Stolen Cryptocurrency"
   - url: "https://www.bitfinex.com/posts/200"
     label: "Bitfinex — August 2, 2016 security incident announcement"
+    primary: true
 related: []
 ---
 On the afternoon of August 2, 2016, a hacker compromised the security architecture of Bitfinex, then the largest dollar-denominated bitcoin exchange in the world, and withdrew 119,756 bitcoin from customer accounts to a wallet they controlled. The exchange's security model had relied on a third-party custody arrangement with a company called BitGo that required co-signatures on every withdrawal. The arrangement, which had been intended to make large-scale theft impossible, had been bypassed. The compromise's specific mechanism was never publicly explained, though subsequent court filings indicated that the hackers had obtained the cryptographic keys necessary to authorize withdrawals through a combination of social engineering, infrastructure exploitation, and what one DOJ filing described, with characteristic dryness, as *unauthorized access*. The total theft was worth approximately $72 million at the prices then prevailing. The 119,756 stolen bitcoin would be worth approximately $10 billion at the all-time high reached eight years later.

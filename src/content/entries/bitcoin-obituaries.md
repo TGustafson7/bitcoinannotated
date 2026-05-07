@@ -13,6 +13,7 @@ btcPriceAtOrigin: "$0.23"
 sources:
   - url: "https://99bitcoins.com/bitcoin-obituaries/"
     label: "99bitcoins.com — running tracker of obituaries since 2010"
+    primary: true
   - url: "https://undergroundeconomist.com/why-bitcoin-cant-be-a-currency"
     label: "The Underground Economist, the first known obituary (Dec 15, 2010)"
   - url: "https://u.today/bitcoin-scores-first-year-with-zero-obituaries-details"

@@ -18,6 +18,7 @@ sources:
     label: "CoinDesk — Taproot, Bitcoin's Long-Anticipated Upgrade, Has Activated"
   - url: "https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki"
     label: "BIP 341 — Taproot: SegWit version 1 spending rules"
+    primary: true
 related:
   - "BTC.2017.002"
   - "BTC.2023.001"

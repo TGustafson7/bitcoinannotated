@@ -15,6 +15,7 @@ heroImageCredit: "PlanB / Medium"
 sources:
   - url: "https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25"
     label: "PlanB, *Modeling Bitcoin's Value with Scarcity*, March 2019"
+    primary: true
   - url: "https://bitcoinmagazine.com/markets/why-bitcoin-stock-to-flow-is-not-useful"
     label: "Bitcoin Magazine — Why The Bitcoin Stock-to-Flow Model Is Not Useful"
 related:

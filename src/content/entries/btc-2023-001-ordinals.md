@@ -15,6 +15,7 @@ heroImageCredit: "Casey Rodarmor / Ordinal Theory"
 sources:
   - url: "https://docs.ordinals.com/"
     label: "Ordinal Theory documentation (Casey Rodarmor)"
+    primary: true
   - url: "https://github.com/ordinals/ord"
     label: "ord — the reference Ordinals client on GitHub"
 related: []

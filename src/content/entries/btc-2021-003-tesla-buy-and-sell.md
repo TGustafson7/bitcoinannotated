@@ -15,6 +15,7 @@ heroImageCredit: "Tesla, Inc. / SEC EDGAR"
 sources:
   - url: "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm"
     label: "Tesla 10-K filing, February 8, 2021"
+    primary: true
   - url: "https://www.reuters.com/business/autos-transportation/tesla-suspends-vehicle-purchases-using-bitcoin-musk-2021-05-13/"
     label: "Reuters — Tesla suspends bitcoin payments over environmental concerns"
 related:

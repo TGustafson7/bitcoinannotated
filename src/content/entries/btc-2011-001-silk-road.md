@@ -15,6 +15,7 @@ heroImageCredit: "Federal Bureau of Investigation (public domain)"
 sources:
   - url: "https://www.justice.gov/usao-sdny/press-release/file/1216426/download"
     label: "FBI complaint and arrest narrative — United States v. Ulbricht"
+    primary: true
   - url: "https://www.wired.com/2015/04/silk-road-1/"
     label: "Wired — The Untold Story of Silk Road (2015)"
 related:

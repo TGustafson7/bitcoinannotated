@@ -17,6 +17,7 @@ heroImageCredit: "Photograph via Hanyecz, widely circulated."
 sources:
   - url: "https://bitcointalk.org/index.php?topic=137.0"
     label: "Original BitcoinTalk thread #137: 'Pizza for bitcoins?'"
+    primary: true
 related:
   - "BTC.2009.001"
   - "BTC.2013.001"
