@@ -8,9 +8,9 @@ date: 2018-01-01
 creator: "Bitcoin Twitter (organic origin)"
 sourcePlatform: "Twitter / forums"
 locked: true
-heroImage: "/images/entries/tick-tock-next-block.png"
-heroImageCaption: "Block intervals on bitcoin. The clock that does not stop."
-heroImageCredit: "mempool.space / community use"
+heroImage: "/images/entries/tick-tock-next-block.svg"
+heroImageCaption: "Plate XIX. The phrase as it circulated through bitcoin twitter, podcasts, and conference stages."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://www.redbubble.com/i/t-shirt/Bitcoin-Design-Tick-Tock-Next-Block-by-BitcoinBrosPOD/52479731.88ZX2"
     label: "On the phrase's recurring use as a bitcoin maxim"
