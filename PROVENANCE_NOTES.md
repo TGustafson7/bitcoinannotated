@@ -194,3 +194,12 @@ The following categories are assumed clean unless something specific surfaces:
 - Audit pass before any book project goes serious:
   walk every entry, confirm provenance for ✓ entries, resolve ⚠️ entries
   with permission letters or substitutions, document ? entries.
+
+
+## May 7, 2026 (later session) — three new entries
+
+**the-antonopoulos-books.jpg** — ⚠️ Mastering Bitcoin first edition cover, O'Reilly Media (December 2014). O'Reilly owns the cover design. Standard fair use applies for website use; clearance required for book reproduction. Note: hero shows Mastering Bitcoin only; The Internet of Money Volume One (Merkle Bloom LLC, 2016) is referenced in the entry body but not depicted in the hero image.
+
+**nothing-stops-this-train.svg** — ✓ Clean. Catalog's own work (Plate XVII). Phrase attributed to Lyn Alden in the artifact metadata.
+
+**the-big-print.jpg** — ⚠️ The Big Print cover (Lawrence Lepard, self-published February 2025). Author owns the cover. Self-published works typically have simpler clearance paths than traditionally-published books — direct contact with Lepard via @LawrenceLepard or his fund (Equity Management Associates) would be the path for permission. Standard fair use applies for website use.
