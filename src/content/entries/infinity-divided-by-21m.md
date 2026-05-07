@@ -12,8 +12,8 @@ heroImage: "/images/entries/infinity-divided-by-21m.svg"
 heroImageCaption: "Infinity divided by 21 million — Knut Svanholm's reframing of bitcoin as the universal denominator, formalized in his 2022 book of the same title."
 heroImageCredit: "Bitcoin Annotated, Plate XI."
 sources:
-  - url: "https://bt.cx/en/news/2022/07/05/Bitcoin-Everything-divided-by-21-million/"
-    label: "BT.cx — Knut Svanholm, 'Bitcoin: Everything divided by 21 million' (July 5, 2022)"
+  - url: "https://www.goodreads.com/work/editions/95985175-bitcoin-everything-divided-by-21-million"
+    label: "Knut Svanholm — Bitcoin: Everything Divided by 21 Million (book, 2022; expanded from the original essay)"
     primary: true
   - url: "https://stephanlivera.com/episode/304/"
     label: "Stephan Livera Podcast SLP304 — 'Is The Bitcoin Infinity Meme Wrong? With Knut Svanholm'"

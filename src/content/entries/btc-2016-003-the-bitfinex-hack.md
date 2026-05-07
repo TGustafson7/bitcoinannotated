@@ -16,8 +16,8 @@ heroImageCredit: "Department of Justice / contemporary press coverage"
 sources:
   - url: "https://www.justice.gov/opa/pr/two-arrested-alleged-conspiracy-launder-45-billion-stolen-cryptocurrency"
     label: "DOJ — Two Arrested for Alleged Conspiracy to Launder $4.5 Billion in Stolen Cryptocurrency"
-  - url: "https://www.bitfinex.com/posts/200"
-    label: "Bitfinex — August 2, 2016 security incident announcement"
+  - url: "https://blog.bitfinex.com/announcements/message-individual-responsible-bitfinex-security-incident-august-2-2016/"
+    label: "Bitfinex — Message to the individual responsible for the August 2, 2016 security incident"
     primary: true
 related: []
 ---

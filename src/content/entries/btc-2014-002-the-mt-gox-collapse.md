@@ -14,8 +14,8 @@ heroImage: "/images/entries/mt-gox-2014.png"
 heroImageCaption: "Mt. Gox's bankruptcy announcement, February 24, 2014."
 heroImageCredit: "Mt. Gox Co., Ltd. / archived"
 sources:
-  - url: "https://web.archive.org/web/20140228001828/https://www.mtgox.com/img/pdf/20140224_announce_en.pdf"
-    label: "Mt. Gox bankruptcy announcement (February 24, 2014, archived)"
+  - url: "https://www.mtgox.com/"
+    label: "MtGox.com — bankruptcy trustee's official communications site (active since February 2014 collapse)"
     primary: true
   - url: "https://blog.wizsec.jp/2017/07/breaking-open-mtgox-1.html"
     label: "WizSec — Breaking open the Mt. Gox case"
