@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" preserveAspectRatio="xMidYMid meet">
+  <rect width="800" height="560" fill="#f8f4ed"/>
+
+  <!-- top-left: type / subtitle, mono small-caps -->
+  <text x="48" y="46" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">PHRASE — FISCAL DOMINANCE</text>
+
+  <!-- top-right: date, mono small-caps -->
+  <text x="752" y="46" text-anchor="end" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">MAY 13, 2024</text>
+
+  <!-- top separator line -->
+  <line x1="48" y1="68" x2="752" y2="68" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- main phrase, large italic Garamond, split orange/black -->
+  <!-- "Nothing Stops" orange, "This Train" black; arranged on two centered lines -->
+  <text x="400" y="262" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="78" font-style="italic" fill="#d97706" font-weight="400">Nothing Stops</text>
+  <text x="400" y="346" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="78" font-style="italic" fill="#1a1a1a" font-weight="400">This Train.</text>
+
+  <!-- supporting line, italic Garamond smaller -->
+  <text x="400" y="410" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="17" font-style="italic" fill="#1a1a1a" opacity="0.85">A four-word diagnosis of fiscal dominance.</text>
+
+  <!-- thin separator line above attribution -->
+  <line x1="280" y1="442" x2="520" y2="442" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- attribution, mono small-caps -->
+  <text x="400" y="466" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.2" font-weight="500" opacity="0.85">LYN ALDEN — BANKLESS, BITCOIN 2025, &amp; THE CONFERENCE CIRCUIT</text>
+
+  <!-- bottom separator line -->
+  <line x1="48" y1="508" x2="752" y2="508" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- bottom-left: BITCOIN ANNOTATED -->
+  <text x="48" y="530" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">BITCOIN ANNOTATED</text>
+
+  <!-- bottom-right: PLATE XVII -->
+  <text x="752" y="530" text-anchor="end" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">PLATE XVII</text>
+</svg>

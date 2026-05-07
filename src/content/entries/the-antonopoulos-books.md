@@ -8,8 +8,8 @@ sourcePlatform: "O'Reilly Media; Merkle Bloom LLC"
 locked: true
 creator: "Andreas M. Antonopoulos"
 heroImage: "/images/entries/the-antonopoulos-books.jpg"
-heroImageCaption: "Mastering Bitcoin (O'Reilly, 2014) and The Internet of Money Volume One (Merkle Bloom, 2016)."
-heroImageCredit: "Book covers © O'Reilly Media and Merkle Bloom LLC."
+heroImageCaption: "Mastering Bitcoin, O'Reilly Media, 2014. The Internet of Money Volume One followed in 2016."
+heroImageCredit: "Book cover © O'Reilly Media."
 sources:
   - url: "https://github.com/bitcoinbook/bitcoinbook"
     label: "Mastering Bitcoin (open-source repository, all three editions)"
