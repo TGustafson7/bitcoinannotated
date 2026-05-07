@@ -5,6 +5,7 @@ era: "First Bull"
 foundational: true
 type: "Iconography"
 date: 2010-12-15
+blockHeightAtOrigin: 97582
 sourcePlatform: "The Underground Economist; later 99bitcoins.com"
 locked: false
 creator: "Various; tracker maintained by 99bitcoins"

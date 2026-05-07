@@ -5,6 +5,7 @@ era: "2017 Run"
 foundational: false
 type: "Phrase"
 date: 2018-05-05
+blockHeightAtOrigin: 521237
 sourcePlatform: "Berkshire Hathaway annual shareholder meeting"
 locked: true
 creator: "Warren Buffett (utterance); bitcoin community (adoption)"

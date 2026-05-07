@@ -5,6 +5,7 @@ era: "First Bull"
 foundational: false
 type: "Phrase"
 date: 2012-03-30
+blockHeightAtOrigin: 173481
 sourcePlatform: "Reddit (r/bitcoin)"
 locked: false
 creator: "Julian702 (Reddit, earliest known online usage)"

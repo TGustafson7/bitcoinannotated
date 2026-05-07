@@ -5,6 +5,7 @@ era: "Dark Forest"
 foundational: false
 type: "Document"
 date: 2014-03-07
+blockHeightAtOrigin: 289280
 sourcePlatform: "P2P Foundation (Ning)"
 locked: true
 creator: "Satoshi Nakamoto (account holder)"
