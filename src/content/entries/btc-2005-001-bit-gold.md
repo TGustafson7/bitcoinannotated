@@ -10,8 +10,8 @@ sourcePlatform: "Unenumerated blog"
 creator: "Nick Szabo"
 locked: true
 heroImage: "/images/entries/bit-gold.png"
-heroImageCaption: "The original Bit Gold post on Szabo's Unenumerated blog, published December 29, 2005."
-heroImageCredit: "unenumerated.blogspot.com / Nick Szabo"
+heroImageCaption: "Bit Gold as preserved at the Satoshi Nakamoto Institute, with the original December 29, 2005 publication date."
+heroImageCredit: "Satoshi Nakamoto Institute / Nick Szabo"
 sources:
   - url: "https://unenumerated.blogspot.com/2005/12/bit-gold.html"
     label: "Nick Szabo — Bit Gold (Unenumerated, December 29, 2005)"
