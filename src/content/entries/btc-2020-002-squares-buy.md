@@ -5,6 +5,7 @@ deck: "Jack Dorsey's payments company puts $50 million in bitcoin."
 era: "Pandemic Era"
 type: "Corporate Action"
 date: 2020-10-08
+blockHeightAtOrigin: 651754
 creator: "Jack Dorsey / Square, Inc."
 sourcePlatform: "Square press release / SEC Form 8-K"
 locked: true

@@ -5,6 +5,7 @@ deck: "The corporate buy that launched a thousand headlines, and the sale that e
 era: "Institutional Takeover"
 type: "Corporate Action"
 date: 2021-02-08
+blockHeightAtOrigin: 669653
 creator: "Elon Musk / Tesla, Inc."
 sourcePlatform: "SEC Form 10-K"
 locked: true

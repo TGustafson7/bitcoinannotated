@@ -5,6 +5,7 @@ deck: "The chart that made a price seem inevitable."
 era: "The Long Wait"
 type: "Model / Iconography"
 date: 2019-03-22
+blockHeightAtOrigin: 568231
 creator: "PlanB (pseudonym)"
 sourcePlatform: "Medium"
 locked: true

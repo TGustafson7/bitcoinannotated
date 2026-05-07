@@ -5,6 +5,7 @@ deck: "The first time a government tried to draw a regulatory perimeter around b
 era: "The Long Wait"
 type: "Regulation"
 date: 2015-06-24
+blockHeightAtOrigin: 362279
 creator: "New York State Department of Financial Services"
 sourcePlatform: "23 NYCRR Part 200"
 locked: true

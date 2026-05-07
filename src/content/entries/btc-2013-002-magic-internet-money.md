@@ -5,6 +5,7 @@ deck: "An MS Paint wizard, an offhand caption, and a Reddit ad that arguably hel
 era: "First Bull"
 type: "Iconography / Image"
 date: 2013-02-18
+blockHeightAtOrigin: 221796
 btcPriceAtOrigin: "$26"
 creator: "u/mavensbot"
 sourcePlatform: "Reddit"

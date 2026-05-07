@@ -5,6 +5,7 @@ deck: "The first major bitcoin company to go public, valued at $86 billion on da
 era: "Institutional Takeover"
 type: "Corporate Action"
 date: 2021-04-14
+blockHeightAtOrigin: 679136
 creator: "Coinbase Global, Inc. / Brian Armstrong"
 sourcePlatform: "NASDAQ"
 locked: true

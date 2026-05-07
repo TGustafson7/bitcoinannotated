@@ -4,6 +4,7 @@ deck: "Knut Svanholm's reframing of bitcoin as the denominator into which everyt
 era: "Pandemic Era"
 type: "Phrase"
 date: 2022-07-05
+blockHeightAtOrigin: 743675
 creator: "Knut Svanholm"
 sourcePlatform: "Twitter / Konsensus Network"
 locked: true

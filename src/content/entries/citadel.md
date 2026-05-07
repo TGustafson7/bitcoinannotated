@@ -4,6 +4,7 @@ deck: "The 2013 Reddit post that gave bitcoin culture its longest-running though
 era: "First Bull"
 type: "Phrase"
 date: 2013-08-31
+blockHeightAtOrigin: 255168
 creator: "Reddit user Luka_Magnotta"
 sourcePlatform: "Reddit r/Bitcoin"
 locked: true

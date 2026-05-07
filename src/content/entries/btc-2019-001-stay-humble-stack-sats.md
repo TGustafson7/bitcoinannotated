@@ -5,6 +5,7 @@ deck: "The four-word liturgy of the bitcoin daily practice."
 era: "The Long Wait"
 type: "Phrase"
 date: 2019-06-15
+blockHeightAtOrigin: 580796
 creator: "Matt Odell (popularizer)"
 sourcePlatform: "Twitter / Rabbit Hole Recap podcast"
 locked: true

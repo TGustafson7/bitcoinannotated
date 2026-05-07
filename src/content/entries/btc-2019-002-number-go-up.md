@@ -5,6 +5,7 @@ deck: "The meme that became a worldview."
 era: "The Long Wait"
 type: "Phrase"
 date: 2019-06-25
+blockHeightAtOrigin: 582320
 sourcePlatform: "Bitcoin Twitter"
 locked: true
 heroImage: "/images/entries/number-go-up.svg"

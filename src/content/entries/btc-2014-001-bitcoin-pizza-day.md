@@ -5,6 +5,7 @@ deck: "An expensive lunch becomes an annual holiday."
 era: "Dark Forest"
 type: "Holiday"
 date: 2014-05-22
+blockHeightAtOrigin: 302014
 sourcePlatform: "Twitter, BitcoinTalk, the wider bitcoin community"
 locked: true
 heroImage: "/images/entries/bitcoin-pizza-day.png"

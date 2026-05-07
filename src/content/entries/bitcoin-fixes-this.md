@@ -4,6 +4,7 @@ deck: "The phrase as both earnest claim and self-aware shitpost — same sentenc
 era: "Pandemic Era"
 type: "Phrase"
 date: 2020-07-16
+blockHeightAtOrigin: 639453
 creator: "Bitcoin Twitter, popularized by Jimmy Song"
 sourcePlatform: "Twitter / Bitcoin Fixes This podcast"
 locked: true

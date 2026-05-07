@@ -4,6 +4,7 @@ deck: "The tautology that reframes bitcoin from a thing measured in dollars to a
 era: "The Long Wait"
 type: "Phrase"
 date: 2019-02-23
+blockHeightAtOrigin: 564273
 creator: "Pierre Rochard"
 sourcePlatform: "Twitter"
 locked: true

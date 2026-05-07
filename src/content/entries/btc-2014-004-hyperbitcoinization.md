@@ -5,6 +5,7 @@ deck: "The phrase that imagined the endgame."
 era: "The Long Wait"
 type: "Phrase"
 date: 2014-03-29
+blockHeightAtOrigin: 293015
 creator: "Daniel Krawisz"
 sourcePlatform: "Satoshi Nakamoto Institute"
 locked: true

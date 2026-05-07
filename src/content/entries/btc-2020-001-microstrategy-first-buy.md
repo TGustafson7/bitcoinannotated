@@ -5,6 +5,7 @@ deck: "The first publicly traded American company to put bitcoin on its balance 
 era: "Pandemic Era"
 type: "Corporate Action"
 date: 2020-08-11
+blockHeightAtOrigin: 643158
 creator: "Michael Saylor / MicroStrategy Incorporated"
 sourcePlatform: "SEC Form 8-K"
 locked: true

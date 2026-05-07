@@ -5,6 +5,7 @@ deck: "JPEGs on bitcoin. The community is still arguing about whether to allow i
 era: "Now"
 type: "Protocol Innovation"
 date: 2023-01-21
+blockHeightAtOrigin: 772887
 creator: "Casey Rodarmor"
 sourcePlatform: "Bitcoin protocol / ord client"
 locked: true

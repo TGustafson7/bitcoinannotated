@@ -5,6 +5,7 @@ deck: "The grassroots experiment that rehearsed legal tender."
 era: "The Long Wait"
 type: "Circular Economy"
 date: 2019-04-01
+blockHeightAtOrigin: 569683
 creator: "Mike Peterson, Roman Martínez, anonymous donor"
 sourcePlatform: "El Zonte, El Salvador"
 locked: true

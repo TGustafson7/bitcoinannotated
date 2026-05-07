@@ -5,6 +5,7 @@ deck: "The first sovereign nation to make bitcoin legal tender alongside the dol
 era: "Institutional Takeover"
 type: "Sovereign Action"
 date: 2021-06-05
+blockHeightAtOrigin: 686325
 creator: "Nayib Bukele / Republic of El Salvador"
 sourcePlatform: "Bitcoin 2021 conference, Miami"
 locked: true

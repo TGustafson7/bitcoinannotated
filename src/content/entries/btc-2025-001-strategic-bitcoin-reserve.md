@@ -5,6 +5,7 @@ deck: "March 6, 2025. The United States government, formally, holds bitcoin."
 era: "Now"
 type: "Sovereign Action"
 date: 2025-03-06
+blockHeightAtOrigin: 886513
 creator: "President Donald J. Trump (Executive Order)"
 sourcePlatform: "The White House"
 locked: true
