@@ -13,8 +13,8 @@ heroImage: "/images/entries/silk-road.png"
 heroImageCaption: "The FBI's seizure notice, posted to the Silk Road homepage on October 1, 2013."
 heroImageCredit: "Federal Bureau of Investigation (public domain)"
 sources:
-  - url: "https://www.justice.gov/usao-sdny/press-release/file/1216426/download"
-    label: "FBI complaint and arrest narrative — United States v. Ulbricht"
+  - url: "https://archive.org/details/UlbrichtCriminalComplaint_201310"
+    label: "United States v. Ross William Ulbricht — original criminal complaint, SDNY (September 2013)"
     primary: true
   - url: "https://www.wired.com/2015/04/silk-road-1/"
     label: "Wired — The Untold Story of Silk Road (2015)"
