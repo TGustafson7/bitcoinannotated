@@ -6,6 +6,7 @@ era: "Genesis"
 foundational: true
 type: "Document"
 date: 2008-10-31
+blockHeightAtOrigin: "Pre-chain"
 creator: "Satoshi Nakamoto"
 sourcePlatform: "The Cryptography Mailing List"
 locked: true

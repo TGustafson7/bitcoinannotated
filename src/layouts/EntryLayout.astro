@@ -3,12 +3,23 @@ import BaseLayout from './BaseLayout.astro';
 const { entry } = Astro.props;
 const { data } = entry;
 const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(data.date);
+
+// Format block height for display
+const formatBlockHeight = (bh: number | string | undefined) => {
+  if (bh === undefined) return null;
+  if (bh === 'Pre-chain') return 'PRE-CHAIN';
+  return `BLOCK ${bh.toLocaleString('en-US')}`;
+};
+const blockHeightDisplay = formatBlockHeight(data.blockHeightAtOrigin);
 ---
 <BaseLayout title={data.title} description={data.deck}>
   <div class="catalog-bar">
     <span>{data.era.toUpperCase()}</span>
     {data.foundational && <span>FOUNDATIONAL</span>}
-    <span>{formattedDate}</span>
+    <span>
+      {blockHeightDisplay && <><span class="bh">{blockHeightDisplay}</span> · </>}
+      {formattedDate.toUpperCase()}
+    </span>
   </div>
   <section class="hero">
     <div class="hero-text">
@@ -18,7 +29,13 @@ const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'nu
       <div class="deck">{data.deck}</div>
     </div>
     <aside class="meta-card">
-      <div class="meta-row"><span class="meta-label">Origin</span><span class="meta-value">{formattedDate}</span></div>
+      <div class="meta-row">
+        <span class="meta-label">Origin</span>
+        <span class="meta-value">
+          {blockHeightDisplay && <><span class="bh-meta">{blockHeightDisplay}</span><br/></>}
+          <span class={blockHeightDisplay ? 'origin-date' : ''}>{formattedDate}</span>
+        </span>
+      </div>
       {data.creator && <div class="meta-row"><span class="meta-label">Creator</span><span class={`meta-value ${data.locked ? 'locked' : ''}`}>{data.creator}</span></div>}
       {data.sourcePlatform && <div class="meta-row"><span class="meta-label">Source</span><span class="meta-value">{data.sourcePlatform}</span></div>}
       <div class="meta-row"><span class="meta-label">Era</span><span class="meta-value">{data.era}</span></div>
@@ -57,7 +74,22 @@ const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'nu
   </footer>
 </BaseLayout>
 <style>
-.hero-image {
+  .catalog-bar .bh {
+    color: #d97706;
+    font-weight: 600;
+  }
+  .meta-card .bh-meta {
+    color: #d97706;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+  }
+  .meta-card .origin-date {
+    color: #6b6358;
+    font-size: 13px;
+    font-style: italic;
+  }
+  .hero-image {
     margin: 48px auto 56px;
     max-width: 720px;
   }

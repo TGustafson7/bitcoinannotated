@@ -11,6 +11,7 @@ const entries = defineCollection({
     foundational: z.boolean().optional(),
     type: z.string(),              // "Catchphrase", "Iconography", "Event", etc.
     date: z.date(),                // origin date
+    blockHeightAtOrigin: z.union([z.number().int(), z.literal("Pre-chain")]).optional(),  // block number, or "Pre-chain" for artifacts predating the genesis block
     btcPriceAtOrigin: z.string().optional(),  // e.g. "$0.0041"
     creator: z.string().optional(),
     sourcePlatform: z.string().optional(),

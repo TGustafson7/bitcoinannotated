@@ -6,6 +6,7 @@ era: "Genesis"
 foundational: true
 type: "Quote / Embedded artifact"
 date: 2009-01-03
+blockHeightAtOrigin: 0
 btcPriceAtOrigin: "—"
 creator: "Satoshi Nakamoto"
 sourcePlatform: "Bitcoin protocol"

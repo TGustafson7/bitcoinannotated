@@ -5,6 +5,7 @@ era: "Pre-Genesis"
 foundational: true
 type: "Document"
 date: 1993-03-09
+blockHeightAtOrigin: "Pre-chain"
 creator: "Eric Hughes"
 sourcePlatform: "Cypherpunk Mailing List"
 locked: true
