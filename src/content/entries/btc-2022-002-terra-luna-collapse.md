@@ -6,7 +6,7 @@ era: "Frauds"
 foundational: true
 type: "Fraud"
 date: 2022-05-09
-blockHeightAtOrigin: 736500
+blockHeightAtOrigin: 735575
 creator: "Do Kwon / Terraform Labs"
 sourcePlatform: "Terra blockchain"
 locked: true

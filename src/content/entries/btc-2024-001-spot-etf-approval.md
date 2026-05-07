@@ -6,7 +6,7 @@ era: "Institutional Takeover"
 foundational: true
 type: "Regulatory Action"
 date: 2024-01-10
-blockHeightAtOrigin: 825500
+blockHeightAtOrigin: 825100
 creator: "United States Securities and Exchange Commission"
 sourcePlatform: "SEC Order"
 locked: true

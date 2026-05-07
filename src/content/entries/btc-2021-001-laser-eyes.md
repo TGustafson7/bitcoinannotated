@@ -6,7 +6,7 @@ era: "Institutional Takeover"
 foundational: true
 type: "Iconography / Movement"
 date: 2021-02-16
-blockHeightAtOrigin: 669000
+blockHeightAtOrigin: 670820
 btcPriceAtOrigin: "$50,000"
 creator: "@CHAIRFORCE_BTC"
 sourcePlatform: "Twitter"

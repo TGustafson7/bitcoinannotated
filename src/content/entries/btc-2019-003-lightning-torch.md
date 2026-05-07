@@ -6,7 +6,7 @@ era: "The Long Wait"
 foundational: true
 type: "Event / Performance"
 date: 2019-01-19
-blockHeightAtOrigin: 558000
+blockHeightAtOrigin: 559130
 creator: "Hodlonaut (Magnus Granath)"
 sourcePlatform: "Lightning Network / Twitter"
 locked: true

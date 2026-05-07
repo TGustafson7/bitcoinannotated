@@ -6,7 +6,7 @@ era: "Institutional Takeover"
 foundational: true
 type: "Sovereign Action"
 date: 2021-05-21
-blockHeightAtOrigin: 684500
+blockHeightAtOrigin: 684400
 creator: "State Council of the People's Republic of China"
 sourcePlatform: "Chinese central government"
 locked: true

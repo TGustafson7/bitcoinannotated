@@ -6,7 +6,7 @@ era: "Institutional Takeover"
 foundational: true
 type: "Market Event"
 date: 2021-11-10
-blockHeightAtOrigin: 709300
+blockHeightAtOrigin: 709030
 sourcePlatform: "Bitcoin spot markets"
 locked: true
 heroImage: "/images/entries/69k-top.png"

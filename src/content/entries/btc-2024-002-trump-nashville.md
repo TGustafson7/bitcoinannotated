@@ -6,7 +6,7 @@ era: "Now"
 foundational: true
 type: "Political Event"
 date: 2024-07-27
-blockHeightAtOrigin: 853500
+blockHeightAtOrigin: 854145
 creator: "Donald J. Trump (campaign address)"
 sourcePlatform: "Bitcoin 2024 conference, Nashville"
 locked: true
