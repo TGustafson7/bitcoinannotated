@@ -11,19 +11,20 @@ const entries = defineCollection({
     foundational: z.boolean().optional(),
     type: z.string(),              // "Catchphrase", "Iconography", "Event", etc.
     date: z.date(),                // origin date
-    blockHeightAtOrigin: z.union([z.number().int(), z.literal("Pre-chain")]).optional(),  // block number, or "Pre-chain" for artifacts predating the genesis block
-    btcPriceAtOrigin: z.string().optional(),  // e.g. "$0.0041"
+    blockHeightAtOrigin: z.union([z.number().int(), z.literal("Pre-chain")]).optional(),
+    btcPriceAtOrigin: z.string().optional(),
     creator: z.string().optional(),
     sourcePlatform: z.string().optional(),
     locked: z.boolean().default(false),
     sources: z.array(z.object({
       url: z.string().url(),
       label: z.string(),
+      primary: z.boolean().optional(),  // marks the source that *is* the artifact (vs. corroborating context). Annotated-edition logic.
     })).optional(),
-    heroImage: z.string().optional(),         // e.g. "/images/entries/genesis-block.jpg"
-    heroImageCaption: z.string().optional(),  // figcaption text
-    heroImageCredit: z.string().optional(),   // attribution line
-    related: z.array(z.string()).optional(),  // catalog IDs of related entries
+    heroImage: z.string().optional(),
+    heroImageCaption: z.string().optional(),
+    heroImageCredit: z.string().optional(),
+    related: z.array(z.string()).optional(),
   }),
 });
 

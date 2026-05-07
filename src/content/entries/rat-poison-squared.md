@@ -13,6 +13,7 @@ btcPriceAtOrigin: "~$9,800"
 sources:
   - url: "https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html"
     label: "CNBC's contemporaneous report"
+    primary: true
   - url: "https://quoteinvestigator.com/2021/02/11/rat-poison/"
     label: "Quote Investigator's full provenance with Liz Claman interview transcript"
   - url: "https://www.coindesk.com/markets/2018/05/07/billionaire-warren-buffett-calls-bitcoin-rat-poison-squared/"

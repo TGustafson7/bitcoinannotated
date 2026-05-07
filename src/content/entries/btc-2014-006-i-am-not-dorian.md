@@ -13,6 +13,7 @@ btcPriceAtOrigin: "~$660"
 sources:
   - url: "https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/4/"
     label: "Satoshi Nakamoto Institute archive of the post"
+    primary: true
   - url: "https://techcrunch.com/2014/03/06/satoshi-dorian/"
     label: "TechCrunch on the post and email-address verification"
   - url: "https://en.wikipedia.org/wiki/Satoshi_Nakamoto"

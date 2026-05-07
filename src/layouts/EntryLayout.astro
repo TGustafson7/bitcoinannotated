@@ -4,13 +4,17 @@ const { entry } = Astro.props;
 const { data } = entry;
 const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(data.date);
 
-// Format block height for display
 const formatBlockHeight = (bh: number | string | undefined) => {
   if (bh === undefined) return null;
   if (bh === 'Pre-chain') return 'PRE-CHAIN';
   return `BLOCK ${bh.toLocaleString('en-US')}`;
 };
 const blockHeightDisplay = formatBlockHeight(data.blockHeightAtOrigin);
+
+// Resolve the primary source — the artifact itself, as opposed to corroborating context.
+// Annotated-edition logic: the catalog frames; the primary source IS the thing being framed.
+// Convention: explicit `primary: true` flag wins. No flag → no primary link is shown.
+const primarySource = data.sources?.find((s) => s.primary);
 ---
 <BaseLayout title={data.title} description={data.deck}>
   <div class="catalog-bar">
@@ -55,6 +59,14 @@ const blockHeightDisplay = formatBlockHeight(data.blockHeightAtOrigin);
       )}
     </figure>
   )}
+  {primarySource && (
+    <div class={`primary-source ${data.heroImage ? 'has-hero' : 'no-hero'}`}>
+      <span class="primary-source-label">View the original artifact</span>
+      <a href={primarySource.url} class="primary-source-link" target="_blank" rel="noopener">
+        → {primarySource.label}
+      </a>
+    </div>
+  )}
   <article class="prose">
     <slot />
   </article>
@@ -74,50 +86,45 @@ const blockHeightDisplay = formatBlockHeight(data.blockHeightAtOrigin);
   </footer>
 </BaseLayout>
 <style>
-  .catalog-bar .bh {
-    color: #d97706;
-    font-weight: 600;
-  }
-  .meta-card .bh-meta {
-    color: #d97706;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    font-size: 12px;
-  }
-  .meta-card .origin-date {
-    color: #6b6358;
-    font-size: 13px;
-    font-style: italic;
-  }
-  .hero-image {
-    margin: 48px auto 56px;
+  .catalog-bar .bh { color: #d97706; font-weight: 600; }
+  .meta-card .bh-meta { color: #d97706; font-weight: 600; letter-spacing: 0.04em; font-size: 12px; }
+  .meta-card .origin-date { color: #6b6358; font-size: 13px; font-style: italic; }
+  .hero-image { margin: 48px auto 56px; max-width: 720px; }
+  .hero-image img { width: 100%; height: auto; max-height: 620px; object-fit: contain; display: block; border: 1px solid #d8cfb8; background: #f0eadd; }
+  .hero-image figcaption { margin-top: 14px; font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.6; color: #6b6358; letter-spacing: 0.02em; display: flex; flex-direction: column; gap: 2px; }
+  .hero-image .caption-text { color: #4a4a4a; }
+  .hero-image .caption-credit { font-style: italic; opacity: 0.7; }
+
+  /* PRIMARY SOURCE — annotated-edition link to the artifact itself */
+  .primary-source {
     max-width: 720px;
-  }
-  .hero-image img {
-    width: 100%;
-    height: auto;
-    max-height: 620px;
-    object-fit: contain;
-    display: block;
-    border: 1px solid #d8cfb8;
-    background: #f0eadd;
-  }
-  .hero-image figcaption {
-    margin-top: 14px;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    line-height: 1.6;
-    color: #6b6358;
-    letter-spacing: 0.02em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
+    padding: 18px 24px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 6px;
+    align-items: center;
+    text-align: center;
   }
-  .hero-image .caption-text {
-    color: #4a4a4a;
+  .primary-source.has-hero { margin-top: -32px; }
+  .primary-source.no-hero { margin-top: 16px; }
+  .primary-source-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
   }
-  .hero-image .caption-credit {
+  .primary-source-link {
+    font-family: 'EB Garamond', Georgia, serif;
     font-style: italic;
-    opacity: 0.7;
+    font-size: 17px;
+    color: var(--orange-deep);
+    text-decoration-color: rgba(217, 119, 6, 0.25);
   }
+  .primary-source-link:hover { text-decoration-color: var(--orange); }
 </style>
