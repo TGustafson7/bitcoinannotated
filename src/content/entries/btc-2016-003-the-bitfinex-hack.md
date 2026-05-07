@@ -3,7 +3,6 @@ catalogId: "BTC.2016.003"
 title: "The Bitfinex Hack"
 deck: "119,756 bitcoin stolen, recovered six years later by a tax investigator."
 era: "The Long Wait"
-foundational: true
 type: "Event"
 date: 2016-08-02
 blockHeightAtOrigin: 423300

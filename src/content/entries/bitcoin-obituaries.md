@@ -2,7 +2,6 @@
 title: "Bitcoin Obituaries"
 deck: "The 477 deaths of bitcoin."
 era: "First Bull"
-foundational: true
 type: "Iconography"
 date: 2010-12-15
 blockHeightAtOrigin: 97582

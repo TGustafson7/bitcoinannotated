@@ -3,7 +3,6 @@ catalogId: "BTC.2024.001"
 title: "The Spot ETF Approval"
 deck: "After eleven years of denials, the SEC blinked."
 era: "Institutional Takeover"
-foundational: true
 type: "Event"
 date: 2024-01-10
 blockHeightAtOrigin: 825100

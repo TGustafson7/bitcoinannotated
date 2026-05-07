@@ -3,7 +3,6 @@ catalogId: "BTC.2014.003"
 title: "Trezor"
 deck: "The first hardware wallet, made by two Czechs in a Prague basement."
 era: "Dark Forest"
-foundational: true
 type: "Event"
 date: 2014-07-29
 blockHeightAtOrigin: 313000

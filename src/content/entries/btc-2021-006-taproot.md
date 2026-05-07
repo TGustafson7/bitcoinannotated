@@ -3,7 +3,6 @@ catalogId: "BTC.2021.006"
 title: "The Taproot Activation"
 deck: "Bitcoin's first major upgrade in four years. It passed without drama."
 era: "Pandemic Era"
-foundational: true
 type: "Event"
 date: 2021-11-14
 blockHeightAtOrigin: 709632

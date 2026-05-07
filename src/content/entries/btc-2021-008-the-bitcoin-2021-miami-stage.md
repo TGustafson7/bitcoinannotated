@@ -3,7 +3,6 @@ catalogId: "BTC.2021.008"
 title: "The Bitcoin 2021 Miami Stage"
 deck: "The most-circulated piece of bitcoin community video in the asset's history."
 era: "Institutional Takeover"
-foundational: true
 type: "Event"
 date: 2021-06-05
 blockHeightAtOrigin: 686330

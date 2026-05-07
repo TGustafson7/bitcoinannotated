@@ -2,7 +2,6 @@
 title: "Money Printer Go Brrr"
 deck: "The Wojak that explained the Pandemic Era."
 era: "Pandemic Era"
-foundational: true
 type: "Iconography"
 date: 2020-03-09
 blockHeightAtOrigin: 620861

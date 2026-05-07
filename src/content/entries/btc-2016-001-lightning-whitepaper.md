@@ -4,6 +4,7 @@ title: "The Lightning Network Whitepaper"
 deck: "The scaling answer the small-blockers had been promising."
 era: "The Long Wait"
 type: "Document"
+foundational: true
 date: 2016-01-14
 blockHeightAtOrigin: 393244
 creator: "Joseph Poon and Thaddeus Dryja"

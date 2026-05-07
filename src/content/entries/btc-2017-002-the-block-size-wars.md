@@ -3,7 +3,6 @@ catalogId: "BTC.2017.002"
 title: "The Block Size Wars"
 deck: "The civil war that decided what bitcoin actually is."
 era: "2017 Run"
-foundational: true
 type: "Event"
 date: 2017-08-01
 blockHeightAtOrigin: 478558

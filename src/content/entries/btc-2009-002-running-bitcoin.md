@@ -3,7 +3,6 @@ catalogId: "BTC.2009.002"
 title: "Running Bitcoin"
 deck: "Two words, posted to Twitter on a Sunday afternoon."
 era: "Genesis"
-foundational: true
 type: "Document"
 date: 2009-01-11
 blockHeightAtOrigin: 78

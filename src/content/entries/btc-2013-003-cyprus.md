@@ -3,7 +3,6 @@ catalogId: "BTC.2013.003"
 title: "Cyprus"
 deck: "The week bitcoin learned what it was for."
 era: "First Bull"
-foundational: true
 type: "Event"
 date: 2013-03-16
 blockHeightAtOrigin: 226100
