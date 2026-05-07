@@ -9,7 +9,7 @@ blockHeightAtOrigin: "Pre-chain"
 creator: "Eric Hughes"
 sourcePlatform: "Cypherpunk Mailing List"
 locked: true
-heroImage: "/images/entries/cypherpunk-manifesto.svg"
+heroImage: "/images/entries/cypherpunk-manifesto.png"
 heroImageCaption: "Cypherpunks write code — the closing thesis of Eric Hughes's manifesto, distributed on the cypherpunk mailing list, March 9, 1993."
 heroImageCredit: "Bitcoin Annotated, Plate VI."
 sources:
