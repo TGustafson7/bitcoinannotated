@@ -6,6 +6,7 @@ era: "2017 Run"
 foundational: true
 type: "Iconography / Event"
 date: 2017-07-12
+blockHeightAtOrigin: 475800
 btcPriceAtOrigin: "$2,300"
 creator: "Christian Langalis"
 sourcePlatform: "House Financial Services Committee"

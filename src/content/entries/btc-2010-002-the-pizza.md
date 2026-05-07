@@ -6,6 +6,7 @@ era: "Genesis"
 foundational: true
 type: "Event / Transaction"
 date: 2010-05-22
+blockHeightAtOrigin: 57043
 btcPriceAtOrigin: "$0.0041"
 creator: "Laszlo Hanyecz"
 sourcePlatform: "BitcoinTalk"

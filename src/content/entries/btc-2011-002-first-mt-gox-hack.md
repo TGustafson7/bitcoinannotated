@@ -6,6 +6,7 @@ era: "First Bull"
 foundational: true
 type: "Event"
 date: 2011-06-19
+blockHeightAtOrigin: 133000
 creator: "Mt. Gox / Mark Karpelès"
 sourcePlatform: "mtgox.com"
 locked: true

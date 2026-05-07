@@ -6,6 +6,7 @@ era: "Frauds"
 foundational: true
 type: "Fraud"
 date: 2022-11-11
+blockHeightAtOrigin: 763500
 creator: "Sam Bankman-Fried / FTX Trading Ltd."
 sourcePlatform: "FTX.com"
 locked: true

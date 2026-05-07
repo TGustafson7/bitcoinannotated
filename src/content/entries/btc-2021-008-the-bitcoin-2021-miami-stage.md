@@ -6,6 +6,7 @@ era: "Institutional Takeover"
 foundational: true
 type: "Event"
 date: 2021-06-05
+blockHeightAtOrigin: 686500
 sourcePlatform: "Bitcoin 2021 Conference, Miami"
 locked: true
 heroImage: "/images/entries/mallers.jpg"

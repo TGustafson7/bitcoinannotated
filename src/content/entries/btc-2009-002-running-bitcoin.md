@@ -6,6 +6,7 @@ era: "Genesis"
 foundational: true
 type: "Tweet"
 date: 2009-01-11
+blockHeightAtOrigin: 78
 creator: "Hal Finney"
 sourcePlatform: "Twitter"
 locked: true

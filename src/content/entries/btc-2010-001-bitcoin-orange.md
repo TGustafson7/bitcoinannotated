@@ -6,6 +6,7 @@ era: "Genesis"
 foundational: true
 type: "Iconography"
 date: 2010-11-01
+blockHeightAtOrigin: 88000
 creator: "BitcoinTalk user \"bitboy\""
 sourcePlatform: "BitcoinTalk"
 locked: true

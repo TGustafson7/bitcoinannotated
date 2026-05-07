@@ -6,6 +6,7 @@ era: "Dark Forest"
 foundational: true
 type: "Fraud"
 date: 2014-02-24
+blockHeightAtOrigin: 286000
 creator: "Mark Karpelès / Mt. Gox"
 sourcePlatform: "mtgox.com"
 locked: true

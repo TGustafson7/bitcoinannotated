@@ -6,6 +6,7 @@ era: "First Bull"
 foundational: true
 type: "Event"
 date: 2013-03-16
+blockHeightAtOrigin: 227000
 creator: "The Eurogroup / the Republic of Cyprus"
 sourcePlatform: "European banking system"
 locked: true

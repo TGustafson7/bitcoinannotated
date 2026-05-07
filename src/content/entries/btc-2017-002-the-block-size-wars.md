@@ -6,6 +6,7 @@ era: "2017 Run"
 foundational: true
 type: "Protocol Dispute"
 date: 2017-08-01
+blockHeightAtOrigin: 478558
 sourcePlatform: "Bitcoin protocol, BitcoinTalk, GitHub, r/bitcoin"
 locked: true
 heroImage: "/images/entries/block-size-wars.jpg"

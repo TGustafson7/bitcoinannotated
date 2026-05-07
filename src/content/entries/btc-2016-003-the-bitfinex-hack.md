@@ -6,6 +6,7 @@ era: "The Long Wait"
 foundational: true
 type: "Event"
 date: 2016-08-02
+blockHeightAtOrigin: 424200
 creator: "Bitfinex (the exchange) / Ilya Lichtenstein and Heather Morgan (the hackers)"
 sourcePlatform: "Bitfinex.com"
 locked: true

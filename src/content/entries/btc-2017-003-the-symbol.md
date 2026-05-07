@@ -6,6 +6,7 @@ era: "2017 Run"
 foundational: true
 type: "Iconography"
 date: 2017-06-20
+blockHeightAtOrigin: 472500
 creator: "The Unicode Consortium"
 sourcePlatform: "Unicode 10.0"
 locked: true

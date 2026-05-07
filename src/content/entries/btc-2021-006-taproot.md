@@ -6,6 +6,7 @@ era: "Pandemic Era"
 foundational: true
 type: "Protocol Upgrade"
 date: 2021-11-14
+blockHeightAtOrigin: 709632
 creator: "Pieter Wuille, Tim Ruffing, A.J. Townes, Jonas Nick (BIP authors); Greg Maxwell (proposal)"
 sourcePlatform: "Bitcoin Core / soft fork"
 locked: true
