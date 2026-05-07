@@ -4,7 +4,7 @@ title: "The Terra/LUNA Collapse"
 deck: "Forty billion dollars, evaporated over five days."
 era: "Frauds"
 foundational: true
-type: "Fraud"
+type: "Event"
 date: 2022-05-09
 blockHeightAtOrigin: 735575
 creator: "Do Kwon / Terraform Labs"

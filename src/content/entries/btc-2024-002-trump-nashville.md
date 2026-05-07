@@ -4,7 +4,7 @@ title: "Trump at Bitcoin Nashville"
 deck: "The first sitting major-party presidential nominee to address a bitcoin conference."
 era: "Now"
 foundational: true
-type: "Political Event"
+type: "Event"
 date: 2024-07-27
 blockHeightAtOrigin: 854145
 creator: "Donald J. Trump (campaign address)"

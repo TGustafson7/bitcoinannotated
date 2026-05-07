@@ -4,7 +4,7 @@ title: "Running Bitcoin"
 deck: "Two words, posted to Twitter on a Sunday afternoon."
 era: "Genesis"
 foundational: true
-type: "Tweet"
+type: "Document"
 date: 2009-01-11
 blockHeightAtOrigin: 78
 creator: "Hal Finney"

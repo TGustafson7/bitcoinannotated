@@ -4,7 +4,7 @@ title: "The Genesis Block"
 deck: "The first block in bitcoin's chain carried a headline from a London newspaper. Fifteen years on, that headline is the closest thing bitcoin has to scripture."
 era: "Genesis"
 foundational: true
-type: "Quote / Embedded artifact"
+type: "Event"
 date: 2009-01-03
 blockHeightAtOrigin: 0
 btcPriceAtOrigin: "—"

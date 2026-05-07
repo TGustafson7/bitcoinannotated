@@ -3,7 +3,7 @@ catalogId: "BTC.2023.001"
 title: "Ordinals"
 deck: "JPEGs on bitcoin. The community is still arguing about whether to allow it."
 era: "Now"
-type: "Protocol Innovation"
+type: "Event"
 date: 2023-01-21
 blockHeightAtOrigin: 772887
 creator: "Casey Rodarmor"

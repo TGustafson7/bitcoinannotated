@@ -4,7 +4,7 @@ title: "The Pizza"
 deck: "Bitcoin's first commercial transaction, now an annual holiday and a permanent monument to early bitcoin's casualness about value."
 era: "Genesis"
 foundational: true
-type: "Event / Transaction"
+type: "Event"
 date: 2010-05-22
 blockHeightAtOrigin: 57043
 btcPriceAtOrigin: "$0.0041"

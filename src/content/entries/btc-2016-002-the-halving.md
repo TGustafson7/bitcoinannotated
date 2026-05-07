@@ -3,7 +3,7 @@ catalogId: "BTC.2016.002"
 title: "The Halving as Holiday"
 deck: "Every four years, the supply schedule does its quiet thing."
 era: "The Long Wait"
-type: "Protocol Event"
+type: "Event"
 date: 2016-07-09
 blockHeightAtOrigin: 420000
 sourcePlatform: "Bitcoin protocol"

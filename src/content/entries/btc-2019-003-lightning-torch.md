@@ -4,7 +4,7 @@ title: "The Lightning Torch"
 deck: "A payment that traveled the world to prove the network worked."
 era: "The Long Wait"
 foundational: true
-type: "Event / Performance"
+type: "Event"
 date: 2019-01-19
 blockHeightAtOrigin: 559130
 creator: "Hodlonaut (Magnus Granath)"

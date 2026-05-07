@@ -3,7 +3,7 @@ catalogId: "BTC.2020.001"
 title: "MicroStrategy's First Buy"
 deck: "The first publicly traded American company to put bitcoin on its balance sheet."
 era: "Pandemic Era"
-type: "Corporate Action"
+type: "Event"
 date: 2020-08-11
 blockHeightAtOrigin: 643158
 creator: "Michael Saylor / MicroStrategy Incorporated"

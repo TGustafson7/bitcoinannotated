@@ -4,7 +4,7 @@ title: "The Spot ETF Approval"
 deck: "After eleven years of denials, the SEC blinked."
 era: "Institutional Takeover"
 foundational: true
-type: "Regulatory Action"
+type: "Event"
 date: 2024-01-10
 blockHeightAtOrigin: 825100
 creator: "United States Securities and Exchange Commission"

@@ -4,7 +4,7 @@ title: "The Bitcoin Standard"
 deck: "The book that gave the maxis their argument."
 era: "The Long Wait"
 foundational: true
-type: "Book"
+type: "Document"
 date: 2018-04-24
 blockHeightAtOrigin: 519690
 creator: "Saifedean Ammous"

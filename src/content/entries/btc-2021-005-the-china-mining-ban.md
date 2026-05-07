@@ -4,7 +4,7 @@ title: "The China Mining Ban"
 deck: "Half the world's hashrate, exiled in six weeks."
 era: "Institutional Takeover"
 foundational: true
-type: "Sovereign Action"
+type: "Event"
 date: 2021-05-21
 blockHeightAtOrigin: 684400
 creator: "State Council of the People's Republic of China"

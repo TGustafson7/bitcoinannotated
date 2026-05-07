@@ -4,7 +4,7 @@ title: "The $69,000 Top"
 deck: "The cycle peak. The laser eyes' literal target. The number became a meme."
 era: "Institutional Takeover"
 foundational: true
-type: "Market Event"
+type: "Event"
 date: 2021-11-10
 blockHeightAtOrigin: 709030
 sourcePlatform: "Bitcoin spot markets"

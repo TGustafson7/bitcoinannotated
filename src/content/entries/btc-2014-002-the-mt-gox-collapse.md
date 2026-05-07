@@ -4,7 +4,7 @@ title: "The Mt. Gox Collapse"
 deck: "850,000 bitcoin, gone."
 era: "Dark Forest"
 foundational: true
-type: "Fraud"
+type: "Event"
 date: 2014-02-24
 blockHeightAtOrigin: 287515
 creator: "Mark Karpelès / Mt. Gox"

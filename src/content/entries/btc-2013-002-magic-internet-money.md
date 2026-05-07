@@ -3,7 +3,7 @@ catalogId: "BTC.2013.002"
 title: "Magic Internet Money"
 deck: "An MS Paint wizard, an offhand caption, and a Reddit ad that arguably helped push bitcoin past a thousand dollars for the first time."
 era: "First Bull"
-type: "Iconography / Image"
+type: "Iconography"
 date: 2013-02-18
 blockHeightAtOrigin: 221796
 btcPriceAtOrigin: "$26"

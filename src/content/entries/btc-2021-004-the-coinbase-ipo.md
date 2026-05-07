@@ -3,7 +3,7 @@ catalogId: "BTC.2021.004"
 title: "The Coinbase IPO"
 deck: "The first major bitcoin company to go public, valued at $86 billion on day one."
 era: "Institutional Takeover"
-type: "Corporate Action"
+type: "Event"
 date: 2021-04-14
 blockHeightAtOrigin: 679136
 creator: "Coinbase Global, Inc. / Brian Armstrong"

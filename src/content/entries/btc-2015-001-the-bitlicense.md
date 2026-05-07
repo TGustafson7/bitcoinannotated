@@ -3,7 +3,7 @@ catalogId: "BTC.2015.001"
 title: "The BitLicense"
 deck: "The first time a government tried to draw a regulatory perimeter around bitcoin."
 era: "The Long Wait"
-type: "Regulation"
+type: "Event"
 date: 2015-06-24
 blockHeightAtOrigin: 362279
 creator: "New York State Department of Financial Services"

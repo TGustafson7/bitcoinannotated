@@ -3,7 +3,7 @@ catalogId: "BTC.2019.005"
 title: "Bitcoin Beach"
 deck: "The grassroots experiment that rehearsed legal tender."
 era: "The Long Wait"
-type: "Circular Economy"
+type: "Event"
 date: 2019-04-01
 blockHeightAtOrigin: 569683
 creator: "Mike Peterson, Roman Martínez, anonymous donor"

@@ -4,7 +4,7 @@ title: "Free Ross"
 deck: "A decade-long campaign. Concluded January 21, 2025."
 era: "Now"
 foundational: true
-type: "Movement / Pardon"
+type: "Event"
 date: 2025-01-21
 blockHeightAtOrigin: 880175
 creator: "Lyn Ulbricht, Free Ross campaign, Libertarian Party, bitcoin community"

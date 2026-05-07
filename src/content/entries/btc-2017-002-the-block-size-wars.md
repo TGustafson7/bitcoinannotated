@@ -4,7 +4,7 @@ title: "The Block Size Wars"
 deck: "The civil war that decided what bitcoin actually is."
 era: "2017 Run"
 foundational: true
-type: "Protocol Dispute"
+type: "Event"
 date: 2017-08-01
 blockHeightAtOrigin: 478558
 sourcePlatform: "Bitcoin protocol, BitcoinTalk, GitHub, r/bitcoin"

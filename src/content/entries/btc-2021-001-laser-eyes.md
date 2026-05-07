@@ -4,7 +4,7 @@ title: "Laser Eyes"
 deck: "A profile-picture campaign that lasted nearly four years, drew in members of Congress and a head of state, and ended — almost on schedule — when bitcoin crossed a hundred thousand dollars."
 era: "Institutional Takeover"
 foundational: true
-type: "Iconography / Movement"
+type: "Iconography"
 date: 2021-02-16
 blockHeightAtOrigin: 670820
 btcPriceAtOrigin: "$50,000"

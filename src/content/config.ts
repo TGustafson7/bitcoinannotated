@@ -9,7 +9,7 @@ const entries = defineCollection({
     deck: z.string(),              // italic subhead, ~1 sentence
     era: z.enum(['Pre-Genesis', 'Genesis', 'First Bull', 'Dark Forest', '2017 Run', 'The Long Wait', 'Pandemic Era', 'Frauds', 'Institutional Takeover', 'Now']),
     foundational: z.boolean().optional(),
-    type: z.string(),              // "Catchphrase", "Iconography", "Event", etc.
+    type: z.enum(["Phrase", "Event", "Iconography", "Document"]),
     date: z.date(),                // origin date
     blockHeightAtOrigin: z.union([z.number().int(), z.literal("Pre-chain")]).optional(),
     btcPriceAtOrigin: z.string().optional(),
