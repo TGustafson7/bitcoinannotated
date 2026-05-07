@@ -15,6 +15,9 @@ heroImage: "/images/entries/buy-bitcoin-sign.jpg"
 heroImageCaption: "Christian Langalis behind Federal Reserve Chair Janet Yellen during House Financial Services Committee testimony, July 12, 2017."
 heroImageCredit: "C-SPAN broadcast still."
 sources:
+  - url: "https://www.cnbc.com/2017/07/12/someone-held-up-a-buy-bitcoin-sign-during-yellens-testimony-to-congress.html"
+    label: "CNBC — Someone held up a 'buy bitcoin' sign during Yellen's testimony to Congress (July 12, 2017)"
+    primary: true
   - url: "https://www.coindesk.com/business/2024/04/11/bitcoin-sign-guy-is-auctioning-his-bitcoin-sign"
     label: "CoinDesk: Bitcoin Sign Guy Is Auctioning His Bitcoin Sign"
   - url: "https://www.theblock.co/post/290803/buy-bitcoin-sign-sold"

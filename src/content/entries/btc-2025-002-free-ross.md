@@ -14,6 +14,9 @@ heroImage: "/images/entries/free-ross.jpg"
 heroImageCaption: "*Free Ross* signage at the Libertarian National Convention, May 25, 2024."
 heroImageCredit: "Jim Watson / AFP via Getty Images"
 sources:
+  - url: "https://www.justice.gov/pardon/media/1386096/dl?inline="
+    label: "DOJ Office of the Pardon Attorney — Executive Grant of Clemency for Ross William Ulbricht (January 21, 2025)"
+    primary: true
   - url: "https://www.npr.org/2025/01/21/nx-s1-5270051/trump-pardons-dark-web-marketplace-creator-ross-ulbricht"
     label: "NPR — Trump pardons Ross Ulbricht, creator of the Silk Road dark web marketplace"
   - url: "https://www.theblock.co/post/336332/ross-ulbricht-free"

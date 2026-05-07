@@ -13,6 +13,9 @@ heroImage: "/images/entries/stay-humble.svg"
 heroImageCaption: "Stay humble, stack sats — earliest known appearance ~June 2019, popularized by Matt Odell."
 heroImageCredit: "Bitcoin Annotated, Plate I."
 sources:
+  - url: "https://twitter.com/ODELL/status/1166779264932470784"
+    label: "Matt Odell — 'Stay humble. Stack sats.' (August 28, 2019)"
+    primary: true
   - url: "https://twitter.com/ODELL"
     label: "Matt Odell — Twitter / X"
   - url: "https://www.citadeldispatch.com/"

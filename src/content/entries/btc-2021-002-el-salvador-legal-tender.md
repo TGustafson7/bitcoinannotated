@@ -13,6 +13,9 @@ heroImage: "/images/entries/el-salvador.jpg"
 heroImageCaption: "Nayib Bukele's Bitcoin 2021 announcement, Miami, June 5, 2021."
 heroImageCredit: "Bitcoin 2021 Conference / contemporary coverage"
 sources:
+  - url: "https://www.asamblea.gob.sv/node/11282"
+    label: "Asamblea Legislativa de El Salvador — Ley Bitcoin (Decreto Legislativo 57, June 8, 2021)"
+    primary: true
   - url: "https://www.reuters.com/world/americas/el-salvador-approves-first-law-bitcoin-legal-tender-2021-06-09/"
     label: "Reuters — El Salvador approves first law for bitcoin as legal tender"
   - url: "https://www.bbc.com/news/world-latin-america-57398274"

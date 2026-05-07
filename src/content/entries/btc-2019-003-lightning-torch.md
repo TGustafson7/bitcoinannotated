@@ -16,6 +16,7 @@ heroImageCredit: "@hodlonaut on Twitter"
 sources:
   - url: "https://www.coindesk.com/markets/2019/02/05/bitcoins-lightning-torch-explained-what-it-is-and-why-it-matters"
     label: "CoinDesk — Bitcoin's Lightning Torch Explained"
+    primary: true
   - url: "https://bitcoinmagazine.com/technical/lightning-torchs-bitcoin-payment-is-running-a-worldwide-marathon"
     label: "Bitcoin Magazine — Lightning Torch's Bitcoin Payment Is Running a Worldwide Marathon"
 related:
