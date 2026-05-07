@@ -6,7 +6,7 @@ era: "Dark Forest"
 foundational: true
 type: "Hardware"
 date: 2014-07-29
-blockHeightAtOrigin: 311500
+blockHeightAtOrigin: 313000
 creator: "Pavol \"Stick\" Rusnák and Marek \"Slush\" Palatinus"
 sourcePlatform: "SatoshiLabs"
 locked: true
