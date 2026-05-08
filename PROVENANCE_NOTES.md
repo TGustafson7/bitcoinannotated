@@ -218,3 +218,18 @@ The following categories are assumed clean unless something specific surfaces:
 **the-seed-phrase.svg** — ✓ Clean. Catalog's own work (Plate XVIII). Twelve words rendered are the first twelve of the BIP-39 wordlist (open standard, MIT-licensed reference implementation).
 
 **tick-tock-next-block** — Hero swapped from a mempool.space screenshot (PNG) to catalog's own SVG (Plate XIX). The change removes a third-party-image dependency and brings the entry into compliance with the Phrase-entries-get-plates rule. The previous PNG file has been deleted from the repo.
+
+
+## May 8, 2026 — six new entries (catalog at 79)
+
+**wikileaks-accepts-bitcoin.png** — ⚠️ Screenshot of WikiLeaks's June 14, 2011 announcement tweet from X (formerly Twitter). Twitter/X owns the UI; WikiLeaks owns the post content. Standard fair use applies for editorial documentation of a historic event. The original tweet remains live and publicly accessible.
+
+**segwit-activation.svg** — ✓ Clean. Catalog's own work (Plate XXI). Block height 481,824 and BIP-141 are public-domain protocol facts.
+
+**the-cypherpunk-mailing-list.jpg** — ⚠️ Wired magazine cover, May/June 1993. Condé Nast (Wired's parent) owns the cover image. Steven Levy authored the cover story "Crypto Rebels"; the photographer credit appears in the original issue. Standard fair use applies for editorial use covering a historic publication. The cover itself is one of the most reproduced images in the history of digital privacy advocacy and is widely understood to be a fair-use cultural artifact.
+
+**the-case-for-a-small-allocation-to-bitcoin.png** — ✓ Clean. Wences Casares self-published the essay in March 2019. The screenshot is of the kanaandkatana.com mirror but the original content is public and uncopyrighted by any third party. No rights concern.
+
+**its-going-up-forever-laura.svg** — ✓ Clean. Catalog's own work (Plate XX). Phrase attributed to Michael Saylor in the artifact metadata.
+
+**vires-in-numeris.svg** — ✓ Clean. Catalog's own work (Plate XXII). The Latin phrase is public domain; its association with bitcoin via Casascius coins is attributed in the entry body and in the plate's attribution line.
