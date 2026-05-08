@@ -4,108 +4,160 @@ import { getCollection } from 'astro:content';
 
 const entries = await getCollection('entries');
 
-// Sort by date ascending (oldest first — newspaper-of-record feel)
+// Sort by date ascending
 const sorted = entries.sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
 
-// Group by year
-type EntryGroup = { year: number; entries: typeof sorted };
-const grouped: EntryGroup[] = [];
-for (const entry of sorted) {
-  const year = entry.data.date.getUTCFullYear();
-  const existing = grouped.find(g => g.year === year);
-  if (existing) {
-    existing.entries.push(entry);
-  } else {
-    grouped.push({ year, entries: [entry] });
-  }
-}
-
-const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
-  month: 'short',
-  day: 'numeric',
-  timeZone: 'UTC'
-}).format(date);
-
-const eras = [
-  ['Pre-Genesis', 'The cypherpunk decades that prefigured bitcoin — the writings, protocols, and ideologies it descended from.'],
-  ['Genesis', 'The whitepaper, the genesis block, the first months. The system existed; almost no one knew.'],
-  ['First Bull', 'Bitcoin acquires a price, a community, and its first mythology. The pizza, the Silk Road, the Cyprus moment.'],
-  ['Dark Forest', 'The reckoning years. Mt. Gox, exit scams, hostile regulators. Bitcoin reveals it has predators, and the survivors learn to verify.'],
-  ['2017 Run', 'The first cycle that escaped containment. Mainstream attention, the block size wars, the symbol settles.'],
-  ['The Long Wait', 'The patient years between the cycles. Quiet building, slow accumulation, philosophy maturing.'],
-  ['Pandemic Era', 'Bitcoin meets unprecedented monetary expansion. Stack sats, have fun staying poor, memes harden into thesis.'],
-  ['Frauds', 'The year the centralized intermediaries collapsed. Terra/Luna, Celsius, FTX. A reckoning not unlike Mt. Gox eight years earlier.'],
-  ['Institutional Takeover', 'Wall Street, sovereign treasuries, and the ETFs arrive. Bitcoin acquires institutional credibility on its own terms.'],
-  ['Now', 'The present cycle. What we are watching unfold.'],
+// Halvings: block height + label + date
+const halvings = [
+  { height: 210000, label: 'First halving',  date: 'Nov 2012' },
+  { height: 420000, label: 'Second halving', date: 'Jul 2016' },
+  { height: 630000, label: 'Third halving',  date: 'May 2020' },
+  { height: 840000, label: 'Fourth halving', date: 'Apr 2024' },
 ];
+
+// Use the latest entry's block height as the right edge of the chart, rounded up
+const onChain = sorted.filter(e => typeof e.data.blockHeightAtOrigin === 'number');
+const maxBlockInCatalog = onChain.length > 0
+  ? Math.max(...onChain.map(e => e.data.blockHeightAtOrigin as number))
+  : 900000;
+const chartMax = Math.ceil(maxBlockInCatalog / 50000) * 50000;
+const chartMin = 0;
+
+// Helper: percent position along the on-chain axis
+const pct = (h: number) => ((h - chartMin) / (chartMax - chartMin)) * 100;
+
+// Pre-chain entries get their own zone on the left
+const preChain = sorted.filter(e => e.data.blockHeightAtOrigin === 'Pre-chain');
+const onChainSorted = onChain.sort(
+  (a, b) => (a.data.blockHeightAtOrigin as number) - (b.data.blockHeightAtOrigin as number)
+);
+
+// Era counts for the stat row
+const typeAndEraStats = {
+  preChain: preChain.length,
+  pre2017: onChain.filter(e => (e.data.blockHeightAtOrigin as number) < 446000).length, // ~end of 2016
+  era1719: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h >= 446000 && h < 615000; // ~end of 2019
+  }).length,
+  pandemicFrauds: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h >= 615000 && h < 770000; // ~end of 2022
+  }).length,
+  institutionalNow: onChain.filter(e => (e.data.blockHeightAtOrigin as number) >= 770000).length,
+};
+
+const totalCount = entries.length;
 ---
-<BaseLayout title="Timeline" description="Bitcoin's cultural artifacts, in chronological order.">
-  <article class="timeline-page">
-    <header class="timeline-header">
-      <div class="timeline-eyebrow">Timeline</div>
-      <h1>Bitcoin's <em>cultural record</em>, in order.</h1>
-      <p class="timeline-deck">Every catalogued artifact, oldest to newest.</p>
+<BaseLayout title="Timechain" description="Bitcoin's cultural artifacts plotted against the protocol's own clock.">
+  <article class="timechain-page">
+    <header class="timechain-header">
+      <div class="timechain-eyebrow">Timechain</div>
+      <h1>{totalCount} artifacts plotted <em>against the chain</em>.</h1>
+      <p class="timechain-deck">Block height as the spine. Halvings as the only protocol-level milestones. The shape is the argument.</p>
     </header>
 
-    <details class="era-key">
-      <summary>
-        <span class="era-key-label">How eras are defined</span>
-        <span class="era-key-meta">10 cultural eras</span>
-      </summary>
-      <div class="era-key-body">
-        <p class="era-key-lede">
-          Eras are not strict date ranges — they are registers. Two entries from the same year can sit in different eras if they belong to different cultural moments.
-        </p>
-        <dl class="era-list">
-          {eras.map(([name, def]) => (
-            <>
-              <dt>{name}</dt>
-              <dd>{def}</dd>
-            </>
-          ))}
-        </dl>
-        <p class="era-key-foot">
-          <a href="/methodology/">Read the full methodology →</a>
-        </p>
+    <section class="chart">
+      <div class="chart-axis-top">
+        <span class="axis-label-left">Block 0</span>
+        <span class="axis-label-right">Current tip · ~{Math.round(chartMax / 1000)}k</span>
       </div>
-    </details>
 
-    <div class="timeline-body">
-      {grouped.map(group => (
-        <section class="year-block">
-          <div class="year-marker">
-            <span class="year">{group.year}</span>
-            <span class="year-rule"></span>
-          </div>
-          <ul class="year-entries">
-            {group.entries.map(entry => (
-              <li class="timeline-entry">
-                <a href={`/entries/${entry.slug}/`}>
-                  <span class="entry-date">{formatDate(entry.data.date)}</span>
-                  <span class="entry-title">{entry.data.title}</span>
-                  <span class="entry-era">{entry.data.era}</span>
-                </a>
-              </li>
+      <div class="chart-row">
+        <div class="prechain-zone">
+          <div class="prechain-label">Pre-chain</div>
+          <div class="prechain-ticks">
+            {preChain.map(entry => (
+              
+                href={`/entries/${entry.slug}/`}
+                class="tick tick-prechain"
+                data-title={entry.data.title}
+                data-meta={`Pre-chain · ${entry.data.date.getUTCFullYear()}`}
+              ></a>
             ))}
-          </ul>
-        </section>
-      ))}
-    </div>
+          </div>
+        </div>
+
+        <div class="onchain-zone">
+          {halvings.map(h => (
+            <div class="halving" style={`left: ${pct(h.height)}%;`}>
+              <div class="halving-rule"></div>
+            </div>
+          ))}
+
+          {onChainSorted.map(entry => {
+            const h = entry.data.blockHeightAtOrigin as number;
+            return (
+              
+                href={`/entries/${entry.slug}/`}
+                class="tick tick-onchain"
+                style={`left: ${pct(h)}%;`}
+                data-title={entry.data.title}
+                data-meta={`block ${h.toLocaleString()} · ${entry.data.era}`}
+              ></a>
+            );
+          })}
+        </div>
+      </div>
+
+      <div class="chart-axis-bottom">
+        {halvings.map(h => (
+          <div class="halving-axis-label" style={`left: ${pct(h.height)}%;`}>
+            <div class="halving-height">{Math.round(h.height / 1000)}k</div>
+            <div class="halving-name">{h.label}</div>
+            <div class="halving-date">{h.date}</div>
+          </div>
+        ))}
+      </div>
+
+      <div id="tick-tooltip" class="tooltip" aria-hidden="true">
+        <div class="tooltip-title"></div>
+        <div class="tooltip-meta"></div>
+      </div>
+    </section>
+
+    <section class="shape-shows">
+      <div class="shape-shows-eyebrow">What the shape shows</div>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">{typeAndEraStats.preChain}</div>
+          <div class="stat-label">Pre-chain</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">{typeAndEraStats.pre2017}</div>
+          <div class="stat-label">Pre-2017</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">{typeAndEraStats.era1719}</div>
+          <div class="stat-label">2017–2019</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">{typeAndEraStats.pandemicFrauds}</div>
+          <div class="stat-label">Pandemic+Frauds</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">{typeAndEraStats.institutionalNow}</div>
+          <div class="stat-label">Institutional+Now</div>
+        </div>
+      </div>
+      <p class="shape-caption">The catalog accelerates with each cycle. The cypherpunk decades produced a handful of artifacts. The pandemic alone produced more than the previous twenty-five years combined. Bitcoin's cultural production is denser now than at any point in its history — and the chain itself marks the inflection points.</p>
+    </section>
+
+    <p class="footer-hint">Hover any tick for the entry. Click to read.</p>
   </article>
 </BaseLayout>
 
 <style>
-  .timeline-page {
-    max-width: 880px;
+  .timechain-page {
+    max-width: 1080px;
     margin: 64px auto 96px;
     padding: 0 24px;
   }
-  .timeline-header {
-    margin-bottom: 32px;
-    padding-bottom: 32px;
-    border-bottom: 1px solid #d8cfb8;
+
+  .timechain-header {
+    margin-bottom: 64px;
   }
-  .timeline-eyebrow {
+  .timechain-eyebrow {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
     letter-spacing: 0.18em;
@@ -113,213 +165,304 @@ const eras = [
     color: #6b6358;
     margin-bottom: 18px;
   }
-  .timeline-page h1 {
+  .timechain-page h1 {
     font-family: 'EB Garamond', serif;
-    font-size: clamp(40px, 5vw, 60px);
+    font-size: clamp(36px, 4.5vw, 56px);
     line-height: 1.05;
     letter-spacing: -0.015em;
     font-weight: 500;
     margin: 0 0 18px;
     color: #1a1a1a;
   }
-  .timeline-page h1 em {
+  .timechain-page h1 em {
     font-style: italic;
     color: #d97706;
     font-weight: 400;
   }
-  .timeline-deck {
+  .timechain-deck {
     font-family: 'EB Garamond', serif;
     font-style: italic;
     font-size: 20px;
     line-height: 1.4;
     color: #4a4a4a;
     margin: 0;
+    max-width: 640px;
   }
 
-  /* ERA KEY DISCLOSURE */
-  .era-key {
-    margin-bottom: 56px;
-    background: #f5efe0;
-    border: 1px solid #e3dabe;
-    border-radius: 4px;
+  .chart {
+    position: relative;
+    margin-bottom: 80px;
   }
-  .era-key summary {
-    list-style: none;
-    cursor: pointer;
-    padding: 14px 20px;
+
+  .chart-axis-top {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    color: #6b6358;
+    margin-bottom: 12px;
+    padding: 0 4px;
+  }
+  .chart-axis-top .axis-label-left {
+    margin-left: 14%;
+  }
+
+  .chart-row {
+    display: grid;
+    grid-template-columns: 12% 88%;
+    gap: 0;
+    height: 80px;
+    border-bottom: 1px solid #444441;
+    position: relative;
+  }
+
+  .prechain-zone {
+    background: #efe7d2;
+    border-right: 1px dashed #b8a878;
+    position: relative;
+    padding: 8px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .prechain-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #6b6358;
-    transition: color 0.12s;
+    text-align: center;
   }
-  .era-key summary::-webkit-details-marker {
-    display: none;
-  }
-  .era-key summary:hover {
-    color: #1a1a1a;
-  }
-  .era-key-label {
-    font-weight: 500;
-  }
-  .era-key[open] .era-key-label::before {
-    content: '▴ ';
-  }
-  .era-key:not([open]) .era-key-label::before {
-    content: '▾ ';
-  }
-  .era-key[open] .era-key-label {
-    color: #1a1a1a;
-  }
-  /* Strip the duplicate triangle prefixes from the JSX since CSS handles them */
-  .era-key-label {
-    font-size: 11px;
-  }
-  .era-key-meta {
-    color: #9a8e72;
-    font-weight: 400;
-  }
-  .era-key-body {
-    padding: 4px 24px 24px;
-    border-top: 1px solid #e3dabe;
-  }
-  .era-key-lede {
-    font-family: 'EB Garamond', serif;
-    font-style: italic;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #4a4a4a;
-    margin: 18px 0 22px;
-  }
-  .era-list {
-    margin: 0;
-    padding: 0;
-  }
-  .era-list dt {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #d97706;
-    font-weight: 600;
-    margin: 18px 0 4px;
-  }
-  .era-list dt:first-child {
-    margin-top: 0;
-  }
-  .era-list dd {
-    margin: 0;
-    font-family: 'EB Garamond', serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #2a2a2a;
-  }
-  .era-key-foot {
-    margin: 24px 0 0;
-    padding-top: 16px;
-    border-top: 1px solid #e3dabe;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11px;
-    letter-spacing: 0.08em;
-  }
-  .era-key-foot a {
-    color: #d97706;
-    text-decoration: none;
-  }
-  .era-key-foot a:hover {
-    text-decoration: underline;
+  .prechain-ticks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    padding: 0 4px;
   }
 
-  .year-block {
-    margin-bottom: 64px;
+  .onchain-zone {
+    position: relative;
+    background: linear-gradient(to right, #f5efe0 0%, #f8f4ed 100%);
   }
-  .year-marker {
-    display: flex;
-    align-items: center;
-    gap: 24px;
+
+  .halving {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    transform: translateX(-0.5px);
+  }
+  .halving-rule {
+    height: 100%;
+    border-left: 1px dashed #d97706;
+    opacity: 0.5;
+  }
+
+  .tick {
+    position: absolute;
+    top: 18px;
+    bottom: 18px;
+    width: 2px;
+    transform: translateX(-1px);
+    background: #d97706;
+    cursor: pointer;
+    transition: opacity 0.12s, background 0.12s, transform 0.12s;
+    text-decoration: none;
+  }
+  .tick:hover {
+    background: #1a1a1a;
+    opacity: 1;
+    z-index: 10;
+    transform: translateX(-1px) scaleY(1.15);
+  }
+  .tick-onchain {
+    opacity: 0.7;
+  }
+  .tick-prechain {
+    position: relative;
+    top: auto; bottom: auto; left: auto;
+    width: 2px;
+    height: 36px;
+    transform: none;
+    background: #6b6358;
+    flex: 0 0 2px;
+  }
+  .tick-prechain:hover {
+    background: #1a1a1a;
+    transform: scaleY(1.15);
+  }
+
+  .chart-axis-bottom {
+    position: relative;
+    height: 64px;
+    margin-top: 4px;
+  }
+  .halving-axis-label {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    /* offset for the prechain zone width */
+    margin-left: calc(12% / 1);
+  }
+  /* Recompute: the left % is along the onchain zone, which starts at 12%.
+     So actual-left = 12% + (label-left * 88%). Easier: wrap halvings
+     inside .onchain-zone visually. Done below by absolute-positioning
+     bottom labels matched to the rules above. */
+  .chart-axis-bottom {
+    margin-left: 12%;
+    width: 88%;
+  }
+  .halving-axis-label {
+    margin-left: 0;
+  }
+  .halving-height {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #d97706;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .halving-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #d97706;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .halving-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #6b6358;
+  }
+
+  .tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: #1a1a1a;
+    color: #f8f4ed;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.1s;
+    max-width: 240px;
+    transform: translate(-50%, -100%);
+    margin-top: -12px;
+  }
+  .tooltip.visible {
+    opacity: 1;
+  }
+  .tooltip-title {
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .tooltip-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #b8b0a4;
+    letter-spacing: 0.04em;
+  }
+
+  .shape-shows {
+    border-top: 1px solid #d8cfb8;
+    padding-top: 32px;
+    margin-bottom: 32px;
+  }
+  .shape-shows-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #6b6358;
     margin-bottom: 24px;
   }
-  .year {
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .stat-num {
     font-family: 'EB Garamond', serif;
     font-size: 48px;
     font-weight: 500;
-    letter-spacing: -0.02em;
-    color: #d97706;
     line-height: 1;
-  }
-  .year-rule {
-    flex: 1;
-    height: 1px;
-    background: #d8cfb8;
-  }
-  .year-entries {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .timeline-entry {
-    border-bottom: 1px solid #ebe3d2;
-  }
-  .timeline-entry:last-child {
-    border-bottom: none;
-  }
-  .timeline-entry a {
-    display: grid;
-    grid-template-columns: 100px 1fr auto;
-    gap: 40px;
-    align-items: baseline;
-    padding: 20px 0;
-    text-decoration: none;
-    color: inherit;
-    transition: background 0.12s ease;
-  }
-  .timeline-entry a:hover {
-    background: rgba(217, 119, 6, 0.04);
-  }
-  .entry-date {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12px;
-    letter-spacing: 0.04em;
-    color: #6b6358;
-    text-transform: uppercase;
-  }
-  .entry-title {
-    font-family: 'EB Garamond', serif;
-    font-size: 24px;
-    font-weight: 500;
-    letter-spacing: -0.01em;
-    color: #1a1a1a;
-    line-height: 1.2;
-  }
-  .timeline-entry a:hover .entry-title {
     color: #d97706;
+    margin-bottom: 10px;
   }
-  .entry-era {
+  .stat-label {
     font-family: 'JetBrains Mono', monospace;
     font-size: 10px;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: #6b6358;
-    white-space: nowrap;
   }
+  .shape-caption {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #4a4a4a;
+    margin: 0;
+    max-width: 760px;
+  }
+
+  .footer-hint {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9a8e72;
+    text-align: center;
+    margin: 0;
+  }
+
   @media (max-width: 720px) {
-    .timeline-entry a {
-      grid-template-columns: 1fr;
-      gap: 6px;
-      padding: 18px 0;
+    .chart-row {
+      grid-template-columns: 18% 82%;
+      height: 100px;
     }
-    .entry-era {
-      margin-top: 4px;
+    .chart-axis-bottom {
+      margin-left: 18%;
+      width: 82%;
     }
-    .era-key summary {
-      padding: 12px 16px;
+    .stats {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px 16px;
     }
-    .era-key-body {
-      padding: 4px 16px 20px;
+    .stat-num {
+      font-size: 36px;
+    }
+    .timechain-page h1 {
+      font-size: 32px;
     }
   }
 </style>
+
+<script>
+  const ticks = document.querySelectorAll('.tick');
+  const tooltip = document.getElementById('tick-tooltip')!;
+  const tooltipTitle = tooltip.querySelector('.tooltip-title')!;
+  const tooltipMeta = tooltip.querySelector('.tooltip-meta')!;
+
+  ticks.forEach(tick => {
+    tick.addEventListener('mouseenter', (e) => {
+      const target = e.currentTarget as HTMLElement;
+      tooltipTitle.textContent = target.dataset.title || '';
+      tooltipMeta.textContent = target.dataset.meta || '';
+      const rect = target.getBoundingClientRect();
+      tooltip.style.left = `${rect.left + rect.width / 2}px`;
+      tooltip.style.top = `${rect.top}px`;
+      tooltip.classList.add('visible');
+    });
+    tick.addEventListener('mouseleave', () => {
+      tooltip.classList.remove('visible');
+    });
+  });
+</script>
