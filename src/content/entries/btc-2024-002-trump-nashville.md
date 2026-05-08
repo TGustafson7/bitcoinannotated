@@ -15,8 +15,8 @@ heroImageCredit: "Bitcoin 2024 Conference / contemporary coverage"
 sources:
   - url: "https://www.cnbc.com/2024/07/27/trump-bitcoin-conference-strategic-reserve.html"
     label: "CNBC — Trump promises strategic bitcoin reserve at Nashville conference"
-  - url: "https://www.reuters.com/world/us/trumps-bitcoin-pitch-nashville-2024-07-27/"
-    label: "Reuters — Trump's bitcoin pitch in Nashville"
+  - url: "https://www.usnews.com/news/best-states/tennessee/articles/2024-07-27/trump-calls-for-us-to-be-crypto-capital-of-the-planet-in-appeal-to-nashville-bitcoin-conference"
+    label: "AP — Trump calls for US to be crypto capital of the planet"
   - url: "https://www.c-span.org/program/public-affairs-event/former-president-trump-remarks-at-bitcoin-conference/645432"
     label: "C-SPAN archive — Donald Trump remarks at Bitcoin 2024 conference (full speech video)"
     primary: true

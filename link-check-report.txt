@@ -1,0 +1,419 @@
+Link check report — 234 URLs across 94 entries
+OK: 175 | Warn: 0 | Fail: 59
+
+=== FAILURES ===
+bitcoin-fixes-this.md
+  https://jimmysong.substack.com/p/the-power-of-bitcoin-memes
+  FAIL: HTTP 404
+
+btc-1997-002-sovereign-individual.md
+  https://www.simonandschuster.com/books/The-Sovereign-Individual/James-Dale-Davidson/9780684832722
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2013-001-hodl.md
+  https://en.wikipedia.org/wiki/HODL
+  FAIL: HTTP 404
+
+btc-2013-002-magic-internet-money.md
+  https://foundation.app/@mavensbot/foundation/5252
+  FAIL: HTTP 404
+
+btc-2013-002-magic-internet-money.md
+  https://paulbars.medium.com/magic-internet-money-how-a-reddit-ad-made-bitcoin-hit-1000-and-inspired-south-parks-art-b414ec7a5598
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2013-003-cyprus.md
+  https://www.bbc.com/news/business-21812110
+  FAIL: HTTP 500
+
+btc-2013-003-cyprus.md
+  https://www.reuters.com/article/markets/bitcoin-soars-on-cyprus-bailout-idUSL5N0CB1BU/
+  FAIL: HTTP 401
+
+btc-2014-001-bitcoin-pizza-day.md
+  https://www.cbsnews.com/news/bitcoin-pizza-day-laszlo-hanyecz-60-minutes-2019-05-12/
+  FAIL: HTTP 404
+
+btc-2014-003-trezor.md
+  https://blog.trezor.io/the-first-bitcoin-hardware-wallet-c63c0d24f9eb
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2015-001-the-bitlicense.md
+  https://www.coindesk.com/policy/2015/06/03/new-yorks-final-bitlicense-rules-text-and-analysis/
+  FAIL: HTTP 308
+
+btc-2016-001-lightning-whitepaper.md
+  https://bitcoinmagazine.com/technical/the-lightning-network-the-second-layer-explained
+  FAIL: HTTP 404
+
+btc-2016-002-the-halving.md
+  https://www.coindesk.com/markets/2020/05/11/bitcoin-just-completed-its-third-ever-mining-reward-halving
+  FAIL: HTTP 404
+
+btc-2017-001-buy-bitcoin-sign.md
+  https://www.bloomberg.com/news/articles/2024-04-24/-buy-bitcoin-sign-shown-behind-yellen-sells-for-1-million-at-auction
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2017-001-buy-bitcoin-sign.md
+  https://www.theblock.co/post/290803/buy-bitcoin-sign-sold
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2019-002-number-go-up.md
+  https://en.wiktionary.org/wiki/number_go_up
+  FAIL: HTTP 404
+
+btc-2019-002-number-go-up.md
+  https://knowyourmeme.com/memes/number-go-up
+  FAIL: HTTP 404
+
+btc-2019-004-stock-to-flow.md
+  https://medium.com/@100trillionUSD/modeling-bitcoins-value-with-scarcity-91fa0fc03e25
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2020-001-microstrategy-first-buy.md
+  https://www.microstrategy.com/press/microstrategy-adopts-bitcoin-as-primary-treasury-reserve-asset_08-11-2020
+  FAIL: HTTP 404
+
+btc-2020-001-microstrategy-first-buy.md
+  https://www.sec.gov/Archives/edgar/data/1050446/000119312520222007/d62571d8k.htm
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2020-002-squares-buy.md
+  https://www.sec.gov/Archives/edgar/data/1512673/000119312520269160/0001193125-20-269160-index.htm
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2020-003-cantillon-effect.md
+  https://www.lynalden.com/broken-money/
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2020-005-money-printer-go-brrr.md
+  https://fortune.com/2020/05/12/fed-go-brrr-meme-bitcoin-money-printer-federal-reserve/
+  FAIL: HTTP 404
+
+btc-2021-003-tesla-buy-and-sell.md
+  https://www.reuters.com/business/autos-transportation/tesla-suspends-vehicle-purchases-using-bitcoin-musk-2021-05-13/
+  FAIL: HTTP 404
+
+btc-2021-003-tesla-buy-and-sell.md
+  https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2021-004-the-coinbase-ipo.md
+  https://www.coinbase.com/blog/coinbase-is-now-publicly-traded
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2021-004-the-coinbase-ipo.md
+  https://www.sec.gov/Archives/edgar/data/1679788/000162828021003168/coinbaseglobalinc-sx1.htm
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2021-005-the-china-mining-ban.md
+  https://www.reuters.com/technology/china-bans-financial-payment-institutions-cryptocurrency-business-2021-05-18/
+  FAIL: HTTP 404
+
+btc-2021-007-the-69k-top.md
+  https://www.coindesk.com/markets/2021/11/10/bitcoin-hits-new-all-time-high-near-69k/
+  FAIL: HTTP 308
+
+btc-2021-007-the-69k-top.md
+  https://www.coingecko.com/en/coins/bitcoin/historical_data
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2021-008-the-bitcoin-2021-miami-stage.md
+  https://bitcoinmagazine.com/business/el-salvador-officially-adopts-bitcoin-as-legal-tender
+  FAIL: HTTP 404
+
+btc-2021-009-bitcoin-is-hope.md
+  https://coinpedia.org/news/michael-saylors-bitcoin-hope-tweet-goes-viral-amid-market-recovery/
+  FAIL: HTTP 410
+
+btc-2022-001-the-ftx-collapse.md
+  https://www.bloomberg.com/news/features/2022-11-09/how-sam-bankman-fried-built-a-crypto-empire-then-watched-it-collapse
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2022-001-the-ftx-collapse.md
+  https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes
+  FAIL: HTTP 404
+
+btc-2022-002-terra-luna-collapse.md
+  https://www.bloomberg.com/news/features/2022-05-19/how-terra-s-ust-and-luna-imploded-in-the-crypto-crash
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2022-002-terra-luna-collapse.md
+  https://www.sec.gov/news/press-release/2023-32
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2022-003-sab-121.md
+  https://www.sec.gov/oca/staff-accounting-bulletin-122
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2022-003-sab-121.md
+  https://www.sec.gov/rules-regulations/staff-guidance/staff-accounting-bulletins/staff-accounting-bulletin-121
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2023-002-softwar.md
+  https://dspace.mit.edu/bitstream/handle/1721.1/153030/lowery-jplowery-sm-sdm-2023-thesis.pdf
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2023-002-softwar.md
+  https://dspace.mit.edu/handle/1721.1/153030
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2023-003-skull-of-satoshi.md
+  https://www.coindesk.com/opinion/2023/03/27/the-skull-of-satoshi-proves-bitcoin-mining-discourse-isnt-dead/
+  FAIL: HTTP 308
+
+btc-2023-004-finks-reversal.md
+  https://www.sec.gov/Archives/edgar/data/1980994/000119312523168329/d514381ds1.htm
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2024-001-spot-etf-approval.md
+  https://www.sec.gov/files/rules/sro/nysearca/2024/34-99306.pdf
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2024-001-spot-etf-approval.md
+  https://www.sec.gov/news/statement/gensler-statement-spot-bitcoin-011023
+  FAIL: HTTP Error 403: Forbidden
+
+btc-2024-002-trump-nashville.md
+  https://www.c-span.org/program/public-affairs-event/former-president-trump-remarks-at-bitcoin-conference/645432
+  FAIL: HTTP 404
+
+btc-2024-002-trump-nashville.md
+  https://www.cnbc.com/2024/07/27/trump-bitcoin-conference-strategic-reserve.html
+  FAIL: HTTP 404
+
+btc-2024-002-trump-nashville.md
+  https://www.reuters.com/world/us/trumps-bitcoin-pitch-nashville-2024-07-27/
+  FAIL: HTTP 404
+
+btc-2025-002-free-ross.md
+  https://www.theblock.co/post/336332/ross-ulbricht-free
+  FAIL: HTTP Error 403: Forbidden
+
+casascius-coins.md
+  https://www.theverge.com/2013/12/13/5208000/casascius-maker-of-shiny-physical-bitcoins-shut-down-by-treasury
+  FAIL: HTTP 404
+
+fix-the-money-fix-the-world.md
+  https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag009/8494255
+  FAIL: HTTP Error 403: Forbidden
+
+infinity-divided-by-21m.md
+  https://21million.konsensus.network/
+  FAIL: [Errno 8] nodename nor servname provided, or not known
+
+its-going-up-forever-laura.md
+  https://unchainedcrypto.com/podcast/
+  FAIL: timeout
+
+nothing-stops-this-train.md
+  https://www.lynalden.com/full-steam-ahead-all-aboard-fiscal-dominance/
+  FAIL: HTTP Error 403: Forbidden
+
+one-btc-equals-one-btc.md
+  https://beincrypto.com/what-does-1-btc-1-btc-even-mean/
+  FAIL: HTTP Error 403: Forbidden
+
+one-btc-equals-one-btc.md
+  https://www.bloomberg.com/news/articles/2022-09-25/1-btc-1-btc-crypto-looks-for-new-narrative-as-plunge-goes-on
+  FAIL: HTTP Error 403: Forbidden
+
+rat-poison-squared.md
+  https://www.coindesk.com/markets/2018/05/07/billionaire-warren-buffett-calls-bitcoin-rat-poison-squared/
+  FAIL: HTTP 308
+
+segwit-activation.md
+  https://bitcoinmagazine.com/technical/segregated-witness-officially-activated-bitcoin-now-prepared-second-layer-solutions
+  FAIL: HTTP 404
+
+segwit-activation.md
+  https://bitcointalk.org/index.php?topic=1657461.0
+  FAIL: HTTP 404
+
+the-seed-phrase.md
+  https://www.blockplate.com/pages/bip-39-wordlist
+  FAIL: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1129)
+
+wikileaks-accepts-bitcoin.md
+  https://www.forbes.com/sites/andygreenberg/2011/06/14/wikileaks-bypasses-financial-blockade-with-bitcoin/
+  FAIL: HTTP 404
+
+
+=== WARNINGS ===
+
+=== ALL OK ===
+bitcoin-fixes-this.md | https://podcasts.apple.com/au/podcast/bitcoin-fixes-this/id1523910866
+bitcoin-obituaries.md | https://99bitcoins.com/bitcoin-obituaries/
+bitcoin-obituaries.md | https://u.today/bitcoin-scores-first-year-with-zero-obituaries-details
+bitcoin-obituaries.md | https://undergroundeconomist.com/why-bitcoin-cant-be-a-currency
+btc-1990-001-digicash.md | https://en.wikipedia.org/wiki/DigiCash
+btc-1990-001-digicash.md | https://nakamotoinstitute.org/library/blind-signatures/
+btc-1991-001-pgp.md | https://archive.org/details/pgpsourcecodeint0000zimm
+btc-1991-001-pgp.md | https://philzimmermann.com/EN/essays/WhyIWrotePGP.html
+btc-1991-001-pgp.md | https://www.internethalloffame.org/official-biography-philip-zimmermann/
+btc-1992-002-crypto-anarchist-manifesto.md | https://nakamotoinstitute.org/library/crypto-anarchist-manifesto/
+btc-1992-002-crypto-anarchist-manifesto.md | https://www.activism.net/cypherpunk/crypto-anarchy.html
+btc-1992-002-crypto-anarchist-manifesto.md | https://www.wired.com/1993/02/crypto-rebels/
+btc-1997-001-hashcash.md | http://www.hashcash.org/hashcash.pdf
+btc-1997-001-hashcash.md | http://www.hashcash.org/papers/announce.txt
+btc-1997-001-hashcash.md | https://bitcoin.org/bitcoin.pdf
+btc-1997-002-sovereign-individual.md | https://bitcoinmagazine.com/culture/bitcoin-and-the-sovereign-individual-thesis
+btc-1997-002-sovereign-individual.md | https://en.wikipedia.org/wiki/The_Sovereign_Individual
+btc-1997-002-sovereign-individual.md | https://www.goodreads.com/book/show/82256.The_Sovereign_Individual
+btc-1998-001-b-money.md | http://www.weidai.com/bmoney.txt
+btc-1998-001-b-money.md | https://bitcoin.org/bitcoin.pdf
+btc-1998-001-b-money.md | https://bitcoinmagazine.com/technical/genesis-files-if-bitcoin-had-first-draft-wei-dais-b-money-was-it
+btc-2005-001-bit-gold.md | https://en.wikipedia.org/wiki/Nick_Szabo
+btc-2005-001-bit-gold.md | https://nakamotoinstitute.org/library/bit-gold/
+btc-2005-001-bit-gold.md | https://unenumerated.blogspot.com/2005/12/bit-gold.html
+btc-2008-001-the-whitepaper.md | https://satoshi.nakamotoinstitute.org/emails/cryptography/1/
+btc-2008-001-the-whitepaper.md | https://www.metzdowd.com/pipermail/cryptography/2008-October/014810.html
+btc-2009-001-genesis-block.md | https://en.bitcoin.it/wiki/Genesis_block
+btc-2009-001-genesis-block.md | https://www.blockchain.com/explorer/blocks/btc/000000000019d6689c085ae165831e934ff763ae46a2a6c172b3f1b60a8ce26f
+btc-2009-001-genesis-block.md | https://www.thetimes03jan2009.com/
+btc-2009-002-running-bitcoin.md | https://bitcointalk.org/index.php?topic=155054.0
+btc-2009-002-running-bitcoin.md | https://twitter.com/halfin/status/1110302988
+btc-2010-001-bitcoin-orange.md | https://bitcointalk.org/index.php?topic=15.0
+btc-2010-001-bitcoin-orange.md | https://en.bitcoin.it/wiki/Promotional_graphics
+btc-2010-002-the-pizza.md | https://bitcointalk.org/index.php?topic=137.0
+btc-2011-001-silk-road.md | https://archive.org/details/UlbrichtCriminalComplaint_201310
+btc-2011-001-silk-road.md | https://www.wired.com/2015/04/silk-road-1/
+btc-2011-002-first-mt-gox-hack.md | https://blog.wizsec.jp/2015/04/the-missing-mtgox-bitcoins.html
+btc-2011-002-first-mt-gox-hack.md | https://web.archive.org/web/20110625115413/https://mtgox.com/press_release_20110630.html
+btc-2011-003-satoshi-disappearance.md | https://bitcointalk.org/index.php?topic=2013.msg26054#msg26054
+btc-2011-003-satoshi-disappearance.md | https://plan99.net/~mike/satoshi-emails/thread5.html
+btc-2012-001-bitcoin-magazine.md | https://bitcoinmagazine.com/
+btc-2012-001-bitcoin-magazine.md | https://bitcoinmagazine.com/press-releases/btc-media-acquires-bitcoin-magazine-1421884855
+btc-2013-001-hodl.md | https://bitcointalk.org/index.php?topic=375643.0
+btc-2013-002-magic-internet-money.md | https://knowyourmeme.com/memes/magic-internet-money-bitcoin-wizard
+btc-2014-001-bitcoin-pizza-day.md | https://bitcointalk.org/index.php?topic=137.0
+btc-2014-001-bitcoin-pizza-day.md | https://www.coindesk.com/markets/2014/05/22/bitcoin-pizza-day-celebrating-the-pizzas-bought-for-10000-btc
+btc-2014-002-the-mt-gox-collapse.md | https://blog.wizsec.jp/2017/07/breaking-open-mtgox-1.html
+btc-2014-002-the-mt-gox-collapse.md | https://www.mtgox.com/
+btc-2014-003-trezor.md | https://github.com/trezor/trezor-firmware
+btc-2014-004-hyperbitcoinization.md | https://nakamotoinstitute.org/mempool/hyperbitcoinization/
+btc-2014-005-honey-badger.md | https://bitcoinmagazine.com/culture/why-bitcoin-is-called-honey-badger
+btc-2014-005-honey-badger.md | https://www.youtube.com/watch?v=4r7wHMg5Yjg
+btc-2014-006-i-am-not-dorian.md | https://en.wikipedia.org/wiki/Satoshi_Nakamoto
+btc-2014-006-i-am-not-dorian.md | https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/4/
+btc-2014-006-i-am-not-dorian.md | https://techcrunch.com/2014/03/06/satoshi-dorian/
+btc-2014-007-hal-finney-death.md | https://en.wikipedia.org/wiki/Hal_Finney_(computer_scientist)
+btc-2014-007-hal-finney-death.md | https://www.cryonicsarchive.org/library/complete-list-of-alcor-cryopreservations/case-summary-a-1436/
+btc-2014-007-hal-finney-death.md | https://www.wired.com/2014/08/hal-finney/
+btc-2015-001-the-bitlicense.md | https://www.dfs.ny.gov/virtual_currency_businesses
+btc-2016-001-lightning-whitepaper.md | https://lightning.network/lightning-network-paper.pdf
+btc-2016-002-the-halving.md | https://bitcointalk.org/index.php?topic=128221.0
+btc-2016-002-the-halving.md | https://en.bitcoin.it/wiki/Controlled_supply
+btc-2016-002-the-halving.md | https://en.bitcoin.it/wiki/Halving_day_2012
+btc-2016-003-the-bitfinex-hack.md | https://blog.bitfinex.com/announcements/message-individual-responsible-bitfinex-security-incident-august-2-2016/
+btc-2016-003-the-bitfinex-hack.md | https://www.justice.gov/opa/pr/two-arrested-alleged-conspiracy-launder-45-billion-stolen-cryptocurrency
+btc-2016-004-not-your-keys.md | https://aantonop.com/
+btc-2016-004-not-your-keys.md | https://github.com/bitcoinbook/bitcoinbook
+btc-2016-005-bitcoin-has-failed.md | https://blog.plan99.net/the-resolution-of-the-bitcoin-experiment-dabb30201f7
+btc-2017-001-buy-bitcoin-sign.md | https://knowyourmeme.com/memes/buy-bitcoin-sign
+btc-2017-001-buy-bitcoin-sign.md | https://www.cnbc.com/2017/07/12/someone-held-up-a-buy-bitcoin-sign-during-yellens-testimony-to-congress.html
+btc-2017-001-buy-bitcoin-sign.md | https://www.coindesk.com/business/2024/04/11/bitcoin-sign-guy-is-auctioning-his-bitcoin-sign
+btc-2017-002-the-block-size-wars.md | https://bitcoinmagazine.com/culture/the-long-road-to-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality
+btc-2017-002-the-block-size-wars.md | https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki
+btc-2017-002-the-block-size-wars.md | https://www.amazon.com/Blocksize-War-battle-control-Bitcoins/dp/B095SQGZ1L
+btc-2017-003-the-symbol.md | https://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf
+btc-2017-003-the-symbol.md | https://www.unicode.org/charts/PDF/U20A0.pdf
+btc-2017-004-bitcoin-twitter.md | https://www.coindesk.com/opinion/2022/04/20/6-things-you-should-know-about-crypto-twitter
+btc-2018-001-the-bitcoin-standard.md | https://saifedean.com/the-bitcoin-standard/
+btc-2018-001-the-bitcoin-standard.md | https://www.wiley.com/en-us/The+Bitcoin+Standard%3A+The+Decentralized+Alternative+to+Central+Banking-p-9781119473862
+btc-2018-002-tick-tock-next-block.md | https://podcasts.apple.com/us/podcast/episode-44-tick-tock-next-block/id1542617540?i=1000546385472
+btc-2018-002-tick-tock-next-block.md | https://www.youtube.com/watch?v=f70U6cRuxx0
+btc-2018-002-tick-tock-next-block.md | https://x.com/CitizenBitcoin
+btc-2019-001-stay-humble-stack-sats.md | https://twitter.com/ODELL
+btc-2019-001-stay-humble-stack-sats.md | https://twitter.com/ODELL/status/1166779264932470784
+btc-2019-001-stay-humble-stack-sats.md | https://www.citadeldispatch.com/
+btc-2019-002-number-go-up.md | https://davidgerard.co.uk/blockchain/2019/05/27/the-origin-of-number-go-up-in-bitcoin-culture/
+btc-2019-003-lightning-torch.md | https://bitcoinmagazine.com/technical/lightning-torchs-bitcoin-payment-is-running-a-worldwide-marathon
+btc-2019-003-lightning-torch.md | https://www.coindesk.com/markets/2019/02/05/bitcoins-lightning-torch-explained-what-it-is-and-why-it-matters
+btc-2019-004-stock-to-flow.md | https://bitcoinmagazine.com/markets/why-bitcoin-stock-to-flow-is-not-useful
+btc-2019-005-bitcoin-beach.md | https://bitcoinmagazine.com/culture/original-bitcoin-beach-white-paper
+btc-2019-005-bitcoin-beach.md | https://www.cbsnews.com/news/bitcoin-beach-el-salvador-60-minutes-2022-04-10/
+btc-2020-002-squares-buy.md | https://squareup.com/us/en/press/2020-bitcoin-investment
+btc-2020-003-cantillon-effect.md | https://saifedean.com/thebitcoinstandard/
+btc-2020-004-have-fun-staying-poor.md | https://blog.lopp.net/the-memes-make-the-bitcoin/
+btc-2020-004-have-fun-staying-poor.md | https://www.coindesk.com/markets/2021/03/03/the-decoder-have-fun-staying-poor
+btc-2020-005-money-printer-go-brrr.md | https://knowyourmeme.com/memes/money-printer-go-brrr
+btc-2020-005-money-printer-go-brrr.md | https://www.screenslate.com/articles/go-brrr
+btc-2020-006-treasury-strategy.md | https://bitcointreasuries.net/public-companies
+btc-2020-006-treasury-strategy.md | https://www.strategy.com/software/bitcoin/documents/bitcoin-initiative-project-roadmap
+btc-2021-001-laser-eyes.md | https://bitcoinmagazine.com/culture/bitcoin-laser-eyes-origins
+btc-2021-001-laser-eyes.md | https://decrypt.co/58302/elon-musk-bitcoin-advocates-have-laser-eyes-on-twitter-heres-why
+btc-2021-001-laser-eyes.md | https://knowyourmeme.com/memes/laser-eyes-bitcoin-trend-laserrayuntil100k
+btc-2021-001-laser-eyes.md | https://www.cnbc.com/2024/12/05/bitcoin-tops-100000-as-monster-2024-rally-reaches-new-heights.html
+btc-2021-002-el-salvador-legal-tender.md | https://www.asamblea.gob.sv/node/11282
+btc-2021-002-el-salvador-legal-tender.md | https://www.bbc.com/news/world-latin-america-57398274
+btc-2021-002-el-salvador-legal-tender.md | https://www.reuters.com/world/americas/el-salvador-approves-first-law-bitcoin-legal-tender-2021-06-09/
+btc-2021-005-the-china-mining-ban.md | https://ccaf.io/cbnsi/cbeci/mining_map
+btc-2021-006-taproot.md | https://github.com/bitcoin/bips/blob/master/bip-0341.mediawiki
+btc-2021-006-taproot.md | https://www.coindesk.com/tech/2021/11/13/taproot-bitcoins-long-anticipated-upgrade-activates-this-weekend
+btc-2021-008-the-bitcoin-2021-miami-stage.md | https://www.youtube.com/watch?v=BR0YA4WIBHY
+btc-2021-009-bitcoin-is-hope.md | https://www.hope.com/
+btc-2021-009-bitcoin-is-hope.md | https://x.com/saylor/status/1399787177962360834
+btc-2023-001-ordinals.md | https://docs.ordinals.com/
+btc-2023-001-ordinals.md | https://github.com/ordinals/ord
+btc-2023-002-softwar.md | https://cryptoslate.com/jason-lowreys-softwar-removed-from-circulation-and-mit-library-for-unknown-reasons/
+btc-2023-003-skull-of-satoshi.md | https://cleanupbitcoin.com/
+btc-2023-003-skull-of-satoshi.md | https://www.greenpeace.org/usa/artist-benjamin-von-wong-greenpeace-unveil-giant-skull-to-highlight-bitcoins-climate-impact/
+btc-2023-004-finks-reversal.md | https://www.cnbc.com/2017/10/13/blackrock-ceo-larry-fink-calls-bitcoin-an-index-of-money-laundering.html
+btc-2024-004-samourai-seizure.md | https://bitcoinmagazine.com/politics/the-samourai-wallet-trial-a-test-of-financial-privacy-and-developer-freedoms
+btc-2024-004-samourai-seizure.md | https://www.justice.gov/usao-sdny/pr/founders-and-ceo-cryptocurrency-mixing-service-arrested-and-charged-money-laundering
+btc-2025-001-strategic-bitcoin-reserve.md | https://home.treasury.gov/news/press-releases/sb0080
+btc-2025-001-strategic-bitcoin-reserve.md | https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/
+btc-2025-002-free-ross.md | https://www.justice.gov/pardon/media/1386096/dl?inline=
+btc-2025-002-free-ross.md | https://www.npr.org/2025/01/21/nx-s1-5270051/trump-pardons-dark-web-marketplace-creator-ross-ulbricht
+casascius-coins.md | https://en.bitcoin.it/wiki/Casascius_physical_bitcoins
+casascius-coins.md | https://www.casascius.com/
+citadel.md | https://bitcoinmagazine.com/culture/the-citadel-v-nardo-from-meme-to-monument
+citadel.md | https://thenextweb.com/news/bitcoin-time-traveler-reddit-cryptocurrency-history-post-edited-who
+citadel.md | https://www.reddit.com/r/Bitcoin/comments/1lfobc/i_am_a_timetraveler_from_the_future_here_to_beg/
+cypherpunk-manifesto.md | https://en.wikipedia.org/wiki/Eric_Hughes_(cypherpunk)
+cypherpunk-manifesto.md | https://nakamotoinstitute.org/library/cypherpunk-manifesto/
+cypherpunk-manifesto.md | https://www.activism.net/cypherpunk/manifesto.html
+dont-trust-verify.md | https://aantonop.com/
+dont-trust-verify.md | https://bitbo.io/glossary/dont-trust-verify/
+dont-trust-verify.md | https://en.wikipedia.org/wiki/Andreas_Antonopoulos
+fix-the-money-fix-the-world.md | https://bitcoinmagazine.com/culture/fix-the-money-fix-the-world
+fix-the-money-fix-the-world.md | https://saifedean.com/tbs
+infinity-divided-by-21m.md | https://stephanlivera.com/episode/304/
+infinity-divided-by-21m.md | https://www.youtube.com/watch?v=efTzUToozhM
+its-going-up-forever-laura.md | https://unchained.libsyn.com/why-bitcoin-now-michael-saylor-on-the-best-way-for-companies-to-buy-bitcoin-ep209
+its-going-up-forever-laura.md | https://www.youtube.com/watch?v=GC4Pyt2HPd4
+mempool-space.md | https://bitcoinmagazine.com/culture/interview-wiz-and-simon-of-mempool-space
+mempool-space.md | https://github.com/mempool/mempool
+mempool-space.md | https://mempool.space/
+nothing-stops-this-train.md | https://bitcoinmagazine.com/news/the-debt-train-has-no-brakes-lyn-alden-makes-the-case-for-btc-at-bitcoin-2025
+nothing-stops-this-train.md | https://www.youtube.com/watch?v=KumiLzAcqPE
+one-btc-equals-one-btc.md | https://forklog.com/en/1-btc-1-btc-meme-or-cryptos-cardinal-truth/
+one-btc-equals-one-btc.md | https://x.com/BitcoinIsSaving/status/1099373733901463552
+orange-pilled.md | https://bitcoinmagazine.com/culture/bitcoin-orange-pill-theory-reality
+orange-pilled.md | https://glossary.blockstream.com/orange-pill/
+orange-pilled.md | https://www.ledger.com/academy/glossary/orange-pill
+rabbit-hole.md | https://21lessons.com/
+rabbit-hole.md | https://bitcoinmagazine.com/culture/bitcoin-orange-pill-theory-reality
+rabbit-hole.md | https://github.com/21-lessons/21lessons-book
+rat-poison-squared.md | https://quoteinvestigator.com/2021/02/11/rat-poison/
+rat-poison-squared.md | https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html
+segwit-activation.md | https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki
+the-antonopoulos-books.md | https://github.com/bitcoinbook/bitcoinbook
+the-antonopoulos-books.md | https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos/dp/1537000454
+the-antonopoulos-books.md | https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/
+the-big-print.md | https://www.amazon.com/Big-Print-Happened-America-Sound/dp/B0DVTCVX8J
+the-big-print.md | https://www.goodreads.com/book/show/227804284-the-big-print
+the-case-for-a-small-allocation-to-bitcoin.md | https://cryptowords.github.io/the-case-for-a-small-allocation-to-bitcoin
+the-case-for-a-small-allocation-to-bitcoin.md | https://www.kanaandkatana.com/valuation-depot-contents/2019/4/11/the-case-for-a-small-allocation-to-bitcoin
+the-cypherpunk-mailing-list.md | https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html
+the-cypherpunk-mailing-list.md | https://mailing-list-archive.cryptoanarchy.wiki/
+the-cypherpunk-mailing-list.md | https://www.activism.net/cypherpunk/manifesto.html
+the-seed-phrase.md | https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+this-is-good-for-bitcoin.md | https://knowyourmeme.com/memes/this-is-good-for-bitcoin
+this-is-good-for-bitcoin.md | https://www.reddit.com/r/Bitcoin/comments/rim7t/hey_rbitcoin_got_coins_enjoy_the_female_form/
+vires-in-numeris.md | https://bitcointalk.org/index.php?topic=4994.msg140770#msg140770
+vires-in-numeris.md | https://www.casascius.com/
+vires-in-numeris.md | https://www.historyofbitcoin.io/timeline/casascius
+wikileaks-accepts-bitcoin.md | https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280
+wikileaks-accepts-bitcoin.md | https://x.com/wikileaks/status/80774521350668288
