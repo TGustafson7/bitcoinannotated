@@ -43,6 +43,18 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     </div>
     <hr style="margin-top: 28px; border: 0; border-top: 1px solid var(--ink-mid); opacity: 0.2;" />
   </section>
+  <div class="search-row">
+  <input
+    type="search"
+    id="catalog-search"
+    class="catalog-search-input"
+    placeholder={`SEARCH ${allEntries.length} ARTIFACTS`}
+    autocomplete="off"
+    spellcheck="false"
+  />
+  <span class="search-count" id="search-count" aria-live="polite"></span>
+</div>
+
   <nav class="filter-row" aria-label="Filter catalog by type">
     <a href="?type=all" class="filter-chip" data-type="all">ALL <span class="count">{allEntries.length}</span></a>
     <span class="filter-sep">·</span>
@@ -173,3 +185,101 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
   // Apply on initial load
   applyFilter();
 </script>
+
+<style>
+  .search-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .catalog-search-input {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8125rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 0.5rem 0;
+    width: 320px;
+    max-width: 100%;
+    color: inherit;
+    outline: none;
+    transition: border-color 0.15s ease;
+  }
+  .catalog-search-input:focus { border-bottom-color: #d97706; }
+  .catalog-search-input::placeholder {
+    color: rgba(0, 0, 0, 0.35);
+    letter-spacing: 0.05em;
+  }
+  .search-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #d97706;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+  }
+  .search-count.active { opacity: 1; }
+  /* Search hides via the same mechanism chip filtering uses, so they compose */
+  .index-row.search-hidden,
+  .era-divider.search-hidden { display: none; }
+</style>
+
+<script is:inline>
+  (function() {
+    const input = document.getElementById('catalog-search');
+    const countEl = document.getElementById('search-count');
+    if (!input || !countEl) return;
+
+    const rows = document.querySelectorAll('.index-row');
+    const dividers = document.querySelectorAll('.era-divider');
+    const indexed = Array.from(rows).map(row => ({
+      el: row,
+      text: (row.textContent || '').toLowerCase()
+    }));
+
+    function apply(query) {
+      const q = query.trim().toLowerCase();
+      if (!q) {
+        indexed.forEach(({ el }) => el.classList.remove('search-hidden'));
+        dividers.forEach(d => d.classList.remove('search-hidden'));
+        countEl.classList.remove('active');
+        countEl.textContent = '';
+        return;
+      }
+      const tokens = q.split(/\s+/).filter(Boolean);
+      let matches = 0;
+      indexed.forEach(({ el, text }) => {
+        const hit = tokens.every(t => text.includes(t));
+        // Only count rows that ALSO pass the chip filter (not filtered-out)
+        const chipPass = !el.classList.contains('filtered-out');
+        el.classList.toggle('search-hidden', !hit);
+        if (hit && chipPass) matches++;
+      });
+      // Hide era dividers whose visible-by-both-filters children are zero
+      dividers.forEach(divider => {
+        let next = divider.nextElementSibling;
+        let hasVisible = false;
+        while (next && !next.classList.contains('era-divider')) {
+          if (next.classList.contains('index-row')
+              && !next.classList.contains('search-hidden')
+              && !next.classList.contains('filtered-out')) {
+            hasVisible = true;
+            break;
+          }
+          next = next.nextElementSibling;
+        }
+        divider.classList.toggle('search-hidden', !hasVisible);
+      });
+      const noun = matches === 1 ? 'ARTIFACT MATCHES' : 'ARTIFACTS MATCH';
+      countEl.textContent = matches + ' ' + noun;
+      countEl.classList.add('active');
+    }
+
+    input.addEventListener('input', e => apply(e.target.value));
+  })();
+</script>
+
