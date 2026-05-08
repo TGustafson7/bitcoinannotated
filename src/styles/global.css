@@ -82,6 +82,7 @@ a:hover { text-decoration-color: var(--orange); }
 .index-row .status { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; color: var(--ink-mid); text-transform: uppercase; text-align: right; }
 
 .era-divider { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; color: var(--orange-deep); text-transform: uppercase; padding: 36px 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 8px; font-weight: 700; }
+.era-divider:first-child { padding-top: 0; }
 
 /* FOOTER */
 .entry-footer { margin-top: 80px; padding-top: 32px; border-top: 1px solid var(--line); display: flex; justify-content: space-between; font-family: var(--mono); font-size: 11px; color: var(--ink-faint); letter-spacing: 0.08em; }
