@@ -4,8 +4,8 @@ title: "Have Fun Staying Poor"
 deck: "The harder-edged sibling of stay humble, stack sats."
 era: "Pandemic Era"
 type: "Phrase"
-date: 2020-09-15
-blockHeightAtOrigin: 648337
+date: 2020-09-13
+blockHeightAtOrigin: 648084
 creator: "Udi Wertheimer (popularizer)"
 sourcePlatform: "Twitter / X"
 locked: true
