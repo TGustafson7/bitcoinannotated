@@ -89,18 +89,25 @@ const totalCount = entries.length;
             </div>
           ))}
 
-          {onChainSorted.map(entry => {
-            const h = entry.data.blockHeightAtOrigin as number;
-            return (
+          {(() => {
+            const MIN_SPACING = 0.5;
+            let lastPct = 0.4;
+            return onChainSorted.map(entry => {
+              const h = entry.data.blockHeightAtOrigin as number;
+              const rawPct = pct(h);
+              const adjustedPct = Math.max(rawPct, lastPct + MIN_SPACING);
+              lastPct = adjustedPct;
+              return (
                 <a
-                href={`/entries/${entry.slug}/`}
-                class="tick tick-onchain"
-                style={`left: ${pct(h)}%;`}
-                data-title={entry.data.title}
-                data-meta={`block ${h.toLocaleString()} · ${entry.data.era}`}
-              ></a>
-            );
-          })}
+                  href={`/entries/${entry.slug}/`}
+                  class="tick tick-onchain"
+                  style={`left: ${adjustedPct}%;`}
+                  data-title={entry.data.title}
+                  data-meta={`block ${h.toLocaleString()} · ${entry.data.era}`}
+                ></a>
+              );
+            });
+          })()}
         </div>
       </div>
 
