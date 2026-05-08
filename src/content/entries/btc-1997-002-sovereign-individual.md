@@ -19,6 +19,9 @@ sources:
     label: "Bitcoin Magazine — Bitcoin And The Unfolding Of The Sovereign Individual Thesis"
   - url: "https://www.goodreads.com/book/show/82256.The_Sovereign_Individual"
     label: "The Sovereign Individual — Goodreads, with editions and excerpts"
+  - url: "https://www.simonandschuster.com/books/The-Sovereign-Individual/James-Dale-Davidson/9780684832722"
+    label: "Simon & Schuster — The Sovereign Individual, 1999 Touchstone edition (publisher's record of the book)"
+    primary: true
 related: []
 ---
 *The Sovereign Individual: How to Survive and Thrive During the Collapse of the Welfare State* was published in 1997, twelve years before the bitcoin whitepaper, by an American investment writer named James Dale Davidson and a British newspaper editor named William Rees-Mogg. It was their third collaboration. The previous two had predicted the collapse of the Soviet Union and the long bond rally of the 1990s with sufficient accuracy to give the authors some claim to a track record. The Sovereign Individual was a more ambitious project — a four-hundred-page argument that the printing press, the gunpowder revolution, and the steam engine had each produced a corresponding civilizational reorganization, and that information technology was about to produce another.
