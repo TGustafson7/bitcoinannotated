@@ -3,7 +3,7 @@ title: "It's Going Up Forever, Laura"
 deck: "Michael Saylor's eight-word doctrine, delivered on a podcast and reissued as a meme through every cycle since."
 era: "Pandemic Era"
 type: "Phrase"
-date: 2021-11-08
+date: 2021-01-26
 sourcePlatform: "Unchained Podcast (Laura Shin); subsequent circulation across X and bitcoin podcasts"
 locked: true
 creator: "Michael Saylor"
@@ -11,15 +11,17 @@ heroImage: "/images/entries/its-going-up-forever-laura.svg"
 heroImageCaption: "Plate XX. The phrase as it circulated through bitcoin twitter, conferences, and remixed podcast clips, 2021–2025."
 heroImageCredit: "Bitcoin Annotated."
 sources:
-  - url: "https://www.youtube.com/watch?v=GC4Pyt2HPd4"
-    label: "Michael Saylor on Unchained Podcast with Laura Shin (November 2021): Bitcoin is the superior asset and its going up forever, Laura. Forever."
+  - url: "https://unchained.libsyn.com/why-bitcoin-now-michael-saylor-on-the-best-way-for-companies-to-buy-bitcoin-ep209"
+    label: "Unchained Episode 209: Why Bitcoin Now: Michael Saylor on the Best Way for Companies to Buy Bitcoin (Laura Shin, January 26, 2021)"
     primary: true
+  - url: "https://www.youtube.com/watch?v=GC4Pyt2HPd4"
+    label: "Bitcoin is the superior asset and its going up forever, Laura. Forever. (YouTube clip from Episode 209)"
   - url: "https://unchainedcrypto.com/podcast/"
     label: "Unchained Podcast archive (Laura Shin)"
 related: []
 ---
 
-The phrase belongs to Michael Saylor and to a podcast appearance with Laura Shin in November 2021. The full sentence is an eight-word run-on: *Bitcoin is the superior asset, and its going up forever, Laura. Forever.* Saylor said it during the *Unchained* episode that ran late in the cycle that would peak weeks later at $69,000. Shin, the host, was a reasonable interviewer pushing reasonable questions about price and volatility. Saylor answered the volatility question by refusing the frame — bitcoin was not an asset that went up and down; bitcoin was an asset that, on any time horizon longer than the noise, went up. To Laura. Forever.
+The phrase belongs to Michael Saylor and to a podcast appearance with Laura Shin in January 2021. The full sentence is an eight-word run-on: *Bitcoin is the superior asset, and its going up forever, Laura. Forever.* Saylor said it during *Unchained* Episode 209, mid-run-up, ten months before the cycle would peak at $69,000. Shin, the host, was a reasonable interviewer pushing reasonable questions about price and volatility. Saylor answered the volatility question by refusing the frame — bitcoin was not an asset that went up and down; bitcoin was an asset that, on any time horizon longer than the noise, went up. To Laura. Forever.
 
 What made the line stick was not the prediction. Bitcoiners had been making forever-up predictions for a decade. What made it stick was the *delivery*. The dropped vocative — *Laura* — gave the sentence the cadence of a man explaining something to a friend who hadnt been listening. The repetition — *Forever* — gave it the rhythm of a benediction. The whole construction landed somewhere between a billionaires monologue and a midwest grandfathers parting advice. Saylor in 2021 had been a public bitcoin advocate for fifteen months, MicroStrategy had been buying since August 2020, and his interview style had calcified into a particular register: declarative, indifferent to objections, delivered with the calm of a man who had already done the arithmetic. The line was a perfect specimen of that register.
 
