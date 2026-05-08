@@ -5,6 +5,9 @@ era: "Dark Forest"
 type: "Document"
 date: 2016-01-14
 sourcePlatform: "Medium / Mike's blog"
+heroImage: "/images/entries/bitcoin-has-failed.png"
+heroImageCaption: "Mike Hearn, The resolution of the Bitcoin experiment, January 14, 2016"
+heroImageCredit: "Medium / blog.plan99.net"
 locked: true
 catalogId: "btc-2016-005"
 creator: "Mike Hearn"

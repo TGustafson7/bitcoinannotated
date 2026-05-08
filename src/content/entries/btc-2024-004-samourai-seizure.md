@@ -5,6 +5,9 @@ era: "Institutional Takeover"
 type: "Event"
 date: 2024-04-24
 sourcePlatform: "DOJ / Southern District of New York"
+heroImage: "/images/entries/samourai-seizure.png"
+heroImageCaption: "Samourai Wallet seizure notice, April 24, 2024"
+heroImageCredit: "U.S. Department of Justice"
 locked: true
 catalogId: "btc-2024-004"
 creator: "U.S. Department of Justice (action); Keonne Rodriguez and William Lonergan Hill (Samourai developers)"

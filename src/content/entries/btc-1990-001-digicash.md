@@ -5,6 +5,9 @@ era: "Pre-Genesis"
 type: "Document"
 date: 1990-01-01
 sourcePlatform: "Amsterdam — DigiCash Inc."
+heroImage: "/images/entries/digicash.png"
+heroImageCaption: "DigiCash webserver, c. 1996. Numbers that are money."
+heroImageCredit: "DigiCash Inc., archived by the Internet Archive"
 locked: true
 catalogId: "btc-1990-001"
 creator: "David Chaum"

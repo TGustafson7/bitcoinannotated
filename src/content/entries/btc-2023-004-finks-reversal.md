@@ -5,6 +5,9 @@ era: "Institutional Takeover"
 type: "Event"
 date: 2023-06-15
 sourcePlatform: "BlackRock / public statements"
+heroImage: "/images/entries/finks-reversal.png"
+heroImageCaption: "Larry Fink, BlackRock CEO, on CNBC"
+heroImageCredit: "CNBC"
 locked: true
 catalogId: "btc-2023-004"
 creator: "Larry Fink (BlackRock)"
