@@ -235,11 +235,17 @@ const totalCount = entries.length;
     padding: 0 4px;
   }
   .chart-axis-top {
-    padding-left: 12%;
-    padding-right: 8px;
+    padding: 0;
+    position: relative;
   }
   .chart-axis-top .axis-label-left {
-    margin-left: 0;
+    position: absolute;
+    left: 12%;
+    transform: translateX(-50%);
+  }
+  .chart-axis-top .axis-label-right {
+    margin-left: auto;
+    padding-right: 4px;
   }
 
   .chart-row {
