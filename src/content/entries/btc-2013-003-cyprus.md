@@ -13,11 +13,11 @@ heroImage: "/images/entries/cyprus.jpg"
 heroImageCaption: "Cypriot depositors and the bailout's terms, March 2013."
 heroImageCredit: "Contemporary press coverage"
 sources:
-  - url: "https://www.bbc.com/news/business-21812110"
-    label: "BBC — Cyprus bailout: Parliament delays decision (March 2013)"
+  - url: "https://money.cnn.com/2013/03/28/investing/bitcoin-cyprus/index.html"
+    label: "CNN Money — Bitcoin price spikes during Cyprus crisis (March 28, 2013)"
     primary: true
-  - url: "https://www.reuters.com/article/markets/bitcoin-soars-on-cyprus-bailout-idUSL5N0CB1BU/"
-    label: "Reuters — Bitcoin soars on Cyprus bailout"
+  - url: "https://blogs.lse.ac.uk/europpblog/crisis-in-cyprus/"
+    label: "LSE EUROPP — Crisis in Cyprus (collated coverage)"
 related:
   - "BTC.2008.001"
   - "BTC.2009.001"

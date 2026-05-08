@@ -15,10 +15,10 @@ sources:
   - url: "https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki"
     label: "BIP-141: Segregated Witness (Consensus layer)"
     primary: true
-  - url: "https://bitcoinmagazine.com/technical/segregated-witness-officially-activated-bitcoin-now-prepared-second-layer-solutions"
-    label: "Bitcoin Magazine: Segregated Witness Officially Activated (August 24, 2017)"
-  - url: "https://bitcointalk.org/index.php?topic=1657461.0"
-    label: "Pieter Wuilles original SegWit proposal on BitcoinTalk (December 2015)"
+  - url: "https://bitcoinmagazine.com/technical/segregated-witness-activates-bitcoin-what-expect"
+    label: "Bitcoin Magazine — Segregated Witness Activates on Bitcoin (Aaron van Wirdum, August 24, 2017)"
+  - url: "https://en.wikipedia.org/wiki/SegWit"
+    label: "Wikipedia — SegWit"
 related: []
 ---
 
