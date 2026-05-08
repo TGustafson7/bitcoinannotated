@@ -275,6 +275,14 @@ const totalCount = entries.length;
     transition: opacity 0.12s, background 0.12s, transform 0.12s;
     text-decoration: none;
   }
+  .tick::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -4px;
+    right: -4px;
+  }
   .tick:hover {
     background: #1a1a1a;
     opacity: 1;
