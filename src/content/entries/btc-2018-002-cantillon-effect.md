@@ -5,6 +5,9 @@ era: "The Long Wait"
 type: "Phrase"
 date: 2018-04-01
 sourcePlatform: "Books / podcasts / X"
+heroImage: "/images/entries/cantillon-effect.svg"
+heroImageCaption: "Plate XXIV — The Cantillon Effect"
+heroImageCredit: "Bitcoin Annotated"
 locked: true
 catalogId: "btc-2018-002"
 pronunciation: "kahn-tee-YOHN"

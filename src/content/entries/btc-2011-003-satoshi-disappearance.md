@@ -5,6 +5,9 @@ era: "First Bull"
 type: "Event"
 date: 2011-04-23
 sourcePlatform: "Email — to Mike Hearn"
+heroImage: "/images/entries/satoshi-disappearance.png"
+heroImageCaption: "Satoshis final email to Mike Hearn, April 23, 2011"
+heroImageCredit: "Archived by Mike Hearn"
 locked: true
 catalogId: "btc-2011-003"
 creator: "Satoshi Nakamoto"
