@@ -5,7 +5,6 @@ era: "Pre-Genesis"
 type: "Document"
 date: 1992-09-01
 blockHeightAtOrigin: "Pre-chain"
-sourcePlatform: "toad.com (1992-1997); cpunks.org (current archive)"
 locked: true
 creator: "Eric Hughes, Timothy C. May, and John Gilmore (founders); name coined by Jude Milhon"
 heroImage: "/images/entries/the-cypherpunk-mailing-list.jpg"
@@ -15,8 +14,6 @@ sources:
   - url: "https://mailing-list-archive.cryptoanarchy.wiki/"
     label: "Cypherpunks mailing list historical archive (1992-1999)"
     primary: true
-  - url: "https://lists.cpunks.org/pipermail/cypherpunks/"
-    label: "Cypherpunks mailing list archive (2013-present, cpunks.org)"
   - url: "https://www.activism.net/cypherpunk/manifesto.html"
     label: "A Cypherpunks Manifesto, Eric Hughes (March 9, 1993)"
   - url: "https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html"
