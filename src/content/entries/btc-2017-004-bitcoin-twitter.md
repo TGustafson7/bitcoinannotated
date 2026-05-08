@@ -12,10 +12,8 @@ heroImage: "/images/entries/bitcoin-twitter.png"
 heroImageCaption: "Bitcoin Twitter, spring 2021 — the laser-eyes profile-picture campaign at peak adoption."
 heroImageCredit: "Composite screenshot, Twitter / X."
 sources:
-  - url: "https://en.wikipedia.org/wiki/Twitter"
-    label: "Wikipedia — Twitter platform history"
-  - url: "https://nakamoto.com/bitcoin-twitter/"
-    label: "Nakamoto.com — On the cultural function of Bitcoin Twitter"
+  - url: "https://www.coindesk.com/opinion/2022/04/20/6-things-you-should-know-about-crypto-twitter"
+    label: "CoinDesk (April 2022) — analysis of Crypto/Bitcoin Twitter as cultural cluster, drawing on Affinio's 'Mining the Crypto Community' research"
 related: []
 ---
 There is no founding date for Bitcoin Twitter. There is no membership roster, no governance structure, no authoritative spokesperson, and no formal definition of what does or does not count as participation. The phrase refers to a constellation of perhaps fifty thousand active accounts, several thousand of which post daily, who collectively produce the bulk of the modern bitcoin community's public discourse. The constellation has functioned, since approximately 2017, as bitcoin's primary cultural workshop — the place where the language is generated, the arguments are conducted, the new entrants are educated, the figures are made and unmade, and the daily emotional weather of the asset is collectively performed. To call Bitcoin Twitter an *institution* is to stretch the word, but no smaller word is adequate. It is, by some distance, the most important non-protocol artifact in bitcoin culture.
