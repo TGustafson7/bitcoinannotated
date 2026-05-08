@@ -37,7 +37,7 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     <div style="display: flex; align-items: center; gap: 14px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; color: var(--ink-mid); text-transform: uppercase;">
       <span>{allEntries.length} ARTIFACTS</span>
       <span style="opacity: 0.4;">·</span>
-      <span>1992 — PRESENT</span>
+      <span>{allEntries[0]?.data.date.getUTCFullYear()} — PRESENT</span>
       <span style="opacity: 0.4;">·</span>
       <span>EST. BLOCK 0</span>
     </div>
