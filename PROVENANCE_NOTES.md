@@ -233,3 +233,22 @@ The following categories are assumed clean unless something specific surfaces:
 **its-going-up-forever-laura.svg** — ✓ Clean. Catalog's own work (Plate XX). Phrase attributed to Michael Saylor in the artifact metadata.
 
 **vires-in-numeris.svg** — ✓ Clean. Catalog's own work (Plate XXII). The Latin phrase is public domain; its association with bitcoin via Casascius coins is attributed in the entry body and in the plate's attribution line.
+
+
+## May 8, 2026 — six new entries (catalog at 79)
+
+**wikileaks-accepts-bitcoin.png** — ⚠️ Screenshot of WikiLeaks's June 14, 2011 announcement tweet from X (formerly Twitter). Twitter/X owns the UI; WikiLeaks owns the post content. Standard fair use applies for editorial documentation of a historic event. The original tweet remains live and publicly accessible.
+
+**segwit-activation.svg** — ✓ Clean. Catalog's own work (Plate XXI). Block height 481,824 and BIP-141 are public-domain protocol facts.
+
+**the-cypherpunk-mailing-list.jpg** — ⚠️ Wired magazine cover, May/June 1993. Condé Nast (Wired's parent) owns the cover image; Steven Levy authored the cover story "Crypto Rebels." Standard fair use applies for editorial use covering a historic publication. The cover is widely reproduced in privacy-advocacy and bitcoin-history contexts.
+
+**the-case-for-a-small-allocation-to-bitcoin.png** — ✓ Clean. Wences Casares self-published the essay in March 2019. Screenshot is of the kanaandkatana.com mirror; original content is public and uncopyrighted by any third party.
+
+**its-going-up-forever-laura.svg** — ✓ Clean. Catalog's own work (Plate XX). Phrase attributed to Michael Saylor in the artifact metadata.
+
+**vires-in-numeris.svg** — ✓ Clean. Catalog's own work (Plate XXII). The Latin phrase is public domain; its bitcoin association via Casascius is attributed in the entry body and plate.
+
+## May 8, 2026 (later) — Casascius Coins (catalog at 80)
+
+**casascius-coins.jpg** — ⚠️ Photograph of a Casascius coin. Mike Caldwell owns the coin photography (originally hosted at casascius.com). Standard fair use applies for editorial documentation. Caldwell is an individual creator who voluntarily ceased operations in 2013; clearance path, if ever needed, would be direct contact.
