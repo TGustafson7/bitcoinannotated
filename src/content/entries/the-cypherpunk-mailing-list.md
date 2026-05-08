@@ -11,9 +11,11 @@ heroImage: "/images/entries/the-cypherpunk-mailing-list.jpg"
 heroImageCaption: "Wired magazine cover, May/June 1993. The three figures are the cypherpunks Tim May, Eric Hughes, and John Gilmore — the masks are theirs."
 heroImageCredit: "Photograph © Wired (1993)."
 sources:
-  - url: "https://lists.cpunks.org/pipermail/cypherpunks/"
-    label: "Cypherpunks mailing list archive (cpunks.org)"
+  - url: "https://mailing-list-archive.cryptoanarchy.wiki/"
+    label: "Cypherpunks mailing list historical archive (1992-1999)"
     primary: true
+  - url: "https://lists.cpunks.org/pipermail/cypherpunks/"
+    label: "Cypherpunks mailing list archive (2013-present, cpunks.org)"
   - url: "https://www.activism.net/cypherpunk/manifesto.html"
     label: "A Cypherpunks Manifesto, Eric Hughes (March 9, 1993)"
   - url: "https://groups.csail.mit.edu/mac/classes/6.805/articles/crypto/cypherpunks/may-crypto-manifesto.html"
