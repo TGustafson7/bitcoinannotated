@@ -16,6 +16,7 @@ sources:
     label: "21 Lessons: What I've Learned from Falling Down the Bitcoin Rabbit Hole — Gigi (December 2019)"
   - url: "https://github.com/21-lessons/21lessons-book"
     label: "21 Lessons book — GitHub source repository (first edition tagged December 24, 2019)"
+    primary: true
   - url: "https://bitcoinmagazine.com/culture/bitcoin-orange-pill-theory-reality"
     label: "Bitcoin Magazine — 'Taking The Orange Pill: A Theory Or Reality?' (October 12, 2021)"
 related: []

@@ -16,6 +16,7 @@ heroImageCredit: "Specimen rendering"
 sources:
   - url: "https://bitcointalk.org/index.php?topic=15.0"
     label: "BitcoinTalk thread — first bitcoin logo discussions (February 2010)"
+    primary: true
   - url: "https://en.bitcoin.it/wiki/Promotional_graphics"
     label: "Bitcoin Wiki — Promotional graphics and the orange roundel"
 related:

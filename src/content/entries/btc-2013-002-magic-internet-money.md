@@ -20,6 +20,7 @@ sources:
     label: "Know Your Meme: Magic Internet Money: Bitcoin Wizard"
   - url: "https://foundation.app/@mavensbot/foundation/5252"
     label: "mavensbot's own archive on Foundation"
+    primary: true
 related:
   - "BTC.2013.001"
   - "BTC.2009.001"

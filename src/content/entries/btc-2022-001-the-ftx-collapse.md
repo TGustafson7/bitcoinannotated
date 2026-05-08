@@ -15,6 +15,7 @@ heroImageCredit: "Contemporary press coverage"
 sources:
   - url: "https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-his-orchestration-multiple-fraudulent-schemes"
     label: "DOJ — Samuel Bankman-Fried sentenced to 25 years"
+    primary: true
   - url: "https://www.bloomberg.com/news/features/2022-11-09/how-sam-bankman-fried-built-a-crypto-empire-then-watched-it-collapse"
     label: "Bloomberg — How Sam Bankman-Fried's empire collapsed"
 related:

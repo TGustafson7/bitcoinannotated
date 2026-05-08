@@ -14,6 +14,7 @@ heroImageCredit: "Bitcoin Annotated, Plate IV."
 sources:
   - url: "https://bitcoinmagazine.com/culture/fix-the-money-fix-the-world"
     label: "Bitcoin Magazine — Aleks Svetski, 'Fix The Money, Fix The World' (June 25, 2021)"
+    primary: true
   - url: "https://saifedean.com/tbs"
     label: "Saifedean Ammous — The Bitcoin Standard (2018)"
   - url: "https://academic.oup.com/ser/advance-article/doi/10.1093/ser/mwag009/8494255"

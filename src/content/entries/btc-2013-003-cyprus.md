@@ -15,6 +15,7 @@ heroImageCredit: "Contemporary press coverage"
 sources:
   - url: "https://www.bbc.com/news/business-21812110"
     label: "BBC — Cyprus bailout: Parliament delays decision (March 2013)"
+    primary: true
   - url: "https://www.reuters.com/article/markets/bitcoin-soars-on-cyprus-bailout-idUSL5N0CB1BU/"
     label: "Reuters — Bitcoin soars on Cyprus bailout"
 related:

@@ -16,6 +16,7 @@ heroImageCredit: "Press Office of the Presidency of El Salvador."
 sources:
   - url: "https://bitcoinmagazine.com/culture/bitcoin-laser-eyes-origins"
     label: "Bitcoin Magazine: Origins of Bitcoin Laser Eyes (by the creator)"
+    primary: true
   - url: "https://knowyourmeme.com/memes/laser-eyes-bitcoin-trend-laserrayuntil100k"
     label: "Know Your Meme: Laser Eyes Bitcoin Trend"
   - url: "https://decrypt.co/58302/elon-musk-bitcoin-advocates-have-laser-eyes-on-twitter-heres-why"

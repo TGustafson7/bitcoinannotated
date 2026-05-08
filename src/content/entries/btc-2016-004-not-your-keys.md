@@ -17,6 +17,7 @@ sources:
     label: "Andreas Antonopoulos — official site (talks, books, transcripts)"
   - url: "https://github.com/bitcoinbook/bitcoinbook"
     label: "Mastering Bitcoin (Antonopoulos, 2014; second edition 2017)"
+    primary: true
 related: []
 ---
 *Not your keys, not your coins.* The phrase has no single point of origin. It crystallized across Andreas Antonopoulos's prolific speaking and teaching activity in the period roughly between 2014 and 2016 — through Mastering Bitcoin (first edition published December 2014), through the Let's Talk Bitcoin podcast he co-hosted, through his teaching fellowship at the University of Nicosia's Digital Currencies program, and through dozens of conference talks and audience Q&A sessions delivered across multiple continents during those years. Antonopoulos was not the first person in the bitcoin community to articulate the underlying point — that a user storing bitcoin on a third-party exchange did not, in any meaningful cryptographic sense, own that bitcoin — but he was the figure most responsible for compressing the argument into a slogan that could be remembered, repeated, and printed on bumper stickers. The exact phrasing varied across his appearances. By 2016 the four-beat form *not your keys, not your coins* had stabilized as the canonical version, and by 2017 it was standard vocabulary across the bitcoin community.

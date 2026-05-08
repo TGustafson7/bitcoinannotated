@@ -17,6 +17,7 @@ sources:
     label: "60 Minutes — Bitcoin Beach: How a town in El Salvador became a testing ground for bitcoin"
   - url: "https://bitcoinmagazine.com/culture/original-bitcoin-beach-white-paper"
     label: "Bitcoin Magazine — Reflecting On The Original Bitcoin Beach White Paper (Mike Peterson)"
+    primary: true
 related:
   - "BTC.2016.001"
   - "BTC.2021.002"

@@ -17,6 +17,7 @@ sources:
     label: "Bitcoin Magazine — Why Bitcoin Is Considered The Honey Badger Of Money"
   - url: "https://www.youtube.com/watch?v=4r7wHMg5Yjg"
     label: "*The Crazy Nastyass Honey Badger* — Randall, January 2011 (the source video)"
+    primary: true
 related: []
 ---
 In January 2011, a comedian named Randall uploaded to YouTube a video consisting of National Geographic footage of a small African mustelid called *Mellivora capensis*, narrated by Randall himself in a tone of exhausted contempt. The honey badger, in the footage, raided beehives while being stung hundreds of times. It picked fights with cobras and won. It dragged carrion away from much larger animals. Randall's narration repeated, with increasing emphasis, a single observation: *honey badger don't care*. The video accumulated over a hundred million views in eighteen months. The phrase entered general internet vocabulary.

@@ -14,6 +14,7 @@ heroImageCredit: "Bitcoin Annotated, Plate X."
 sources:
   - url: "https://bitcoinmagazine.com/culture/bitcoin-orange-pill-theory-reality"
     label: "Bitcoin Magazine — Dawdu M. Amantanah, 'Taking The Orange Pill: A Theory Or Reality?' (October 12, 2021)"
+    primary: true
   - url: "https://glossary.blockstream.com/orange-pill/"
     label: "Blockstream Glossary — Orange Pill (definitional reference)"
   - url: "https://www.ledger.com/academy/glossary/orange-pill"

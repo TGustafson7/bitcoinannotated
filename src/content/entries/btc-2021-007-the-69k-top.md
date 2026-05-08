@@ -14,6 +14,7 @@ heroImageCredit: "TradingView."
 sources:
   - url: "https://www.coindesk.com/markets/2021/11/10/bitcoin-hits-new-all-time-high-near-69k/"
     label: "CoinDesk — Bitcoin hits new all-time high near $69k (November 10, 2021)"
+    primary: true
   - url: "https://www.coingecko.com/en/coins/bitcoin/historical_data"
     label: "CoinGecko — Bitcoin historical price data"
 related: []

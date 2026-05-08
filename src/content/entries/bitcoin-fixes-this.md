@@ -14,6 +14,7 @@ heroImageCredit: "Bitcoin Annotated, Plate V."
 sources:
   - url: "https://jimmysong.substack.com/p/the-power-of-bitcoin-memes"
     label: "Jimmy Song — 'The Power of Bitcoin Memes,' Bitcoin Tech Talk Issue #223 (January 18, 2021)"
+    primary: true
   - url: "https://podcasts.apple.com/au/podcast/bitcoin-fixes-this/id1523910866"
     label: "Bitcoin Fixes This — podcast by Jimmy Song, first episode July 16, 2020"
 related: []

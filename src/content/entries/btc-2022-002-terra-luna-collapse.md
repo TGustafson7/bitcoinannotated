@@ -15,6 +15,7 @@ heroImageCredit: "Contemporary market data"
 sources:
   - url: "https://www.sec.gov/news/press-release/2023-32"
     label: "SEC charges Terraform Labs and Do Kwon (February 2023)"
+    primary: true
   - url: "https://www.bloomberg.com/news/features/2022-05-19/how-terra-s-ust-and-luna-imploded-in-the-crypto-crash"
     label: "Bloomberg — How Terra's UST and LUNA imploded"
 related: []

@@ -15,6 +15,7 @@ heroImageCredit: "Cambridge Centre for Alternative Finance."
 sources:
   - url: "https://www.reuters.com/technology/china-bans-financial-payment-institutions-cryptocurrency-business-2021-05-18/"
     label: "Reuters — China bans cryptocurrency business for financial institutions (May 2021)"
+    primary: true
   - url: "https://ccaf.io/cbnsi/cbeci/mining_map"
     label: "Cambridge Centre for Alternative Finance — Bitcoin Mining Map"
 related: []
