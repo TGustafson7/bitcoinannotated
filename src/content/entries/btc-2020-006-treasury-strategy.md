@@ -11,7 +11,7 @@ heroImageCredit: "BitcoinTreasuries.net"
 locked: true
 catalogId: "btc-2020-006"
 creator: "Michael Saylor (originator); industry-wide"
-blockHeightAtOrigin: 643500
+blockHeightAtOrigin: 643136
 foundational: false
 related: []
 sources:

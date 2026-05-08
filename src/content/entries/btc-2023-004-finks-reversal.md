@@ -11,7 +11,7 @@ heroImageCredit: "CNBC"
 locked: true
 catalogId: "btc-2023-004"
 creator: "Larry Fink (BlackRock)"
-blockHeightAtOrigin: 794500
+blockHeightAtOrigin: 794379
 foundational: false
 related: []
 sources:

@@ -11,7 +11,7 @@ heroImageCredit: "Medium / blog.plan99.net"
 locked: true
 catalogId: "btc-2016-005"
 creator: "Mike Hearn"
-blockHeightAtOrigin: 392200
+blockHeightAtOrigin: 393219
 foundational: false
 related: []
 sources:

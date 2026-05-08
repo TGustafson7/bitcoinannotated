@@ -11,7 +11,7 @@ heroImageCredit: "U.S. Department of Justice"
 locked: true
 catalogId: "btc-2024-004"
 creator: "U.S. Department of Justice (action); Keonne Rodriguez and William Lonergan Hill (Samourai developers)"
-blockHeightAtOrigin: 841800
+blockHeightAtOrigin: 840588
 foundational: false
 related: []
 sources:
