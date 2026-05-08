@@ -24,7 +24,7 @@ const chartMax = Math.ceil(maxBlockInCatalog / 50000) * 50000;
 const chartMin = 0;
 
 // Helper: percent position along the on-chain axis
-const pct = (h: number) => 2 + ((h - chartMin) / (chartMax - chartMin)) * 96;
+const pct = (h: number) => 4 + ((h - chartMin) / (chartMax - chartMin)) * 92;
 
 // Pre-chain entries get their own zone on the left
 const preChain = sorted.filter(e => e.data.blockHeightAtOrigin === 'Pre-chain');
@@ -206,7 +206,7 @@ const totalCount = entries.length;
   }
   .chart-axis-top {
     padding-left: 12%;
-    padding-right: 0;
+    padding-right: 8px;
   }
   .chart-axis-top .axis-label-left {
     margin-left: 0;
