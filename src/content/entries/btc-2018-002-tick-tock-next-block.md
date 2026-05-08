@@ -13,8 +13,11 @@ heroImage: "/images/entries/tick-tock-next-block.svg"
 heroImageCaption: "Plate XIX. The phrase as it circulated through bitcoin twitter, podcasts, and conference stages."
 heroImageCredit: "Bitcoin Annotated."
 sources:
-  - url: "https://www.redbubble.com/i/t-shirt/Bitcoin-Design-Tick-Tock-Next-Block-by-BitcoinBrosPOD/52479731.88ZX2"
-    label: "On the phrase's recurring use as a bitcoin maxim"
+  - url: "https://x.com/CitizenBitcoin"
+    label: "Brady Swenson (@CitizenBitcoin) — Swan Bitcoin co-founder and originator of the phrase, which appears in his X bio as a tagline"
+    primary: true
+  - url: "https://www.youtube.com/watch?v=f70U6cRuxx0"
+    label: "Brady Swenson, 'Tick Tock, Next Block: The Cadence of Civilization' — Bitcoin Amsterdam 2025 talk"
   - url: "https://podcasts.apple.com/us/podcast/episode-44-tick-tock-next-block/id1542617540?i=1000546385472"
     label: "*Tick Tock Next Block* — recurring podcast and column titles in bitcoin media"
 related:
