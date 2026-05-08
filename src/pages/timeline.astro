@@ -34,6 +34,51 @@ const onChainSorted = onChain
   .filter(e => (e.data.blockHeightAtOrigin as number) !== 0)
   .sort((a, b) => (a.data.blockHeightAtOrigin as number) - (b.data.blockHeightAtOrigin as number));
 
+// Group entries by halving cycle for mobile list rendering
+type CycleGroup = {
+  label: string;
+  range: string;
+  entries: typeof onChain;
+};
+const cycleGroups: CycleGroup[] = [
+  { label: 'Pre-chain', range: 'before block 0', entries: preChain as any },
+  { label: 'Cycle 1', range: '0 — 210k', entries: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h < 210000;
+  }) },
+  { label: 'Cycle 2', range: '210k — 420k', entries: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h >= 210000 && h < 420000;
+  }) },
+  { label: 'Cycle 3', range: '420k — 630k', entries: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h >= 420000 && h < 630000;
+  }) },
+  { label: 'Cycle 4', range: '630k — 840k', entries: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h >= 630000 && h < 840000;
+  }) },
+  { label: 'Cycle 5', range: '840k — now', entries: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h >= 840000;
+  }) },
+];
+
+// Sort each cycle's entries by block height (or date for Pre-chain)
+cycleGroups.forEach(g => {
+  if (g.label === 'Pre-chain') {
+    g.entries = g.entries.sort((a: any, b: any) => a.data.date.getTime() - b.data.date.getTime()) as any;
+  } else {
+    g.entries = g.entries.sort((a: any, b: any) =>
+      (a.data.blockHeightAtOrigin as number) - (b.data.blockHeightAtOrigin as number)
+    ) as any;
+  }
+});
+
+const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
+  month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC'
+}).format(date);
+
 // Era counts for the stat row
 const cycleStats = {
   preChain: preChain.length,
@@ -135,6 +180,32 @@ const totalCount = entries.length;
         <div class="tooltip-title"></div>
         <div class="tooltip-meta"></div>
       </div>
+    </section>
+
+    <section class="mobile-list">
+      {cycleGroups.map(group => (group.entries.length > 0 && (
+        <div class="mobile-cycle">
+          <div class="mobile-cycle-header">
+            <span class="mobile-cycle-label">{group.label}</span>
+            <span class="mobile-cycle-range">{group.range}</span>
+            <span class="mobile-cycle-count">{group.entries.length}</span>
+          </div>
+          <ul class="mobile-cycle-entries">
+            {group.entries.map(entry => (
+              <li>
+                <a href={`/entries/${entry.slug}/`}>
+                  <span class="mobile-entry-title">{entry.data.title}</span>
+                  <span class="mobile-entry-meta">
+                    {typeof entry.data.blockHeightAtOrigin === 'number'
+                      ? `block ${(entry.data.blockHeightAtOrigin as number).toLocaleString()}`
+                      : formatDate(entry.data.date)}
+                  </span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )))}
     </section>
 
     <section class="shape-shows">
@@ -493,6 +564,75 @@ const totalCount = entries.length;
     max-width: 760px;
   }
 
+  /* Mobile-only entry list */
+  .mobile-list {
+    display: none;
+    margin: 32px 0;
+  }
+  .mobile-cycle {
+    margin-bottom: 32px;
+  }
+  .mobile-cycle-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d8cfb8;
+    margin-bottom: 4px;
+  }
+  .mobile-cycle-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #d97706;
+    font-weight: 500;
+  }
+  .mobile-cycle-range {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #9a8e72;
+    flex: 1;
+  }
+  .mobile-cycle-count {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #6b6358;
+  }
+  .mobile-cycle-entries {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .mobile-cycle-entries li {
+    border-bottom: 1px solid #ebe3d2;
+  }
+  .mobile-cycle-entries li:last-child {
+    border-bottom: none;
+  }
+  .mobile-cycle-entries a {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 0;
+    text-decoration: none;
+    color: inherit;
+  }
+  .mobile-entry-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 17px;
+    color: #1a1a1a;
+    line-height: 1.25;
+    flex: 1;
+  }
+  .mobile-entry-meta {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: #9a8e72;
+    white-space: nowrap;
+  }
+
   .footer-hint {
     font-family: 'JetBrains Mono', monospace;
     font-size: 10px;
@@ -521,6 +661,19 @@ const totalCount = entries.length;
     }
     .timechain-page h1 {
       font-size: 32px;
+    }
+    .mobile-list {
+      display: block;
+    }
+    .tick,
+    .genesis-boundary {
+      pointer-events: none;
+    }
+    .tooltip {
+      display: none;
+    }
+    .footer-hint {
+      display: none;
     }
   }
 </style>
