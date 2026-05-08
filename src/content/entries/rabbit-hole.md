@@ -4,6 +4,7 @@ deck: "The bitcoin-coded usage of an inherited phrase, naming the months- or yea
 era: "The Long Wait"
 type: "Phrase"
 date: 2019-12-24
+blockHeightAtOrigin: 609511
 creator: "Inherited from Lewis Carroll; bitcoin-coded usage crystallized by Gigi"
 sourcePlatform: "21 Lessons (book) / Bitcoin Twitter"
 locked: true

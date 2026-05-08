@@ -5,6 +5,7 @@ deck: "The 1997 book bitcoiners cite when they want to ground the protocol in a 
 era: "Pre-Genesis"
 type: "Document"
 date: 1997-01-01
+blockHeightAtOrigin: "Pre-chain"
 sourcePlatform: "Simon & Schuster (book)"
 creator: "James Dale Davidson and William Rees-Mogg"
 locked: true

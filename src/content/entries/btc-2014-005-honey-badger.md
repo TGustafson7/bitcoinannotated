@@ -5,6 +5,7 @@ deck: "Bitcoin's spirit animal. It does not care what you think."
 era: "The Long Wait"
 type: "Iconography"
 date: 2014-01-01
+blockHeightAtOrigin: 277996
 creator: "Bitcoin community / Roger Ver (popularizer)"
 sourcePlatform: "BitcoinTalk forum / billboard"
 locked: true

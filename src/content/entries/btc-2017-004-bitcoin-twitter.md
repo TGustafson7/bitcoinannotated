@@ -5,6 +5,7 @@ deck: "The chaotic, unpaid public square where modern bitcoin culture was forged
 era: "2017 Run"
 type: "Iconography"
 date: 2017-08-01
+blockHeightAtOrigin: 478479
 sourcePlatform: "Twitter / X"
 locked: true
 heroImage: "/images/entries/bitcoin-twitter.png"

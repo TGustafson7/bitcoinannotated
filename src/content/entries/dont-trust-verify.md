@@ -4,6 +4,7 @@ deck: "Bitcoin's epistemic instruction — the prior maxim, sharpened from a Rus
 era: "Dark Forest"
 type: "Phrase"
 date: 2014-12-01
+blockHeightAtOrigin: 332363
 creator: "Bitcoin culture, popularized by Andreas Antonopoulos"
 sourcePlatform: "Twitter / Mastering Bitcoin / conference talks"
 locked: true

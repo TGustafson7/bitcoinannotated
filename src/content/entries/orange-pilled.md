@@ -4,6 +4,7 @@ deck: "The Matrix-derived phrase for the moment a person crosses over into belie
 era: "Pandemic Era"
 type: "Phrase"
 date: 2021-10-12
+blockHeightAtOrigin: 704597
 creator: "Bitcoin Twitter, popularized via Bitcoin Magazine"
 sourcePlatform: "Twitter / Bitcoin Magazine"
 locked: true

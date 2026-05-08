@@ -5,6 +5,7 @@ deck: "The phrase that became a discipline."
 era: "The Long Wait"
 type: "Phrase"
 date: 2016-01-01
+blockHeightAtOrigin: 391182
 creator: "Andreas Antonopoulos (popularizer)"
 sourcePlatform: "Conference circuit / Mastering Bitcoin"
 locked: true

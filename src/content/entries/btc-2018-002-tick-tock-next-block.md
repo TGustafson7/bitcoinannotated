@@ -5,6 +5,7 @@ deck: "The phrase that bitcoiners use to keep their heads."
 era: "The Long Wait"
 type: "Phrase"
 date: 2018-01-01
+blockHeightAtOrigin: 501961
 creator: "Bitcoin Twitter (organic origin)"
 sourcePlatform: "Twitter / forums"
 locked: true

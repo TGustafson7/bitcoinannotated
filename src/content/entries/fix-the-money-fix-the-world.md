@@ -4,6 +4,7 @@ deck: "The bitcoiner's claim that monetary repair is the upstream fix for almost
 era: "Institutional Takeover"
 type: "Phrase"
 date: 2021-06-25
+blockHeightAtOrigin: 688734
 creator: "Aleks Svetski (popularizer)"
 sourcePlatform: "Bitcoin Magazine / Bitcoin 2021 Miami"
 locked: true

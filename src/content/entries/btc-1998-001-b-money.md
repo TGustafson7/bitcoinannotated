@@ -5,6 +5,7 @@ deck: "Wei Dai's 1998 sketch of an anonymous distributed cash system, ten years 
 era: "Pre-Genesis"
 type: "Document"
 date: 1998-11-01
+blockHeightAtOrigin: "Pre-chain"
 sourcePlatform: "cypherpunks mailing list"
 creator: "Wei Dai"
 locked: true

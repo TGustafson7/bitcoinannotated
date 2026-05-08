@@ -4,6 +4,7 @@ deck: "Block 481,824. The peace treaty that ended the Block Size Wars and unlock
 era: "2017 Run"
 type: "Event"
 date: 2017-08-24
+blockHeightAtOrigin: 481824
 sourcePlatform: "Bitcoin protocol (BIP-141)"
 locked: true
 creator: "Pieter Wuille and Gregory Maxwell (BIP-141 authors); the broader Bitcoin Core development community"
