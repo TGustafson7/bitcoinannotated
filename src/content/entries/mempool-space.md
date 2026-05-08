@@ -4,6 +4,7 @@ deck: "The open-source visualizer that turned bitcoin's waiting room into a wind
 era: "Pandemic Era"
 type: "Iconography"
 date: 2020-01-01
+blockHeightAtOrigin: 610691
 sourcePlatform: "mempool.space (open source, MIT license)"
 locked: true
 creator: "Simon Lapscher (softsimon) and Wiz"

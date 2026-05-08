@@ -4,6 +4,7 @@ deck: "The first time bitcoin was used to defeat a state-level financial blockad
 era: "First Bull"
 type: "Event"
 date: 2011-06-14
+blockHeightAtOrigin: 130623
 sourcePlatform: "WikiLeaks (Twitter announcement); BitcoinTalk forum"
 locked: true
 creator: "WikiLeaks (Julian Assange and editorial staff)"

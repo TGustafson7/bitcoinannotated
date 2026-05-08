@@ -4,6 +4,7 @@ deck: "Lyn Alden's four-word diagnosis of fiscal dominance, and the slogan a gen
 era: "Now"
 type: "Phrase"
 date: 2024-05-13
+blockHeightAtOrigin: 843210
 sourcePlatform: "Bankless podcast; lynalden.com; conference circuit"
 locked: true
 creator: "Lyn Alden"

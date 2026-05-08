@@ -4,6 +4,7 @@ deck: "Twelve words on a piece of paper. The most distinctive physical artifact 
 era: "First Bull"
 type: "Iconography"
 date: 2013-09-10
+blockHeightAtOrigin: 257024
 sourcePlatform: "BIP-39 (Bitcoin Improvement Proposal 39)"
 locked: true
 creator: "Marek Palatinus, Pavol Rusnak, Aaron Voisine, Sean Bowe (BIP-39 authors)"

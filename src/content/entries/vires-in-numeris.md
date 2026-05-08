@@ -4,6 +4,7 @@ deck: "Strength in numbers. The Latin motto that arrived stamped on bitcoin's fi
 era: "First Bull"
 type: "Iconography"
 date: 2011-12-01
+blockHeightAtOrigin: 143409
 sourcePlatform: "Casascius Physical Bitcoins (Mike Caldwell)"
 locked: true
 creator: "Mike Caldwell (Casascius)"

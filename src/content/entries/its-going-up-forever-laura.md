@@ -4,6 +4,7 @@ deck: "Michael Saylor's eight-word doctrine, delivered on a podcast and reissued
 era: "Pandemic Era"
 type: "Phrase"
 date: 2021-01-26
+blockHeightAtOrigin: 667668
 sourcePlatform: "Unchained Podcast (Laura Shin); subsequent circulation across X and bitcoin podcasts"
 locked: true
 creator: "Michael Saylor"

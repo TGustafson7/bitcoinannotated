@@ -4,6 +4,7 @@ deck: "The 2019 essay Wall Street allocators kept handing each other. The argume
 era: "The Long Wait"
 type: "Document"
 date: 2019-03-01
+blockHeightAtOrigin: 565109
 sourcePlatform: "Self-published; circulated through Xapo and PayPal networks"
 locked: true
 creator: "Wences Casares"

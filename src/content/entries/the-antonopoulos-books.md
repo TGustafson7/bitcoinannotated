@@ -4,6 +4,7 @@ deck: "The two books through which a generation learned bitcoin: one for enginee
 era: "Dark Forest"
 type: "Document"
 date: 2014-12-01
+blockHeightAtOrigin: 332363
 sourcePlatform: "O'Reilly Media; Merkle Bloom LLC"
 locked: true
 creator: "Andreas M. Antonopoulos"

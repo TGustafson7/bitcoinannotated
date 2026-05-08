@@ -4,6 +4,7 @@ deck: "The forum where nearly every cryptographic idea bitcoin would later combi
 era: "Pre-Genesis"
 type: "Document"
 date: 1992-09-01
+blockHeightAtOrigin: "Pre-chain"
 sourcePlatform: "toad.com (1992-1997); cpunks.org (current archive)"
 locked: true
 creator: "Eric Hughes, Timothy C. May, and John Gilmore (founders); name coined by Jude Milhon"

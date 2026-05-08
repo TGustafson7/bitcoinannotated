@@ -4,6 +4,7 @@ deck: "The brass and silver disks that briefly made bitcoin a thing you could ho
 era: "First Bull"
 type: "Iconography"
 date: 2011-09-01
+blockHeightAtOrigin: 143409
 sourcePlatform: "Casascius (Mike Caldwell, Sandy, Utah)"
 locked: true
 creator: "Mike Caldwell"

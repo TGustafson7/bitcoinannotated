@@ -4,6 +4,7 @@ deck: "Larry Lepard's 2025 case for sound money, written by a fund manager who w
 era: "Now"
 type: "Document"
 date: 2025-02-03
+blockHeightAtOrigin: 882048
 sourcePlatform: "Self-published (Lawrence Lepard)"
 locked: true
 creator: "Lawrence Lepard"
