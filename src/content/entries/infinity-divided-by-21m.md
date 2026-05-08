@@ -3,8 +3,8 @@ title: "Infinity Divided by 21 Million"
 deck: "Knut Svanholm's reframing of bitcoin as the denominator into which everything else fits."
 era: "Pandemic Era"
 type: "Phrase"
-date: 2022-07-05
-blockHeightAtOrigin: 743675
+date: 2022-04-10
+blockHeightAtOrigin: 731203
 creator: "Knut Svanholm"
 sourcePlatform: "Twitter / Konsensus Network"
 locked: true
