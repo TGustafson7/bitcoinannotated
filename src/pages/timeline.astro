@@ -9,10 +9,10 @@ const sorted = entries.sort((a, b) => a.data.date.getTime() - b.data.date.getTim
 
 // Halvings: block height + label + date
 const halvings = [
-  { height: 210000, label: 'First halving',  date: 'Nov 2012' },
-  { height: 420000, label: 'Second halving', date: 'Jul 2016' },
-  { height: 630000, label: 'Third halving',  date: 'May 2020' },
-  { height: 840000, label: 'Fourth halving', date: 'Apr 2024' },
+  { height: 210000, label: '1st halving', date: 'Nov 2012' },
+  { height: 420000, label: '2nd halving', date: 'Jul 2016' },
+  { height: 630000, label: '3rd halving', date: 'May 2020' },
+  { height: 840000, label: '4th halving', date: 'Apr 2024' },
 ];
 
 // Use the latest entry's block height as the right edge of the chart, rounded up
@@ -24,7 +24,7 @@ const chartMax = Math.ceil(maxBlockInCatalog / 50000) * 50000;
 const chartMin = 0;
 
 // Helper: percent position along the on-chain axis
-const pct = (h: number) => ((h - chartMin) / (chartMax - chartMin)) * 100;
+const pct = (h: number) => 2 + ((h - chartMin) / (chartMax - chartMin)) * 96;
 
 // Pre-chain entries get their own zone on the left
 const preChain = sorted.filter(e => e.data.blockHeightAtOrigin === 'Pre-chain');
@@ -204,8 +204,12 @@ const totalCount = entries.length;
     margin-bottom: 12px;
     padding: 0 4px;
   }
+  .chart-axis-top {
+    padding-left: 12%;
+    padding-right: 0;
+  }
   .chart-axis-top .axis-label-left {
-    margin-left: 14%;
+    margin-left: 0;
   }
 
   .chart-row {
