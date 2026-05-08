@@ -15,7 +15,7 @@ blockHeightAtOrigin: "Pre-chain"
 foundational: true
 related: []
 sources:
-  - url: "https://nakamotoinstitute.org/library/blind-signatures/"
+  - url: "https://sceweb.sce.uhcl.edu/yang/teaching/csci5234WebSecurityFall2011/Chaum-blind-signatures.PDF"
     label: "David Chaum — Blind Signatures for Untraceable Payments (1982)"
     primary: true
   - url: "https://en.wikipedia.org/wiki/DigiCash"
