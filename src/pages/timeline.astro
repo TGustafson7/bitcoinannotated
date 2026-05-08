@@ -28,9 +28,11 @@ const pct = (h: number) => ((h - chartMin) / (chartMax - chartMin)) * 100;
 
 // Pre-chain entries get their own zone on the left
 const preChain = sorted.filter(e => e.data.blockHeightAtOrigin === 'Pre-chain');
-const onChainSorted = onChain.sort(
-  (a, b) => (a.data.blockHeightAtOrigin as number) - (b.data.blockHeightAtOrigin as number)
-);
+// Genesis Block is rendered as the boundary itself, not as a separate tick
+const genesisBlock = onChain.find(e => (e.data.blockHeightAtOrigin as number) === 0);
+const onChainSorted = onChain
+  .filter(e => (e.data.blockHeightAtOrigin as number) !== 0)
+  .sort((a, b) => (a.data.blockHeightAtOrigin as number) - (b.data.blockHeightAtOrigin as number));
 
 // Era counts for the stat row
 const cycleStats = {
@@ -69,6 +71,14 @@ const totalCount = entries.length;
 
       <div class="chart-row">
         <div class="prechain-zone">
+          {genesisBlock && (
+            <a
+              href={`/entries/${genesisBlock.slug}/`}
+              class="genesis-boundary"
+              data-title={genesisBlock.data.title}
+              data-meta="block 0 · Genesis"
+            ></a>
+          )}
           <div class="prechain-label">Pre-chain</div>
           <div class="prechain-ticks">
             {preChain.map(entry => (
@@ -91,7 +101,7 @@ const totalCount = entries.length;
 
           {(() => {
             const MIN_SPACING = 0.5;
-            let lastPct = 0.4;
+            let lastPct = 0.5;
             return onChainSorted.map(entry => {
               const h = entry.data.blockHeightAtOrigin as number;
               const rawPct = pct(h);
@@ -243,12 +253,36 @@ const totalCount = entries.length;
 
   .prechain-zone {
     background: #efe7d2;
-    border-right: 2px solid #d97706;
     position: relative;
     padding: 8px 6px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  .genesis-boundary {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    width: 2px;
+    background: #d97706;
+    z-index: 5;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.12s, transform 0.12s, width 0.12s;
+  }
+  .genesis-boundary::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    bottom: -4px;
+    left: -6px;
+    right: -6px;
+  }
+  .genesis-boundary:hover {
+    background: #1a1a1a;
+    width: 3px;
+    z-index: 10;
   }
   .prechain-label {
     font-family: 'JetBrains Mono', monospace;
@@ -486,7 +520,7 @@ const totalCount = entries.length;
 </style>
 
 <script>
-  const ticks = document.querySelectorAll('.tick');
+  const ticks = document.querySelectorAll('.tick, .genesis-boundary');
   const tooltip = document.getElementById('tick-tooltip')!;
   const tooltipTitle = tooltip.querySelector('.tooltip-title')!;
   const tooltipMeta = tooltip.querySelector('.tooltip-meta')!;
