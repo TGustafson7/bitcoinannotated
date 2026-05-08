@@ -13,19 +13,19 @@
   <!-- the twelve words, three rows of four, italic Garamond, numbered like a real seed -->
   <!-- row 1 -->
   <g font-family="'EB Garamond', 'Garamond', Georgia, serif" font-style="italic" fill="#1a1a1a">
-    <text x="120" y="180" font-size="28">
+    <text x="85" y="180" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">1.</tspan>
       <tspan dx="10">abandon</tspan>
     </text>
-    <text x="320" y="180" font-size="28">
+    <text x="255" y="180" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">2.</tspan>
       <tspan dx="10">ability</tspan>
     </text>
-    <text x="500" y="180" font-size="28">
+    <text x="425" y="180" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">3.</tspan>
       <tspan dx="10">able</tspan>
     </text>
-    <text x="660" y="180" font-size="28">
+    <text x="595" y="180" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">4.</tspan>
       <tspan dx="10">about</tspan>
     </text>
@@ -33,19 +33,19 @@
 
   <!-- row 2 -->
   <g font-family="'EB Garamond', 'Garamond', Georgia, serif" font-style="italic" fill="#1a1a1a">
-    <text x="120" y="240" font-size="28">
+    <text x="85" y="240" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">5.</tspan>
       <tspan dx="10">above</tspan>
     </text>
-    <text x="320" y="240" font-size="28">
+    <text x="255" y="240" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">6.</tspan>
       <tspan dx="10">absent</tspan>
     </text>
-    <text x="500" y="240" font-size="28">
+    <text x="425" y="240" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">7.</tspan>
       <tspan dx="10">absorb</tspan>
     </text>
-    <text x="660" y="240" font-size="28">
+    <text x="595" y="240" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">8.</tspan>
       <tspan dx="10">abstract</tspan>
     </text>
@@ -53,19 +53,19 @@
 
   <!-- row 3 -->
   <g font-family="'EB Garamond', 'Garamond', Georgia, serif" font-style="italic" fill="#1a1a1a">
-    <text x="120" y="300" font-size="28">
+    <text x="85" y="300" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">9.</tspan>
       <tspan dx="10">absurd</tspan>
     </text>
-    <text x="320" y="300" font-size="28">
+    <text x="255" y="300" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">10.</tspan>
       <tspan dx="10">abuse</tspan>
     </text>
-    <text x="500" y="300" font-size="28">
+    <text x="425" y="300" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">11.</tspan>
       <tspan dx="10">access</tspan>
     </text>
-    <text x="660" y="300" font-size="28">
+    <text x="595" y="300" font-size="28">
       <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">12.</tspan>
       <tspan dx="10" fill="#d97706">accident</tspan>
     </text>
