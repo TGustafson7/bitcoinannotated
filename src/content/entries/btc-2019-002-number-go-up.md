@@ -18,6 +18,7 @@ sources:
     label: "Wiktionary — number go up"
   - url: "https://davidgerard.co.uk/blockchain/2019/05/27/the-origin-of-number-go-up-in-bitcoin-culture/"
     label: "David Gerard — 'The origin of number go up in Bitcoin culture' (May 2019), the canonical secondary documentation of the phrase's pre-bitcoin SomethingAwful origin"
+    primary: true
 related: []
 ---
 *Number go up* is a phrase, a meme, a chart annotation, a half-ironic worldview, and a four-word reduction of bitcoin's central value proposition to its most cynical possible articulation. Its earliest documented appearance in cryptocurrency discussion is from October 5, 2017, in a SomethingAwful forum thread, by a user posting under the handle *Blade Runner*. The post was sarcastic — *Blade Runner* was a bitcoin skeptic, the SomethingAwful crypto threads were a Goon-coded venue for laughing at the asset, and the phrase as it first appeared was a parody of how the speaker imagined a bitcoin enthusiast thinking. The first canonical-grammar Twitter usage — *number go up*, no article, in the present-tense bitcoin-coded sense — was David Gerard's tweet on December 9, 2017. Gerard was, and remains, a bitcoin critic. The bitcoin community adopted both the phrase and its skeptical origin without apparent embarrassment, which is the first thing that makes the artifact unusual.

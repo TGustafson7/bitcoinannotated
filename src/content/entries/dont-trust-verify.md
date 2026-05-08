@@ -13,7 +13,8 @@ heroImageCaption: "Don't trust, verify — the bitcoin sharpening of an older pr
 heroImageCredit: "Bitcoin Annotated, Plate IX."
 sources:
   - url: "https://aantonop.com/"
-    label: "Andreas Antonopoulos — bitcoin educator and author of Mastering Bitcoin (2014)"
+    label: "Andreas Antonopoulos — bitcoin educator and author of Mastering Bitcoin (2014); the phrase's popularizer in bitcoin culture"
+    primary: true
   - url: "https://en.wikipedia.org/wiki/Andreas_Antonopoulos"
     label: "Wikipedia — Andreas Antonopoulos, biographical context"
   - url: "https://bitbo.io/glossary/dont-trust-verify/"
