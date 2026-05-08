@@ -12,9 +12,11 @@ heroImage: "/images/entries/bitcoin-pizza-day.png"
 heroImageCaption: "Laszlo Hanyecz's original offer, BitcoinTalk, May 18, 2010."
 heroImageCredit: "Laszlo Hanyecz / BitcoinTalk"
 sources:
-  - url: "https://bitcointalk.org/index.php?topic=137.0"
-    label: "Laszlo Hanyecz original BitcoinTalk post (May 18, 2010)"
+  - url: "https://www.coindesk.com/markets/2014/05/22/bitcoin-pizza-day-celebrating-the-pizzas-bought-for-10000-btc"
+    label: "Grace Caffyn, CoinDesk (May 22, 2014) — first community-celebrated Pizza Day"
     primary: true
+  - url: "https://bitcointalk.org/index.php?topic=137.0"
+    label: "Laszlo Hanyecz original BitcoinTalk post (May 18, 2010) — the transaction the holiday commemorates"
   - url: "https://www.cbsnews.com/news/bitcoin-pizza-day-laszlo-hanyecz-60-minutes-2019-05-12/"
     label: "Anderson Cooper / 60 Minutes interview with Hanyecz (CBS, 2019)"
 related:

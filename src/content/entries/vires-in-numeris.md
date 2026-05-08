@@ -12,9 +12,11 @@ heroImage: "/images/entries/vires-in-numeris.svg"
 heroImageCaption: "Plate XXII. VIRES IN NUMERIS — Latin for Strength in Numbers. Stamped on Casascius physical bitcoins beginning September 2011."
 heroImageCredit: "Bitcoin Annotated."
 sources:
-  - url: "https://www.casascius.com/"
-    label: "Casascius — Mike Caldwells site (archive)"
+  - url: "https://bitcointalk.org/index.php?topic=4994.msg140770#msg140770"
+    label: "BitcoinTalk thread (May 2011) — earliest documented bitcoin-context proposal of the motto"
     primary: true
+  - url: "https://www.casascius.com/"
+    label: "Casascius — Mike Caldwell's site (archive); first physical-object appearance of the motto, September 2011"
   - url: "https://www.historyofbitcoin.io/timeline/casascius"
     label: "History of Bitcoin: Casascius Physical Bitcoins"
 related: []
