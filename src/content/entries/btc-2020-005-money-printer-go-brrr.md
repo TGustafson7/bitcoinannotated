@@ -12,6 +12,7 @@ btcPriceAtOrigin: "~$7,900"
 sources:
   - url: "https://knowyourmeme.com/memes/money-printer-go-brrr"
     label: "Know Your Meme — origin, propagation, format genealogy"
+    primary: true
   - url: "https://fortune.com/2020/05/12/fed-go-brrr-meme-bitcoin-money-printer-federal-reserve/"
     label: "Fortune on the meme striking a chord with Bitcoin believers"
   - url: "https://www.screenslate.com/articles/go-brrr"

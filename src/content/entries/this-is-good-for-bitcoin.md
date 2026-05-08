@@ -13,6 +13,9 @@ btcPriceAtOrigin: "~$5"
 sources:
   - url: "https://knowyourmeme.com/memes/this-is-good-for-bitcoin"
     label: "Know Your Meme — origin and genealogy"
+  - url: "https://www.reddit.com/r/Bitcoin/comments/rim7t/hey_rbitcoin_got_coins_enjoy_the_female_form/"
+    label: "Reddit r/bitcoin — original thread containing Julian702's March 30, 2012 comment"
+    primary: true
 heroImage: "/images/entries/this-is-good-for-bitcoin.svg"
 heroImageCaption: "Plate XIII"
 heroImageCredit: "Bitcoin Annotated"

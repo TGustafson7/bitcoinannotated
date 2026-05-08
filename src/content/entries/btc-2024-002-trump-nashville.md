@@ -17,6 +17,9 @@ sources:
     label: "CNBC — Trump promises strategic bitcoin reserve at Nashville conference"
   - url: "https://www.reuters.com/world/us/trumps-bitcoin-pitch-nashville-2024-07-27/"
     label: "Reuters — Trump's bitcoin pitch in Nashville"
+  - url: "https://www.c-span.org/program/public-affairs-event/former-president-trump-remarks-at-bitcoin-conference/645432"
+    label: "C-SPAN archive — Donald Trump remarks at Bitcoin 2024 conference (full speech video)"
+    primary: true
 related: []
 ---
 On the afternoon of Saturday, July 27, 2024, the Republican Party's nominee for president of the United States walked onto a stage at the Bitcoin 2024 conference in Nashville, Tennessee, in front of an audience of approximately twenty thousand bitcoiners, and delivered a fifty-minute address committing his prospective administration to a series of bitcoin-friendly policy positions. The candidate was Donald J. Trump. The positions, as articulated in the speech and subsequently formalized in campaign documents, included: maintaining the United States government's existing bitcoin holdings as a *strategic national stockpile*; protecting the right of every American to self-custody their bitcoin; firing the chair of the Securities and Exchange Commission, Gary Gensler, on day one of the new administration; and ensuring that bitcoin mining occurred *in America*, not in jurisdictions less aligned with American interests. The audience response was enthusiastic to the point of being audibly emotional. The political significance was substantially independent of the specific commitments.

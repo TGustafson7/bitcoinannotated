@@ -15,6 +15,7 @@ heroImageCredit: "Bitcoin Annotated, Plate III."
 sources:
   - url: "https://blog.lopp.net/the-memes-make-the-bitcoin/"
     label: "Jameson Lopp — The Memes Make the Bitcoin"
+    primary: true
   - url: "https://www.coindesk.com/markets/2021/03/03/the-decoder-have-fun-staying-poor"
     label: "CoinDesk — The Decoder: Have Fun Staying Poor"
 related: []

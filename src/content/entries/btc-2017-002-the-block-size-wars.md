@@ -16,6 +16,9 @@ sources:
     label: "Jonathan Bier — The Blocksize War (2021)"
   - url: "https://bitcoinmagazine.com/culture/the-long-road-to-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality"
     label: "Bitcoin Magazine — The long road to SegWit"
+  - url: "https://github.com/bitcoin/bips/blob/master/bip-0148.mediawiki"
+    label: "BIP 148 — Shaolinfry's mandatory activation of segwit deployment proposal (the document the war pivoted on)"
+    primary: true
 related:
   - "BTC.2008.001"
   - "BTC.2013.001"
