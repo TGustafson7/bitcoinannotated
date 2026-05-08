@@ -1,17 +1,17 @@
 ---
 title: "The Cantillon Effect"
 deck: "An 18th-century French monetary observation, absorbed by bitcoiners as the explanation for everything they distrust."
-era: "The Long Wait"
+era: "Pandemic Era"
 type: "Phrase"
-date: 2018-04-01
+date: 2020-03-01
 sourcePlatform: "Books / podcasts / X"
 heroImage: "/images/entries/cantillon-effect.svg"
 heroImageCaption: "Plate XXIV — The Cantillon Effect"
 heroImageCredit: "Bitcoin Annotated"
 locked: true
-catalogId: "btc-2018-002"
+catalogId: "btc-2020-003"
 pronunciation: "kahn-tee-YOHN"
-blockHeightAtOrigin: 517000
+blockHeightAtOrigin: 619500
 foundational: false
 related: []
 sources:
