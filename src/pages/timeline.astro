@@ -33,18 +33,22 @@ const onChainSorted = onChain.sort(
 );
 
 // Era counts for the stat row
-const typeAndEraStats = {
+const cycleStats = {
   preChain: preChain.length,
-  pre2017: onChain.filter(e => (e.data.blockHeightAtOrigin as number) < 446000).length, // ~end of 2016
-  era1719: onChain.filter(e => {
+  cycle1: onChain.filter(e => (e.data.blockHeightAtOrigin as number) < 210000).length,
+  cycle2: onChain.filter(e => {
     const h = e.data.blockHeightAtOrigin as number;
-    return h >= 446000 && h < 615000; // ~end of 2019
+    return h >= 210000 && h < 420000;
   }).length,
-  pandemicFrauds: onChain.filter(e => {
+  cycle3: onChain.filter(e => {
     const h = e.data.blockHeightAtOrigin as number;
-    return h >= 615000 && h < 770000; // ~end of 2022
+    return h >= 420000 && h < 630000;
   }).length,
-  institutionalNow: onChain.filter(e => (e.data.blockHeightAtOrigin as number) >= 770000).length,
+  cycle4: onChain.filter(e => {
+    const h = e.data.blockHeightAtOrigin as number;
+    return h >= 630000 && h < 840000;
+  }).length,
+  cycle5: onChain.filter(e => (e.data.blockHeightAtOrigin as number) >= 840000).length,
 };
 
 const totalCount = entries.length;
@@ -120,27 +124,36 @@ const totalCount = entries.length;
       <div class="shape-shows-eyebrow">What the shape shows</div>
       <div class="stats">
         <div class="stat">
-          <div class="stat-num">{typeAndEraStats.preChain}</div>
+          <div class="stat-num">{cycleStats.preChain}</div>
           <div class="stat-label">Pre-chain</div>
         </div>
         <div class="stat">
-          <div class="stat-num">{typeAndEraStats.pre2017}</div>
-          <div class="stat-label">Pre-2017</div>
+          <div class="stat-num">{cycleStats.cycle1}</div>
+          <div class="stat-label">Cycle 1</div>
+          <div class="stat-sublabel">0 – 210k</div>
         </div>
         <div class="stat">
-          <div class="stat-num">{typeAndEraStats.era1719}</div>
-          <div class="stat-label">2017–2019</div>
+          <div class="stat-num">{cycleStats.cycle2}</div>
+          <div class="stat-label">Cycle 2</div>
+          <div class="stat-sublabel">210k – 420k</div>
         </div>
         <div class="stat">
-          <div class="stat-num">{typeAndEraStats.pandemicFrauds}</div>
-          <div class="stat-label">Pandemic+Frauds</div>
+          <div class="stat-num">{cycleStats.cycle3}</div>
+          <div class="stat-label">Cycle 3</div>
+          <div class="stat-sublabel">420k – 630k</div>
         </div>
         <div class="stat">
-          <div class="stat-num">{typeAndEraStats.institutionalNow}</div>
-          <div class="stat-label">Institutional+Now</div>
+          <div class="stat-num">{cycleStats.cycle4}</div>
+          <div class="stat-label">Cycle 4</div>
+          <div class="stat-sublabel">630k – 840k</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">{cycleStats.cycle5}</div>
+          <div class="stat-label">Cycle 5</div>
+          <div class="stat-sublabel">840k – now</div>
         </div>
       </div>
-      <p class="shape-caption">The catalog accelerates with each cycle. The cypherpunk decades produced a handful of artifacts. The pandemic alone produced more than the previous twenty-five years combined. Bitcoin's cultural production is denser now than at any point in its history — and the chain itself marks the inflection points.</p>
+      <p class="shape-caption">Each halving cycle has produced more artifacts than the last. Cycle 5 is barely a year old and already has five. Bitcoin's cultural production accelerates with the chain itself — and the chain itself marks the inflection points.</p>
     </section>
 
     <p class="footer-hint">Hover any tick for the entry. Click to read.</p>
@@ -397,9 +410,16 @@ const totalCount = entries.length;
   }
   .stats {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
     margin-bottom: 32px;
+  }
+  .stat-sublabel {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    color: #9a8e72;
+    margin-top: 2px;
   }
   .stat-num {
     font-family: 'EB Garamond', serif;
@@ -446,8 +466,8 @@ const totalCount = entries.length;
       width: 82%;
     }
     .stats {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 24px 16px;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px 12px;
     }
     .stat-num {
       font-size: 36px;
