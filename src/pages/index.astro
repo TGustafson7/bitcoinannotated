@@ -25,6 +25,23 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
   day: 'numeric',
   timeZone: 'UTC'
 }).format(date);
+
+// Build a slug -> stripped-lowercase-body map for client-side full-text search
+const bodyTextBySlug: Record<string, string> = {};
+for (const entry of allEntries) {
+  const raw = entry.body || '';
+  const stripped = raw
+    .replace(/```[\s\S]*?```/g, ' ')        // code fences
+    .replace(/`[^`]*`/g, ' ')                 // inline code
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ') // images
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1') // links keep label
+    .replace(/[#>*_~`]+/g, ' ')               // markdown punctuation
+    .replace(/\s+/g, ' ')                    // collapse whitespace
+    .trim()
+    .toLowerCase();
+  bodyTextBySlug[entry.slug] = stripped;
+}
+
 ---
 <BaseLayout>
   <section style="margin-bottom: 24px;">
@@ -71,7 +88,7 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
       <>
         <div class="era-divider">{group.year}</div>
         {group.entries.map((entry) => (
-          <a href={`/entries/${entry.slug}`} class="index-row">
+          <a href={`/entries/${entry.slug}`} class="index-row" data-search={`${entry.data.title} ${entry.data.deck || ''} ${bodyTextBySlug[entry.slug] || ''}`.toLowerCase()}>
             <span class="id">{formatDate(entry.data.date)}</span>
             <span class="title">{entry.data.title}</span>
             <span class="era">{entry.data.type}</span>
@@ -238,7 +255,7 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     const dividers = document.querySelectorAll('.era-divider');
     const indexed = Array.from(rows).map(row => ({
       el: row,
-      text: (row.textContent || '').toLowerCase()
+      text: row.getAttribute('data-search') || ''
     }));
 
     function apply(query) {
