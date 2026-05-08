@@ -14,6 +14,12 @@ for (const entry of allEntries) {
     grouped.push({ year, entries: [entry] });
   }
 }
+// type counts for filter chips
+const typeCounts: Record<string, number> = { Phrase: 0, Event: 0, Iconography: 0, Document: 0 };
+for (const entry of allEntries) {
+  const t = entry.data.type;
+  if (t in typeCounts) typeCounts[t]++;
+}
 const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
   month: 'short',
   day: 'numeric',
@@ -37,6 +43,17 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     </div>
     <hr style="margin-top: 28px; border: 0; border-top: 1px solid var(--ink-mid); opacity: 0.2;" />
   </section>
+  <nav class="filter-row" aria-label="Filter catalog by type">
+    <a href="?type=all" class="filter-chip" data-type="all">ALL <span class="count">{allEntries.length}</span></a>
+    <span class="filter-sep">·</span>
+    <a href="?type=phrase" class="filter-chip" data-type="phrase">PHRASE <span class="count">{typeCounts.Phrase}</span></a>
+    <span class="filter-sep">·</span>
+    <a href="?type=event" class="filter-chip" data-type="event">EVENT <span class="count">{typeCounts.Event}</span></a>
+    <span class="filter-sep">·</span>
+    <a href="?type=iconography" class="filter-chip" data-type="iconography">ICONOGRAPHY <span class="count">{typeCounts.Iconography}</span></a>
+    <span class="filter-sep">·</span>
+    <a href="?type=document" class="filter-chip" data-type="document">DOCUMENT <span class="count">{typeCounts.Document}</span></a>
+  </nav>
   <div class="index-list">
     {grouped.map((group) => (
       <>
@@ -57,3 +74,102 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
     <span>bitcoinannotated.com</span>
   </footer>
 </BaseLayout>
+
+<style>
+  .filter-row {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding: 18px 0 24px;
+    margin-bottom: 8px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+  .filter-chip {
+    color: var(--ink-mid);
+    text-decoration: none;
+    transition: color 0.12s;
+  }
+  .filter-chip:hover {
+    color: var(--orange);
+  }
+  .filter-chip.active {
+    color: var(--orange);
+    font-weight: 700;
+  }
+  .filter-chip .count {
+    font-size: 9px;
+    opacity: 0.55;
+    margin-left: 3px;
+    letter-spacing: 0.1em;
+  }
+  .filter-sep {
+    color: var(--ink-faint);
+    opacity: 0.4;
+  }
+  .index-row.filtered-out, .era-divider.filtered-out {
+    display: none;
+  }
+</style>
+
+<script>
+  function applyFilter() {
+    const params = new URLSearchParams(window.location.search);
+    const filter = (params.get('type') || 'all').toLowerCase();
+
+    // Set active chip
+    document.querySelectorAll('.filter-chip').forEach((el) => {
+      el.classList.toggle('active', el.dataset.type === filter);
+    });
+
+    // Filter rows by their type span
+    const rows = document.querySelectorAll('.index-row');
+    rows.forEach((row) => {
+      const eraEl = row.querySelector('.era');
+      const rowType = eraEl ? eraEl.textContent.trim().toLowerCase() : '';
+      if (filter === 'all' || rowType === filter) {
+        row.classList.remove('filtered-out');
+      } else {
+        row.classList.add('filtered-out');
+      }
+    });
+
+    // Hide era dividers that have no visible rows after them (until next divider)
+    const all = Array.from(document.querySelectorAll('.era-divider, .index-row'));
+    const dividers = document.querySelectorAll('.era-divider');
+    dividers.forEach((divider) => {
+      let hasVisible = false;
+      let next = divider.nextElementSibling;
+      while (next && !next.classList.contains('era-divider')) {
+        if (next.classList.contains('index-row') && !next.classList.contains('filtered-out')) {
+          hasVisible = true;
+          break;
+        }
+        next = next.nextElementSibling;
+      }
+      divider.classList.toggle('filtered-out', !hasVisible);
+    });
+  }
+
+  // Run on load + when chips clicked (intercept to update URL without full reload)
+  document.querySelectorAll('.filter-chip').forEach((el) => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const type = el.dataset.type;
+      const url = type === 'all' ? window.location.pathname : `?type=${type}`;
+      history.pushState({}, '', url);
+      applyFilter();
+      // scroll to top of catalog smoothly so filtered list is visible
+      document.querySelector('.index-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Handle back/forward buttons
+  window.addEventListener('popstate', applyFilter);
+
+  // Apply on initial load
+  applyFilter();
+</script>
