@@ -12,6 +12,9 @@ heroImage: "/images/entries/one-btc-equals-one-btc.svg"
 heroImageCaption: "1 BTC = 1 BTC — the tautology Pierre Rochard charted on Twitter, February 23, 2019."
 heroImageCredit: "Bitcoin Annotated, Plate VII."
 sources:
+  - url: "https://x.com/BitcoinIsSaving/status/1099373733901463552"
+    label: "Pierre Rochard via @BitcoinIsSaving — original tweet (February 23, 2019)"
+    primary: true
   - url: "https://beincrypto.com/what-does-1-btc-1-btc-even-mean/"
     label: "BeInCrypto — 'What Does 1 BTC = 1 BTC Even Mean?' (February 27, 2019)"
   - url: "https://forklog.com/en/1-btc-1-btc-meme-or-cryptos-cardinal-truth/"
