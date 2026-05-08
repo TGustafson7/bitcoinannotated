@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" preserveAspectRatio="xMidYMid meet">
+  <rect width="800" height="560" fill="#f8f4ed"/>
+
+  <!-- Top corner metadata -->
+  <text x="40" y="50" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#8a7f6f" text-transform="uppercase">MICHAEL SAYLOR</text>
+  <text x="760" y="50" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#8a7f6f" text-anchor="end">JUNE 1, 2021</text>
+
+  <!-- Top separator -->
+  <line x1="40" y1="70" x2="760" y2="70" stroke="#8a7f6f" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- The phrase, centered -->
+  <text x="400" y="310" font-family="EB Garamond, Georgia, serif" font-style="italic" font-size="84" fill="#1a1a1a" text-anchor="middle">
+    BITCOIN IS <tspan fill="#d97706">hope</tspan>
+  </text>
+
+  <!-- Bottom separator -->
+  <line x1="40" y1="490" x2="760" y2="490" stroke="#8a7f6f" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Bottom corner metadata -->
+  <text x="40" y="520" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#8a7f6f">BITCOIN ANNOTATED</text>
+  <text x="760" y="520" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#8a7f6f" text-anchor="end">PLATE XXIII</text>
+</svg>
