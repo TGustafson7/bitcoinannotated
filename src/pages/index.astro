@@ -21,13 +21,21 @@ const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
 }).format(date);
 ---
 <BaseLayout>
-  <section style="margin-bottom: 56px;">
-    <h1 style="font-family: var(--display); font-size: clamp(48px, 6vw, 72px); line-height: 1; letter-spacing: -0.025em; font-weight: 500; margin-bottom: 18px;">
+  <section style="margin-bottom: 40px;">
+    <h1 style="font-family: var(--display); font-size: clamp(44px, 5.2vw, 64px); line-height: 1.05; letter-spacing: -0.025em; font-weight: 500; margin-bottom: 18px;">
       An annotated archive of bitcoin's <em style="font-style: italic; color: var(--orange);">cultural artifacts.</em>
     </h1>
-    <p style="font-family: var(--display); font-style: italic; font-size: 22px; color: var(--ink-mid); max-width: 720px;">
+    <p style="font-family: var(--display); font-style: italic; font-size: 21px; color: var(--ink-mid); max-width: 720px; margin-bottom: 24px;">
       The memes, phrases, events, and iconography that built bitcoin culture. Researched, sourced, dated, annotated.
     </p>
+    <div style="display: flex; align-items: center; gap: 14px; font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; color: var(--ink-mid); text-transform: uppercase;">
+      <span>{allEntries.length} ARTIFACTS</span>
+      <span style="opacity: 0.4;">·</span>
+      <span>1992 — PRESENT</span>
+      <span style="opacity: 0.4;">·</span>
+      <span>EST. BLOCK 0</span>
+    </div>
+    <hr style="margin-top: 28px; border: 0; border-top: 1px solid var(--ink-mid); opacity: 0.2;" />
   </section>
   <div class="index-list">
     {grouped.map((group) => (
