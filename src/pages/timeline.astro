@@ -68,7 +68,7 @@ const totalCount = entries.length;
           <div class="prechain-label">Pre-chain</div>
           <div class="prechain-ticks">
             {preChain.map(entry => (
-              
+                <a
                 href={`/entries/${entry.slug}/`}
                 class="tick tick-prechain"
                 data-title={entry.data.title}
@@ -88,7 +88,7 @@ const totalCount = entries.length;
           {onChainSorted.map(entry => {
             const h = entry.data.blockHeightAtOrigin as number;
             return (
-              
+                <a
                 href={`/entries/${entry.slug}/`}
                 class="tick tick-onchain"
                 style={`left: ${pct(h)}%;`}
