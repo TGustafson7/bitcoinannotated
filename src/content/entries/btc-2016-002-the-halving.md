@@ -12,6 +12,11 @@ heroImage: "/images/entries/halving.png"
 heroImageCaption: "The bitcoin issuance schedule. The block reward halves every 210,000 blocks."
 heroImageCredit: "Public domain — bitcoin protocol specification"
 sources:
+  - url: "https://bitcointalk.org/index.php?topic=128221.0"
+    label: "BitcoinTalk thread 'Block 210000 found' (Nov 28, 2012) — contemporaneous community documentation of the first halving"
+    primary: true
+  - url: "https://en.bitcoin.it/wiki/Halving_day_2012"
+    label: "Bitcoin Wiki — Halving day 2012, with block hash, miner, and pool details"
   - url: "https://en.bitcoin.it/wiki/Controlled_supply"
     label: "Bitcoin Wiki — Controlled supply schedule"
   - url: "https://www.coindesk.com/markets/2020/05/11/bitcoin-just-completed-its-third-ever-mining-reward-halving"
