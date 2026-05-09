@@ -11,11 +11,11 @@ heroImage: "/images/entries/study-bitcoin.svg"
 heroImageCaption: "Plate XXVI - the maxi instruction, deployed casually for years and projected onto the European Central Bank in March 2023."
 heroImageCredit: "Bitcoin Annotated"
 sources:
-  - url: "https://cointelegraph.com/news/from-bat-signal-to-bitcoin-projecting-orange-pill-on-banks-as-eu-drives-crypto-regulation"
-    label: "Cointelegraph — Bit-Signal appears on central banks as EU pushes on crypto regulation (March 30, 2023)"
+  - url: "https://twitter.com/alistairmilne/status/1641445500229648384"
+    label: "Alistair Milne (@alistairmilne), first-witness post documenting the projection (March 30, 2023)"
     primary: true
-  - url: "https://bitcoinmagazine.com/"
-    label: "Bitcoin Magazine — original tweet documenting the projection (March 30, 2023)"
+  - url: "https://www.binance.com/en/square/post/364854"
+    label: "Study Bitcoin Message Appears On European Central Bank Building - AZCoinNews via Binance Square (March 30, 2023)"
 related: []
 ---
 On the night of March 30, 2023, anonymous bitcoiners drove a high-output projector to the foot of the European Central Bank headquarters in Frankfurt and lit up the building. The projection was simple. The bitcoin logo, in orange. Two words beneath it, in white sans-serif: STUDY BITCOIN. The image was photographed, posted to X, and propagated across bitcoin Twitter within hours. Bitcoin Magazine ran the photograph at the top of its feed. Cointelegraph compared the projection to the Bat-Signal — Gothams call to its protector, repurposed by Frankfurts dissidents as a call to its central bank. The framing was apt. The European Central Bank had spent the prior two years issuing public warnings about bitcoin and other cryptocurrencies, with ECB President Christine Lagarde describing bitcoin as a risky speculative asset and recommending banks limit their exposure. The projection was the response.
