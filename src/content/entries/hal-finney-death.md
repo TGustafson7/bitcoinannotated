@@ -1,6 +1,6 @@
 ---
 title: "Hal Finney"
-deck: "On August 28, 2014, the recipient of the first bitcoin transaction was pronounced dead at 8:50 AM and cryopreserved by 9:00 PM."
+deck: "On August 28, 2014, the recipient of the first bitcoin transaction was pronounced dead at 8:50 AM and cryopreserved that day."
 era: "Dark Forest"
 type: "Event"
 date: 2014-08-28
@@ -8,9 +8,9 @@ sourcePlatform: "Alcor Life Extension Foundation (case summary)"
 locked: true
 btcPriceAtOrigin: "$510"
 blockHeightAtOrigin: 318824
-heroImage: "/images/entries/hal-finney-death.jpg"
-heroImageCaption: "Hal Finney with his wife Fran at Caltech, 2009 — the year he was diagnosed with ALS while training for a marathon."
-heroImageCredit: "Fran Finney / Alcor Life Extension Foundation"
+heroImage: "/images/entries/hal-finney-death.png"
+heroImageCaption: "Excerpt from Alcor Case Summary A-1436, Hal Finney's cryopreservation record (August 2014)."
+heroImageCredit: "Alcor Life Extension Foundation"
 related: []
 sources:
   - url: "https://www.cryonicsarchive.org/library/complete-list-of-alcor-cryopreservations/case-summary-a-1436/"
