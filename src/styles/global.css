@@ -92,6 +92,6 @@ a:hover { text-decoration-color: var(--orange); }
   .hero { grid-template-columns: 1fr; gap: 32px; }
   .hero h1 { font-size: 44px; }
   .index-row { grid-template-columns: 1fr; gap: 6px; }
-  .index-row .status { text-align: left; }
+  .index-row .status { display: none; }
   .topbar { flex-direction: column; gap: 14px; }
 }
