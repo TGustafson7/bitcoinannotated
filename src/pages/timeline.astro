@@ -331,11 +331,6 @@ const totalCount = entries.length;
   .prechain-zone {
     background: #efe7d2;
     position: relative;
-    padding: 8px 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 6px;
     overflow: hidden;
   }
   .genesis-boundary {
@@ -364,19 +359,29 @@ const totalCount = entries.length;
     z-index: 10;
   }
   .prechain-label {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
     font-family: 'JetBrains Mono', monospace;
     font-size: 9px;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #6b6358;
     text-align: center;
+    line-height: 1.1;
+    z-index: 2;
+    pointer-events: none;
   }
   .prechain-ticks {
+    position: absolute;
+    top: 18px;
+    bottom: 18px;
+    left: 4px;
+    right: 4px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex: 1;
-    padding: 0 4px;
   }
 
   .onchain-zone {
@@ -429,7 +434,7 @@ const totalCount = entries.length;
     position: relative;
     top: auto; bottom: auto; left: auto;
     width: 2px;
-    height: 28px;
+    height: 100%;
     transform: none;
     background: #6b6358;
     flex: 0 0 2px;
