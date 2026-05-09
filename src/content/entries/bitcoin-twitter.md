@@ -4,8 +4,8 @@ title: "Bitcoin Twitter"
 deck: "The chaotic, unpaid public square where modern bitcoin culture was forged."
 era: "2017 Run"
 type: "Iconography"
-date: 2017-08-01
-blockHeightAtOrigin: 478479
+date: 2017-11-08
+blockHeightAtOrigin: 493542
 sourcePlatform: "Twitter / X"
 locked: true
 heroImage: "/images/entries/bitcoin-twitter.png"
@@ -16,7 +16,7 @@ sources:
     label: "CoinDesk (April 2022) — analysis of Crypto/Bitcoin Twitter as cultural cluster, drawing on Affinio's 'Mining the Crypto Community' research"
 related: []
 ---
-There is no founding date for Bitcoin Twitter. There is no membership roster, no governance structure, no authoritative spokesperson, and no formal definition of what does or does not count as participation. The phrase refers to a constellation of perhaps fifty thousand active accounts, several thousand of which post daily, who collectively produce the bulk of the modern bitcoin community's public discourse. The constellation has functioned, since approximately 2017, as bitcoin's primary cultural workshop — the place where the language is generated, the arguments are conducted, the new entrants are educated, the figures are made and unmade, and the daily emotional weather of the asset is collectively performed. To call Bitcoin Twitter an *institution* is to stretch the word, but no smaller word is adequate. It is, by some distance, the most important non-protocol artifact in bitcoin culture.
+There is no founding date for Bitcoin Twitter. There is no membership roster, no governance structure, no authoritative spokesperson, and no formal definition of what does or does not count as participation. If the constellation has a founding moment, it is approximately the cancellation of SegWit2x in November 2017 — the first time the community acted collectively, on this platform, and won. The phrase refers to a constellation of perhaps fifty thousand active accounts, several thousand of which post daily, who collectively produce the bulk of the modern bitcoin community's public discourse. The constellation has functioned, since approximately 2017, as bitcoin's primary cultural workshop — the place where the language is generated, the arguments are conducted, the new entrants are educated, the figures are made and unmade, and the daily emotional weather of the asset is collectively performed. To call Bitcoin Twitter an *institution* is to stretch the word, but no smaller word is adequate. It is, by some distance, the most important non-protocol artifact in bitcoin culture.
 
 The platform on which Bitcoin Twitter exists has, since 2023, been called X. The platform's owner, Elon Musk, is not himself a bitcoiner; his crypto allegiances run instead toward dogecoin and a more general technological enthusiasm that the bitcoin maxi community has historically regarded with patient hostility. The platform's pre-Musk leadership, ironically, included Jack Dorsey, who *was* a bitcoiner, who had directed Square's bitcoin investments, and who had championed the development of Bluesky, an attempt to build a decentralized successor to Twitter that has substantially failed to attract the bitcoin community out of its incumbent home. Bitcoin Twitter has remained, through three changes of corporate leadership and substantial degradation of the platform's underlying functionality, on the same site. The community's failure to migrate is, in some respects, a confession that the network effects of conversation are stronger than the platform-quality preferences of any individual member.
 
