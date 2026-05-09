@@ -2,14 +2,14 @@
 title: "Study Bitcoin"
 deck: "On March 30, 2023, anonymous bitcoiners projected the bitcoin logo and a two-word instruction onto the European Central Bank."
 era: "Institutional Takeover"
-type: "Iconography"
+type: "Phrase"
 date: 2023-03-30
 blockHeightAtOrigin: 783099
 sourcePlatform: "European Central Bank facade / Bitcoin Magazine"
 locked: true
-heroImage: "/images/entries/study-bitcoin.jpg"
-heroImageCaption: "The bitcoin logo and the words STUDY BITCOIN projected onto the European Central Bank, Frankfurt, March 30, 2023."
-heroImageCredit: "Bitcoin Magazine / anonymous"
+heroImage: "/images/entries/study-bitcoin.svg"
+heroImageCaption: "Plate XXVI - the maxi instruction, deployed casually for years and projected onto the European Central Bank in March 2023."
+heroImageCredit: "Bitcoin Annotated"
 sources:
   - url: "https://cointelegraph.com/news/bit-signal-appears-on-central-banks-as-eu-pushes-on-crypto-regulation"
     label: "Cointelegraph — Bit-Signal appears on central banks as EU pushes on crypto regulation (March 30, 2023)"
@@ -30,4 +30,4 @@ A second projection appeared on the ECB on November 30, 2023. The format was sim
 
 What *study bitcoin* shares with the other guerrilla iconography in the catalog — the Skull of Satoshi inverted into bitcoin acceptance within forty-eight hours, the Bitcoin Sign Guy photobombing Janet Yellens congressional testimony, Casascius coins as physical-world artifact — is the claim that bitcoin culture does not need the institutions permission to occupy public space. The protocol is permissionless. The image of the protocol can be permissioned only by force, and only briefly. A central bank that wishes to dim the bitcoin logo on its facade has to find the projector. The projector is small. The bank is large. The asymmetry runs the wrong direction for the bank.
 
-The instruction was unambiguous and the execution was free. The bank was given homework.
+The phrase had been a community instruction for years. On one night in March 2023, it was also a building.
