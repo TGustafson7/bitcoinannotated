@@ -32,4 +32,4 @@ What the rebrand did, in cultural terms, was make legible to Wall Street and to 
 
 There are companies in the world named after their products. There are companies named after their founders. There are companies named after geographic features and Greek gods and ancestral surnames and clever portmanteaus. As of February 5, 2025, there is one company on the Nasdaq 100 named after a bitcoin treasury strategy.
 
-The company did not choose bitcoin. It became bitcoin.
+The treasury allocation was a decision. The rebrand was an admission.
