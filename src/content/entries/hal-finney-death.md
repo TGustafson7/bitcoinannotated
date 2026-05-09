@@ -36,4 +36,4 @@ The bitcoin community, which by 2014 had survived Mt. Gox and was three years in
 
 The cryopreservation is not the artifact either. The artifact is the moment when the entire community understood, simultaneously, that the first person to receive a bitcoin transaction would not see what bitcoin became. That the documents he left behind — the code commits, the forum posts, the two-word tweet — were now closed. That whatever he had thought was going to happen, he had thought it from inside the founding, and would not be available to confirm or revise.
 
-The protocol succeeded at its first real test. Its first user did not.
+The protocol kept going. He had done his part.

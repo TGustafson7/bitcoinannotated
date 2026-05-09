@@ -23,9 +23,9 @@ related:
   - "BTC.2009.001"
 ---
 
-On January 11, 2009 — a Sunday, eight days after the genesis block — Hal Finney posted two words to Twitter: *Running bitcoin*. He had been on the platform for less than a year. The post had no link, no context, no thread. Most of his followers, if he had any, would have had no idea what bitcoin was.
+On January 11, 2009 — a Sunday, eight days after the genesis block — Hal Finney posted two words to Twitter: *Running bitcoin*. He had been on the platform for less than a year. The post had no link, no context, no thread. His followers, such as they were in those early days of Twitter, would have had no idea what bitcoin was.
 
-The tweet has since accumulated tens of thousands of likes and retweets. It is, by a comfortable margin, the most quoted post in the cultural history of the asset. It works because it is plain. A man at a keyboard. A piece of software. A two-word status update, the same kind anyone might write about a marathon or a load of laundry. The understatement is the entire artifact.
+The tweet has since accumulated tens of thousands of likes and retweets. It is, by a comfortable margin, the most quoted post in the cultural history of the asset. It works because it is plain. A man at a keyboard. A piece of software. A two-word status update, written without ceremony, by someone who saw what he was doing and did not feel the need to dramatize it. The understatement is the entire artifact.
 
 Harold Thomas Finney II was, by January 2009, already one of the most accomplished cryptographers of his generation. Born in Coalinga, California in 1956 and educated at Caltech, he had written video games for the Atari 2600, contributed to the development of PGP encryption, and in 2004 created Reusable Proof-of-Work — a direct intellectual predecessor to bitcoin's mining mechanism. When Satoshi posted the whitepaper to the cryptography mailing list on October 31, 2008, Finney was the first person to respond constructively. On January 12, the day after the tweet, Satoshi sent him ten bitcoin. It was the first peer-to-peer bitcoin transaction in history.
 
