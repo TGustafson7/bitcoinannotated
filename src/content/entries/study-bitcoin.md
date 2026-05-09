@@ -11,7 +11,7 @@ heroImage: "/images/entries/study-bitcoin.svg"
 heroImageCaption: "Plate XXVI - the maxi instruction, deployed casually for years and projected onto the European Central Bank in March 2023."
 heroImageCredit: "Bitcoin Annotated"
 sources:
-  - url: "https://cointelegraph.com/news/bit-signal-appears-on-central-banks-as-eu-pushes-on-crypto-regulation"
+  - url: "https://cointelegraph.com/news/from-bat-signal-to-bitcoin-projecting-orange-pill-on-banks-as-eu-drives-crypto-regulation"
     label: "Cointelegraph — Bit-Signal appears on central banks as EU pushes on crypto regulation (March 30, 2023)"
     primary: true
   - url: "https://bitcoinmagazine.com/"
