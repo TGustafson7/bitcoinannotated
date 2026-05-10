@@ -74,14 +74,14 @@ a:hover { text-decoration-color: var(--orange); }
 
 /* INDEX (homepage) */
 .index-list { display: flex; flex-direction: column; }
-.index-row { display: grid; grid-template-columns: 140px 1fr 120px 100px; gap: 24px; padding: 20px 0; border-bottom: 1px solid var(--line-soft); align-items: baseline; text-decoration: none; transition: background 0.15s; }
+.index-row { display: grid; grid-template-columns: 110px 1fr 110px 20px; gap: 16px; padding: 8px 0; border-bottom: 1px dotted var(--line-soft); align-items: baseline; text-decoration: none; transition: background 0.15s; }
 .index-row:hover { background: var(--paper-warm); }
 .index-row .id { font-family: var(--mono); font-size: 11px; color: var(--orange-deep); letter-spacing: 0.1em; font-weight: 700; }
-.index-row .title { font-family: var(--display); font-size: 22px; font-weight: 500; color: var(--ink); letter-spacing: -0.01em; }
+.index-row .title { font-family: var(--display); font-size: 17px; font-weight: 400; color: var(--ink); letter-spacing: -0.01em; line-height: 1.25; }
 .index-row .era { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; color: var(--ink-faint); text-transform: uppercase; }
 .index-row .status { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; color: var(--ink-mid); text-transform: uppercase; text-align: right; }
 
-.era-divider { font-family: var(--mono); font-size: 11px; letter-spacing: 0.2em; color: var(--orange-deep); text-transform: uppercase; padding: 36px 0 12px; border-bottom: 1px solid var(--line); margin-bottom: 8px; font-weight: 700; }
+.era-divider { font-family: var(--mono); font-size: 10px; letter-spacing: 0.2em; color: var(--orange-deep); text-transform: uppercase; padding: 16px 0 6px; border-bottom: 1px solid var(--line); margin-bottom: 4px; font-weight: 700; }
 .era-divider:first-child { padding-top: 0; }
 
 /* FOOTER */
@@ -91,7 +91,61 @@ a:hover { text-decoration-color: var(--orange); }
   .page-wrap { padding: 24px 20px 60px; }
   .hero { grid-template-columns: 1fr; gap: 32px; }
   .hero h1 { font-size: 44px; }
-  .index-row { grid-template-columns: 1fr; gap: 6px; }
+  .index-row { grid-template-columns: 1fr; gap: 4px; padding: 10px 0; }
+  .index-row .title { font-size: 18px; }
   .index-row .status { display: none; }
+  .index-row .id { font-size: 10px; }
   .topbar { flex-direction: column; gap: 14px; }
 }
+
+/* ===== Sort toggle and alphabetical mode (added for Density C homepage) ===== */
+.sort-toggle {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-mid);
+  user-select: none;
+  white-space: nowrap;
+}
+.sort-toggle .lbl { color: var(--ink-faint); margin-right: 8px; }
+.sort-toggle .opt {
+  color: var(--ink-mid);
+  padding: 0 8px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  transition: color 0.12s;
+}
+.sort-toggle .opt:hover { color: var(--orange); }
+.sort-toggle .opt.active { color: var(--orange); cursor: default; }
+.sort-toggle .opt + .opt { border-left: 1px solid var(--line); }
+
+/* Letter dividers in alphabetical mode use the same shape as era-divider */
+.letter-divider {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--orange-deep);
+  text-transform: uppercase;
+  padding: 16px 0 6px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+.letter-divider:first-child { padding-top: 0; }
+.letter-divider.filtered-out, .letter-divider.search-hidden { display: none; }
+
+/* The two sort-mode wrappers; only one is visible at a time */
+.sort-mode { display: none; }
+.sort-mode.active { display: flex; flex-direction: column; }
+
+/* Article in light gray italic when shown trailing in alphabetical mode */
+.title .article { color: var(--ink-faint); font-style: italic; font-weight: 400; }
+
+/* Search count layout: keep it on one line with the input on desktop */
+.search-row { flex-wrap: wrap; }
+

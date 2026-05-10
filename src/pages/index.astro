@@ -2,28 +2,54 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 const allEntries = await getCollection('entries');
-allEntries.sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
-// group by year
-const grouped: { year: number; entries: typeof allEntries }[] = [];
-for (const entry of allEntries) {
+
+// Chronological grouping (existing behavior)
+const byDate = [...allEntries].sort((a, b) => a.data.date.getTime() - b.data.date.getTime());
+const groupedByYear: { year: number; entries: typeof allEntries }[] = [];
+for (const entry of byDate) {
   const year = entry.data.date.getUTCFullYear();
-  const existing = grouped.find(g => g.year === year);
-  if (existing) {
-    existing.entries.push(entry);
-  } else {
-    grouped.push({ year, entries: [entry] });
-  }
+  const existing = groupedByYear.find(g => g.year === year);
+  if (existing) existing.entries.push(entry);
+  else groupedByYear.push({ year, entries: [entry] });
 }
-// type counts for filter chips
+
+// Alphabetical grouping with article-aware sort
+// Strip leading "The ", "A ", "An " for sort key; capture the article for display
+function articleSplit(title: string): { sortKey: string; article: string | null; rest: string } {
+  const m = title.match(/^(The|A|An)\s+(.+)$/i);
+  if (m) return { sortKey: m[2].toLowerCase(), article: m[1], rest: m[2] };
+  return { sortKey: title.toLowerCase(), article: null, rest: title };
+}
+
+const byName = [...allEntries].sort((a, b) => {
+  const ka = articleSplit(a.data.title).sortKey;
+  const kb = articleSplit(b.data.title).sortKey;
+  return ka.localeCompare(kb);
+});
+
+const groupedByLetter: { letter: string; entries: typeof allEntries }[] = [];
+for (const entry of byName) {
+  const { sortKey } = articleSplit(entry.data.title);
+  const letter = sortKey.charAt(0).toUpperCase();
+  const display = /[A-Z]/.test(letter) ? letter : '#';
+  const existing = groupedByLetter.find(g => g.letter === display);
+  if (existing) existing.entries.push(entry);
+  else groupedByLetter.push({ letter: display, entries: [entry] });
+}
+
+// Type counts for filter chips
 const typeCounts: Record<string, number> = { Phrase: 0, Event: 0, Iconography: 0, Document: 0 };
 for (const entry of allEntries) {
   const t = entry.data.type;
   if (t in typeCounts) typeCounts[t]++;
 }
-const formatDate = (date: Date) => new Intl.DateTimeFormat('en-US', {
-  month: 'short',
-  day: 'numeric',
-  timeZone: 'UTC'
+
+// Date formatters: short for date sort, year for alphabetical sort
+const formatDateShort = (date: Date) => new Intl.DateTimeFormat('en-US', {
+  month: 'short', day: 'numeric', timeZone: 'UTC'
+}).format(date);
+const formatDateMonthYear = (date: Date) => new Intl.DateTimeFormat('en-US', {
+  month: 'short', year: 'numeric', timeZone: 'UTC'
 }).format(date);
 
 // Build a slug -> stripped-lowercase-body map for client-side full-text search
@@ -31,40 +57,43 @@ const bodyTextBySlug: Record<string, string> = {};
 for (const entry of allEntries) {
   const raw = entry.body || '';
   const stripped = raw
-    .replace(/```[\s\S]*?```/g, ' ')        // code fences
-    .replace(/`[^`]*`/g, ' ')                 // inline code
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ') // images
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1') // links keep label
-    .replace(/[#>*_~`]+/g, ' ')               // markdown punctuation
-    .replace(/\s+/g, ' ')                    // collapse whitespace
+    .replace(/```[\s\S]*?```/g, ' ')
+    .replace(/`[^`]*`/g, ' ')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/[#>*_~`]+/g, ' ')
+    .replace(/\s+/g, ' ')
     .trim()
     .toLowerCase();
   bodyTextBySlug[entry.slug] = stripped;
 }
-
 ---
 <BaseLayout>
   <section style="margin-bottom: 24px;">
     <div style="font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: #6b6358; margin-bottom: 18px;">Catalog</div>
     <h1 style="font-family: var(--display); font-size: clamp(40px, 4.4vw, 56px); line-height: 1.05; letter-spacing: -0.025em; font-weight: 500; margin-bottom: 14px;">
-      An annotated archive of bitcoin's <em style="font-style: italic; color: var(--orange); font-weight: 400;">cultural artifacts.</em>
+      An annotated archive of bitcoin&apos;s <em style="font-style: italic; color: var(--orange); font-weight: 400;">cultural artifacts.</em>
     </h1>
     <p style="font-family: var(--display); font-style: italic; font-size: 20px; color: var(--ink-mid); margin-bottom: 18px; text-wrap: balance;">
       The memes, phrases, events, and iconography that built bitcoin culture. Researched, sourced, dated, annotated.
     </p>
     <hr style="margin-top: 28px; border: 0; border-top: 1px solid var(--ink-mid); opacity: 0.2;" />
   </section>
+
   <div class="search-row">
-  <input
-    type="search"
-    id="catalog-search"
-    class="catalog-search-input"
-    placeholder={`SEARCH ${allEntries.length} ARTIFACTS`}
-    autocomplete="off"
-    spellcheck="false"
-  />
-  <span class="search-count" id="search-count" aria-live="polite"></span>
-</div>
+    <input
+      type="search"
+      id="catalog-search"
+      class="catalog-search-input"
+      placeholder={`SEARCH ${allEntries.length} ARTIFACTS`}
+      autocomplete="off"
+      spellcheck="false"
+    />
+    <span class="search-count" id="search-count" aria-live="polite"></span>
+    <span class="sort-toggle" role="group" aria-label="Sort order">
+      <span class="lbl">Sort:</span><button type="button" class="opt active" data-sort="date">Date</button><button type="button" class="opt" data-sort="name">Name</button>
+    </span>
+  </div>
 
   <nav class="filter-row" aria-label="Filter catalog by type">
     <a href="?type=all" class="filter-chip" data-type="all">ALL <span class="count">{allEntries.length}</span></a>
@@ -77,13 +106,14 @@ for (const entry of allEntries) {
     <span class="filter-sep">·</span>
     <a href="?type=document" class="filter-chip" data-type="document">DOCUMENT <span class="count">{typeCounts.Document}</span></a>
   </nav>
-  <div class="index-list">
-    {grouped.map((group) => (
+
+  <div class="index-list sort-mode active" data-sort-mode="date">
+    {groupedByYear.map((group) => (
       <>
         <div class="era-divider">{group.year}</div>
         {group.entries.map((entry) => (
           <a href={`/entries/${entry.slug}`} class="index-row" data-search={`${entry.data.title} ${entry.data.deck || ''} ${bodyTextBySlug[entry.slug] || ''}`.toLowerCase()}>
-            <span class="id">{formatDate(entry.data.date)}</span>
+            <span class="id">{formatDateShort(entry.data.date)}</span>
             <span class="title">{entry.data.title}</span>
             <span class="era">{entry.data.type}</span>
             <span class="status">{entry.data.foundational ? '★' : ''}</span>
@@ -92,6 +122,32 @@ for (const entry of allEntries) {
       </>
     ))}
   </div>
+
+  <div class="index-list sort-mode" data-sort-mode="name">
+    {groupedByLetter.map((group) => (
+      <>
+        <div class="letter-divider">{group.letter}</div>
+        {group.entries.map((entry) => {
+          const split = articleSplit(entry.data.title);
+          return (
+            <a href={`/entries/${entry.slug}`} class="index-row" data-search={`${entry.data.title} ${entry.data.deck || ''} ${bodyTextBySlug[entry.slug] || ''}`.toLowerCase()}>
+              <span class="id">{formatDateMonthYear(entry.data.date)}</span>
+              <span class="title">
+                {split.article ? (
+                  <>{split.rest}, <span class="article">{split.article}</span></>
+                ) : (
+                  <>{entry.data.title}</>
+                )}
+              </span>
+              <span class="era">{entry.data.type}</span>
+              <span class="status">{entry.data.foundational ? '★' : ''}</span>
+            </a>
+          );
+        })}
+      </>
+    ))}
+  </div>
+
   <footer class="entry-footer" style="margin-top: 80px;">
     <span>{allEntries.length} entries · refreshed weekly</span>
     <span>bitcoinannotated.com</span>
@@ -116,26 +172,16 @@ for (const entry of allEntries) {
     text-decoration: none;
     transition: color 0.12s;
   }
-  .filter-chip:hover {
-    color: var(--orange);
-  }
-  .filter-chip.active {
-    color: var(--orange);
-    font-weight: 700;
-  }
+  .filter-chip:hover { color: var(--orange); }
+  .filter-chip.active { color: var(--orange); font-weight: 700; }
   .filter-chip .count {
     font-size: 9px;
     opacity: 0.55;
     margin-left: 3px;
     letter-spacing: 0.1em;
   }
-  .filter-sep {
-    color: var(--ink-faint);
-    opacity: 0.4;
-  }
-  .index-row.filtered-out, .era-divider.filtered-out {
-    display: none;
-  }
+  .filter-sep { color: var(--ink-faint); opacity: 0.4; }
+  .index-row.filtered-out, .era-divider.filtered-out { display: none; }
 </style>
 
 <script>
@@ -143,12 +189,10 @@ for (const entry of allEntries) {
     const params = new URLSearchParams(window.location.search);
     const filter = (params.get('type') || 'all').toLowerCase();
 
-    // Set active chip
     document.querySelectorAll('.filter-chip').forEach((el) => {
       el.classList.toggle('active', el.dataset.type === filter);
     });
 
-    // Filter rows by their type span
     const rows = document.querySelectorAll('.index-row');
     rows.forEach((row) => {
       const eraEl = row.querySelector('.era');
@@ -160,40 +204,40 @@ for (const entry of allEntries) {
       }
     });
 
-    // Hide era dividers that have no visible rows after them (until next divider)
-    const all = Array.from(document.querySelectorAll('.era-divider, .index-row'));
-    const dividers = document.querySelectorAll('.era-divider');
-    dividers.forEach((divider) => {
-      let hasVisible = false;
-      let next = divider.nextElementSibling;
-      while (next && !next.classList.contains('era-divider')) {
-        if (next.classList.contains('index-row') && !next.classList.contains('filtered-out')) {
-          hasVisible = true;
-          break;
+    // Hide dividers (year or letter) with no visible rows beneath
+    document.querySelectorAll('.sort-mode').forEach(mode => {
+      const dividers = mode.querySelectorAll('.era-divider, .letter-divider');
+      dividers.forEach((divider) => {
+        let hasVisible = false;
+        let next = divider.nextElementSibling;
+        while (next && !next.classList.contains('era-divider') && !next.classList.contains('letter-divider')) {
+          if (next.classList.contains('index-row') && !next.classList.contains('filtered-out') && !next.classList.contains('search-hidden')) {
+            hasVisible = true;
+            break;
+          }
+          next = next.nextElementSibling;
         }
-        next = next.nextElementSibling;
-      }
-      divider.classList.toggle('filtered-out', !hasVisible);
+        divider.classList.toggle('filtered-out', !hasVisible);
+      });
     });
   }
 
-  // Run on load + when chips clicked (intercept to update URL without full reload)
   document.querySelectorAll('.filter-chip').forEach((el) => {
     el.addEventListener('click', (e) => {
       e.preventDefault();
       const type = el.dataset.type;
-      const url = type === 'all' ? window.location.pathname : `?type=${type}`;
+      const params = new URLSearchParams(window.location.search);
+      if (type === 'all') params.delete('type');
+      else params.set('type', type);
+      const qs = params.toString();
+      const url = qs ? `?${qs}` : window.location.pathname;
       history.pushState({}, '', url);
       applyFilter();
-      // scroll to top of catalog smoothly so filtered list is visible
-      document.querySelector('.index-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.querySelector('.sort-mode.active')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 
-  // Handle back/forward buttons
-  window.addEventListener('popstate', applyFilter);
-
-  // Apply on initial load
+  window.addEventListener('popstate', () => { applyFilter(); applySort(); });
   applyFilter();
 </script>
 
@@ -203,6 +247,7 @@ for (const entry of allEntries) {
     align-items: baseline;
     gap: 1rem;
     margin-bottom: 1rem;
+    flex-wrap: wrap;
   }
   .catalog-search-input {
     font-family: 'JetBrains Mono', monospace;
@@ -234,28 +279,25 @@ for (const entry of allEntries) {
     transition: opacity 0.15s ease;
   }
   .search-count.active { opacity: 1; }
-  /* Search hides via the same mechanism chip filtering uses, so they compose */
   .index-row.search-hidden,
-  .era-divider.search-hidden { display: none; }
+  .era-divider.search-hidden,
+  .letter-divider.search-hidden { display: none; }
 </style>
 
 <script is:inline>
   (function() {
-    const input = document.getElementById('catalog-search');
-    const countEl = document.getElementById('search-count');
-    if (!input || !countEl) return;
+    function applySearch() {
+      const input = document.getElementById('catalog-search');
+      const countEl = document.getElementById('search-count');
+      if (!input || !countEl) return;
+      const q = input.value.trim().toLowerCase();
+      const activeMode = document.querySelector('.sort-mode.active');
+      if (!activeMode) return;
+      const rows = activeMode.querySelectorAll('.index-row');
+      const dividers = activeMode.querySelectorAll('.era-divider, .letter-divider');
 
-    const rows = document.querySelectorAll('.index-row');
-    const dividers = document.querySelectorAll('.era-divider');
-    const indexed = Array.from(rows).map(row => ({
-      el: row,
-      text: row.getAttribute('data-search') || ''
-    }));
-
-    function apply(query) {
-      const q = query.trim().toLowerCase();
       if (!q) {
-        indexed.forEach(({ el }) => el.classList.remove('search-hidden'));
+        rows.forEach(el => el.classList.remove('search-hidden'));
         dividers.forEach(d => d.classList.remove('search-hidden'));
         countEl.classList.remove('active');
         countEl.textContent = '';
@@ -263,18 +305,17 @@ for (const entry of allEntries) {
       }
       const tokens = q.split(/\s+/).filter(Boolean);
       let matches = 0;
-      indexed.forEach(({ el, text }) => {
+      rows.forEach(el => {
+        const text = el.getAttribute('data-search') || '';
         const hit = tokens.every(t => text.includes(t));
-        // Only count rows that ALSO pass the chip filter (not filtered-out)
         const chipPass = !el.classList.contains('filtered-out');
         el.classList.toggle('search-hidden', !hit);
         if (hit && chipPass) matches++;
       });
-      // Hide era dividers whose visible-by-both-filters children are zero
       dividers.forEach(divider => {
         let next = divider.nextElementSibling;
         let hasVisible = false;
-        while (next && !next.classList.contains('era-divider')) {
+        while (next && !next.classList.contains('era-divider') && !next.classList.contains('letter-divider')) {
           if (next.classList.contains('index-row')
               && !next.classList.contains('search-hidden')
               && !next.classList.contains('filtered-out')) {
@@ -290,7 +331,40 @@ for (const entry of allEntries) {
       countEl.classList.add('active');
     }
 
-    input.addEventListener('input', e => apply(e.target.value));
+    function applySort() {
+      const params = new URLSearchParams(window.location.search);
+      const sort = params.get('sort') === 'name' ? 'name' : 'date';
+      document.querySelectorAll('.sort-mode').forEach(el => {
+        el.classList.toggle('active', el.dataset.sortMode === sort);
+      });
+      document.querySelectorAll('.sort-toggle .opt').forEach(el => {
+        el.classList.toggle('active', el.dataset.sort === sort);
+      });
+    }
+
+    document.querySelectorAll('.sort-toggle .opt').forEach(opt => {
+      opt.addEventListener('click', function() {
+        const sort = this.dataset.sort;
+        const params = new URLSearchParams(window.location.search);
+        if (sort === 'date') params.delete('sort');
+        else params.set('sort', sort);
+        const qs = params.toString();
+        const url = qs ? `?${qs}` : window.location.pathname;
+        history.pushState({}, '', url);
+        applySort();
+        applySearch();
+      });
+    });
+
+    const input = document.getElementById('catalog-search');
+    if (input) input.addEventListener('input', applySearch);
+
+    window.addEventListener('popstate', () => { applySort(); applySearch(); });
+
+    // Initial state
+    applySort();
+    applySearch();
+    // Expose for the chip script (which may run separately) so chips can re-trigger search
+    window.__applySearch = applySearch;
   })();
 </script>
-
