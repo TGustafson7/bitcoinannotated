@@ -8,7 +8,7 @@ sourcePlatform: "Unchained Capital"
 locked: true
 foundational: false
 creator: "Parker Lewis (redeployment); Ernest Hemingway (origin)"
-blockHeightAtOrigin: 587675
+blockHeightAtOrigin: 588220
 heroImage: "/images/entries/gradually-then-suddenly.svg"
 heroImageCaption: "Plate XXVII. Gradually, Then Suddenly. Hemingway via Lewis, August 2019."
 heroImageCredit: "Bitcoin Annotated"

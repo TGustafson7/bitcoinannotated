@@ -8,7 +8,7 @@ sourcePlatform: "Medium"
 locked: true
 foundational: true
 creator: "Vijay Boyapati"
-blockHeightAtOrigin: 511775
+blockHeightAtOrigin: 511544
 heroImage: "/images/entries/bullish-case-for-bitcoin.png"
 heroImageCaption: "The Bullish Case for Bitcoin, published on Medium, March 2, 2018."
 heroImageCredit: "Vijay Boyapati / Medium"
