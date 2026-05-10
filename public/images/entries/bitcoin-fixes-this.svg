@@ -1,17 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
-  <rect width="800" height="560" fill="#f8f4ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f8f4ed"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="56" y="56" width="688" height="488" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <text x="80" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5">PHRASE — POPULARIZED</text>
-  <text x="720" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">JULY 2020</text>
+  <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN — PHRASE</text>
+  <line x1="80" y1="115" x2="220" y2="115" stroke="#d97706" stroke-width="1.5"/>
 
-  <text x="400" y="240" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="56" fill="#1a1a1a" text-anchor="middle" font-weight="500">bitcoin</text>
-  <text x="400" y="310" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="56" fill="#d97706" text-anchor="middle" font-weight="500">fixes this.</text>
+  <text x="720" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2" text-anchor="end">CAT. JULY 2020</text>
 
-  <line x1="320" y1="360" x2="480" y2="360" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="400" y="320" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="86" fill="#1a1a1a" text-anchor="middle" font-weight="500">Bitcoin fixes <tspan fill="#d97706">this</tspan>.</text>
 
-  <text x="400" y="400" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">USAGE: REPLY — SINCERE AND IRONIC SIMULTANEOUSLY</text>
-  <text x="400" y="425" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">FORMALIZED: SONG, BITCOIN FIXES THIS PODCAST, JULY 16 2020</text>
+  <line x1="320" y1="385" x2="480" y2="385" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <text x="80" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
-  <text x="720" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE V</text>
+  <text x="400" y="430" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">The bitcoiner’s most flexible phrase — earnest claim and self-aware shitpost,</text>
+  <text x="400" y="450" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">same sentence, both meanings.</text>
+
+  <line x1="280" y1="485" x2="520" y2="485" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="510" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">JIMMY SONG, BITCOIN FIXES THIS PODCAST — JULY 16, 2020</text>
+
+  <text x="80" y="555" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="555" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE V</text>
 </svg>
