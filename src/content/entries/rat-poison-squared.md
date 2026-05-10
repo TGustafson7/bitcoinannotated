@@ -1,5 +1,5 @@
 ---
-title: "Rat Poison Squared"
+title: "Rat Poison²"
 deck: "The insult that became merch."
 era: "2017 Run"
 foundational: false
