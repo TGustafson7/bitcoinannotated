@@ -1,18 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
-  <rect width="800" height="560" fill="#f8f4ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f8f4ed"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="56" y="56" width="688" height="488" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <text x="80" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5">PHRASE — POPULARIZED</text>
-  <text x="720" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">JUNE 2021</text>
+  <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN — PHRASE</text>
+  <line x1="80" y1="115" x2="220" y2="115" stroke="#d97706" stroke-width="1.5"/>
 
-  <text x="400" y="220" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="44" fill="#d97706" text-anchor="middle" font-weight="500">fix the money,</text>
-  <text x="400" y="285" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="44" fill="#1a1a1a" text-anchor="middle" font-weight="500">fix the world.</text>
+  <text x="720" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2" text-anchor="end">CAT. JUNE 2021</text>
 
-  <line x1="320" y1="340" x2="480" y2="340" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="400" y="265" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="64" fill="#1a1a1a" text-anchor="middle" font-weight="500">Fix the money,</text>
+  <text x="400" y="345" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="64" fill="#1a1a1a" text-anchor="middle" font-weight="500">fix the <tspan fill="#d97706">world</tspan>.</text>
 
-  <text x="400" y="385" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">USAGE: SEQUENCING CLAIM — NOT A PROMISE</text>
-  <text x="400" y="410" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">CRYSTALLIZED: SVETSKI, BITCOIN MAGAZINE, JUNE 25 2021</text>
-  <text x="400" y="435" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">THESIS SOURCE: AMMOUS, THE BITCOIN STANDARD, 2018</text>
+  <line x1="320" y1="395" x2="480" y2="395" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <text x="80" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
-  <text x="720" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE IV</text>
+  <text x="400" y="440" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">Aleks Svetski’s June 2021 Bitcoin Magazine essay made the phrase canonical —</text>
+  <text x="400" y="460" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">delivered earlier that month from the stage of Bitcoin 2021 Miami.</text>
+
+  <line x1="280" y1="495" x2="520" y2="495" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="520" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">ALEKS SVETSKI — BITCOIN MAGAZINE, JUNE 25, 2021</text>
+
+  <text x="80" y="570" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="570" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE IV</text>
 </svg>
