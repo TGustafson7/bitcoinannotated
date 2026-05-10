@@ -10,8 +10,8 @@ creator: "Eric Hughes"
 sourcePlatform: "Cypherpunk Mailing List"
 locked: true
 heroImage: "/images/entries/cypherpunk-manifesto.png"
-heroImageCaption: "Cypherpunks write code — the closing thesis of Eric Hughes's manifesto, distributed on the cypherpunk mailing list, March 9, 1993."
-heroImageCredit: "Bitcoin Annotated, Plate VI."
+heroImageCaption: "A Cypherpunk’s Manifesto, Eric Hughes, posted to the cypherpunk mailing list, March 9, 1993."
+heroImageCredit: "Eric Hughes / cypherpunk mailing list archive"
 sources:
   - url: "https://nakamotoinstitute.org/library/cypherpunk-manifesto/"
     label: "Satoshi Nakamoto Institute — A Cypherpunk's Manifesto by Eric Hughes (March 9, 1993)"
