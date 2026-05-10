@@ -8,9 +8,9 @@ blockHeightAtOrigin: 481824
 sourcePlatform: "Bitcoin protocol (BIP-141)"
 locked: true
 creator: "Pieter Wuille and Gregory Maxwell (BIP-141 authors); the broader Bitcoin Core development community"
-heroImage: "/images/entries/segwit-activation.svg"
-heroImageCaption: "Plate XXI. Block 481,824. SegWit activated on the Bitcoin network on August 24, 2017."
-heroImageCredit: "Bitcoin Annotated."
+heroImage: "/images/entries/segwit-activation.png"
+heroImageCaption: "Bitcoin Magazine, August 24, 2017. SegWit activates at block 481,824."
+heroImageCredit: "Bitcoin Magazine"
 sources:
   - url: "https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki"
     label: "BIP-141: Segregated Witness (Consensus layer)"
