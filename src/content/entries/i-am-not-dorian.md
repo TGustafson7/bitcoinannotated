@@ -18,9 +18,9 @@ sources:
     label: "TechCrunch on the post and email-address verification"
   - url: "https://en.wikipedia.org/wiki/Satoshi_Nakamoto"
     label: "Wikipedia on the post and the September 2014 hack disclosure"
-heroImage: "/images/entries/i-am-not-dorian.svg"
-heroImageCaption: "P2P Foundation post, March 7, 2014"
-heroImageCredit: "Bitcoin Annotated"
+heroImage: "/images/entries/i-am-not-dorian.png"
+heroImageCaption: "I am not Dorian Nakamoto. Posted to the P2P Foundation account, March 7, 2014."
+heroImageCredit: "Satoshi Nakamoto Institute archive"
 related: []
 ---
 
