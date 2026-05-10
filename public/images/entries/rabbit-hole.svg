@@ -1,22 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560">
-  <rect width="800" height="560" fill="#f8f4ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f8f4ed"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="56" y="56" width="688" height="488" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <text x="80" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5">PHRASE — INHERITED, BITCOIN-CODED</text>
-  <text x="720" y="60" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">DECEMBER 2019</text>
+  <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN — PHRASE</text>
+  <line x1="80" y1="115" x2="220" y2="115" stroke="#d97706" stroke-width="1.5"/>
 
-  <text x="400" y="215" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="38" fill="#1a1a1a" text-anchor="middle" font-weight="500">down the bitcoin</text>
-  <text x="400" y="265" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="38" fill="#d97706" text-anchor="middle" font-weight="500">rabbit hole.</text>
+  <text x="720" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2" text-anchor="end">CAT. DECEMBER 2019</text>
 
-  <line x1="320" y1="320" x2="480" y2="320" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="400" y="240" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="58" fill="#1a1a1a" text-anchor="middle" font-weight="500">down the bitcoin</text>
+  <text x="400" y="305" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="58" fill="#d97706" text-anchor="middle" font-weight="500">rabbit hole.</text>
 
-  <text x="400" y="360" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">"Begin at the beginning, and go on till you come</text>
-  <text x="400" y="380" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">to the end: then stop." — Lewis Carroll</text>
+  <line x1="320" y1="350" x2="480" y2="350" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <line x1="280" y1="420" x2="520" y2="420" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="400" y="395" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">“Begin at the beginning, and go on till you come</text>
+  <text x="400" y="415" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">to the end: then stop.” — Lewis Carroll</text>
 
-  <text x="400" y="455" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">CRYSTALLIZED: GIGI, 21 LESSONS, DECEMBER 18 2019</text>
-  <text x="400" y="480" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">USAGE: DURATION OF CONVICTION, NOT THE OUTCOME</text>
+  <line x1="280" y1="450" x2="520" y2="450" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <text x="80" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
-  <text x="720" y="530" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE VIII</text>
+  <text x="400" y="490" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">CRYSTALLIZED: GIGI, 21 LESSONS, DECEMBER 24, 2019</text>
+  <text x="400" y="510" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">USAGE: DURATION OF CONVICTION, NOT THE OUTCOME</text>
+
+  <text x="80" y="555" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="555" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE VIII</text>
 </svg>
