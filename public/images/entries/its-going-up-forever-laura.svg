@@ -1,38 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" preserveAspectRatio="xMidYMid meet">
-  <rect width="800" height="560" fill="#f8f4ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f8f4ed"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="56" y="56" width="688" height="488" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <!-- top-left: type / subtitle, mono small-caps -->
-  <text x="48" y="46" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">PHRASE — SAYLOR DOCTRINE</text>
+  <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN — PHRASE</text>
+  <line x1="80" y1="115" x2="220" y2="115" stroke="#d97706" stroke-width="1.5"/>
 
-  <!-- top-right: date, mono small-caps -->
-  <text x="752" y="46" text-anchor="end" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">NOVEMBER 2021</text>
+  <text x="720" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2" text-anchor="end">CAT. JANUARY 2021</text>
 
-  <!-- top separator line -->
-  <line x1="48" y1="68" x2="752" y2="68" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
+  <text x="400" y="232" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="58" font-style="italic" fill="#d97706" font-weight="400">It’s going up forever,</text>
+  <text x="400" y="312" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="64" font-style="italic" fill="#1a1a1a" font-weight="400">Laura.</text>
+  <text x="400" y="388" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="58" font-style="italic" fill="#1a1a1a" font-weight="400">Forever.</text>
 
-  <!-- main phrase, three lines, italic Garamond -->
-  <!-- Line 1: "It's going up forever," — orange-led with black tail -->
-  <text x="400" y="232" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="58" font-style="italic" fill="#d97706" font-weight="400">It&#8217;s going up forever,</text>
-  <!-- Line 2: "Laura." — dropped vocative, black, slightly larger for emphasis -->
-  <text x="400" y="312" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="64" font-style="italic" fill="#1a1a1a" font-weight="400">Laura.</text>
-  <!-- Line 3: "Forever." — the benediction, black, italic -->
-  <text x="400" y="388" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="58" font-style="italic" fill="#1a1a1a" font-weight="400">Forever.</text>
+  <line x1="320" y1="425" x2="480" y2="425" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <!-- supporting line, italic Garamond smaller -->
-  <text x="400" y="436" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="16" font-style="italic" fill="#1a1a1a" opacity="0.85">The Saylor doctrine, delivered to a podcast and reissued through every cycle since.</text>
+  <text x="400" y="465" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">The Saylor doctrine, delivered to a podcast —</text>
+  <text x="400" y="485" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">reissued through every cycle since.</text>
 
-  <!-- thin separator line above attribution -->
-  <line x1="280" y1="466" x2="520" y2="466" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+  <line x1="280" y1="520" x2="520" y2="520" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <!-- attribution, mono small-caps -->
-  <text x="400" y="488" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.2" font-weight="500" opacity="0.85">MICHAEL SAYLOR — UNCHAINED PODCAST WITH LAURA SHIN</text>
+  <text x="400" y="545" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">MICHAEL SAYLOR — UNCHAINED PODCAST, JANUARY 26, 2021</text>
 
-  <!-- bottom separator line -->
-  <line x1="48" y1="508" x2="752" y2="508" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
-
-  <!-- bottom-left: BITCOIN ANNOTATED -->
-  <text x="48" y="530" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">BITCOIN ANNOTATED</text>
-
-  <!-- bottom-right: PLATE XX -->
-  <text x="752" y="530" text-anchor="end" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">PLATE XX</text>
+  <text x="80" y="580" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="580" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE XX</text>
 </svg>
