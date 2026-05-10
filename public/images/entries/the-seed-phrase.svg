@@ -1,91 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" preserveAspectRatio="xMidYMid meet">
-  <rect width="800" height="560" fill="#f8f4ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#f8f4ed"/>
+  <rect x="40" y="40" width="720" height="520" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+  <rect x="56" y="56" width="688" height="488" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <!-- top-left: type / subtitle, mono small-caps -->
-  <text x="48" y="46" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">ICONOGRAPHY — SELF-CUSTODY</text>
+  <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN — ICONOGRAPHY</text>
+  <line x1="80" y1="115" x2="240" y2="115" stroke="#d97706" stroke-width="1.5"/>
 
-  <!-- top-right: date, mono small-caps -->
-  <text x="752" y="46" text-anchor="end" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">SEPTEMBER 10, 2013</text>
+  <text x="720" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2" text-anchor="end">CAT. SEPTEMBER 2013</text>
 
-  <!-- top separator line -->
-  <line x1="48" y1="68" x2="752" y2="68" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
-
-  <!-- the twelve words, three rows of four, italic Garamond, numbered like a real seed -->
-  <!-- row 1 -->
-  <g font-family="'EB Garamond', 'Garamond', Georgia, serif" font-style="italic" fill="#1a1a1a">
-    <text x="85" y="180" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">1.</tspan>
+  <g font-family="EB Garamond, Garamond, serif" font-style="italic" fill="#1a1a1a">
+    <text x="100" y="225" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">1.</tspan>
       <tspan dx="10">abandon</tspan>
     </text>
-    <text x="255" y="180" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">2.</tspan>
+    <text x="265" y="225" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">2.</tspan>
       <tspan dx="10">ability</tspan>
     </text>
-    <text x="425" y="180" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">3.</tspan>
+    <text x="430" y="225" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">3.</tspan>
       <tspan dx="10">able</tspan>
     </text>
-    <text x="595" y="180" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">4.</tspan>
+    <text x="595" y="225" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">4.</tspan>
       <tspan dx="10">about</tspan>
     </text>
   </g>
 
-  <!-- row 2 -->
-  <g font-family="'EB Garamond', 'Garamond', Georgia, serif" font-style="italic" fill="#1a1a1a">
-    <text x="85" y="240" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">5.</tspan>
+  <g font-family="EB Garamond, Garamond, serif" font-style="italic" fill="#1a1a1a">
+    <text x="100" y="285" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">5.</tspan>
       <tspan dx="10">above</tspan>
     </text>
-    <text x="255" y="240" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">6.</tspan>
+    <text x="265" y="285" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">6.</tspan>
       <tspan dx="10">absent</tspan>
     </text>
-    <text x="425" y="240" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">7.</tspan>
+    <text x="430" y="285" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">7.</tspan>
       <tspan dx="10">absorb</tspan>
     </text>
-    <text x="595" y="240" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">8.</tspan>
+    <text x="595" y="285" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">8.</tspan>
       <tspan dx="10">abstract</tspan>
     </text>
   </g>
 
-  <!-- row 3 -->
-  <g font-family="'EB Garamond', 'Garamond', Georgia, serif" font-style="italic" fill="#1a1a1a">
-    <text x="85" y="300" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">9.</tspan>
+  <g font-family="EB Garamond, Garamond, serif" font-style="italic" fill="#1a1a1a">
+    <text x="100" y="345" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">9.</tspan>
       <tspan dx="10">absurd</tspan>
     </text>
-    <text x="255" y="300" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">10.</tspan>
+    <text x="265" y="345" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">10.</tspan>
       <tspan dx="10">abuse</tspan>
     </text>
-    <text x="425" y="300" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">11.</tspan>
+    <text x="430" y="345" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">11.</tspan>
       <tspan dx="10">access</tspan>
     </text>
-    <text x="595" y="300" font-size="28">
-      <tspan font-family="'JetBrains Mono', 'Courier New', monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">12.</tspan>
+    <text x="595" y="345" font-size="28">
+      <tspan font-family="JetBrains Mono, monospace" font-style="normal" font-size="13" fill="#1a1a1a" opacity="0.5">12.</tspan>
       <tspan dx="10" fill="#d97706">accident</tspan>
     </text>
   </g>
 
-  <!-- supporting line, italic Garamond smaller -->
-  <text x="400" y="392" text-anchor="middle" font-family="'EB Garamond', 'Garamond', Georgia, serif" font-size="17" font-style="italic" fill="#1a1a1a" opacity="0.85">The first twelve words of the BIP-39 wordlist. Two thousand and forty-eight in total.</text>
+  <line x1="280" y1="395" x2="520" y2="395" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <!-- thin separator line above attribution -->
-  <line x1="280" y1="430" x2="520" y2="430" stroke="#1a1a1a" stroke-width="0.5" opacity="0.4"/>
+  <text x="400" y="430" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">The first twelve words of the BIP-39 wordlist.</text>
+  <text x="400" y="450" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">Two thousand and forty-eight in total.</text>
 
-  <!-- attribution, mono small-caps -->
-  <text x="400" y="454" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.2" font-weight="500" opacity="0.85">BIP-39 — PALATINUS, RUSNAK, VOISINE, BOWE</text>
+  <line x1="280" y1="485" x2="520" y2="485" stroke="#1a1a1a" stroke-width="0.5"/>
 
-  <!-- bottom separator line -->
-  <line x1="48" y1="508" x2="752" y2="508" stroke="#1a1a1a" stroke-width="0.5" opacity="0.5"/>
+  <text x="400" y="510" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">BIP-39 — PALATINUS, RUSNAK, VOISINE, BOWE — SEPTEMBER 10, 2013</text>
 
-  <!-- bottom-left: BITCOIN ANNOTATED -->
-  <text x="48" y="530" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">BITCOIN ANNOTATED</text>
-
-  <!-- bottom-right: PLATE XVIII -->
-  <text x="752" y="530" text-anchor="end" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="10" fill="#1a1a1a" letter-spacing="2.4" font-weight="500">PLATE XVIII</text>
+  <text x="80" y="555" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5">BITCOIN ANNOTATED</text>
+  <text x="720" y="555" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">PLATE XVIII</text>
 </svg>
