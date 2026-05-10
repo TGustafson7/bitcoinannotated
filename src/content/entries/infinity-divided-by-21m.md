@@ -1,5 +1,5 @@
 ---
-title: "Infinity Divided by 21 Million"
+title: "∞ ÷ 21M"
 deck: "Knut Svanholm's reframing of bitcoin as the denominator into which everything else fits."
 era: "Pandemic Era"
 type: "Phrase"
