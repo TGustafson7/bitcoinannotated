@@ -57,6 +57,7 @@ const ogImage = image ? new URL(image, Astro.site).href : new URL('/og-default.p
           <span class="footer-stance">No sponsorships</span>
           <span class="footer-stance">No trading advice</span>
           <span class="footer-stance">Bitcoin only</span>
+          <a class="footer-stance footer-handle" href="https://x.com/BTCannotated" target="_blank" rel="noopener">@BTCannotated</a>
         </div>
       </div>
       <div class="footer-rule"></div>
@@ -133,6 +134,13 @@ const ogImage = image ? new URL(image, Astro.site).href : new URL('/og-default.p
     font-size: 11px;
     letter-spacing: 0.04em;
     color: #6b6358;
+  }
+  .footer-handle {
+    text-decoration: none;
+    transition: color 0.12s ease;
+  }
+  .footer-handle:hover {
+    color: #d97706;
   }
   .footer-rule {
     max-width: 1100px;
