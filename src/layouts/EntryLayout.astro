@@ -3,20 +3,55 @@ import BaseLayout from './BaseLayout.astro';
 const { entry } = Astro.props;
 const { data } = entry;
 const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(data.date);
-
 const formatBlockHeight = (bh: number | string | undefined) => {
   if (bh === undefined) return null;
   if (bh === 'Pre-chain') return 'PRE-CHAIN';
   return `BLOCK ${bh.toLocaleString('en-US')}`;
 };
 const blockHeightDisplay = formatBlockHeight(data.blockHeightAtOrigin);
-
 // Resolve the primary source — the artifact itself, as opposed to corroborating context.
 // Annotated-edition logic: the catalog frames; the primary source IS the thing being framed.
 // Convention: explicit `primary: true` flag wins. No flag → no primary link is shown.
 const primarySource = data.sources?.find((s) => s.primary);
+
+// JSON-LD Article schema for search/AI retrieval.
+// Editorial register is anonymous-collective, so author is omitted; publisher is the catalog.
+const canonical = new URL(`/entries/${entry.slug}`, Astro.site).href;
+const heroImageUrl = data.heroImage ? new URL(data.heroImage, Astro.site).href : undefined;
+const isoDate = new Date(data.date).toISOString();
+const citations = (data.sources ?? []).map((s) => ({
+  "@type": "CreativeWork",
+  name: s.label,
+  url: s.url,
+}));
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: data.title,
+  description: data.deck,
+  datePublished: isoDate,
+  dateModified: isoDate,
+  inLanguage: "en",
+  isAccessibleForFree: true,
+  mainEntityOfPage: { "@type": "WebPage", "@id": canonical },
+  url: canonical,
+  ...(heroImageUrl && { image: heroImageUrl }),
+  publisher: {
+    "@type": "Organization",
+    name: "The Bitcoin Annotated",
+    url: "https://bitcoinannotated.com",
+  },
+  ...(citations.length > 0 && { citation: citations }),
+  about: {
+    "@type": "Thing",
+    name: "Bitcoin",
+  },
+  articleSection: data.era,
+  keywords: [data.type, data.era, "bitcoin", "cultural artifact"].join(", "),
+};
 ---
 <BaseLayout title={data.title} description={data.deck} image={data.heroImage}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   <div class="catalog-bar">
     <span>{data.era.toUpperCase()}</span>
     {data.foundational && <span>FOUNDATIONAL</span>}
@@ -94,7 +129,6 @@ const primarySource = data.sources?.find((s) => s.primary);
   .hero-image figcaption { margin-top: 14px; font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.6; color: #6b6358; letter-spacing: 0.02em; display: flex; flex-direction: column; gap: 2px; }
   .hero-image .caption-text { color: #4a4a4a; }
   .hero-image .caption-credit { font-style: italic; opacity: 0.7; }
-
   /* PRIMARY SOURCE — annotated-edition link to the artifact itself */
   .primary-source {
     max-width: 720px;
