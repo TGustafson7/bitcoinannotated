@@ -1,7 +1,10 @@
 ---
 import '../styles/global.css';
-const { title, description } = Astro.props;
+const { title, description, image } = Astro.props;
 const fullTitle = title ? `${title} — The Bitcoin Annotated` : 'The Bitcoin Annotated';
+const fullDescription = description ?? "An annotated archive of bitcoin's cultural artifacts.";
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = image ? new URL(image, Astro.site).href : new URL('/og-default.png', Astro.site).href;
 ---
 
 <!DOCTYPE html>
@@ -10,7 +13,20 @@ const fullTitle = title ? `${title} — The Bitcoin Annotated` : 'The Bitcoin An
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{fullTitle}</title>
-  <meta name="description" content={description ?? 'An annotated archive of bitcoin\'s cultural artifacts.'} />
+  <meta name="description" content={fullDescription} />
+  <link rel="canonical" href={canonical} />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="The Bitcoin Annotated" />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content={fullDescription} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={ogImage} />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={fullTitle} />
+  <meta name="twitter:description" content={fullDescription} />
+  <meta name="twitter:image" content={ogImage} />
 </head>
 <body>
   <div class="page-wrap">
