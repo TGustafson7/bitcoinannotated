@@ -16,7 +16,7 @@ const blockHeightDisplay = formatBlockHeight(data.blockHeightAtOrigin);
 // Convention: explicit `primary: true` flag wins. No flag → no primary link is shown.
 const primarySource = data.sources?.find((s) => s.primary);
 ---
-<BaseLayout title={data.title} description={data.deck}>
+<BaseLayout title={data.title} description={data.deck} image={data.heroImage}>
   <div class="catalog-bar">
     <span>{data.era.toUpperCase()}</span>
     {data.foundational && <span>FOUNDATIONAL</span>}
