@@ -20,7 +20,7 @@ sources:
   - url: "https://www.cbsnews.com/news/bitcoin-pizza-day-laszlo-hanyecz-60-minutes-2019-05-12/"
     label: "Anderson Cooper / 60 Minutes interview with Hanyecz (CBS, 2019)"
 related:
-  - "BTC.2010.002"
+  - "the-pizza"
 ---
 
 The transaction itself happened on May 22, 2010, in Jacksonville, Florida. A programmer named Laszlo Hanyecz, who had been mining bitcoin on his home laptop and accumulating tens of thousands of coins, posted to the BitcoinTalk forums offering ten thousand bitcoin to anyone who would order him two pizzas. A 19-year-old in California named Jeremy Sturdivant — username *jercos* — took the deal, called a Jacksonville Papa John's, paid in dollars on his debit card, and had the pizzas delivered cross-country to Hanyecz's home in Florida. Hanyecz sent the bitcoin. The transaction is widely cited as the first time bitcoin was exchanged for a physical good. It has its own catalog entry. This one is about what happened after.

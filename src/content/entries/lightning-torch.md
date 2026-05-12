@@ -19,8 +19,8 @@ sources:
   - url: "https://bitcoinmagazine.com/technical/lightning-torchs-bitcoin-payment-is-running-a-worldwide-marathon"
     label: "Bitcoin Magazine — Lightning Torch's Bitcoin Payment Is Running a Worldwide Marathon"
 related:
-  - "BTC.2016.001"
-  - "BTC.2021.002"
+  - "lightning-whitepaper"
+  - "el-salvador-legal-tender"
 ---
 On January 19, 2019, a pseudonymous bitcoiner whose Twitter avatar was a tomcat in a spacesuit sent one hundred thousand satoshis over the Lightning Network to a stranger he had decided, on no particular evidence, to trust. He asked the recipient to add ten thousand satoshis of his own and pass the payment along to someone else. The recipient did. So did the next person, and the person after that, and a handful of people more, until the small experiment became a phenomenon traversing what would eventually be every continent except Antarctica.
 

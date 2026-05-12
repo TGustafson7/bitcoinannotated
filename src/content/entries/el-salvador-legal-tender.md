@@ -21,7 +21,7 @@ sources:
   - url: "https://www.bbc.com/news/world-latin-america-57398274"
     label: "BBC — El Salvador becomes first country to adopt bitcoin"
 related:
-  - "BTC.2013.003"
+  - "cyprus"
 ---
 On the evening of Saturday, June 5, 2021, in a video message played on a stage at the Bitcoin 2021 conference in Miami, the president of El Salvador, Nayib Bukele, announced that he would be submitting legislation to make bitcoin legal tender alongside the United States dollar in his country. The conference audience, which had not been told what the recorded message would contain, reacted with the prolonged ovation reserved for moments that the assembled crowd recognizes as historic in advance. Bukele was forty years old, in the third year of a five-year term, and governed a country of approximately 6.3 million people with no central bank, no domestic currency, and a remittance-driven economy in which roughly twenty percent of gross domestic product flowed in from Salvadorans working abroad.
 

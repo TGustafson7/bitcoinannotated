@@ -19,8 +19,8 @@ sources:
   - url: "https://bitcoinmagazine.com/markets/why-bitcoin-stock-to-flow-is-not-useful"
     label: "Bitcoin Magazine — Why The Bitcoin Stock-to-Flow Model Is Not Useful"
 related:
-  - "BTC.2016.002"
-  - "BTC.2021.007"
+  - "the-halving"
+  - "the-69k-top"
 ---
 In March 2019, an anonymous Dutch ex-institutional investor publishing under the name PlanB uploaded an essay to Medium titled *Modeling Bitcoin's Value with Scarcity*. The essay applied a measure long used in commodity markets — the *stock-to-flow ratio*, which compares an asset's existing supply to its annual new production — to bitcoin, and observed that bitcoin's price had, historically, tracked that ratio with a correlation tight enough to be visually striking when plotted on a logarithmic chart. PlanB drew the chart. The chart began to circulate. It would, for the next two and a half years, become the single most reproduced piece of analytical iconography in bitcoin culture.
 

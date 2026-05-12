@@ -21,7 +21,7 @@ sources:
   - url: "https://podcasts.apple.com/us/podcast/episode-44-tick-tock-next-block/id1542617540?i=1000546385472"
     label: "*Tick Tock Next Block* — recurring podcast and column titles in bitcoin media"
 related:
-  - "BTC.2016.002"
+  - "the-halving"
 ---
 The bitcoin protocol targets one block every ten minutes. It misses, sometimes by minutes, occasionally by an hour. The targeting mechanism is the difficulty adjustment, which retargets every two thousand and sixteen blocks based on how fast the previous run was produced. The system has, for over fifteen years, never missed a beat in a way that mattered. Block production continues whether the price is up, down, contested, dismissed, or under government investigation. The chain advances. *Tick tock, next block.*
 

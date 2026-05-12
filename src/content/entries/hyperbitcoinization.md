@@ -17,7 +17,7 @@ sources:
     label: "Daniel Krawisz, *Hyperbitcoinization*, March 29, 2014"
     primary: true
 related:
-  - "BTC.2021.002"
+  - "el-salvador-legal-tender"
 ---
 On March 29, 2014, an essayist named Daniel Krawisz published a piece on the Satoshi Nakamoto Institute website titled, simply, *Hyperbitcoinization*. The essay was a thought experiment dressed in the language of monetary economics. Krawisz, a co-founder of the Institute, was attempting to coin a term for an event that, as of the date of the essay's publication, had not happened anywhere and might never happen at all: the voluntary, cascading abandonment of a fiat currency in favor of bitcoin. He defined the phenomenon as *Bitcoin-induced currency demonetization* and argued that, were it ever to occur, it would unfold faster than a hyperinflation, because bitcoin could not be prevented from crossing borders the way a competing fiat currency could.
 

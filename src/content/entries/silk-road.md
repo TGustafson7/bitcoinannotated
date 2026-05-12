@@ -19,8 +19,8 @@ sources:
   - url: "https://www.wired.com/2015/04/silk-road-1/"
     label: "Wired — The Untold Story of Silk Road (2015)"
 related:
-  - "BTC.2010.002"
-  - "BTC.2011.002"
+  - "the-pizza"
+  - "first-mt-gox-hack"
 ---
 
 Silk Road went live in February 2011. It was a Tor hidden service, accessible only through a specific browser configuration most people did not have. Its creator was Ross Ulbricht, a 26-year-old from Austin, Texas — a physics undergraduate from the University of Texas at Dallas with a master's in materials science from Penn State — working initially under the username *Admin* and later, by 2012, under the more cinematic alias *Dread Pirate Roberts*, borrowed from *The Princess Bride*, in which the title is passed from one captain to the next so the legend never dies. The handle was strategic. The user was not.

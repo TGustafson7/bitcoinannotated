@@ -24,8 +24,8 @@ sources:
   - url: "https://www.cnbc.com/2024/12/05/bitcoin-tops-100000-as-monster-2024-rally-reaches-new-heights.html"
     label: "CNBC: Bitcoin tops $100,000 (December 4, 2024)"
 related:
-  - "BTC.2013.001"
-  - "BTC.2017.001"
+  - "hodl"
+  - "buy-bitcoin-sign"
 ---
 
 On February 16, 2021, with bitcoin trading near fifty thousand dollars per coin, a Twitter user posting under the handle *@CHAIRFORCE_BTC* changed his profile picture to add two glowing red beams shooting out of his eyes. He attached a hashtag: **#LaserRayUntil100K**. The proposition was simple. Keep the profile picture. Take it down only when bitcoin hits a hundred thousand dollars.

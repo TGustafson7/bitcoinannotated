@@ -19,7 +19,7 @@ sources:
   - url: "https://www.bloomberg.com/news/features/2022-11-09/how-sam-bankman-fried-built-a-crypto-empire-then-watched-it-collapse"
     label: "Bloomberg — How Sam Bankman-Fried's empire collapsed"
 related:
-  - "BTC.2011.002"
+  - "first-mt-gox-hack"
 ---
 The collapse of FTX, the world's third-largest cryptocurrency exchange, took approximately ten days. On November 2, 2022, the cryptocurrency news outlet *CoinDesk* published a leaked balance sheet for Alameda Research, a hedge fund whose chief executive officer was technically separate from but functionally indistinguishable from FTX's chief executive officer, Sam Bankman-Fried. The balance sheet revealed that Alameda's assets consisted overwhelmingly of FTT, a token issued by FTX whose only meaningful function was to confer trading discounts on the exchange that had created it. The disclosure raised the obvious question of whether FTX itself was solvent. On November 6, the chief executive officer of Binance, Changpeng Zhao, announced via Twitter that Binance would be liquidating its FTT holdings. The announcement triggered a customer run on FTX. By November 8, withdrawals had been suspended. By November 11, FTX had filed for Chapter 11 bankruptcy in the District of Delaware. The estimated shortfall to customers was approximately $8 billion.
 

@@ -21,8 +21,8 @@ sources:
   - url: "https://www.theblock.co/post/336332/ross-ulbricht-free"
     label: "The Block — Bitcoin community reacts to Trump pardon"
 related:
-  - "BTC.2011.001"
-  - "BTC.2024.002"
+  - "silk-road"
+  - "trump-nashville"
 ---
 On January 21, 2025, the second day of his second term, President Donald J. Trump signed a full and unconditional pardon for Ross William Ulbricht — the founder of the Silk Road darknet marketplace, who had been convicted in 2015 of distributing narcotics, conspiring to commit money laundering, and several adjacent charges, and was at the time of the pardon serving two consecutive life sentences plus an additional forty years, without the possibility of parole. He had been incarcerated for slightly over eleven years. The pardon ended a campaign that had run, in some form, since the day he was sentenced.
 

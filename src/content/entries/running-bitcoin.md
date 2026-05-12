@@ -19,8 +19,8 @@ sources:
   - url: "https://bitcointalk.org/index.php?topic=155054.0"
     label: "Bitcoin and me — Hal Finney's BitcoinTalk essay (March 2013)"
 related:
-  - "BTC.2008.001"
-  - "BTC.2009.001"
+  - "the-whitepaper"
+  - "genesis-block"
 ---
 
 On January 11, 2009 — a Sunday, eight days after the genesis block — Hal Finney posted two words to Twitter: *Running bitcoin*. He had been on the platform for less than a year. The post had no link, no context, no thread. His followers, such as they were in those early days of Twitter, would have had no idea what bitcoin was.

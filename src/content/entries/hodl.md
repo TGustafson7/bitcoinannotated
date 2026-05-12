@@ -22,8 +22,8 @@ sources:
   - url: "https://en.wikipedia.org/wiki/HODL"
     label: "Wikipedia: HODL"
 related:
-  - "BTC.2010.002"
-  - "BTC.2020.002"
+  - "the-pizza"
+  - "squares-buy"
 ---
 
 On the night of December 18, 2013, a forum user posting under the handle GameKyuubi opened a thread on BitcoinTalk titled — by his own intention — *I AM HODLING*. The misspelling was not strategic. It was, by his own admission within the post, the result of being drunk while trying to type. The thread that followed became scripture.

@@ -20,7 +20,7 @@ sources:
   - url: "https://en.bitcoin.it/wiki/Promotional_graphics"
     label: "Bitcoin Wiki — Promotional graphics and the orange roundel"
 related:
-  - "BTC.2017.003"
+  - "the-symbol"
 ---
 Bitcoin orange — hexadecimal color code F7931A, a saturated, slightly amber shade roughly midway between traffic-cone and Halloween-pumpkin — has no formal status as the asset's official color. There is no Bitcoin Foundation that selected it. There is no style guide that mandates it. There is, in the strict sense, nobody at all whose authority would compel any particular bitcoin product, exchange, hardware wallet, T-shirt, or sticker to use the color rather than some other color. And yet, with rare exceptions, every bitcoin product, exchange, hardware wallet, T-shirt, and sticker uses the color. The convergence is the artifact.
 

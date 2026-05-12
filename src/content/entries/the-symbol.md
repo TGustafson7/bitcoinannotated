@@ -20,7 +20,7 @@ sources:
   - url: "https://www.unicode.org/L2/L2015/15229-bitcoin-sign.pdf"
     label: "Unicode proposal L2/15-229, Bitcoin Sign (Ken Shirriff, 2015)"
 related:
-  - "BTC.2008.001"
+  - "the-whitepaper"
 ---
 The bitcoin symbol — ₿, code point U+20BF in the Currency Symbols block of the Unicode standard — is a capital Latin letter B with two vertical strokes extending above and below the curves. It has been a part of the Unicode standard since June 20, 2017, the date of the Unicode 10.0 release. Before that date, the symbol existed only as a typographic convention; documents that wished to display it had to either embed an image or rely on a custom font. After that date, every device, operating system, browser, and text editor that supported Unicode 10.0 could render it natively. The symbol's induction into Unicode is, in the strict sense, the moment bitcoin acquired its own letter.
 

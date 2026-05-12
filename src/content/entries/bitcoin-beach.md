@@ -19,8 +19,8 @@ sources:
     label: "Bitcoin Magazine — Reflecting On The Original Bitcoin Beach White Paper (Mike Peterson)"
     primary: true
 related:
-  - "BTC.2016.001"
-  - "BTC.2021.002"
+  - "lightning-whitepaper"
+  - "el-salvador-legal-tender"
 ---
 In the spring of 2019, an American expatriate named Mike Peterson, who had been living off-and-on in a fishing village called El Zonte on the Pacific coast of El Salvador since the mid-2000s, was approached by an intermediary representing an anonymous donor. The donor was an early bitcoin holder. The donor wanted to give a substantial sum to a community-development project, with one stipulation: the bitcoin could not be exchanged for dollars. It had to be used, on the ground, as bitcoin. Peterson, a former financial planner who had moved to El Zonte after a surfing trip and stayed to run a small charity, took the meeting and accepted the terms. The project that resulted came to be called Bitcoin Beach.
 

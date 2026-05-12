@@ -26,8 +26,8 @@ sources:
   - url: "https://knowyourmeme.com/memes/buy-bitcoin-sign"
     label: "Know Your Meme: Buy Bitcoin Sign"
 related:
-  - "BTC.2013.001"
-  - "BTC.2021.001"
+  - "hodl"
+  - "laser-eyes"
 ---
 
 On the morning of July 12, 2017, a 22-year-old summer intern at the libertarian Cato Institute named Christian Langalis arrived early enough at a House Financial Services Committee hearing to claim a seat in the second row, directly behind the witness table. Janet Yellen, then chair of the Federal Reserve, was scheduled to deliver semiannual monetary-policy testimony. The hearing would be televised.

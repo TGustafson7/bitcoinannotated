@@ -19,8 +19,8 @@ sources:
   - url: "https://blog.wizsec.jp/2015/04/the-missing-mtgox-bitcoins.html"
     label: "WizSec post-mortem analysis of Mt. Gox security failures"
 related:
-  - "BTC.2011.001"
-  - "BTC.2010.002"
+  - "silk-road"
+  - "the-pizza"
 ---
 
 Mt. Gox began life in 2007 as a side project: a website where players of the collectible card game *Magic: The Gathering* could trade cards online. The name was an acronym — *Magic: The Gathering Online eXchange*. The card-trading site never amounted to much. In July 2010, its owner, an American programmer named Jed McCaleb, repurposed the dormant domain to launch a bitcoin exchange. Within nine months, the site was handling the majority of global bitcoin trading volume. In March 2011, McCaleb sold the operation to a French software developer living in Tokyo named Mark Karpelès. Three months later, on June 19, 2011, the wheels came off in public.

@@ -19,8 +19,8 @@ sources:
     label: "Original BitcoinTalk thread #137: 'Pizza for bitcoins?'"
     primary: true
 related:
-  - "BTC.2009.001"
-  - "BTC.2013.001"
+  - "genesis-block"
+  - "hodl"
 ---
 
 On May 22, 2010, the Florida-based programmer Laszlo Hanyecz paid 10,000 bitcoin for two pizzas from Papa John's. The transaction was arranged on the BitcoinTalk forum, in a thread Hanyecz himself had opened four days earlier titled *Pizza for bitcoins?* Another forum user — a 19-year-old in California named Jeremy Sturdivant, posting under the handle *jercos* — ordered the pizzas from a Jacksonville Papa John's, paying with his own debit card. Hanyecz sent the bitcoin. The pizzas arrived. The transaction closed.

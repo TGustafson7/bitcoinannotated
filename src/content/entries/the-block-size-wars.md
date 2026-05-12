@@ -20,8 +20,8 @@ sources:
     label: "BIP 148 — Shaolinfry's mandatory activation of segwit deployment proposal (the document the war pivoted on)"
     primary: true
 related:
-  - "BTC.2008.001"
-  - "BTC.2013.001"
+  - "the-whitepaper"
+  - "hodl"
 ---
 The dispute that became known as the Block Size Wars was, in its narrowest framing, an argument about a single number. The bitcoin protocol, as Satoshi Nakamoto had configured it in 2010, limited each block of transactions to one megabyte. As bitcoin's user base grew through 2014, 2015, and into 2016, that limit began producing visible congestion: transactions would queue in a backlog called the *mempool*, fees would rise, and confirmations would take hours rather than minutes. One faction, broadly aligned with large bitcoin businesses and exchanges, argued that the obvious solution was to raise the limit — to two megabytes, to eight, to thirty-two — and let the protocol scale by handling more transactions on-chain. The other faction, broadly aligned with the protocol's core developers and a network of node operators, argued that increasing the block size would centralize the network by making it economically impossible for ordinary users to run a full node, and that scaling should instead happen through cleverer protocol design that kept block sizes small.
 

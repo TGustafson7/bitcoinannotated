@@ -19,8 +19,8 @@ sources:
   - url: "https://www.coindesk.com/policy/2015/06/03/new-yorks-final-bitlicense-rules-text-and-analysis/"
     label: "CoinDesk — New York's final BitLicense rules: text and analysis"
 related:
-  - "BTC.2011.001"
-  - "BTC.2011.002"
+  - "silk-road"
+  - "first-mt-gox-hack"
 ---
 On June 24, 2015, the New York State Department of Financial Services finalized a regulatory framework called the BitLicense. The rules ran to forty-four pages and required any business engaged in *virtual currency business activity* involving New York or its residents to obtain a license from the state, submit to ongoing examinations, maintain anti-money-laundering programs, file regular reports, and meet capital and cybersecurity standards roughly comparable to those imposed on banks. The licensing fee was five thousand dollars. The compliance cost was, by all credible estimates, considerably more.
 

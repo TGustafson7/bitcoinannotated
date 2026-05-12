@@ -19,7 +19,7 @@ sources:
   - url: "https://www.reuters.com/business/autos-transportation/tesla-suspends-vehicle-purchases-using-bitcoin-musk-2021-05-13/"
     label: "Reuters — Tesla suspends bitcoin payments over environmental concerns"
 related:
-  - "BTC.2020.001"
+  - "microstrategy-first-buy"
 ---
 On February 8, 2021, Tesla, Inc. filed its annual 10-K report with the United States Securities and Exchange Commission. Buried in the financial disclosures was a paragraph announcing that the company had recently invested approximately $1.5 billion in bitcoin and had begun accepting the asset as payment for its vehicles. The disclosure was, in dollar terms, the largest corporate bitcoin purchase to date. It was approximately six times the size of MicroStrategy's initial buy, executed by a company with a market capitalization roughly seven hundred times larger, and led by a chief executive officer with the largest social media following of any corporate executive in the world. The price of bitcoin rose seventeen percent in the twenty-four hours following the disclosure. It would not stay there.
 

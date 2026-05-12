@@ -19,8 +19,8 @@ sources:
     label: "BIP 341 — Taproot: SegWit version 1 spending rules"
     primary: true
 related:
-  - "BTC.2017.002"
-  - "BTC.2023.001"
+  - "the-block-size-wars"
+  - "ordinals"
 ---
 At 5:15 UTC on Sunday, November 14, 2021, a miner produced block 709,632. The block was, by every external measure, ordinary: it contained the transactions waiting in the mempool, paid the standard reward, and propagated through the network without incident. Internally, it was the activation block for the Taproot soft fork — the most significant upgrade to bitcoin's protocol in four years, and, when it occurred, an upgrade that nearly nobody noticed.
 

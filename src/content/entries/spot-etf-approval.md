@@ -19,8 +19,8 @@ sources:
   - url: "https://www.sec.gov/news/statement/gensler-statement-spot-bitcoin-011023"
     label: "Statement of Chair Gary Gensler on the approval"
 related:
-  - "BTC.2009.002"
-  - "BTC.2020.001"
+  - "running-bitcoin"
+  - "microstrategy-first-buy"
 ---
 The first application to list a spot bitcoin exchange-traded fund in the United States was filed by Cameron and Tyler Winklevoss in July 2013. It was denied. So were the applications that followed, for ten years and approximately twenty filings, by SolidX, Bitwise, VanEck, Valkyrie, Wisdom Tree, ARK Invest, and several others. The Securities and Exchange Commission's stated objections evolved over the decade — concerns about market manipulation, custody, surveillance-sharing arrangements, the depth of underlying spot markets — but the operational result was consistent. American investors who wanted exposure to bitcoin through a regulated investment vehicle would have to do so through products that held bitcoin futures rather than bitcoin itself, with the attendant tracking errors and roll costs that the structure entailed.
 

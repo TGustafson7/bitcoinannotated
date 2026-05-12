@@ -19,7 +19,7 @@ sources:
   - url: "https://www.microstrategy.com/press/microstrategy-adopts-bitcoin-as-primary-treasury-reserve-asset_08-11-2020"
     label: "MicroStrategy press release — Bitcoin as Primary Treasury Reserve Asset"
 related:
-  - "BTC.2008.001"
+  - "the-whitepaper"
 ---
 On August 11, 2020, an enterprise software company called MicroStrategy filed a Form 8-K with the United States Securities and Exchange Commission disclosing that it had purchased 21,454 bitcoin for an aggregate of approximately $250 million in cash. The filing identified the purchase as part of a new corporate treasury policy under which bitcoin would serve as the company's *primary treasury reserve asset*. MicroStrategy was, at the time, a publicly traded company with a market capitalization of roughly $1.2 billion, a niche business intelligence product, and forty years of operational history. Its founder and chief executive officer, Michael Saylor, was fifty-five years old and had until recently been on record as a bitcoin skeptic.
 

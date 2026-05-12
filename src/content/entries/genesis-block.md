@@ -23,8 +23,8 @@ sources:
   - url: "https://www.thetimes03jan2009.com/"
     label: "The Times, 03/Jan/2009 — surviving copies"
 related:
-  - "BTC.2010.001"
-  - "BTC.2010.002"
+  - "bitcoin-orange"
+  - "the-pizza"
 ---
 
 On the third of January, 2009, an unknown person operating under the name Satoshi Nakamoto mined the first block of the bitcoin blockchain. Inside it, in the section of the block reserved for arbitrary data, they embedded a single sentence:

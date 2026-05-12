@@ -22,8 +22,8 @@ sources:
     label: "mavensbot's own archive on Foundation"
     primary: true
 related:
-  - "BTC.2013.001"
-  - "BTC.2009.001"
+  - "hodl"
+  - "genesis-block"
 ---
 
 On the evening of February 18, 2013, at 23:21:15 UTC, a Reddit user posting under the handle *u/mavensbot* uploaded an MS Paint drawing to the bitcoin subreddit. The drawing depicted a long-bearded wizard in a star-spangled robe, hovering against a black void, casting some kind of spell. Beneath the wizard, in white type, were the words:

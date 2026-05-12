@@ -19,8 +19,8 @@ sources:
   - url: "https://blogs.lse.ac.uk/europpblog/crisis-in-cyprus/"
     label: "LSE EUROPP — Crisis in Cyprus (collated coverage)"
 related:
-  - "BTC.2008.001"
-  - "BTC.2009.001"
+  - "the-whitepaper"
+  - "genesis-block"
 ---
 On the morning of Saturday, March 16, 2013, depositors in the Republic of Cyprus woke up to discover that their savings accounts had been frozen overnight as part of a €10 billion European Union bailout agreement. The terms, negotiated in the small hours by finance ministers in Brussels, called for a one-time levy on every deposit held in a Cypriot bank: 6.75 percent on amounts under €100,000, 9.9 percent on amounts above. The deposits would be debited automatically. Account holders had not been consulted. The banks remained closed.
 

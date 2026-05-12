@@ -20,8 +20,10 @@ sources:
   - url: "https://satoshi.nakamotoinstitute.org/emails/cryptography/1/"
     label: "Satoshi Nakamoto Institute — original email archive"
 related:
-  - "BTC.2009.001"
-  - "BTC.2009.002"
+  - "b-money"
+  - "hashcash"
+  - "bit-gold"
+  - "the-cypherpunk-mailing-list"
 ---
 
 On the afternoon of October 31, 2008 — Halloween, 2:10pm Eastern — a person calling themselves Satoshi Nakamoto sent an email to a low-traffic mailing list run out of metzdowd.com. The list was a haunt for cypherpunks and cryptographers, the survivors of a decades-long argument about whether private digital money was possible at all. The subject line read: "Bitcoin P2P e-cash paper." The first line announced a new electronic cash system, fully peer-to-peer, with no trusted third party. Attached was a nine-page PDF.
