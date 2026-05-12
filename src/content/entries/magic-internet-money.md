@@ -14,13 +14,12 @@ heroImage: "/images/entries/magic-internet-money.png"
 heroImageCaption: "Magic Internet Money: Bitcoin Wizard. Drawn in MS Paint by u/mavensbot, February 18, 2013."
 heroImageCredit: "Image courtesy of mavensbot."
 sources:
-  - url: "https://paulbars.medium.com/magic-internet-money-how-a-reddit-ad-made-bitcoin-hit-1000-and-inspired-south-parks-art-b414ec7a5598"
-    label: "Paul Bars: How a Reddit ad made Bitcoin hit $1000 (canonical history)"
-  - url: "https://knowyourmeme.com/memes/magic-internet-money-bitcoin-wizard"
-    label: "Know Your Meme: Magic Internet Money: Bitcoin Wizard"
-  - url: "https://foundation.app/@mavensbot/foundation/5252"
-    label: "mavensbot's own archive on Foundation"
+
+  - url: "https://www.reddit.com/r/ads/comments/1q1h40/magic_internet_money/"
+    label: "r/ads: original Magic Internet Money thread (November 6, 2013)"
     primary: true
+- url: "https://knowyourmeme.com/memes/magic-internet-money-bitcoin-wizard"
+    label: "Know Your Meme: Magic Internet Money: Bitcoin Wizard"
 related:
   - "hodl"
   - "genesis-block"
@@ -54,7 +53,7 @@ How much of the price action was caused by the ad and how much by the broader 20
 
 ## South Park
 
-There is an additional artifact worth recording. On November 13, 2013, exactly one week after the Reddit ad went live, *South Park* aired Season 17 Episode 7 — *Black Friday*, the first part of a three-episode arc parodying *Game of Thrones*. The episode prominently featured a hand-drawn flyer of the character Eric Cartman, depicted as a wizard king in flowing robes, in a composition that bears a striking — and many would say unmistakable — resemblance to the Magic Internet Money wizard.
+There is an additional artifact worth recording. On November 13, 2013, exactly one week after the Reddit ad went live, *South Park* aired Season 17 Episode 7, *Black Friday*, the first part of a three-episode arc parodying *Game of Thrones*. The episode prominently featured a hand-drawn flyer of the character Eric Cartman, depicted as a wizard king in flowing robes, in a composition that bears a striking resemblance to the Magic Internet Money wizard.
 
 Whether the resemblance is deliberate homage or coincidence has never been formally addressed by *South Park*'s creators. Cartman's wizard-king costume in *Black Friday* drew on existing material from *South Park: The Stick of Truth*, then in pre-release marketing, so the visual lineage is not strictly causal. What is true is that the same wizard-in-robes silhouette appeared on two major media platforms within seven days. Readers can decide what to do with the timing.
 
@@ -62,6 +61,6 @@ Whether the resemblance is deliberate homage or coincidence has never been forma
 
 There is something unusually durable about the image. Most internet ads age into illegibility within a year; this one has survived twelve. It still circulates. It is still printed on T-shirts and hoodies. It is still used, unironically, as a stand-in for bitcoin itself in news segments and Twitter threads.
 
-The reason, we suspect, is that *Magic Internet Money* — as a phrase — captures something true about bitcoin that more sophisticated framings tend to miss. Bitcoin is, in a sense that even its skeptics would grudgingly concede, magic internet money. The phrase doesn't try to sell you on anything. It doesn't promise that you'll get rich. It says, with a kind of cheerful surrender, *yes, this is what it sounds like, and yes, it works anyway*.
+The reason, we suspect, is that *Magic Internet Money*, as a phrase, captures something true about bitcoin that more sophisticated framings tend to miss. Bitcoin is, in a sense that even its skeptics would grudgingly concede, magic internet money. The phrase doesn't try to sell you on anything. It doesn't promise that you'll get rich. It says, with a kind of cheerful surrender, *yes, this is what it sounds like, and yes, it works anyway*.
 
 That posture — bemused, self-aware, faintly defiant — is the register most native to bitcoin culture. The wizard in the void was the first artifact to express it cleanly. It has not been improved on since.
