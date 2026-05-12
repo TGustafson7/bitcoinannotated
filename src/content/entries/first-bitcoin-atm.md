@@ -18,7 +18,7 @@ sources:
     label: "CoinDesk: Robocoin launches bitcoin ATM in Vancouver (October 30, 2013)"
     primary: true
   - url: "https://www.cbc.ca/news/science/world-s-first-bitcoin-atm-opens-in-vancouver-1.2286877"
-    label: "CBC News: Worlds first bitcoin ATM opens in Vancouver (October 29, 2013)"
+    label: "CBC News: World's first bitcoin ATM opens in Vancouver (October 29, 2013)"
 ---
 
 On the morning of October 29, 2013, a beige-and-black kiosk approximately the size of a household refrigerator went live inside the Waves Coffee House at the corner of Howe and Smithe streets in downtown Vancouver. A line had formed by 9 a.m. The first customer, a software developer named Jason Lamarche, fed a twenty-dollar bill into the machine's cash slot, allowed it to scan his palm for compliance purposes, and watched a screen confirm that 0.1 bitcoin had been deposited to a wallet the kiosk had generated for him. Another early user, Gabriel Scheare, told the gathered press he just felt like being part of history. Bitcoin was trading at approximately $200. The machine had a daily transaction limit of three thousand Canadian dollars and required no prior account, no exchange registration, and no technical knowledge beyond the ability to follow on-screen instructions.
