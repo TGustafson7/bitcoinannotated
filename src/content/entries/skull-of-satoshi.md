@@ -8,7 +8,6 @@ sourcePlatform: "Greenpeace USA / Benjamin Von Wong studio (Washington, DC)"
 locked: true
 foundational: false
 creator: "Benjamin Von Wong (commissioned by Greenpeace USA)"
-btcPriceAtOrigin: "~$28,000"
 blockHeightAtOrigin: 782513
 heroImage: "/images/entries/skull-of-satoshi.jpg"
 heroImageCaption: "The Skull of Satoshi, unveiled in Washington DC on March 23, 2023. Eleven feet tall, made from 300+ pieces of donated electronic waste, with red laser eyes."

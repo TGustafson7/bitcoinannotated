@@ -8,7 +8,6 @@ blockHeightAtOrigin: 97582
 sourcePlatform: "The Underground Economist; later 99bitcoins.com"
 locked: false
 creator: "Various; tracker maintained by 99bitcoins"
-btcPriceAtOrigin: "$0.23"
 sources:
   - url: "https://99bitcoins.com/bitcoin-obituaries/"
     label: "99bitcoins.com — running tracker of obituaries since 2010"

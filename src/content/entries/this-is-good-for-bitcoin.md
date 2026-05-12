@@ -9,7 +9,6 @@ blockHeightAtOrigin: 173481
 sourcePlatform: "Reddit (r/bitcoin)"
 locked: false
 creator: "Julian702 (Reddit, earliest known online usage)"
-btcPriceAtOrigin: "~$5"
 sources:
   - url: "https://knowyourmeme.com/memes/this-is-good-for-bitcoin"
     label: "Know Your Meme — origin and genealogy"

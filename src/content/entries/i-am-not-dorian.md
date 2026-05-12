@@ -9,7 +9,6 @@ blockHeightAtOrigin: 289280
 sourcePlatform: "P2P Foundation (Ning)"
 locked: true
 creator: "Satoshi Nakamoto (account holder)"
-btcPriceAtOrigin: "~$660"
 sources:
   - url: "https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/4/"
     label: "Satoshi Nakamoto Institute archive of the post"

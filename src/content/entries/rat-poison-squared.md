@@ -9,7 +9,6 @@ blockHeightAtOrigin: 521237
 sourcePlatform: "Berkshire Hathaway annual shareholder meeting"
 locked: true
 creator: "Warren Buffett (utterance); bitcoin community (adoption)"
-btcPriceAtOrigin: "~$9,800"
 sources:
   - url: "https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html"
     label: "CNBC's contemporaneous report"

@@ -6,7 +6,6 @@ type: "Event"
 date: 2014-08-28
 sourcePlatform: "Alcor Life Extension Foundation (case summary)"
 locked: true
-btcPriceAtOrigin: "$510"
 blockHeightAtOrigin: 318824
 heroImage: "/images/entries/hal-finney-death.png"
 heroImageCaption: "Excerpt from Alcor Case Summary A-1436, Hal Finney's cryopreservation record (August 2014)."

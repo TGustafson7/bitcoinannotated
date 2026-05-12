@@ -8,7 +8,6 @@ blockHeightAtOrigin: 620861
 sourcePlatform: "Twitter"
 locked: true
 creator: "@femalelandlords (Twitter)"
-btcPriceAtOrigin: "~$7,900"
 sources:
   - url: "https://knowyourmeme.com/memes/money-printer-go-brrr"
     label: "Know Your Meme — origin, propagation, format genealogy"

@@ -7,7 +7,6 @@ foundational: true
 type: "Event"
 date: 2009-01-03
 blockHeightAtOrigin: 0
-btcPriceAtOrigin: "—"
 creator: "Satoshi Nakamoto"
 sourcePlatform: "Bitcoin protocol"
 locked: true
