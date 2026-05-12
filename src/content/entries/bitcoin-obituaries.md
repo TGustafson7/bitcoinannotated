@@ -12,8 +12,8 @@ sources:
   - url: "https://99bitcoins.com/bitcoin-obituaries/"
     label: "99bitcoins.com — running tracker of obituaries since 2010"
     primary: true
-  - url: "https://undergroundeconomist.com/why-bitcoin-cant-be-a-currency"
-    label: "The Underground Economist, the first known obituary (Dec 15, 2010)"
+  - url: "https://web.archive.org/web/20101215103112/http://undergroundeconomist.com/post/1528511369"
+    label: "The Underground Economist, the first known obituary (Dec 15, 2010, Wayback Machine)"
   - url: "https://u.today/bitcoin-scores-first-year-with-zero-obituaries-details"
     label: "Lopp's chart and the 2025 zero-obituary milestone"
 heroImage: "/images/entries/bitcoin-obituaries.png"
@@ -30,8 +30,4 @@ The obituaries follow patterns. A drawdown brings them; a regulatory hearing bri
 
 In 2025, for the first time since the genre began, no major publication wrote a bitcoin obituary. The chart Jameson Lopp published on the milestone — fifteen years of declining-then-vanishing death notices — is the obituary genre's own death certificate.
 
-What the catalog records here is the genre, not any single entry within it. The first one was wrong about the future. So were the next 471. The thing they were all writing about kept not dying.
-
-A market that has been pronounced dead 477 times and still trades is not the same kind of asset as a market that has been pronounced dead twice. It is a different category of artifact. The obituaries are part of bitcoin's culture in a way bitcoiners themselves rarely are — they are the negative space that makes the shape visible.
-
-We file this entry under iconography because the running tracker, maintained for over a decade, is itself the artifact. The obituaries are not what bitcoin is. The list of them is.
+The first obituary was wrong about the future. So were all that followed. The obituaries became part of bitcoin's culture — the negative space that makes the shape visible. They are not what bitcoin is. The list of them is.
