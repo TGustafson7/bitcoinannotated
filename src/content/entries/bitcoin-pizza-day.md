@@ -16,13 +16,13 @@ sources:
     primary: true
   - url: "https://bitcointalk.org/index.php?topic=137.0"
     label: "Laszlo Hanyecz original BitcoinTalk post (May 18, 2010) — the transaction the holiday commemorates"
-  - url: "https://www.cbsnews.com/news/bitcoin-pizza-day-laszlo-hanyecz-60-minutes-2019-05-12/"
+  - url: "https://www.youtube.com/watch?v=tWU3O3X5kKE"
     label: "Anderson Cooper / 60 Minutes interview with Hanyecz (CBS, 2019)"
 related:
   - "the-pizza"
 ---
 
-The transaction itself happened on May 22, 2010, in Jacksonville, Florida. A programmer named Laszlo Hanyecz, who had been mining bitcoin on his home laptop and accumulating tens of thousands of coins, posted to the BitcoinTalk forums offering ten thousand bitcoin to anyone who would order him two pizzas. A 19-year-old in California named Jeremy Sturdivant — username *jercos* — took the deal, called a Jacksonville Papa John's, paid in dollars on his debit card, and had the pizzas delivered cross-country to Hanyecz's home in Florida. Hanyecz sent the bitcoin. The transaction is widely cited as the first time bitcoin was exchanged for a physical good. It has its own catalog entry. This one is about what happened after.
+The transaction itself happened on May 22, 2010, in Jacksonville, Florida. A programmer named Laszlo Hanyecz, who had pioneered GPU mining and accumulated tens of thousands of coins as a result, posted to the BitcoinTalk forums offering ten thousand bitcoin to anyone who would order him two pizzas. A 19-year-old in California named Jeremy Sturdivant — username *jercos* — took the deal, called a Jacksonville Papa John's, paid in dollars on his debit card, and had the pizzas delivered cross-country to Hanyecz's home in Florida. Hanyecz sent the bitcoin. The transaction is widely cited as the first time bitcoin was exchanged for a physical good. It has its own catalog entry. This one is about what happened after.
 
 For the first three years, the anniversary passed largely unobserved. The bitcoin community in 2010 and 2011 was small enough to fit on a single forum thread; the cultural infrastructure to declare a holiday did not yet exist. The shift came in 2013 and 2014, as the asset moved from cypherpunk curiosity into something resembling public consciousness. *The New York Times* ran a piece on Hanyecz's transaction in late 2013, written by Nick Bilton. The @Bitcoin Twitter account began marking the date. By the May 22, 2014 anniversary, the phrase *Bitcoin Pizza Day* had taken hold as the canonical name. Forum posts that year began pricing the meal in then-current dollars — a tradition that would become the holiday's defining ritual.
 
