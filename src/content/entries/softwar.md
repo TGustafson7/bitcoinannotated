@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2023.002"
 title: "Softwar"
 deck: "Jason Lowery's MIT thesis arguing bitcoin is not money but a new form of non-lethal power projection — pulled from circulation by the Department of Defense five months after publication."
 era: "Now"

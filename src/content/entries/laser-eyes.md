@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2021.001"
 title: "Laser Eyes"
 deck: "A profile-picture campaign that lasted nearly four years, drew in members of Congress and a head of state, and ended — almost on schedule — when bitcoin crossed a hundred thousand dollars."
 era: "Institutional Takeover"

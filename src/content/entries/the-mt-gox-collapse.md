@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2014.002"
 title: "The Mt. Gox Collapse"
 deck: "850,000 bitcoin, gone."
 era: "Dark Forest"

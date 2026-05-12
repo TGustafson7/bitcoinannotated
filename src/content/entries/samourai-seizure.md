@@ -9,7 +9,6 @@ heroImage: "/images/entries/samourai-seizure.png"
 heroImageCaption: "Samourai Wallet seizure notice, April 24, 2024"
 heroImageCredit: "U.S. Department of Justice"
 locked: true
-catalogId: "btc-2024-004"
 creator: "U.S. Department of Justice (action); Keonne Rodriguez and William Lonergan Hill (Samourai developers)"
 blockHeightAtOrigin: 840588
 foundational: false

@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.1997.002"
 title: "The Sovereign Individual"
 deck: "The 1997 book bitcoiners cite when they want to ground the protocol in a longer arc of state decline."
 era: "Pre-Genesis"

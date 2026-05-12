@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2022.001"
 title: "The FTX Collapse"
 deck: "Eight billion dollars, evaporated over a single weekend."
 era: "Frauds"

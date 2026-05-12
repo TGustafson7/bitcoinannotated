@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2011.002"
 title: "The First Mt. Gox Hack"
 deck: "The day a single account briefly bought 261,000 bitcoin for one cent each."
 era: "First Bull"

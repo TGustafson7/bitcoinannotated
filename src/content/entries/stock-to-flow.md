@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2019.004"
 title: "Stock-to-Flow"
 deck: "The chart that made a price seem inevitable."
 era: "The Long Wait"

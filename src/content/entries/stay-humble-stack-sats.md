@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2019.001"
 title: "Stay Humble, Stack Sats"
 deck: "The four-word liturgy of the bitcoin daily practice."
 era: "The Long Wait"

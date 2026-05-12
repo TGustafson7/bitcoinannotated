@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.1998.001"
 title: "b-money"
 deck: "Wei Dai's 1998 sketch of an anonymous distributed cash system, ten years before bitcoin made it real."
 era: "Pre-Genesis"

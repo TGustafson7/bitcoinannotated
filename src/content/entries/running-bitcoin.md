@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2009.002"
 title: "Running Bitcoin"
 deck: "Two words, posted to Twitter on a Sunday afternoon."
 era: "Genesis"

@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.1997.001"
 title: "Hashcash"
 deck: "The proof-of-work primitive that bitcoin would, eleven years later, repurpose into a money."
 era: "Pre-Genesis"

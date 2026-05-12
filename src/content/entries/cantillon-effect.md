@@ -9,7 +9,6 @@ heroImage: "/images/entries/cantillon-effect.svg"
 heroImageCaption: "Plate XXIV — The Cantillon Effect"
 heroImageCredit: "Bitcoin Annotated"
 locked: true
-catalogId: "btc-2020-003"
 pronunciation: "kahn-tee-YOHN"
 blockHeightAtOrigin: 633500
 foundational: false

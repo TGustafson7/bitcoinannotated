@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2019.002"
 title: "Number Go Up"
 deck: "The meme that became a worldview."
 era: "The Long Wait"

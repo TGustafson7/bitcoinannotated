@@ -9,7 +9,6 @@ heroImage: "/images/entries/treasury-strategy.png"
 heroImageCaption: "Top 100 public bitcoin treasury companies, 2025"
 heroImageCredit: "BitcoinTreasuries.net"
 locked: true
-catalogId: "btc-2020-006"
 creator: "Michael Saylor (originator); industry-wide"
 blockHeightAtOrigin: 643136
 foundational: false

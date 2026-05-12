@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2013.001"
 title: "HODL"
 pronunciation: "/ˈhɒdəl/ — verb"
 deck: "A drunken misspelling on a bitcoin forum became the dominant philosophy of bitcoin ownership."

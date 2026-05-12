@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2014.004"
 title: "Hyperbitcoinization"
 deck: "The phrase that imagined the endgame."
 era: "The Long Wait"

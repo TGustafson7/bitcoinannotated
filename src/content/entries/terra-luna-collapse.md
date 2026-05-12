@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2022.002"
 title: "The Terra/LUNA Collapse"
 deck: "Forty billion dollars, evaporated over five days."
 era: "Frauds"

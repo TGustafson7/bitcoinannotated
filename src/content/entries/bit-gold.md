@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2005.001"
 title: "Bit Gold"
 deck: "Nick Szabo's 2005 sketch of a digital scarce resource — the third of bitcoin's three pre-bitcoin protocol ancestors."
 era: "Pre-Genesis"

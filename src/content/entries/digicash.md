@@ -9,7 +9,6 @@ heroImage: "/images/entries/digicash.png"
 heroImageCaption: "DigiCash webserver, c. 1996. Numbers that are money."
 heroImageCredit: "DigiCash Inc., archived by the Internet Archive"
 locked: true
-catalogId: "btc-1990-001"
 creator: "David Chaum"
 blockHeightAtOrigin: "Pre-chain"
 foundational: true

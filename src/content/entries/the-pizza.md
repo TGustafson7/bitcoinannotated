@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2010.002"
 title: "The Pizza"
 deck: "Bitcoin's first commercial transaction, now an annual holiday and a permanent monument to early bitcoin's casualness about value."
 era: "Genesis"

@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2016.001"
 title: "The Lightning Network Whitepaper"
 deck: "The scaling answer the small-blockers had been promising."
 era: "The Long Wait"

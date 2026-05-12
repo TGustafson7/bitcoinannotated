@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2025.001"
 title: "The Strategic Bitcoin Reserve"
 deck: "March 6, 2025. The United States government, formally, holds bitcoin."
 era: "Now"

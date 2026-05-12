@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2023.001"
 title: "Ordinals"
 deck: "JPEGs on bitcoin. The community is still arguing about whether to allow it."
 era: "Now"

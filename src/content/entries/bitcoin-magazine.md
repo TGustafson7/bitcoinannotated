@@ -6,7 +6,6 @@ type: "Document"
 date: 2012-05-01
 sourcePlatform: "Print / web"
 locked: true
-catalogId: "btc-2012-001"
 creator: "Mihai Alisie and Vitalik Buterin"
 blockHeightAtOrigin: 178000
 heroImage: "/images/entries/bitcoin-magazine.jpg"

@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2010.001"
 title: "Bitcoin Orange"
 deck: "#F7931A. The color the asset chose for itself."
 era: "Genesis"

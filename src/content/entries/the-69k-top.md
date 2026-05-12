@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2021.007"
 title: "The $69,000 Top"
 deck: "The cycle peak. The laser eyes' literal target. The number became a meme."
 era: "Institutional Takeover"

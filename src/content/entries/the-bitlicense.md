@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2015.001"
 title: "The BitLicense"
 deck: "The first time a government tried to draw a regulatory perimeter around bitcoin."
 era: "The Long Wait"

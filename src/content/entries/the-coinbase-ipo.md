@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2021.004"
 title: "The Coinbase IPO"
 deck: "The first major bitcoin company to go public, valued at $86 billion on day one."
 era: "Institutional Takeover"

@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2016.002"
 title: "The Halving as Holiday"
 deck: "Every four years, the supply schedule does its quiet thing."
 era: "The Long Wait"

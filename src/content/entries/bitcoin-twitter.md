@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2017.004"
 title: "Bitcoin Twitter"
 deck: "The chaotic, unpaid public square where modern bitcoin culture was forged."
 era: "2017 Run"

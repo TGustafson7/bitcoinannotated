@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2011.001"
 title: "Silk Road"
 deck: "The first place online where bitcoin actually bought something."
 era: "First Bull"

@@ -6,7 +6,6 @@ type: "Document"
 date: 1991-06-05
 sourcePlatform: "Peacenet / Internet"
 locked: true
-catalogId: "btc-1991-001"
 creator: "Phil Zimmermann"
 blockHeightAtOrigin: "Pre-chain"
 heroImage: "/images/entries/pgp.jpg"

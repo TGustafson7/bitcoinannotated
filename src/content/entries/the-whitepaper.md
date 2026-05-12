@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2008.001"
 title: "The Whitepaper"
 deck: "The nine-page PDF that started it."
 era: "Genesis"

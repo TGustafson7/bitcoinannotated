@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2025.002"
 title: "Free Ross"
 deck: "A decade-long campaign. Concluded January 21, 2025."
 era: "Now"

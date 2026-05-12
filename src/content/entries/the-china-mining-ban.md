@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2021.005"
 title: "The China Mining Ban"
 deck: "Half the world's hashrate, exiled in six weeks."
 era: "Institutional Takeover"

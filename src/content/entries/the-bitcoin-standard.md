@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2018.001"
 title: "The Bitcoin Standard"
 deck: "The book that gave the maxis their argument."
 era: "The Long Wait"

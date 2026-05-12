@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2013.003"
 title: "Cyprus"
 deck: "Bitcoin's first political moment."
 era: "First Bull"

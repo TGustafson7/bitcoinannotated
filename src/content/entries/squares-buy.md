@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2020.002"
 title: "Square's First Buy"
 deck: "Jack Dorsey's payments company puts $50 million in bitcoin."
 era: "Pandemic Era"

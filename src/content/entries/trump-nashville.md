@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2024.002"
 title: "Trump at Bitcoin Nashville"
 deck: "The first sitting major-party presidential nominee to address a bitcoin conference."
 era: "Now"

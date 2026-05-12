@@ -9,7 +9,6 @@ heroImage: "/images/entries/satoshi-disappearance.png"
 heroImageCaption: "Satoshis final email to Mike Hearn, April 23, 2011"
 heroImageCredit: "Archived by Mike Hearn"
 locked: true
-catalogId: "btc-2011-003"
 creator: "Satoshi Nakamoto"
 blockHeightAtOrigin: 124276
 foundational: true

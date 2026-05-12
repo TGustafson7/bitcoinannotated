@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2019.005"
 title: "Bitcoin Beach"
 deck: "The grassroots experiment that rehearsed legal tender."
 era: "The Long Wait"

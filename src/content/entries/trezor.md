@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2014.003"
 title: "Trezor"
 deck: "The first hardware wallet, made by two Czechs in a Prague basement."
 era: "Dark Forest"

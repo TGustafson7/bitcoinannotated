@@ -9,7 +9,6 @@ heroImage: "/images/entries/finks-reversal.png"
 heroImageCaption: "Larry Fink, BlackRock CEO, on CNBC"
 heroImageCredit: "CNBC"
 locked: true
-catalogId: "btc-2023-004"
 creator: "Larry Fink (BlackRock)"
 blockHeightAtOrigin: 794379
 foundational: false

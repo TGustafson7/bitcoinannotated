@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2014.001"
 title: "Bitcoin Pizza Day"
 deck: "An expensive lunch becomes an annual holiday."
 era: "Dark Forest"

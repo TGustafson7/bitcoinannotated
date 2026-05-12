@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2021.002"
 title: "El Salvador Legal Tender"
 deck: "The first sovereign nation to make bitcoin legal tender alongside the dollar."
 era: "Institutional Takeover"

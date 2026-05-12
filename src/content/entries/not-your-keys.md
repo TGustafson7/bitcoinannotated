@@ -1,5 +1,4 @@
 ---
-catalogId: "BTC.2016.004"
 title: "Not Your Keys, Not Your Coins"
 deck: "The phrase that became a discipline."
 era: "The Long Wait"
