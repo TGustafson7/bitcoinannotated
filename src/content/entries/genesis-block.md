@@ -48,9 +48,9 @@ The third is foundational text. A new financial system needs a kind of origin st
 
 ## The six-day gap
 
-There is a small mystery about the genesis block worth noting. The timestamp on Block 0 is January 3, 2009. The timestamp on Block 1 is January 9, 2009 — six full days later. Bitcoin's protocol targets ten minutes between blocks. Six days is roughly eighty-six thousand percent longer than the design target — more than eight hundred times longer.
+There is a small mystery about the genesis block worth noting. The timestamp on Block 0 is January 3, 2009. The timestamp on Block 1 is January 9, 2009 — six full days later. Bitcoin's protocol targets ten minutes between blocks. Six days is roughly eighty-six thousand percent longer than the design target.
 
-Several explanations have been proposed. The most widely accepted is that Nakamoto mined the genesis block, then spent six days running tests on the bitcoin software using that block as a known starting point, and only on January 9 began the live chain in earnest. Another suggests Nakamoto had been working on bitcoin for some time before the public release and timed the genesis block specifically to match the *Times* headline. A third suggests they were simply mining the block itself for several days — its hash is unusually low even by 2009 standards, suggesting more computational effort than was strictly necessary.
+Several explanations have been proposed. The most widely accepted is that Nakamoto mined the genesis block, then spent six days running tests on the bitcoin software using that block as a known starting point, and only on January 9 began the live chain in earnest. Another suggests Nakamoto had been working on bitcoin for some time before the public release and timed the genesis block specifically to match the *Times* headline. A third suggests they were simply mining the block itself for several days. Its hash is unusually low even by 2009 standards, suggesting more computational effort than was strictly necessary.
 
 The truth is unknown. Nakamoto, who corresponded with early bitcoin developers for two years before disappearing in 2010, has never publicly addressed the question.
 
@@ -66,4 +66,4 @@ The address itself, however, has continued to receive bitcoin from sympathetic d
 
 A footnote worth preserving. *The Times* of London printed roughly six hundred thousand copies of its January 3, 2009 edition. Most were thrown away within a week, as most newspapers are. For years, the verified surviving complete copies — meaning the full newspaper, not just the front page — were thought to be limited to a small handful, with two acquired from the London National Archives by collectors in January 2014. As bitcoin's profile rose, additional copies surfaced from private collections; one was offered for public auction at Bitcoin 2026 in Las Vegas.
 
-This is, perhaps, the smaller miracle of the genesis block. The newspaper that Nakamoto cited as proof of bitcoin's birth has become, almost entirely, a paper artifact preserved only inside the blockchain itself.
+Six hundred thousand copies, almost all destroyed. The chain has the last one, written into its first block, replicated across every node, indelible. The newspaper was meant to last a day. The chain has kept it for fifteen years.
