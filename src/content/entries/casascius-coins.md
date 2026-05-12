@@ -17,7 +17,7 @@ sources:
     primary: true
   - url: "https://en.bitcoin.it/wiki/Casascius_physical_bitcoins"
     label: "Casascius physical bitcoins — Bitcoin Wiki"
-  - url: "https://www.theverge.com/2013/12/13/5208000/casascius-maker-of-shiny-physical-bitcoins-shut-down-by-treasury"
+  - url: "https://www.theverge.com/2013/12/13/5207256/casascius-maker-of-shiny-physical-bitcoins-shut-down-by-treasury"
     label: "The Verge: Casascius, maker of shiny physical bitcoins, shut down by Treasury Department (December 13, 2013)"
 related: []
 ---
