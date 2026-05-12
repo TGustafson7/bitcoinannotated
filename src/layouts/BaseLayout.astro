@@ -4,7 +4,10 @@ const { title, description, image } = Astro.props;
 const fullTitle = title ? `${title} — The Bitcoin Annotated` : 'The Bitcoin Annotated';
 const fullDescription = description ?? "An annotated archive of bitcoin's cultural artifacts.";
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
-const ogImage = image ? new URL(image, Astro.site).href : new URL('/og-default.png', Astro.site).href;
+const ogImageSrc = image
+  ? (image.endsWith('.svg') ? image.replace('/images/entries/', '/images/og/').replace('.svg', '.png') : image)
+  : '/og-default.png';
+const ogImage = new URL(ogImageSrc, Astro.site).href;
 ---
 
 <!DOCTYPE html>
