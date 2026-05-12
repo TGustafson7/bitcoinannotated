@@ -86,10 +86,19 @@ const articleSchema = {
   {data.heroImage && (
     <figure class="hero-image">
       <img src={data.heroImage} alt={data.heroImageCaption || data.title} loading="lazy" />
-      {(data.heroImageCaption || data.heroImageCredit) && (
+      {(data.heroImageCaption || data.heroImageCredit || data.heroImage.endsWith('.svg')) && (
         <figcaption>
           {data.heroImageCaption && <span class="caption-text">{data.heroImageCaption}</span>}
           {data.heroImageCredit && <span class="caption-credit">{data.heroImageCredit}</span>}
+          {data.heroImage.endsWith('.svg') && (
+            <a
+              class="plate-download"
+              href={data.heroImage.replace('/images/entries/', '/images/og/').replace('.svg', '.png')}
+              download
+            >
+              download plate ↓
+            </a>
+          )}
         </figcaption>
       )}
     </figure>
@@ -129,6 +138,8 @@ const articleSchema = {
   .hero-image figcaption { margin-top: 14px; font-family: 'JetBrains Mono', monospace; font-size: 11px; line-height: 1.6; color: #6b6358; letter-spacing: 0.02em; display: flex; flex-direction: column; gap: 2px; }
   .hero-image .caption-text { color: #4a4a4a; }
   .hero-image .caption-credit { font-style: italic; opacity: 0.7; }
+  .hero-image .plate-download { color: #8a8276; text-decoration: none; align-self: flex-end; margin-top: 2px; transition: color 120ms ease; }
+  .hero-image .plate-download:hover { color: #d97706; }
   /* PRIMARY SOURCE — annotated-edition link to the artifact itself */
   .primary-source {
     max-width: 720px;
