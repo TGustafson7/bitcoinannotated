@@ -17,8 +17,8 @@ sources:
     primary: true
   - url: "https://bitcointalk.org/index.php?topic=2216.msg29280#msg29280"
     label: "Satoshi Nakamoto's response on BitcoinTalk: WikiLeaks has kicked the hornets nest, and the swarm is headed towards us."
-  - url: "https://www.forbes.com/sites/andygreenberg/2011/06/14/wikileaks-bypasses-financial-blockade-with-bitcoin/"
-    label: "Forbes: WikiLeaks Bypasses Financial Blockade With Bitcoin (Andy Greenberg, June 14, 2011)"
+  - url: "https://www.forbes.com/sites/andygreenberg/2011/06/14/wikileaks-asks-for-anonymous-bitcoin-donations/"
+    label: "Forbes: WikiLeaks Asks For Anonymous Bitcoin Donations (Andy Greenberg, June 14, 2011)"
 related: []
 ---
 
