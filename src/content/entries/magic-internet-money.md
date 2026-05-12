@@ -18,7 +18,7 @@ sources:
   - url: "https://www.reddit.com/r/ads/comments/1q1h40/magic_internet_money/"
     label: "r/ads: original Magic Internet Money thread (November 6, 2013)"
     primary: true
-- url: "https://knowyourmeme.com/memes/magic-internet-money-bitcoin-wizard"
+  - url: "https://knowyourmeme.com/memes/magic-internet-money-bitcoin-wizard"
     label: "Know Your Meme: Magic Internet Money: Bitcoin Wizard"
 related:
   - "hodl"
