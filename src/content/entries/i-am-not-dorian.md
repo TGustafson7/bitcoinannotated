@@ -29,7 +29,7 @@ In the early hours of March 7, the P2P Foundation account that had introduced th
 
 > I am not Dorian Nakamoto.
 
-It was the first activity from the account in half a decade and the only confirmed Satoshi communication of any kind since December 2010. Josef Davies-Coates, who ran the P2P Foundation Ning network, confirmed to TechCrunch that the email registered to the account matched the address on the original 2009 paper. Whoever held the credentials in 2009 had returned long enough to deny one specific identification, then disappeared again.
+It was the first activity from the account in half a decade and the only confirmed public Satoshi communication of any kind since the December 2010 BitcoinTalk posts. Josef Davies-Coates, who ran the P2P Foundation Ning network, confirmed to TechCrunch that the email registered to the account matched the address on the original 2009 paper. Whoever held the credentials in 2009 had returned long enough to deny one specific identification, then disappeared again.
 
 The post is contested. In September 2014, the same account claimed to have been hacked, which raised the possibility that the March 7 post was not from the original holder either. The catalog notes this without resolving it. The cryptographic facts are that the email was the same; the social facts are that the timing was decisive; the historical facts are that no other Satoshi communication has surfaced in the years since.
 
