@@ -15,8 +15,8 @@ sources:
   - url: "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki"
     label: "BIP-39: Mnemonic code for generating deterministic keys (assigned September 10, 2013)"
     primary: true
-  - url: "https://www.blockplate.com/pages/bip-39-wordlist"
-    label: "The BIP-39 wordlist (2,048 words)"
+  - url: "https://github.com/bitcoin/bips/blob/master/bip-0039/english.txt"
+    label: "BIP-39 English wordlist (2,048 words, raw text)"
 related: []
 ---
 
