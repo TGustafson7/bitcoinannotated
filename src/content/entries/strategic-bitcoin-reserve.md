@@ -15,8 +15,8 @@ sources:
   - url: "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/"
     label: "Executive Order — Establishment of the Strategic Bitcoin Reserve (March 6, 2025)"
     primary: true
-  - url: "https://home.treasury.gov/news/press-releases/sb0080"
-    label: "Treasury Department implementation guidance, Strategic Bitcoin Reserve"
+  - url: "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-establishes-the-strategic-bitcoin-reserve-and-u-s-digital-asset-stockpile/"
+    label: "White House Fact Sheet — Strategic Bitcoin Reserve and U.S. Digital Asset Stockpile (March 6, 2025)"
 related: []
 ---
 On Thursday, March 6, 2025, six weeks into his second term, President Donald J. Trump signed an Executive Order titled *Establishment of the Strategic Bitcoin Reserve and United States Digital Asset Stockpile*. The order's central provision was straightforward and, as a matter of American monetary policy, unprecedented: the United States government would consolidate its existing bitcoin holdings — approximately 200,000 bitcoin acquired through criminal forfeitures, civil forfeitures, and tax-enforcement seizures conducted over the previous decade — into a permanent reserve. The reserve's bitcoin would not be sold under any circumstances. It would, in the order's language, *not be sold* but *maintained as reserve assets* of the United States.

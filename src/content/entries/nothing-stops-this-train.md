@@ -15,7 +15,7 @@ sources:
   - url: "https://www.lynalden.com/full-steam-ahead-all-aboard-fiscal-dominance/"
     label: "Full Steam Ahead: All Aboard Fiscal Dominance — lynalden.com (January 2025)"
     primary: true
-  - url: "https://www.youtube.com/watch?v=KumiLzAcqPE"
+  - url: "https://www.bankless.com/podcast/early-access-lyn-alden-fiscal-dominance"
     label: "Bankless: 'Nothing Stops This Train' — Lyn Alden on Fiscal Dominance (May 13, 2024)"
   - url: "https://bitcoinmagazine.com/news/the-debt-train-has-no-brakes-lyn-alden-makes-the-case-for-btc-at-bitcoin-2025"
     label: "Bitcoin Magazine: Lyn Alden's Bitcoin 2025 keynote (May 29, 2025)"
