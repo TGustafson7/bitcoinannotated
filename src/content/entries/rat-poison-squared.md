@@ -23,7 +23,7 @@ heroImageCredit: "Bitcoin Annotated"
 related: []
 ---
 
-At Berkshire Hathaway's 2018 annual shareholder meeting in Omaha, Liz Claman of Fox Business asked Warren Buffett whether bitcoin was still rat poison, given that the price had risen from a hundred dollars when he last said so to nine thousand at the time of asking. Buffett answered without hesitating. The catalog will not reproduce his full sentence. The relevant phrase was "rat poison squared." Becky Quick of CNBC tweeted it within ten minutes. By the end of the day it was on a t-shirt.
+At Berkshire Hathaway's 2018 annual shareholder meeting in Omaha, Liz Claman of Fox Business asked Warren Buffett whether bitcoin was still rat poison, given that the price had risen from a hundred dollars when Charlie Munger first said so to nine thousand at the time of asking. Buffett answered without hesitating. The catalog will not reproduce his full sentence. The relevant phrase was "rat poison squared." Becky Quick of CNBC tweeted it within ten minutes. By the end of the day it was on a t-shirt.
 
 The phrase was meant to land as compounding revulsion. Bitcoin was so bad that ordinary rat poison wouldn't capture it; it had to be rat poison multiplied by itself. The mathematical metaphor backfired in a way Buffett did not see coming. Bitcoiners, who had been called every kind of name for nine years by then, recognized the shape of the joke immediately. Squaring rat poison does not make it more lethal to bitcoin; it makes it more lethal to whatever the rat is. If Buffett's gold-and-cash portfolio was the rat, bitcoin being its poison was a structural compliment.
 
