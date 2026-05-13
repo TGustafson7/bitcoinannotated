@@ -5,7 +5,7 @@ era: "Pandemic Era"
 type: "Event"
 date: 2021-11-14
 blockHeightAtOrigin: 709632
-creator: "Pieter Wuille, Tim Ruffing, A.J. Townes, Jonas Nick (BIP authors); Greg Maxwell (proposal)"
+creator: "Pieter Wuille, Tim Ruffing, Anthony Towns, Jonas Nick (BIP authors); Greg Maxwell (proposal)"
 sourcePlatform: "Bitcoin Core / soft fork"
 locked: true
 heroImage: "/images/entries/taproot.png"
