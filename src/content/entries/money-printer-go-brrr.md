@@ -12,7 +12,7 @@ sources:
   - url: "https://knowyourmeme.com/memes/money-printer-go-brrr"
     label: "Know Your Meme — origin, propagation, format genealogy"
     primary: true
-  - url: "https://fortune.com/2020/05/12/fed-go-brrr-meme-bitcoin-money-printer-federal-reserve/"
+  - url: "https://fortune.com/2020/05/12/the-fed-go-brr-bitcoin-meme-federal-reserve/"
     label: "Fortune on the meme striking a chord with Bitcoin believers"
   - url: "https://www.screenslate.com/articles/go-brrr"
     label: "Screen Slate's contemporary cultural read"
@@ -22,9 +22,7 @@ heroImageCredit: "Anonymous"
 related: []
 ---
 
-On March 9, 2020, the United States Federal Reserve announced a $1.5 trillion liquidity injection to stabilize markets that had begun unraveling in response to the spreading coronavirus. The same day, the Twitter account @femalelandlords posted a two-panel Wojak comic. In the first panel, a young figure in an anarcho-capitalist bowtie patiently explains that artificially inflating the economy by creating money cannot produce sustainable growth. In the second panel, an older figure standing at a money-printing machine answers him. The answer is six characters long.
-
-> haha money printer go brrr
+On March 9, 2020, the United States Federal Reserve announced a $1.5 trillion liquidity injection to stabilize markets that had begun unraveling in response to the spreading coronavirus. The same day, the Twitter account @femalelandlords posted a two-panel Wojak comic. In the first panel, a young figure in an anarcho-capitalist bowtie patiently explains that artificially inflating the economy by creating money cannot produce sustainable growth. In the second panel, an older figure standing at a money-printing machine answers him. The answer is six characters long: *haha money printer go brrr*.
 
 The format spread within days. By March 14, a political-compass version was circulating on r/Destiny. By March 16, animated GIFs were on r/Anarcho_Capitalism and r/Jreg. On March 17, someone registered MoneyPrinterGoBrrr.com. The entire Pandemic Era of bitcoin culture metabolized through the meme within a week.
 
