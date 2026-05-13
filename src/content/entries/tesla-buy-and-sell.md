@@ -15,8 +15,8 @@ sources:
   - url: "https://www.sec.gov/Archives/edgar/data/1318605/000156459021004599/tsla-10k_20201231.htm"
     label: "Tesla 10-K filing, February 8, 2021"
     primary: true
-  - url: "https://www.reuters.com/business/autos-transportation/tesla-suspends-vehicle-purchases-using-bitcoin-musk-2021-05-13/"
-    label: "Reuters — Tesla suspends bitcoin payments over environmental concerns"
+  - url: "https://www.cnbc.com/2021/05/12/elon-musk-says-tesla-will-stop-accepting-bitcoin-for-car-purchases.html"
+    label: "CNBC — Elon Musk says Tesla will stop accepting bitcoin for car purchases (May 12, 2021)"
 related:
   - "microstrategy-first-buy"
 ---
@@ -26,6 +26,6 @@ The strategic framing was less developed than MicroStrategy's. Where Saylor had 
 
 On May 12, 2021, three months after the original purchase, Musk announced via Twitter that Tesla would suspend bitcoin payments for vehicles, citing the environmental impact of bitcoin mining's electricity consumption. The price of bitcoin fell approximately fifteen percent over the following twenty-four hours and nearly forty percent over the following month, in what became known in the bitcoin community as the *Musk dump*. In the company's first-quarter 2021 earnings report, filed before the policy reversal, Tesla disclosed that it had sold approximately ten percent of its bitcoin position for a $272 million gain — a sale Musk had described, when first announced, as a *liquidity test*. By July 2022, in the wake of broader market deterioration, Tesla disclosed that it had sold approximately seventy-five percent of its total bitcoin position.
 
-The episode was significant less for what it accomplished than for what it demonstrated. Tesla's purchase had been received, in February 2021, as confirmation that bitcoin had crossed a threshold of corporate respectability and would now be embraced by mainstream public companies as a treasury instrument. The sale, three months later, demonstrated the opposite: that a corporate executive with regulatory exposure, a high-profile share price, and a personal preference for unpredictability could not, in fact, be relied upon to hold a long-term position. The bitcoin community processed the sequence with a mixture of grievance and resignation. The phrase *not your keys, not your coins* — first taught by Mt. Gox — acquired a corollary. *Not your conviction, not your hold.*
+The episode was significant less for what it accomplished than for what it demonstrated. Tesla's purchase had been received, in February 2021, as confirmation that bitcoin had crossed a threshold of corporate respectability and would now be embraced by mainstream public companies as a treasury instrument. The sale, three months later, demonstrated the opposite: that a corporate executive with regulatory exposure, a high-profile share price, and a personal preference for unpredictability could not, in fact, be relied upon to hold a long-term position. The bitcoin community processed the sequence with a mixture of grievance and resignation. The phrase *not your keys, not your coins*, first taught by Mt. Gox, applied here in an unfamiliar register: the bitcoin sat on someone else's balance sheet, and that someone could sell.
 
 Musk himself has continued to discuss bitcoin episodically and to hold a position in dogecoin, which is not bitcoin. Tesla, as of mid-2025, retains a small bitcoin position whose precise size is reported in the company's quarterly filings. The episode is now most often cited not as a corporate adoption story but as a cautionary one — about the difference between buying bitcoin and holding it, and about the kind of corporate stewardship that the bitcoin community, in its harder moments, has decided to expect.
