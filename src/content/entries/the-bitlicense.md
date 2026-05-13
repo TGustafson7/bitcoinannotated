@@ -15,8 +15,8 @@ sources:
   - url: "https://www.dfs.ny.gov/virtual_currency_businesses"
     label: "NYDFS — Virtual Currency Business Licensing (23 NYCRR Part 200)"
     primary: true
-  - url: "https://www.coindesk.com/policy/2015/06/03/new-yorks-final-bitlicense-rules-text-and-analysis/"
-    label: "CoinDesk — New York's final BitLicense rules: text and analysis"
+  - url: "https://www.dwt.com/blogs/financial-services-law-advisor/2015/06/plus-a-changenydfs-releases-final-bitlicense-regul"
+    label: "Davis Wright Tremaine — NYDFS releases final BitLicense regulations (contemporaneous June 2015 legal analysis)"
 related:
   - "silk-road"
   - "first-mt-gox-hack"
