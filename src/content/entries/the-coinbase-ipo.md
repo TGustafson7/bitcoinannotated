@@ -12,11 +12,11 @@ heroImage: "/images/entries/coinbase-ipo.jpg"
 heroImageCaption: "Coinbase direct listing, NASDAQ MarketSite, April 14, 2021."
 heroImageCredit: "Reuters."
 sources:
-  - url: "https://www.sec.gov/Archives/edgar/data/1679788/000162828021003168/coinbaseglobalinc-sx1.htm"
+  - url: "https://www.sec.gov/Archives/edgar/data/1679788/000162828021003168/coinbaseglobalincs-1.htm"
     label: "Coinbase S-1 filing, February 2021"
     primary: true
-  - url: "https://www.coinbase.com/blog/coinbase-is-now-publicly-traded"
-    label: "Coinbase — Coinbase is now publicly traded (April 14, 2021)"
+  - url: "https://www.cnbc.com/2021/04/14/coinbase-to-debut-on-nasdaq-in-direct-listing.html"
+    label: "CNBC — Coinbase stock debuts on Nasdaq in direct listing (April 14, 2021)"
 related: []
 ---
 On the morning of Wednesday, April 14, 2021, Coinbase Global, Inc. — the largest cryptocurrency exchange in the United States — began trading on the NASDAQ under the ticker COIN. The listing was a direct listing rather than a traditional initial public offering: Coinbase did not issue new shares or raise capital from the public markets, but instead allowed its existing shareholders to begin selling their shares directly to public investors at the prevailing market price. The reference price set by NASDAQ the night before was $250 per share. The first trade executed at $381. By the close of the first trading day, COIN had reached $328.28, valuing the company at approximately $86 billion at fully diluted share count — larger, on opening day, than the parent company of the New York Stock Exchange.
