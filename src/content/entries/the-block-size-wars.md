@@ -11,7 +11,7 @@ heroImage: "/images/entries/block-size-wars.jpg"
 heroImageCaption: "The chain split: bitcoin and Bitcoin Cash, August 1, 2017."
 heroImageCredit: "Contemporary diagram"
 sources:
-  - url: "https://www.amazon.com/Blocksize-War-battle-control-Bitcoins/dp/B095SQGZ1L"
+  - url: "https://www.goodreads.com/book/show/57429394-the-blocksize-war"
     label: "Jonathan Bier — The Blocksize War (2021)"
   - url: "https://bitcoinmagazine.com/culture/the-long-road-to-segwit-how-bitcoins-biggest-protocol-upgrade-became-reality"
     label: "Bitcoin Magazine — The long road to SegWit"
