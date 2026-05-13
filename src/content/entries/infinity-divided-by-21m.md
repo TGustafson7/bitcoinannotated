@@ -12,8 +12,8 @@ heroImage: "/images/entries/infinity-divided-by-21m.svg"
 heroImageCaption: "Infinity divided by 21 million — Knut Svanholm's reframing of bitcoin as the universal denominator, formalized in his 2022 book of the same title."
 heroImageCredit: "Bitcoin Annotated, Plate XI."
 sources:
-  - url: "https://new.konsensus.network/product/bitcoin-everything-divided-by-21-million/"
-    label: "Knut Svanholm — Bitcoin: Everything Divided by 21 Million (Konsensus Network, 2022; publisher's dedicated book site)"
+  - url: "https://21million.konsensus.network/"
+    label: "Knut Svanholm — Bitcoin: Everything Divided by 21 Million (Konsensus Network, 2022)"
     primary: true
   - url: "https://stephanlivera.com/episode/304/"
     label: "Stephan Livera Podcast SLP304 — 'Is The Bitcoin Infinity Meme Wrong? With Knut Svanholm'"
@@ -29,6 +29,6 @@ The phrase has two characteristic deployments. The first is rhetorical: a bitcoi
 
 The second deployment is iconographic. The phrase has been rendered as a typographic symbol — `∞ ÷ 21,000,000` — that appears on profile pictures, t-shirts, posters, conference badges, and tattoos. A subset of bitcoiners use it as a kind of personal mark, similar to how the laser-eyes campaign functioned in 2021. The visual treatment varies, but the structure is fixed: an infinity sign, a division operator, twenty-one million. The catalog notes that the phrase functions as both meme and symbol — a sentence and a mark, used interchangeably.
 
-The thesis the phrase points at is contested even within bitcoin. The podcaster Stephan Livera devoted a 2022 episode to arguing that the meme is wrong on technical grounds, since the world's wealth includes both the bitcoin and the things bitcoin can buy, and the equation should arguably divide by some larger denominator. Svanholm's response is that this is a category confusion — that the equation refers to the limit case in which bitcoin has displaced other monetary instruments, at which point the denominator is exactly twenty-one million regardless of what is on the other side. The disagreement is real but does not appear to have damaged the phrase's circulation. Bitcoiners deploy it cheerfully; skeptics quibble; the meme persists.
+The thesis the phrase points at is contested even within bitcoin. The podcaster Stephan Livera devoted a 2021 episode to interviewing Svanholm about technical objections to the meme, including the argument that the world's wealth includes both the bitcoin and the things bitcoin can buy, and that the equation should arguably divide by some larger denominator. Svanholm's response is that this is a category confusion — that the equation refers to the limit case in which bitcoin has displaced other monetary instruments, at which point the denominator is exactly twenty-one million regardless of what is on the other side. The disagreement is real but does not appear to have damaged the phrase's circulation. Bitcoiners deploy it cheerfully; skeptics quibble; the meme persists.
 
 What the phrase compresses, more than anything, is bitcoin's audacity. It assumes the conclusion — that bitcoin is the relevant denominator for all wealth — and asks the listener to consider what follows. The phrase is not modest. It is not conditional. It does not hedge. It says: *imagine everything; divide by twenty-one million.* The catalog notes that this is what bitcoiners say when they have decided that hedging would be a kind of dishonesty — that the bitcoin thesis, taken seriously, leads to this claim, and that the appropriate move is to state the claim plainly and let the listener decide.
