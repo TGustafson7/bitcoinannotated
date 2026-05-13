@@ -12,7 +12,7 @@ heroImage: "/images/entries/bitcoin-fixes-this.svg"
 heroImageCaption: "Bitcoin fixes this — popularized as the title of Jimmy Song's podcast, launched July 16, 2020."
 heroImageCredit: "Bitcoin Annotated, Plate V."
 sources:
-  - url: "https://jimmysong.substack.com/p/the-power-of-bitcoin-memes"
+  - url: "https://jimmysong.substack.com/p/the-power-of-bitcoin-memes-bitcoin"
     label: "Jimmy Song — 'The Power of Bitcoin Memes,' Bitcoin Tech Talk Issue #223 (January 18, 2021)"
     primary: true
   - url: "https://podcasts.apple.com/au/podcast/bitcoin-fixes-this/id1523910866"

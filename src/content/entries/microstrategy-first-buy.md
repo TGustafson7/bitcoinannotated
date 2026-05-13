@@ -12,11 +12,11 @@ heroImage: "/images/entries/microstrategy.jpg"
 heroImageCaption: "MicroStrategy's August 11, 2020 press release announcing the purchase."
 heroImageCredit: "MicroStrategy Incorporated / SEC EDGAR"
 sources:
-  - url: "https://www.sec.gov/Archives/edgar/data/1050446/000119312520222007/d62571d8k.htm"
+  - url: "https://www.sec.gov/Archives/edgar/data/1050446/000119312520215604/d921849d8k.htm"
     label: "MicroStrategy 8-K filing, August 11, 2020"
     primary: true
-  - url: "https://www.microstrategy.com/press/microstrategy-adopts-bitcoin-as-primary-treasury-reserve-asset_08-11-2020"
-    label: "MicroStrategy press release — Bitcoin as Primary Treasury Reserve Asset"
+  - url: "https://www.businesswire.com/news/home/20200811005331/en/MicroStrategy-Adopts-Bitcoin-as-Primary-Treasury-Reserve-Asset"
+    label: "BusinessWire mirror — MicroStrategy press release announcing Bitcoin as Primary Treasury Reserve Asset (August 11, 2020)"
 related:
   - "the-whitepaper"
 ---
