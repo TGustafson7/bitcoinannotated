@@ -10,7 +10,7 @@ sourcePlatform: "Twitter / Bitcoin Magazine"
 locked: true
 heroImage: "/images/entries/orange-pilled.svg"
 heroImageCaption: "Orange-pilled — the Matrix-coded phrase for the binary moment of bitcoin conversion, popularized in Bitcoin Magazine's October 2021 essay."
-heroImageCredit: "Bitcoin Annotated, Plate X."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://bitcoinmagazine.com/culture/bitcoin-orange-pill-theory-reality"
     label: "Bitcoin Magazine — Dawdu M. Amantanah, 'Taking The Orange Pill: A Theory Or Reality?' (October 12, 2021)"

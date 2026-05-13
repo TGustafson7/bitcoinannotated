@@ -10,7 +10,7 @@ sourcePlatform: "Twitter / Rabbit Hole Recap podcast"
 locked: true
 heroImage: "/images/entries/stay-humble.svg"
 heroImageCaption: "Stay humble, stack sats — earliest known appearance ~June 2019, popularized by Matt Odell."
-heroImageCredit: "Bitcoin Annotated, Plate I."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://bitcoinmagazine.com/business/secrets-matt-odells-bitcoin-empire"
     label: "Bitcoin Magazine — 'The Secrets Behind Matt Odell's Bitcoin Empire' (credits Odell with 'Stay humble, stack sats'); Odell has since deleted his Twitter account and migrated to Nostr"

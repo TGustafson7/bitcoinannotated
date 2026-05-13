@@ -10,7 +10,7 @@ sourcePlatform: "21 Lessons (book) / Bitcoin Twitter"
 locked: true
 heroImage: "/images/entries/rabbit-hole.svg"
 heroImageCaption: "Down the bitcoin rabbit hole — the framing crystallized by Gigi's 21 Lessons, published December 24, 2019."
-heroImageCredit: "Bitcoin Annotated, Plate VIII."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://21lessons.com/"
     label: "21 Lessons: What I've Learned from Falling Down the Bitcoin Rabbit Hole — Gigi (December 2019)"

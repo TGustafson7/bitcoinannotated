@@ -10,7 +10,7 @@ sourcePlatform: "Twitter / Mastering Bitcoin / conference talks"
 locked: true
 heroImage: "/images/entries/dont-trust-verify.svg"
 heroImageCaption: "Don't trust, verify — the bitcoin sharpening of an older proverb, popularized through Andreas Antonopoulos's teaching."
-heroImageCredit: "Bitcoin Annotated, Plate IX."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://aantonop.com/"
     label: "Andreas Antonopoulos — bitcoin educator and author of Mastering Bitcoin (2014); the phrase's popularizer in bitcoin culture"

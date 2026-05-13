@@ -9,7 +9,7 @@ sourcePlatform: "Bankless podcast; lynalden.com; conference circuit"
 locked: true
 creator: "Lyn Alden"
 heroImage: "/images/entries/nothing-stops-this-train.svg"
-heroImageCaption: "Plate XVII. The phrase as it circulated through podcasts, X, and conference stages, 2024–2025."
+heroImageCaption: "The phrase as it circulated through podcasts, X, and conference stages, 2024–2025."
 heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://www.lynalden.com/full-steam-ahead-all-aboard-fiscal-dominance/"

@@ -10,7 +10,7 @@ sourcePlatform: "Bitcoin Magazine / Bitcoin 2021 Miami"
 locked: true
 heroImage: "/images/entries/fix-the-money-fix-the-world.svg"
 heroImageCaption: "Fix the money, fix the world — popularized via Aleks Svetski's June 2021 Bitcoin Magazine essay and Bitcoin 2021 Miami talk."
-heroImageCredit: "Bitcoin Annotated, Plate IV."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://bitcoinmagazine.com/culture/fix-the-money-fix-the-world"
     label: "Bitcoin Magazine — Aleks Svetski, 'Fix The Money, Fix The World' (June 25, 2021)"

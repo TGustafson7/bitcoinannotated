@@ -8,7 +8,7 @@ blockHeightAtOrigin: 446032
 sourcePlatform: "Bitcoin Twitter / Maximalist tradition"
 locked: true
 heroImage: "/images/entries/bitcoin-not-crypto.svg"
-heroImageCaption: "Plate XXV — the rhetorical move that defined bitcoin culture against the broader crypto sphere."
+heroImageCaption: "The rhetorical move that defined bitcoin culture against the broader crypto sphere."
 heroImageCredit: "Bitcoin Annotated"
 sources:
   - url: "https://nakamotoinstitute.org/"

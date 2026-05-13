@@ -16,7 +16,6 @@ sources:
     label: "Reddit r/bitcoin — original thread containing Julian702's March 30, 2012 comment"
     primary: true
 heroImage: "/images/entries/this-is-good-for-bitcoin.svg"
-heroImageCaption: "Plate XIII"
 heroImageCredit: "Bitcoin Annotated"
 related: []
 ---

@@ -9,7 +9,7 @@ sourcePlatform: "BIP-39 (Bitcoin Improvement Proposal 39)"
 locked: true
 creator: "Marek Palatinus, Pavol Rusnak, Aaron Voisine, Sean Bowe (BIP-39 authors)"
 heroImage: "/images/entries/the-seed-phrase.svg"
-heroImageCaption: "Plate XVIII. Twelve words from the BIP-39 wordlist. The wordlist contains 2,048 entries; the typical seed contains twelve."
+heroImageCaption: "Twelve words from the BIP-39 wordlist. The wordlist contains 2,048 entries; the typical seed contains twelve."
 heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki"

@@ -9,7 +9,7 @@ creator: "Brady Swenson (originator); broader Bitcoin Twitter adoption"
 sourcePlatform: "Twitter / forums"
 locked: true
 heroImage: "/images/entries/tick-tock-next-block.svg"
-heroImageCaption: "Plate XIX. The phrase as it circulated through bitcoin twitter, podcasts, and conference stages."
+heroImageCaption: "The phrase as it circulated through bitcoin twitter, podcasts, and conference stages."
 heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://x.com/CitizenBitcoin"

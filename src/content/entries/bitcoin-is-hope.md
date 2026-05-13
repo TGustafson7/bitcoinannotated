@@ -11,7 +11,7 @@ creator: "Michael Saylor"
 btcPriceAtOrigin: "~$36,800"
 blockHeightAtOrigin: 685572
 heroImage: "/images/entries/bitcoin-is-hope.svg"
-heroImageCaption: "Plate XXIII. The phrase as it now circulates — three words, present tense, no qualifier."
+heroImageCaption: "The phrase as it now circulates — three words, present tense, no qualifier."
 heroImageCredit: "Bitcoin Annotated"
 related: []
 sources:

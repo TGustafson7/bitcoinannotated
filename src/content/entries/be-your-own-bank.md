@@ -10,7 +10,7 @@ foundational: false
 creator: "Andreas Antonopoulos (popularizer)"
 blockHeightAtOrigin: 277333
 heroImage: "/images/entries/be-your-own-bank.svg"
-heroImageCaption: "Plate XXVIII. Be Your Own Bank. Antonopoulos popularization, ~2014."
+heroImageCaption: "Be Your Own Bank. Antonopoulos popularization, ~2014."
 heroImageCredit: "Bitcoin Annotated"
 related: []
 sources:

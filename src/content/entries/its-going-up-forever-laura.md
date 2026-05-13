@@ -9,7 +9,7 @@ sourcePlatform: "Unchained Podcast (Laura Shin); subsequent circulation across X
 locked: true
 creator: "Michael Saylor"
 heroImage: "/images/entries/its-going-up-forever-laura.svg"
-heroImageCaption: "Plate XX. The phrase as it circulated through bitcoin twitter, conferences, and remixed podcast clips, 2021–2025."
+heroImageCaption: "The phrase as it circulated through bitcoin twitter, conferences, and remixed podcast clips, 2021–2025."
 heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://unchained.libsyn.com/why-bitcoin-now-michael-saylor-on-the-best-way-for-companies-to-buy-bitcoin-ep209"

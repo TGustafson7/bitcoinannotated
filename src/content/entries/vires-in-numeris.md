@@ -9,7 +9,7 @@ sourcePlatform: "Casascius Physical Bitcoins (Mike Caldwell)"
 locked: true
 creator: "Mike Caldwell (Casascius)"
 heroImage: "/images/entries/vires-in-numeris.svg"
-heroImageCaption: "Plate XXII. VIRES IN NUMERIS — Latin for Strength in Numbers. Stamped on Casascius physical bitcoins beginning September 2011."
+heroImageCaption: "VIRES IN NUMERIS — Latin for Strength in Numbers. Stamped on Casascius physical bitcoins beginning September 2011."
 heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://bitcointalk.org/index.php?topic=4994.msg140770#msg140770"

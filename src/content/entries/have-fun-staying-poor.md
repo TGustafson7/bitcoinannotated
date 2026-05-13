@@ -10,7 +10,7 @@ sourcePlatform: "Twitter / X"
 locked: true
 heroImage: "/images/entries/hfsp.svg"
 heroImageCaption: "Have fun staying poor — popularized by Udi Wertheimer beginning September 2020."
-heroImageCredit: "Bitcoin Annotated, Plate III."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://blog.lopp.net/the-memes-make-the-bitcoin/"
     label: "Jameson Lopp — The Memes Make the Bitcoin"

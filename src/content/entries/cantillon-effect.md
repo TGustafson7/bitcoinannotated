@@ -6,7 +6,6 @@ type: "Phrase"
 date: 2020-06-01
 sourcePlatform: "Books / podcasts / X"
 heroImage: "/images/entries/cantillon-effect.svg"
-heroImageCaption: "Plate XXIV — The Cantillon Effect"
 heroImageCredit: "Bitcoin Annotated"
 locked: true
 pronunciation: "kahn-tee-YOHN"

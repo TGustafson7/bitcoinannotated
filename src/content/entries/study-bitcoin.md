@@ -8,7 +8,7 @@ blockHeightAtOrigin: 783099
 sourcePlatform: "European Central Bank facade / Bitcoin Magazine"
 locked: true
 heroImage: "/images/entries/study-bitcoin.svg"
-heroImageCaption: "Plate XXVI - the maxi instruction, deployed casually for years and projected onto the European Central Bank in March 2023."
+heroImageCaption: "The maxi instruction, deployed casually for years and projected onto the European Central Bank in March 2023."
 heroImageCredit: "Bitcoin Annotated"
 sources:
   - url: "https://twitter.com/alistairmilne/status/1641445500229648384"

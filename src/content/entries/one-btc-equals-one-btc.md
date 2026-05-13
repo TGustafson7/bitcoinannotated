@@ -10,7 +10,7 @@ sourcePlatform: "Twitter"
 locked: true
 heroImage: "/images/entries/one-btc-equals-one-btc.svg"
 heroImageCaption: "1 BTC = 1 BTC — the tautology Pierre Rochard charted on Twitter, February 23, 2019."
-heroImageCredit: "Bitcoin Annotated, Plate VII."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://x.com/BitcoinIsSaving/status/1099373733901463552"
     label: "Pierre Rochard via @BitcoinIsSaving — original tweet (February 23, 2019)"

@@ -10,7 +10,7 @@ sourcePlatform: "Twitter / Konsensus Network"
 locked: true
 heroImage: "/images/entries/infinity-divided-by-21m.svg"
 heroImageCaption: "Infinity divided by 21 million — Knut Svanholm's reframing of bitcoin as the universal denominator, formalized in his 2022 book of the same title."
-heroImageCredit: "Bitcoin Annotated, Plate XI."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://21million.konsensus.network/"
     label: "Knut Svanholm — Bitcoin: Everything Divided by 21 Million (Konsensus Network, 2022)"

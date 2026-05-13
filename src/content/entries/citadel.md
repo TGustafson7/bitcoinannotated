@@ -10,7 +10,7 @@ sourcePlatform: "Reddit r/Bitcoin"
 locked: true
 heroImage: "/images/entries/citadel.svg"
 heroImageCaption: "The Citadel — drawn from Luka_Magnotta's August 31, 2013 Reddit post 'I am a time-traveler from the future, here to beg you to stop what you are doing.'"
-heroImageCredit: "Bitcoin Annotated, Plate XII."
+heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://www.reddit.com/r/Bitcoin/comments/1lfobc/i_am_a_timetraveler_from_the_future_here_to_beg/"
     label: "Reddit r/Bitcoin — original Luka_Magnotta post (August 31, 2013)"
