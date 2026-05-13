@@ -17,8 +17,8 @@ sources:
     primary: true
   - url: "https://www.youtube.com/watch?v=GC4Pyt2HPd4"
     label: "Bitcoin is the superior asset and its going up forever, Laura. Forever. (YouTube clip from Episode 209)"
-  - url: "https://unchainedcrypto.com/podcast/"
-    label: "Unchained Podcast archive (Laura Shin)"
+  - url: "https://laurashin.com/podcast/"
+    label: "Unchained Podcast archive — Laura Shin's canonical podcast page"
 related: []
 ---
 
