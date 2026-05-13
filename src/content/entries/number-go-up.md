@@ -11,10 +11,6 @@ heroImage: "/images/entries/number-go-up.svg"
 heroImageCaption: "Number go up — diffuse origin, earliest known appearance October 2017."
 heroImageCredit: "Bitcoin Annotated, Plate II."
 sources:
-  - url: "https://knowyourmeme.com/memes/number-go-up"
-    label: "Know Your Meme — Number Go Up"
-  - url: "https://en.wiktionary.org/wiki/number_go_up"
-    label: "Wiktionary — number go up"
   - url: "https://davidgerard.co.uk/blockchain/2019/05/27/the-origin-of-number-go-up-in-bitcoin-culture/"
     label: "David Gerard — 'The origin of number go up in Bitcoin culture' (May 2019), the canonical secondary documentation of the phrase's pre-bitcoin SomethingAwful origin"
     primary: true
