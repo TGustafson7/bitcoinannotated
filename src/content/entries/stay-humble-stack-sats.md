@@ -12,11 +12,11 @@ heroImage: "/images/entries/stay-humble.svg"
 heroImageCaption: "Stay humble, stack sats — earliest known appearance ~June 2019, popularized by Matt Odell."
 heroImageCredit: "Bitcoin Annotated, Plate I."
 sources:
-  - url: "https://twitter.com/ODELL/status/1166779264932470784"
-    label: "Matt Odell — 'Stay humble. Stack sats.' (August 28, 2019)"
+  - url: "https://bitcoinmagazine.com/business/secrets-matt-odells-bitcoin-empire"
+    label: "Bitcoin Magazine — 'The Secrets Behind Matt Odell's Bitcoin Empire' (credits Odell with 'Stay humble, stack sats'); Odell has since deleted his Twitter account and migrated to Nostr"
     primary: true
-  - url: "https://twitter.com/ODELL"
-    label: "Matt Odell — Twitter / X"
+  - url: "https://odell.xyz/"
+    label: "Matt Odell — personal site (Citadel Dispatch, Rabbit Hole Recap, Bitcoin Park, OpenSats)"
   - url: "https://www.citadeldispatch.com/"
     label: "Citadel Dispatch — Matt Odell's bitcoin podcast"
 related: []
