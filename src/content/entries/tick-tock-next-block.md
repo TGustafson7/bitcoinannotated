@@ -5,7 +5,7 @@ era: "The Long Wait"
 type: "Phrase"
 date: 2018-01-01
 blockHeightAtOrigin: 501961
-creator: "Bitcoin Twitter (organic origin)"
+creator: "Brady Swenson (originator); broader Bitcoin Twitter adoption"
 sourcePlatform: "Twitter / forums"
 locked: true
 heroImage: "/images/entries/tick-tock-next-block.svg"
