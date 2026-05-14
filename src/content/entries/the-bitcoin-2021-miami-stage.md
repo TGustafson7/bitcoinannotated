@@ -13,8 +13,8 @@ heroImageCredit: "Bitcoin Magazine."
 sources:
   - url: "https://bitcoinmagazine.com/business/el-salvador-to-declare-bitcoin-as-legal-tender"
     label: "Bitcoin Magazine — El Salvador to declare bitcoin as legal tender (Peter Chawaga, June 5, 2021, contemporaneous reporting from the conference)"
-  - url: "https://www.youtube.com/watch?v=BR0YA4WIBHY"
-    label: "Jack Mallers — Bitcoin 2021 keynote (full video)"
+  - url: "https://www.youtube.com/watch?v=_59hrgTiRJU"
+    label: "Bitcoin Magazine — Jack Mallers Bitcoin 2021 keynote with Bukele announcement (official upload)"
     primary: true
 related: []
 ---
