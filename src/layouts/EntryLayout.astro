@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { getEntries } from 'astro:content';
 const { entry } = Astro.props;
 const { data } = entry;
 const formattedDate = new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(data.date);
@@ -17,6 +18,17 @@ const primarySource = data.sources?.find((s) => s.primary);
 // JSON-LD Article schema for search/AI retrieval.
 // Editorial register is anonymous-collective, so author is omitted; publisher is the catalog.
 const canonical = new URL(`/entries/${entry.slug}`, Astro.site).href;
+
+// Resolve `related` slugs into full entries for the See also section.
+// Outbound-only: this entry's frontmatter is the source of truth for what it
+// editorially connects to. Asymmetry is deliberate.
+const relatedRefs = (data.related ?? []).map((slug: string) => ({
+  collection: 'entries' as const,
+  slug,
+}));
+const relatedEntries = relatedRefs.length ? await getEntries(relatedRefs) : [];
+const formatRelatedDate = (d: Date) =>
+  new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(d);
 const heroImageUrl = data.heroImage ? new URL(data.heroImage, Astro.site).href : undefined;
 const isoDate = new Date(data.date).toISOString();
 const citations = (data.sources ?? []).map((s) => ({
@@ -120,6 +132,19 @@ const articleSchema = {
       <ul style="list-style: none; font-family: var(--mono); font-size: 13px; line-height: 1.8;">
         {data.sources.map((s) => (
           <li>→ <a href={s.url}>{s.label}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+  {relatedEntries.length > 0 && (
+    <section class="see-also">
+      <div style="margin-top: 64px; margin-bottom: 18px;">
+        <div style="font-family: var(--mono); font-size: 11px; letter-spacing: 0.15em; color: #1a1a1a; margin-bottom: 6px;">SEE ALSO</div>
+        <div style="height: 1.5px; background: var(--orange); width: 88px;"></div>
+      </div>
+      <ul style="list-style: none; font-family: var(--mono); font-size: 13px; line-height: 1.8; padding: 0; margin: 0;">
+        {relatedEntries.map((rel) => (
+          <li>→ <a href={`/entries/${rel.slug}`}>{rel.data.title}</a> <span style="color: #6b6358;">· {formatRelatedDate(new Date(rel.data.date))}</span></li>
         ))}
       </ul>
     </section>
