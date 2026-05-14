@@ -4,14 +4,36 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <BaseLayout title="Methodology" description="How the catalog is built, sourced, and organized.">
   <article class="methodology">
     <header class="m-header">
-      <div class="m-eyebrow">Methodology</div>
       <h1>How the <em>catalog</em> is built.</h1>
       <p class="m-deck">Sourcing standards, taxonomy, and editorial discipline.</p>
     </header>
 
     <section class="m-body">
       <p class="m-lede">
-        The Bitcoin Annotated is built on three commitments: every entry is sourced, every claim is dated, and every artifact stands on its own. This page documents how the catalog is organized and how decisions get made.
+        The Bitcoin Annotated is built on two commitments: every entry is sourced to verifiable primary documents, and every artifact stands as its own editorial work. This page documents how the catalog is organized and how decisions get made.
+      </p>
+
+      <h2>Types</h2>
+      <p>
+        Every entry is one of four types. The taxonomy is deliberately narrow: it forces the editorial question <em>what kind of artifact is this</em> before the entry gets drafted.
+      </p>
+
+      <dl class="era-list">
+        <dt>Phrase</dt>
+        <dd>A line of language that the culture adopted — a motto, a rallying cry, an inside joke that hardened into shorthand. <em>Stay humble, stack sats. Vires in numeris. Tick tock, next block.</em></dd>
+
+        <dt>Event</dt>
+        <dd>A moment that the culture remembers. The Pizza, the Cyprus crisis, the Mt. Gox collapse, the ETF approval. Events are dated to the day they happened, not to the day they became famous.</dd>
+
+        <dt>Iconography</dt>
+        <dd>The catalog's visual artifacts. The orange, the symbol, the laser eyes, the wojak. Objects whose work is visual before it is verbal.</dd>
+
+        <dt>Document</dt>
+        <dd>A text that the culture treats as a source. The whitepaper, the cypherpunk manifesto, the Hal Finney "running bitcoin" tweet, books that survived.</dd>
+      </dl>
+
+      <p class="era-note">
+        Some artifacts could plausibly belong to two types. The dominant register decides. <em>Magic internet money</em> is a Phrase even though it traveled as iconography; the Bitcoin Symbol is Iconography even though it has a name.
       </p>
 
       <h2>Eras</h2>
@@ -57,12 +79,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
       <h2>Foundational entries</h2>
       <p>
-        A small subset of entries are flagged <em>foundational</em>. These are the cornerstone artifacts everything else descends from — the whitepaper, the genesis block, the symbol, the early phrases. Absence is the default. Most entries are not foundational; a handful are.
+        A small subset of entries are flagged <em>foundational</em> — the cornerstones the rest of the catalog descends from. The whitepaper, the genesis block, the Bitcoin Symbol, the cypherpunk manifesto, hashcash. Foundational is a high bar; absence is the default. Most entries are not foundational. A handful are.
+      </p>
+      <p>
+        The flag is editorial, not navigational. It marks entries that other entries reference, build on, or reply to — the load-bearing artifacts the catalog assumes you already know.
       </p>
 
       <h2>Sourcing</h2>
       <p>
-        Every entry carries at least one verifiable receipt — a primary source where possible, a credible secondary source where not. Where an origin is genuinely unsettled, the entry says so. We prefer "earliest known appearance, exact origin unsettled" to a confident wrong claim.
+        Every entry carries at least one verifiable receipt — a primary source where possible, a credible secondary source where not. Where an origin is genuinely unsettled, the entry says so. <em>Earliest known appearance, exact origin unsettled</em> beats a confident wrong claim.
       </p>
       <p>
         Quotes are kept short and used sparingly. The catalog's job is to attribute, not to reproduce.
@@ -70,12 +95,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
       <h2>Revisions</h2>
       <p>
-        Errors and omissions will happen. Where they do, we revise. Each entry carries an edition number and a publication date. Corrections are welcomed.
+        Errors and omissions will happen. Where they do, we revise. Each entry carries an edition number and a publication date, both visible at the foot of the entry page — the edition increments when a substantive change is made, the date records the original publication. Corrections from readers are welcomed.
       </p>
 
       <h2>What this catalog is not</h2>
       <p>
-        Not a news site. Not a price tracker. Not a personality showcase. Not a place for crypto content — bitcoin only is editorial discipline. Status flags do not do voice work; voice carries vibe, schema carries facts.
+        Not a news site. Not a price tracker. Not a personality showcase. Not a survey of cryptocurrency — the catalog covers bitcoin and the cultural artifacts bitcoin produced, and that scope is editorial, not gatekeeping.
+      </p>
+      <p>
+        The catalog is finite. It will not grow forever. The aim is the canon, not the corpus.
       </p>
     </section>
   </article>
