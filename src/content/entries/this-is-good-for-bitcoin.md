@@ -16,6 +16,7 @@ sources:
     label: "Reddit r/bitcoin — original thread containing Julian702's March 30, 2012 comment"
     primary: true
 heroImage: "/images/entries/this-is-good-for-bitcoin.svg"
+heroImageCaption: "This is good for bitcoin — earliest known online usage by Julian702 on r/bitcoin, March 30, 2012."
 heroImageCredit: "Bitcoin Annotated"
 related: []
 ---

@@ -18,6 +18,7 @@ sources:
   - url: "https://www.coindesk.com/markets/2018/05/07/billionaire-warren-buffett-calls-bitcoin-rat-poison-squared/"
     label: "CoinDesk's coverage"
 heroImage: "/images/entries/rat-poison-squared.svg"
+heroImageCaption: "Rat poison squared — Warren Buffett at the 2018 Berkshire Hathaway annual meeting, May 5. Adopted by bitcoiners as merch within weeks."
 heroImageCredit: "Bitcoin Annotated"
 related: []
 ---

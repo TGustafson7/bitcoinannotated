@@ -6,6 +6,7 @@ type: "Phrase"
 date: 2020-06-01
 sourcePlatform: "Books / podcasts / X"
 heroImage: "/images/entries/cantillon-effect.svg"
+heroImageCaption: "The Cantillon Effect — Richard Cantillon's 1755 Essai sur la Nature du Commerce en Général. Absorbed by bitcoiners in the post-COVID monetary debasement era as the framework for what they distrust."
 heroImageCredit: "Bitcoin Annotated"
 locked: true
 pronunciation: "kahn-tee-YOHN"
