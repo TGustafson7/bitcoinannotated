@@ -72,4 +72,5 @@
 /entries/btc-2025-002-free-ross  /entries/free-ross/  301
 
 # URL rename: /timeline/ → /timechain/ (May 13 2026)
-/timeline  /timechain  301
+/timeline  /timechain/  301
+/timeline/  /timechain/  301
