@@ -18,8 +18,8 @@ sources:
   - url: "https://bitcointalk.org/index.php?topic=375643.0"
     label: "Original BitcoinTalk thread #375643"
     primary: true
-  - url: "https://en.wikipedia.org/wiki/HODL"
-    label: "Wikipedia: HODL"
+  - url: "https://www.britannica.com/money/HODL-cryptocurrency"
+    label: "Britannica Money — HODL (encyclopedic entry)"
 related:
   - "the-pizza"
   - "squares-buy"

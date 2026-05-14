@@ -18,8 +18,8 @@ sources:
     label: "Bitcoin Wiki — Halving day 2012, with block hash, miner, and pool details"
   - url: "https://en.bitcoin.it/wiki/Controlled_supply"
     label: "Bitcoin Wiki — Controlled supply schedule"
-  - url: "https://www.coindesk.com/markets/2020/05/11/bitcoin-just-completed-its-third-ever-mining-reward-halving"
-    label: "CoinDesk — Bitcoin's third halving (May 2020)"
+  - url: "https://news.bitcoin.com/bitcoins-third-halving-complete-reward-cut-surprisingly-faster-than-previous-time-estimates/"
+    label: "Bitcoin.com News — same-day report of the third halving, May 11, 2020"
 related: []
 ---
 The bitcoin protocol's monetary policy is encoded in approximately ten lines of C++ code. Every 210,000 blocks — roughly every four years, given the protocol's ten-minute average block time — the reward paid to miners for producing a new block is cut in half. The schedule was set by Satoshi Nakamoto in 2009 and has never been altered. The first halving occurred on November 28, 2012, reducing the block reward from fifty bitcoin to twenty-five. The second occurred on July 9, 2016, reducing it to twelve and a half. The third occurred on May 11, 2020, reducing it to six and a quarter. The fourth occurred on April 19, 2024, reducing it to three and one eighth. The schedule will continue, halving by halving, until approximately the year 2140, when the final fraction of a bitcoin is mined and the block reward becomes zero. There will be, at that point, approximately 21 million bitcoin in existence. There will not be more.

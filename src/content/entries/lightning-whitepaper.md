@@ -16,8 +16,8 @@ sources:
   - url: "https://lightning.network/lightning-network-paper.pdf"
     label: "The Bitcoin Lightning Network — Scalable Off-Chain Instant Payments (Poon & Dryja, January 2016)"
     primary: true
-  - url: "https://bitcoinmagazine.com/technical/the-lightning-network-the-second-layer-explained"
-    label: "Bitcoin Magazine — The Lightning Network Explained"
+  - url: "https://bitbo.io/calendar/lightning-whitepaper/"
+    label: "Bitbo Calendar — Lightning Network Whitepaper Day (January 14, 2016)"
 related: []
 ---
 The Lightning Network whitepaper was published on January 14, 2016, by two engineers named Joseph Poon and Thaddeus Dryja. It ran to fifty-nine pages, was titled *The Bitcoin Lightning Network: Scalable Off-Chain Instant Payments*, and proposed a system for routing bitcoin transactions through a network of payment channels that would settle to the bitcoin blockchain only when the channels closed. The core idea — already informally circulating in the developer community for several years — was that two parties could open a long-lived bilateral channel by jointly committing funds to a multi-signature address on the main chain, then conduct any number of subsequent transactions between themselves by exchanging signed but unbroadcast updates to the channel's balance. Only the eventual closing transaction would touch the blockchain. The intermediate transactions, however numerous, would not.
