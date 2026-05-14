@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Citations from './Citations.astro';
 import { getEntries } from 'astro:content';
 const { entry } = Astro.props;
 const { data } = entry;
@@ -136,6 +137,7 @@ const articleSchema = {
       </ul>
     </section>
   )}
+  <Citations title={data.title} date={new Date(data.date)} slug={entry.slug} />
   {relatedEntries.length > 0 && (
     <section class="see-also">
       <div style="margin-top: 64px; margin-bottom: 18px;">

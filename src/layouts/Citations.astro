@@ -1,0 +1,141 @@
+---
+// Citations.astro — "Cite this entry" widget
+// Renders three citation formats with copy buttons.
+// Props: title, date (Date object), slug
+export interface Props {
+  title: string;
+  date: Date;
+  slug: string;
+}
+const { title, date, slug } = Astro.props;
+
+const url = `https://bitcoinannotated.com/entries/${slug}/`;
+
+// Month-year granularity matches catalog convention for date treatment.
+const monthYear = date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+const accessDate = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+
+const houseStyle = `Bitcoin Annotated, "${title}," ${monthYear}. ${url}`;
+const chicago = `Bitcoin Annotated. "${title}." ${monthYear}. ${url}.`;
+const mla = `"${title}." Bitcoin Annotated, ${monthYear}, ${url}. Accessed ${accessDate}.`;
+---
+
+<section class="citations" aria-labelledby="cite-label">
+  <div class="cite-label" id="cite-label">CITE THIS ENTRY</div>
+  <div class="cite-rule"></div>
+
+  <div class="cite-row">
+    <div class="cite-format">Catalog</div>
+    <div class="cite-text" id="cite-house">{houseStyle}</div>
+    <button class="cite-copy" data-target="cite-house" aria-label="Copy catalog citation">Copy</button>
+  </div>
+
+  <div class="cite-row">
+    <div class="cite-format">Chicago</div>
+    <div class="cite-text" id="cite-chicago">{chicago}</div>
+    <button class="cite-copy" data-target="cite-chicago" aria-label="Copy Chicago citation">Copy</button>
+  </div>
+
+  <div class="cite-row">
+    <div class="cite-format">MLA</div>
+    <div class="cite-text" id="cite-mla">{mla}</div>
+    <button class="cite-copy" data-target="cite-mla" aria-label="Copy MLA citation">Copy</button>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.cite-copy').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const targetId = btn.getAttribute('data-target');
+      if (!targetId) return;
+      const el = document.getElementById(targetId);
+      if (!el) return;
+      try {
+        await navigator.clipboard.writeText(el.textContent || '');
+        const original = btn.textContent;
+        btn.textContent = 'Copied';
+        setTimeout(() => { btn.textContent = original; }, 1400);
+      } catch (e) {
+        const range = document.createRange();
+        range.selectNodeContents(el);
+        const sel = window.getSelection();
+        sel?.removeAllRanges();
+        sel?.addRange(range);
+      }
+    });
+  });
+</script>
+
+<style>
+  .citations {
+    margin-top: 48px;
+  }
+  .cite-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    color: #1a1a1a;
+    text-transform: uppercase;
+  }
+  .cite-rule {
+    width: 88px;
+    height: 1.5px;
+    background: var(--orange);
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  .cite-row {
+    display: grid;
+    grid-template-columns: 80px 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    padding: 10px 0;
+    border-top: 0.5px solid rgba(26, 26, 26, 0.15);
+  }
+  .cite-row:last-child {
+    border-bottom: 0.5px solid rgba(26, 26, 26, 0.15);
+  }
+  .cite-format {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(26, 26, 26, 0.6);
+  }
+  .cite-text {
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.5;
+    color: #1a1a1a;
+    word-break: break-word;
+  }
+  .cite-copy {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background: transparent;
+    border: 0.5px solid rgba(26, 26, 26, 0.4);
+    padding: 5px 11px;
+    cursor: pointer;
+    color: #1a1a1a;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .cite-copy:hover {
+    border-color: var(--orange);
+    color: var(--orange);
+  }
+  @media (max-width: 640px) {
+    .cite-row {
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+    }
+    .cite-format {
+      grid-column: 1 / -1;
+    }
+    .cite-text {
+      grid-column: 1;
+      font-size: 11px;
+    }
+  }
+</style>
