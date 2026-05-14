@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  trailingSlash: 'never',
+  trailingSlash: 'always',
   site: 'https://bitcoinannotated.com',
   integrations: [sitemap()],
 });

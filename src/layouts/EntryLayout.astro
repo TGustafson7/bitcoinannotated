@@ -17,7 +17,7 @@ const primarySource = data.sources?.find((s) => s.primary);
 
 // JSON-LD Article schema for search/AI retrieval.
 // Editorial register is anonymous-collective, so author is omitted; publisher is the catalog.
-const canonical = new URL(`/entries/${entry.slug}`, Astro.site).href;
+const canonical = new URL(`/entries/${entry.slug}/`, Astro.site).href;
 
 // Resolve `related` slugs into full entries for the See also section.
 // Outbound-only: this entry's frontmatter is the source of truth for what it
