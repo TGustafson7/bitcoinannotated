@@ -43,7 +43,7 @@ a:hover { text-decoration-color: var(--orange); }
 .topbar nav { display: flex; gap: 28px; font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
 .topbar nav a { color: var(--ink-mid); text-decoration: none; }
 .topbar nav a:hover { color: var(--orange); }
-.topbar nav a.active { color: var(--ink); }
+.topbar nav a.active { color: var(--ink); border-bottom: 1.5px solid var(--orange); padding-bottom: 4px; }
 
 /* CATALOG ID BAR */
 .catalog-bar { font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em; color: var(--ink-faint); text-transform: uppercase; display: flex; gap: 18px; padding: 14px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 36px; }

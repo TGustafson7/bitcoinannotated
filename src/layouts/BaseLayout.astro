@@ -37,8 +37,8 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
       <a href="/" class="brand">The Bitcoin <em>Annotated</em></a>
       <nav>
         <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Catalog</a>
-        <a href="/timechain" class={Astro.url.pathname === '/timechain' ? 'active' : ''}>Timechain</a>
-        <a href="/about" class={Astro.url.pathname === '/about' ? 'active' : ''}>About</a>
+        <a href="/timechain/" class={Astro.url.pathname === '/timechain/' ? 'active' : ''}>Timechain</a>
+        <a href="/about/" class={Astro.url.pathname === '/about/' ? 'active' : ''}>About</a>
       </nav>
     </header>
     <slot />
