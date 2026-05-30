@@ -16,6 +16,7 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{fullTitle}</title>
+  <link rel="icon" type="image/svg+xml" href="/ba-mark-small.svg" />
   <meta name="description" content={fullDescription} />
   <link rel="canonical" href={canonical} />
 
@@ -34,7 +35,7 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
 <body>
   <div class="page-wrap">
     <header class="topbar">
-      <a href="/" class="brand">The Bitcoin <em>Annotated</em></a>
+      <a href="/" class="brand" style="display:inline-flex;align-items:center;"><img src="/ba-mark-small.svg" alt="" aria-hidden="true" style="height:46px;width:auto;margin-right:13px;" />The Bitcoin <em>Annotated</em></a>
       <nav>
         <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Catalog</a>
         <a href="/timechain/" class={Astro.url.pathname === '/timechain/' ? 'active' : ''}>Timechain</a>
