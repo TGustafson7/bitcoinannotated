@@ -126,8 +126,8 @@ const articleSchema = {
   )}
   <article class={`prose ${data.foundational ? "foundational" : ""}`}>
     <slot />
+    <div class="end-mark" aria-hidden="true"></div>
   </article>
-  <div class="end-mark" aria-hidden="true"></div>
   {data.sources && data.sources.length > 0 && (
     <section class="receipts">
       <h2 style="font-family: var(--display); font-size: 24px; margin-top: 64px; margin-bottom: 18px; font-weight: 500;"><em style="color: var(--orange); font-style: italic;">Receipts</em></h2>
