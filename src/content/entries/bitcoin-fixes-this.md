@@ -1,15 +1,15 @@
 ---
 title: "Bitcoin Fixes This"
 deck: "The phrase as both earnest claim and self-aware shitpost — same sentence, both meanings."
-era: "Pandemic Era"
+era: "The Long Wait"
 type: "Phrase"
-date: 2020-07-16
-blockHeightAtOrigin: 639453
+date: 2019-07-26
+blockHeightAtOrigin: 587108
 creator: "Bitcoin Twitter; earliest known naming by Stephan Livera (2019), popularized by Jimmy Song (2020)"
 sourcePlatform: "Twitter / Bitcoin Fixes This podcast"
 locked: true
 heroImage: "/images/entries/bitcoin-fixes-this.svg"
-heroImageCaption: "Bitcoin fixes this — popularized as the title of Jimmy Song's podcast, launched July 16, 2020."
+heroImageCaption: "Bitcoin fixes this — earliest known appearance, Stephan Livera, July 26, 2019; formalized in 2020 as the title of Jimmy Song’s podcast."
 heroImageCredit: "Bitcoin Annotated."
 sources:
   - url: "https://x.com/i/status/1154739116950470657"
@@ -32,4 +32,4 @@ The phrase's mode is dual. Read sincerely, it is a shorter version of the *fix t
 
 The phrase functions in this respect as a social signal. To use it correctly is to demonstrate that one understands both registers — that the speaker is not the kind of bitcoiner who thinks bitcoin literally fixes seed oils, but is also not embarrassed to imply that an honest money would have made certain agricultural policies harder to fund. The phrase is a competence signal disguised as a punchline.
 
-It has become, by virtue of its flexibility, one of the most indexed memes in the bitcoin lexicon. Song's podcast crossed two hundred episodes by 2025. The phrase appears on t-shirts, tattoos, hat embroidery, and the closing slides of conference talks. It is what bitcoiners say when they have decided, gently or not, that the conversation has reached the relevant root cause and that further argument would be redundant. It is not a closing argument. It is the claim that closing arguments are no longer necessary. *Bitcoin fixes this.* The reader is invited to decide whether that is funny, true, or both.
+It has become, by virtue of its flexibility, one of the most indexed memes in the bitcoin lexicon. Song's podcast crossed a hundred episodes by 2024. The phrase appears on t-shirts, tattoos, hat embroidery, and the closing slides of conference talks. It is what bitcoiners say when they have decided, gently or not, that the conversation has reached the relevant root cause and that further argument would be redundant. It is not a closing argument. It is the claim that closing arguments are no longer necessary. *Bitcoin fixes this.* The reader is invited to decide whether that is funny, true, or both.
