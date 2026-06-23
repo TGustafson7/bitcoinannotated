@@ -10,7 +10,16 @@
 
   <text x="400" y="265" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="76" fill="#d97706" text-anchor="middle" font-weight="500">the citadel.</text>
 
-  <g transform="translate(371.22,307.50) scale(0.127907)">
+  <line x1="320" y1="320" x2="480" y2="320" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="370" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="16" fill="#1a1a1a" text-anchor="middle">&#8220;I am sending this message from the year 2025.&#8221;</text>
+
+  <line x1="280" y1="430" x2="520" y2="430" stroke="#1a1a1a" stroke-width="0.5"/>
+
+  <text x="400" y="470" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">SOURCE: REDDIT R/BITCOIN, USER LUKA_MAGNOTTA</text>
+  <text x="400" y="495" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">USAGE: BITCOIN&#8217;S LONGEST-RUNNING THOUGHT EXPERIMENT</text>
+
+  <g transform="translate(95.00,464.00) scale(0.139535)">
     <metadata>
 Created by potrace 1.16, written by Peter Selinger 2001-2019
 </metadata>
@@ -53,12 +62,5 @@ fill="#1a1a1a" stroke="none">
 </g>
   </g>
 
-  <text x="400" y="395" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="16" fill="#1a1a1a" text-anchor="middle">&#8220;I am sending this message from the year 2025.&#8221;</text>
-
-  <line x1="280" y1="440" x2="520" y2="440" stroke="#1a1a1a" stroke-width="0.5"/>
-
-  <text x="400" y="480" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">SOURCE: REDDIT R/BITCOIN, USER LUKA_MAGNOTTA</text>
-  <text x="400" y="505" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">USAGE: BITCOIN&#8217;S LONGEST-RUNNING THOUGHT EXPERIMENT</text>
-
-  <text x="720" y="575" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">bitcoinannotated.com</text>
+  <text x="720" y="555" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">bitcoinannotated.com</text>
 </svg>
