@@ -2,23 +2,20 @@
   <rect width="800" height="600" fill="#f8f4ed"/>
   <rect x="40" y="40" width="720" height="520" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
   <rect x="56" y="56" width="688" height="488" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
-
-  <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN — PHRASE</text>
+  <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN &#8212; PHRASE</text>
   <line x1="80" y1="115" x2="220" y2="115" stroke="#d97706" stroke-width="1.5"/>
-
   <text x="720" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2" text-anchor="end">CAT. JUNE 2021</text>
-
   <text x="400" y="265" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="80" fill="#1a1a1a" text-anchor="middle" font-weight="500">Bitcoin is</text>
   <text x="400" y="350" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="80" fill="#d97706" text-anchor="middle" font-weight="500">hope.</text>
-
-  <line x1="320" y1="400" x2="480" y2="400" stroke="#1a1a1a" stroke-width="0.5"/>
-
-  <text x="400" y="445" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">Posted by Michael Saylor on June 1, 2021 —</text>
-  <text x="400" y="465" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">repeated by him for five years thereafter, mostly during drawdowns.</text>
-
-  <line x1="280" y1="500" x2="520" y2="500" stroke="#1a1a1a" stroke-width="0.5"/>
-
-  <text x="400" y="525" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">MICHAEL SAYLOR — TWITTER, JUNE 1, 2021</text>
-
-  <text x="720" y="575" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">bitcoinannotated.com</text>
+  <g transform="translate(360.00,392.00) scale(0.3333)">
+    <g transform="translate(120,140)">
+  <rect x="-22" y="20" width="44" height="78" rx="3" fill="#1a1a1a"/>
+  <line x1="0" y1="20" x2="0" y2="4" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 0 6 C -36 -28 -16 -78 0 -86 C 18 -72 36 -26 0 6 Z" fill="#d97706"/>
+</g>
+  </g>
+  <text x="400" y="495" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">Posted by Michael Saylor on June 1, 2021 &#8212;</text>
+  <text x="400" y="515" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">repeated by him for five years thereafter, mostly during drawdowns.</text>
+  <line x1="280" y1="545" x2="520" y2="545" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="400" y="565" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">MICHAEL SAYLOR &#8212; TWITTER, JUNE 1, 2021</text>
 </svg>
