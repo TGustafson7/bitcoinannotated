@@ -11,7 +11,8 @@
   <text x="400" y="265" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="80" fill="#1a1a1a" text-anchor="middle" font-weight="500">Bitcoin <tspan fill="#d97706">not</tspan></text>
   <text x="400" y="350" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="80" fill="#1a1a1a" text-anchor="middle" font-weight="500">crypto.</text>
 
-  <line x1="320" y1="400" x2="480" y2="400" stroke="#1a1a1a" stroke-width="0.5"/>
+  <!-- mark: lone-disc tier:concept-sketch ink:false -->
+  <path d="M400,384 C408,383 415,389 417,398 C419,407 414,416 404,418 C395,420 386,415 383,406 C381,397 386,388 395,385 C397,384 399,384 400,384 Z" fill="#d97706" stroke="none"/>
 
   <text x="400" y="445" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">The maxi rhetorical move that crystallized in 2017 —</text>
   <text x="400" y="465" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">the year of the Block Size Wars, the BCH fork, and the ICO boom.</text>
