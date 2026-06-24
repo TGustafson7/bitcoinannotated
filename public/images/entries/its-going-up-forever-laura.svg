@@ -2,24 +2,16 @@
   <rect width="800" height="600" fill="#f8f4ed"/>
   <rect x="40" y="40" width="720" height="520" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
   <rect x="56" y="56" width="688" height="488" fill="none" stroke="#1a1a1a" stroke-width="0.5"/>
-
   <text x="80" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2.5">SPECIMEN — PHRASE</text>
   <line x1="80" y1="115" x2="220" y2="115" stroke="#d97706" stroke-width="1.5"/>
-
   <text x="720" y="100" font-family="JetBrains Mono, monospace" font-size="11" fill="#1a1a1a" letter-spacing="2" text-anchor="end">CAT. JANUARY 2021</text>
-
-  <text x="400" y="232" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="58" font-style="italic" fill="#d97706" font-weight="400">It’s going up forever,</text>
-  <text x="400" y="312" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="64" font-style="italic" fill="#1a1a1a" font-weight="400">Laura.</text>
-  <text x="400" y="388" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="58" font-style="italic" fill="#1a1a1a" font-weight="400">Forever.</text>
-
-  <line x1="320" y1="425" x2="480" y2="425" stroke="#1a1a1a" stroke-width="0.5"/>
-
-  <text x="400" y="465" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">The Saylor doctrine, delivered to a podcast —</text>
-  <text x="400" y="485" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">reissued through every cycle since.</text>
-
-  <line x1="280" y1="520" x2="520" y2="520" stroke="#1a1a1a" stroke-width="0.5"/>
-
-  <text x="400" y="545" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">MICHAEL SAYLOR — UNCHAINED PODCAST, JANUARY 26, 2021</text>
-
+  <text x="400" y="202" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="58" font-style="italic" fill="#d97706" font-weight="400">It’s going up forever,</text>
+  <text x="400" y="282" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="64" font-style="italic" fill="#1a1a1a" font-weight="400">Laura.</text>
+  <text x="400" y="358" text-anchor="middle" font-family="EB Garamond, Garamond, serif" font-size="58" font-style="italic" fill="#1a1a1a" font-weight="400">Forever.</text>
+  <line x1="320" y1="395" x2="480" y2="395" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="400" y="435" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">The Saylor doctrine, delivered to a podcast —</text>
+  <text x="400" y="455" font-family="EB Garamond, Garamond, serif" font-style="italic" font-size="14" fill="#1a1a1a" text-anchor="middle">reissued through every cycle since.</text>
+  <line x1="280" y1="490" x2="520" y2="490" stroke="#1a1a1a" stroke-width="0.5"/>
+  <text x="400" y="515" font-family="JetBrains Mono, monospace" font-size="10" fill="#1a1a1a" letter-spacing="1.5" text-anchor="middle">MICHAEL SAYLOR — UNCHAINED PODCAST, JANUARY 26, 2021</text>
   <text x="720" y="580" font-family="JetBrains Mono, monospace" font-size="9" fill="#1a1a1a" letter-spacing="1.5" text-anchor="end">bitcoinannotated.com</text>
 </svg>
