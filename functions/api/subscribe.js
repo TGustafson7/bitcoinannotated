@@ -19,7 +19,7 @@ export async function onRequestPost({ request, env }) {
       headers: {
         'Authorization': 'Token ' + env.BUTTONDOWN_API_KEY,
         'Content-Type': 'application/json',
-        'X-Buttondown-Collision-Behavior': 'overwrite',
+        'X-Buttondown-Bypass-Firewall': 'true',
       },
       body: JSON.stringify({ email_address: email, type: 'regular' }),
     });
@@ -27,7 +27,7 @@ export async function onRequestPost({ request, env }) {
     if (res.ok) return Response.json({ ok: true });
 
     const text = await res.text();
-    if (res.status === 400 && /already|exists|subscrib/i.test(text)) {
+    if (res.status === 400 && /already|exists/i.test(text)) {
       return Response.json({ ok: true, already: true });
     }
     return Response.json({ ok: false, error: 'Subscription failed. Try again.' }, { status: 502 });
