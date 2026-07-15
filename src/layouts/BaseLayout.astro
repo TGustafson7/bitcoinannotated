@@ -9,7 +9,6 @@ const ogImageSrc = image
   : '/og-default.png';
 const ogImage = new URL(ogImageSrc, Astro.site).href;
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,14 +18,12 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
   <link rel="icon" type="image/svg+xml" href="/ba-favicon.svg" />
   <meta name="description" content={fullDescription} />
   <link rel="canonical" href={canonical} />
-
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="The Bitcoin Annotated" />
   <meta property="og:title" content={fullTitle} />
   <meta property="og:description" content={fullDescription} />
   <meta property="og:url" content={canonical} />
   <meta property="og:image" content={ogImage} />
-
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={fullTitle} />
   <meta name="twitter:description" content={fullDescription} />
@@ -40,6 +37,7 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
         <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Catalog</a>
         <a href="/timechain/" class={Astro.url.pathname === '/timechain/' ? 'active' : ''}>Timechain</a>
         <a href="/about/" class={Astro.url.pathname === '/about/' ? 'active' : ''}>About</a>
+        <a href="/shop/" class={Astro.url.pathname === '/shop/' ? 'active' : ''}>Shop</a>
       </nav>
     </header>
     <slot />
@@ -55,6 +53,7 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
           <a href="/timechain">Timechain</a>
           <a href="/methodology">Methodology</a>
           <a href="/about">About</a>
+          <a href="/shop">Shop</a>
         </div>
         <div class="footer-col">
           <div class="footer-label">Editorial</div>
@@ -71,7 +70,6 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
     </footer>
   </div>
 </body>
-
 <style is:global>
   .site-footer {
     margin-top: 120px;

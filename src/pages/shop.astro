@@ -1,0 +1,186 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const prints = [
+  { slug: 'bitcoin-is-dead',      title: 'Bitcoin is Dead',       deck: 'Hundreds of obituaries, 2011 to now.' },
+  { slug: 'the-offering',         title: 'The Offering',          deck: 'Satoshi gave it away and disappeared.' },
+  { slug: 'bitcoin-not-crypto',   title: 'Bitcoin Not Crypto',    deck: 'There is no second best.' },
+  { slug: 'tick-tock-next-block', title: 'Tick-tock, next block', deck: 'Timechain. A block every ten minutes, without pause.' },
+];
+---
+<BaseLayout title="Shop" description="Fine-art prints drawn from the catalog — coming soon.">
+  <section class="shop">
+    <header class="shop-header">
+      <p class="shop-eyebrow">The Shop &middot; Coming Soon</p>
+      <h1>The <em>Prints</em></h1>
+      <p class="shop-deck">
+        Four works drawn from the catalog's own hand. Giclée on 100% cotton rag, each an
+        edition of twenty-one &mdash; hand-numbered and signed in pencil.
+      </p>
+      <a class="shop-notify" href="mailto:hello@bitcoinannotated.com?subject=Notify%20me%20%E2%80%94%20The%20Prints">
+        Email me when it opens &rarr;
+      </a>
+    </header>
+
+    <div class="print-grid">
+      {prints.map((p) => (
+        <figure class="print-card">
+          <div class="print-frame">
+            <img src={`/images/prints/ba-${p.slug}.png`} alt={p.title} loading="lazy" width="900" height="1200" />
+            <span class="print-badge">Coming soon</span>
+          </div>
+          <figcaption>
+            <b>{p.title}</b>
+            <span class="print-deck">{p.deck}</span>
+            <span class="print-status">Edition of 21</span>
+          </figcaption>
+        </figure>
+      ))}
+    </div>
+
+    <p class="shop-foot">
+      Prices and ordering open once the first proofs are in hand. Bitcoin only.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .shop {
+    max-width: 1000px;
+    margin: 64px auto 96px;
+    padding: 0 24px;
+  }
+  .shop-header {
+    max-width: 720px;
+    margin-bottom: 56px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #d8cfb8;
+  }
+  .shop-eyebrow {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #d97706;
+    margin: 0 0 18px;
+  }
+  .shop h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: clamp(48px, 6vw, 72px);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    font-weight: 500;
+    margin: 0 0 18px;
+    color: #1a1a1a;
+  }
+  .shop h1 em {
+    font-style: italic;
+    color: #d97706;
+    font-weight: 400;
+  }
+  .shop-deck {
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.45;
+    color: #4a4a4a;
+    margin: 0 0 28px;
+  }
+  .shop-notify {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1a1a1a;
+    border: 1.5px solid #1a1a1a;
+    padding: 11px 22px;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .shop-notify:hover {
+    background: #d97706;
+    border-color: #d97706;
+    color: #f8f4ed;
+  }
+
+  .print-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px 44px;
+  }
+  .print-card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .print-frame {
+    position: relative;
+    background: #f2ece0;
+    box-shadow: 0 18px 44px rgba(0, 0, 0, 0.22);
+  }
+  .print-frame img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .print-badge {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #f8f4ed;
+    background: #1a1a1a;
+    padding: 5px 10px;
+  }
+  .print-card figcaption {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .print-card b {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1a1a1a;
+  }
+  .print-deck {
+    display: block;
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.45;
+    color: #5c564d;
+    margin: 7px auto 0;
+    max-width: 320px;
+  }
+  .print-status {
+    display: block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9.5px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #9b9484;
+    margin-top: 12px;
+  }
+
+  .shop-foot {
+    margin: 72px auto 0;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: #6b6358;
+  }
+
+  @media (max-width: 720px) {
+    .print-grid {
+      grid-template-columns: 1fr;
+      gap: 44px;
+    }
+  }
+</style>
