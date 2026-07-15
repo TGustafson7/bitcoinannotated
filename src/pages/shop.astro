@@ -2,9 +2,9 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 
 const prints = [
-  { slug: 'bitcoin-is-dead',      title: 'Bitcoin is Dead',       deck: 'Hundreds of obituaries, 2011 to now.' },
-  { slug: 'the-offering',         title: 'The Offering',          deck: 'Satoshi gave it away and disappeared.' },
-  { slug: 'bitcoin-not-crypto',   title: 'Bitcoin Not Crypto',    deck: 'There is no second best.' },
+  { slug: 'bitcoin-is-dead',      title: 'Bitcoin is Dead',      deck: 'Hundreds of obituaries. Still alive.' },
+  { slug: 'the-offering',         title: 'The Offering',         deck: 'Satoshi gave it away and disappeared.' },
+  { slug: 'bitcoin-not-crypto',   title: 'Bitcoin Not Crypto',   deck: 'There is no second best.' },
   { slug: 'tick-tock-next-block', title: 'Tick-tock, next block', deck: 'Timechain. A block every ten minutes, without pause.' },
 ];
 ---
@@ -14,12 +14,16 @@ const prints = [
       <p class="shop-eyebrow">The Shop &middot; Coming Soon</p>
       <h1>The <em>Prints</em></h1>
       <p class="shop-deck">
-        Four works drawn from the catalog's own hand. Giclée on 100% cotton rag, each an
-        edition of twenty-one &mdash; hand-numbered and signed in pencil.
+        Four works drawn from the catalog's own hand. Giclée on 100% cotton rag &mdash;
+        a signed, hand-numbered limited edition.
       </p>
-      <a class="shop-notify" href="mailto:hello@bitcoinannotated.com?subject=Notify%20me%20%E2%80%94%20The%20Prints">
-        Email me when it opens &rarr;
-      </a>
+
+      <form class="notify" action="https://buttondown.com/api/emails/embed-subscribe/bitcoinannotated" method="post" target="_blank">
+        <input type="email" name="email" required placeholder="you@email.com" aria-label="Email address" />
+        <input type="hidden" name="embed" value="1" />
+        <button type="submit">Notify me &rarr;</button>
+      </form>
+      <p class="notify-done" hidden>On the list &mdash; we'll email you when the shop opens.</p>
     </header>
 
     <div class="print-grid">
@@ -32,7 +36,7 @@ const prints = [
           <figcaption>
             <b>{p.title}</b>
             <span class="print-deck">{p.deck}</span>
-            <span class="print-status">Edition of 21</span>
+            <span class="print-status">18 &times; 24 in &middot; Limited edition</span>
           </figcaption>
         </figure>
       ))}
@@ -42,6 +46,20 @@ const prints = [
       Prices and ordering open once the first proofs are in hand. Bitcoin only.
     </p>
   </section>
+
+  <script is:inline>
+    (function () {
+      var form = document.querySelector('.notify');
+      if (!form) return;
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        fetch(form.action, { method: 'POST', mode: 'no-cors', body: new FormData(form) }).catch(function () {});
+        form.hidden = true;
+        var done = document.querySelector('.notify-done');
+        if (done) done.hidden = false;
+      });
+    })();
+  </script>
 </BaseLayout>
 
 <style>
@@ -86,22 +104,50 @@ const prints = [
     color: #4a4a4a;
     margin: 0 0 28px;
   }
-  .shop-notify {
-    display: inline-block;
+
+  .notify {
+    display: flex;
+    gap: 10px;
+    max-width: 460px;
+    flex-wrap: wrap;
+  }
+  .notify input[type="email"] {
+    flex: 1 1 220px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #1a1a1a;
+    background: transparent;
+    border: 1.5px solid #d8cfb8;
+    padding: 11px 14px;
+  }
+  .notify input[type="email"]:focus {
+    outline: none;
+    border-color: #1a1a1a;
+  }
+  .notify button {
     font-family: 'JetBrains Mono', monospace;
     font-size: 11px;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    text-decoration: none;
     color: #1a1a1a;
+    background: transparent;
     border: 1.5px solid #1a1a1a;
     padding: 11px 22px;
+    cursor: pointer;
     transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
   }
-  .shop-notify:hover {
+  .notify button:hover {
     background: #d97706;
     border-color: #d97706;
     color: #f8f4ed;
+  }
+  .notify-done {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #d97706;
+    margin: 0;
   }
 
   .print-grid {
