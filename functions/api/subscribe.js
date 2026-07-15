@@ -19,8 +19,9 @@ export async function onRequestPost({ request, env }) {
       headers: {
         'Authorization': 'Token ' + env.BUTTONDOWN_API_KEY,
         'Content-Type': 'application/json',
+        'X-Buttondown-Collision-Behavior': 'overwrite',
       },
-      body: JSON.stringify({ email_address: email }),
+      body: JSON.stringify({ email_address: email, type: 'regular' }),
     });
 
     if (res.ok) return Response.json({ ok: true });
