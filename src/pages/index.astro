@@ -106,12 +106,16 @@ for (const entry of allEntries) {
     <a href="?type=document" class="filter-chip" data-type="document">DOCUMENT <span class="count">{typeCounts.Document}</span></a>
   </nav>
 
+  <div class="mentions-bar">
+    <button type="button" id="mentions-toggle" class="mentions-toggle" hidden></button>
+  </div>
+
   <div class="index-list sort-mode active" data-sort-mode="date">
     {groupedByYear.map((group) => (
       <>
         <div class="era-divider">{group.year}</div>
         {group.entries.map((entry) => (
-          <a href={`/entries/${entry.slug}`} class="index-row" data-search={`${entry.data.title} ${entry.data.deck || ''} ${bodyTextBySlug[entry.slug] || ''}`.toLowerCase()}>
+          <a href={`/entries/${entry.slug}`} class="index-row" data-card={`${entry.data.title} ${entry.data.deck || ''}`.toLowerCase()} data-search={`${entry.data.title} ${entry.data.deck || ''} ${bodyTextBySlug[entry.slug] || ''}`.toLowerCase()}>
             <span class="id">{formatDateShort(entry.data.date)}</span>
             <span class="title">{entry.data.title}</span>
             <span class="era">{entry.data.type}</span>
@@ -129,7 +133,7 @@ for (const entry of allEntries) {
         {group.entries.map((entry) => {
           const split = articleSplit(entry.data.title);
           return (
-            <a href={`/entries/${entry.slug}`} class="index-row" data-search={`${entry.data.title} ${entry.data.deck || ''} ${bodyTextBySlug[entry.slug] || ''}`.toLowerCase()}>
+            <a href={`/entries/${entry.slug}`} class="index-row" data-card={`${entry.data.title} ${entry.data.deck || ''}`.toLowerCase()} data-search={`${entry.data.title} ${entry.data.deck || ''} ${bodyTextBySlug[entry.slug] || ''}`.toLowerCase()}>
               <span class="id">{formatDateMonthYear(entry.data.date)}</span>
               <span class="title">
                 {split.article ? (
@@ -181,6 +185,25 @@ for (const entry of allEntries) {
   }
   .filter-sep { color: var(--ink-faint); opacity: 0.4; }
   .index-row.filtered-out, .era-divider.filtered-out { display: none; }
+
+  .mentions-bar { margin: 2px 0 10px; }
+  .mentions-toggle {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-mid);
+    background: none;
+    border: none;
+    padding: 4px 0;
+    cursor: pointer;
+    transition: color 0.12s;
+  }
+  .mentions-toggle:hover { color: var(--orange); }
+  .mentions-toggle[hidden] { display: none; }
+  /* body-only "mention" matches, shown dimmed under the disclosure */
+  .index-row.is-mention:not(.search-hidden) { opacity: 0.5; }
+  .index-row.is-mention:not(.search-hidden):hover { opacity: 0.8; }
 </style>
 
 <script>
@@ -285,32 +308,10 @@ for (const entry of allEntries) {
 
 <script is:inline>
   (function() {
-    function applySearch() {
-      const input = document.getElementById('catalog-search');
-      const countEl = document.getElementById('search-count');
-      if (!input || !countEl) return;
-      const q = input.value.trim().toLowerCase();
-      const activeMode = document.querySelector('.sort-mode.active');
-      if (!activeMode) return;
-      const rows = activeMode.querySelectorAll('.index-row');
-      const dividers = activeMode.querySelectorAll('.era-divider, .letter-divider');
+    let mentionsOpen = false;
 
-      if (!q) {
-        rows.forEach(el => el.classList.remove('search-hidden'));
-        dividers.forEach(d => d.classList.remove('search-hidden'));
-        countEl.classList.remove('active');
-        countEl.textContent = '';
-        return;
-      }
-      const tokens = q.split(/\s+/).filter(Boolean);
-      let matches = 0;
-      rows.forEach(el => {
-        const text = el.getAttribute('data-search') || '';
-        const hit = tokens.every(t => text.includes(t));
-        const chipPass = !el.classList.contains('filtered-out');
-        el.classList.toggle('search-hidden', !hit);
-        if (hit && chipPass) matches++;
-      });
+    function recomputeDividers(activeMode) {
+      const dividers = activeMode.querySelectorAll('.era-divider, .letter-divider');
       dividers.forEach(divider => {
         let next = divider.nextElementSibling;
         let hasVisible = false;
@@ -325,9 +326,62 @@ for (const entry of allEntries) {
         }
         divider.classList.toggle('search-hidden', !hasVisible);
       });
-      const noun = matches === 1 ? 'ARTIFACT MATCHES' : 'ARTIFACTS MATCH';
-      countEl.textContent = matches + ' ' + noun;
+    }
+
+    function applySearch() {
+      const input = document.getElementById('catalog-search');
+      const countEl = document.getElementById('search-count');
+      const toggle = document.getElementById('mentions-toggle');
+      if (!input || !countEl) return;
+      const q = input.value.trim().toLowerCase();
+      const activeMode = document.querySelector('.sort-mode.active');
+      if (!activeMode) return;
+      const rows = activeMode.querySelectorAll('.index-row');
+      const dividers = activeMode.querySelectorAll('.era-divider, .letter-divider');
+
+      if (!q) {
+        rows.forEach(el => el.classList.remove('search-hidden', 'is-mention'));
+        dividers.forEach(d => d.classList.remove('search-hidden'));
+        countEl.classList.remove('active');
+        countEl.textContent = '';
+        if (toggle) toggle.hidden = true;
+        return;
+      }
+
+      const tokens = q.split(/\s+/).filter(Boolean);
+      let primary = 0, mentions = 0;
+      rows.forEach(el => {
+        const card = el.getAttribute('data-card') || '';
+        const full = el.getAttribute('data-search') || '';
+        const chipPass = !el.classList.contains('filtered-out');
+        const isPrimary = tokens.every(t => card.includes(t));
+        const isFull = tokens.every(t => full.includes(t));
+        const isMention = isFull && !isPrimary;
+        el.classList.toggle('is-mention', isMention);
+        if (isPrimary) {
+          el.classList.remove('search-hidden');
+          if (chipPass) primary++;
+        } else if (isMention) {
+          el.classList.toggle('search-hidden', !mentionsOpen);
+          if (chipPass) mentions++;
+        } else {
+          el.classList.add('search-hidden');
+        }
+      });
+      recomputeDividers(activeMode);
+
+      countEl.textContent = primary + ' ' + (primary === 1 ? 'ARTIFACT' : 'ARTIFACTS');
       countEl.classList.add('active');
+
+      if (toggle) {
+        if (mentions > 0) {
+          toggle.hidden = false;
+          const verb = mentions === 1 ? 'essay that mentions' : 'essays that mention';
+          toggle.textContent = (mentionsOpen ? '− hide ' : '+ show ') + mentions + ' ' + verb + ' “' + q + '”';
+        } else {
+          toggle.hidden = true;
+        }
+      }
     }
 
     function applySort() {
@@ -356,7 +410,10 @@ for (const entry of allEntries) {
     });
 
     const input = document.getElementById('catalog-search');
-    if (input) input.addEventListener('input', applySearch);
+    if (input) input.addEventListener('input', () => { mentionsOpen = false; applySearch(); });
+
+    const toggle = document.getElementById('mentions-toggle');
+    if (toggle) toggle.addEventListener('click', () => { mentionsOpen = !mentionsOpen; applySearch(); });
 
     window.addEventListener('popstate', () => { applySort(); applySearch(); });
 
