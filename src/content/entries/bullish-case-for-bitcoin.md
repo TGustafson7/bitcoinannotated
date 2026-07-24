@@ -31,8 +31,8 @@ That order became a template. Theory of money first, then the properties that ma
 
 In June 2021, at the Miami conference, Boyapati expanded the essay into a book of the same name. Michael Saylor wrote the foreword; Jack Dorsey, Cynthia Lummis, and Adam Back supplied testimonials. But the book was downstream of the essay, not the reverse. By the time it appeared, the essay had circulated widely enough that publishing the long version documented a demand rather than creating one.
 
-We file this as a Document rather than a Phrase because the artifact is the essay itself. People send the link. They ask whether you've read the bullish case. They cite it the way an earlier cohort cited the whitepaper or the Antonopoulos books, as the thing that explains the thing. No line ever broke loose to become an idiom. The work circulates as a work.
+We file this as a Document rather than a Phrase because the artifact is the essay itself. People send the link. They ask whether you've read the bullish case. They cite it the way an earlier cohort cited the whitepaper or the Antonopoulos books, as the thing that explains bitcoin. No line ever broke loose to become an idiom. The work circulates as a work.
 
 What makes it foundational is the gap it filled. Between the whitepaper in 2008 and Antonopoulos's *Mastering Bitcoin* in 2014, nothing explained bitcoin to a non-technical reader as money. Antonopoulos explained the protocol. Ammous's *The Bitcoin Standard*, later in 2018, argued a hard-money worldview and fit bitcoin into it. Boyapati's essay was the bridge: monetary theory first, bitcoin as the instance second, written for someone who had not yet decided whether any of it was serious.
 
-The essay is still free, still on Medium, still in the form it first appeared. The book sells. The essay circulates.
+The essay is still free, still on Medium, still in the form it first appeared.

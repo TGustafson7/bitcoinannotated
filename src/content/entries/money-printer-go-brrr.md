@@ -28,8 +28,8 @@ The format spread within days. By March 14, a political-compass version was circ
 
 The reason it landed where it landed is that bitcoiners had been making this argument for a decade and nobody had been listening. The whole *Bitcoin Standard* thesis — that fiat currencies are eroded by their issuers' inability to stop issuing — required readers to follow a long economic argument about time preference, hard money, and Cantillon effects. The Wojak format compressed it to a punchline. The Fed cannot stop printing because the Fed is the printer. The argument is no longer an argument; it is a sound effect.
 
-Fortune's Jeff John Roberts wrote in May 2020 that the meme had become a Bitcoin recruitment tool, which understated its reach. Saylor's first MicroStrategy purchase came five months later. The pandemic-era buyers — Square, Tesla, dozens of corporate treasuries — were entering a market the meme had already explained to them. The argument that took *The Bitcoin Standard* three hundred pages to make was, by mid-2020, common knowledge among teenagers.
+Fortune's Jeff John Roberts wrote in May 2020 that the meme had become a Bitcoin recruitment tool, which understated its reach. Saylor's first MicroStrategy purchase came five months later. The pandemic-era buyers (Square, Tesla, dozens of corporate treasuries) were entering a market the meme had already explained to them. The argument that took *The Bitcoin Standard* three hundred pages to make was, by mid-2020, common knowledge among teenagers.
 
-What the meme records is the moment when the bitcoin worldview stopped being heterodox. The Federal Reserve printed roughly five trillion dollars in 2020. The S&P recovered. CPI followed two years later. By the time inflation peaked at 9.1% in June 2022, "money printer go brrr" had been the dominant cultural shorthand for monetary policy for two years.
+What the meme records is the moment when the bitcoin worldview stopped being heterodox. The Federal Reserve printed roughly five trillion dollars in 2020. The S&P recovered, and CPI followed two years later. By the time inflation peaked at 9.1% in June 2022, "money printer go brrr" had been the dominant cultural shorthand for monetary policy for two years.
 
-The meme outlived its moment. It will outlive several more.
+The meme outlived its moment.

@@ -33,4 +33,4 @@ What the artifact records is the inversion. Buffett held the view through the en
 
 The phrase is now over a half-decade into its second life. It has fully separated from Buffett's intention and entered the bitcoin lexicon as a compliment to the asset, deployed by people who would never explain the joke to him.
 
-We do not include this entry to settle who was right. We include it because the metabolic process — insult enters, gets adopted, gets inverted, becomes merch — is one of the catalog's recurring structural facts. Bitcoin culture eats its critics this way often enough that it should be considered part of the design.
+We do not include this entry to settle who was right. We include it because the metabolic process (insult enters, gets adopted, gets inverted, becomes merch) is one of the catalog's recurring structural facts. Bitcoin culture eats its critics this way often enough that it should be considered part of the design.

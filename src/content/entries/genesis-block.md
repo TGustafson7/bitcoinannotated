@@ -47,7 +47,7 @@ The third is foundational text. A new financial system needs a kind of origin st
 
 ## The six-day gap
 
-There is a small mystery about the genesis block worth noting. The timestamp on Block 0 is January 3, 2009. The timestamp on Block 1 is January 9, 2009 — six full days later. Bitcoin's protocol targets ten minutes between blocks. Six days is roughly eighty-six thousand percent longer than the design target.
+There is a small mystery about the genesis block worth noting. The timestamp on Block 0 is January 3, 2009. The timestamp on Block 1 is January 9, 2009, six full days later. Bitcoin's protocol targets ten minutes between blocks. Six days is roughly eighty-six thousand percent longer than the design target.
 
 Several explanations have been proposed. The most widely accepted is that Nakamoto mined the genesis block, then spent six days running tests on the bitcoin software using that block as a known starting point, and only on January 9 began the live chain in earnest. Another suggests Nakamoto had been working on bitcoin for some time before the public release and timed the genesis block specifically to match the *Times* headline. A third suggests they were simply mining the block itself for several days. Its hash is unusually low even by 2009 standards, suggesting more computational effort than was strictly necessary.
 
@@ -55,9 +55,9 @@ The truth is unknown. Nakamoto, who corresponded with early bitcoin developers f
 
 ## What is in Block 0
 
-The genesis block contains a single transaction — a coinbase transaction, the kind that creates new bitcoin out of nothing as a reward to the miner. The transaction sends fifty bitcoin to the address `1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa`.
+The genesis block contains a single transaction: a coinbase transaction, the kind that creates new bitcoin out of nothing as a reward to the miner. The transaction sends fifty bitcoin to the address `1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa`.
 
-Those fifty bitcoin cannot be spent. Due to a quirk of the way the genesis block is hardcoded into the bitcoin software — one which appears in every full-node implementation of bitcoin since 2009 — the coinbase transaction of Block 0 is treated as a special case and excluded from the unspent-transaction-output set. Whether this was intentional or accidental on Nakamoto's part has been debated for years and not resolved.
+Those fifty bitcoin cannot be spent. Due to a quirk of the way the genesis block is hardcoded into the bitcoin software, one which appears in every full-node implementation of bitcoin since 2009, the coinbase transaction of Block 0 is treated as a special case and excluded from the unspent-transaction-output set. Whether this was intentional or accidental on Nakamoto's part has been debated for years and not resolved.
 
 The address itself, however, has continued to receive bitcoin from sympathetic donors for more than a decade. As of late 2025 it holds well over a hundred bitcoin in addition to the original fifty. None of those donations are unspendable; they could in principle be moved by anyone holding the private key. They have not been.
 

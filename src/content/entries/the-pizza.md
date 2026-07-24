@@ -28,18 +28,18 @@ It was, as far as anyone has been able to verify, the first time bitcoin had bee
 
 ## What the bitcoin was worth
 
-At the May 2010 exchange rate, ten thousand bitcoin was worth approximately forty-one dollars. The pizzas cost about twenty-five dollars. Hanyecz, in other words, paid roughly sixteen dollars over market rate for the convenience — and the novelty — of paying in bitcoin.
+At the May 2010 exchange rate, ten thousand bitcoin was worth approximately forty-one dollars. The pizzas cost about twenty-five dollars. Hanyecz, in other words, paid roughly sixteen dollars over market rate for the convenience and novelty of paying in bitcoin.
 
 At every subsequent moment in bitcoin's history, the same ten thousand bitcoin has been worth substantially more. By 2013, the pizzas had cost a few million dollars. By 2017, several hundred million. By 2024, more than a billion. The figure is recalculated annually and shared widely each May 22, which has come to be observed across bitcoin culture as *Bitcoin Pizza Day*.
 
 ## What Hanyecz has said about it
 
-Hanyecz has been interviewed about the transaction many times in the years since. He has not, in any of those interviews, expressed regret in the form an outsider might expect. His position has been steady: someone had to be the first person to spend bitcoin on something tangible, and the network needed that proof of concept in order to mean anything at all. The retrospective accounting — what those bitcoin would be worth now — is, in his view, beside the point. They wouldn't be worth anything if no one had ever spent any.
+Hanyecz has been interviewed about the transaction many times in the years since. He has not, in any of those interviews, expressed regret in the form an outsider might expect. His position has been steady: someone had to be the first person to spend bitcoin on something tangible, and the network needed that proof of concept in order to mean anything at all. The retrospective accounting (what those bitcoin would be worth now) is, in his view, beside the point. They wouldn't be worth anything if no one had ever spent any.
 
-This framing is widely respected within bitcoin culture and has earned Hanyecz a kind of permanent goodwill. The transaction is referenced not as a cautionary tale but as an act of faith — a wager that bitcoin would become something real, settled in pepperoni.
+This framing is widely respected within bitcoin culture and has earned Hanyecz a kind of permanent goodwill. The transaction is referenced not as a cautionary tale but as an act of faith, a wager that bitcoin would become something real, settled in pepperoni.
 
 ## The annual ritual
 
 Every May 22, bitcoin Twitter, Nostr, and the bitcoin press observe the day. Pizza is purchased. The current dollar valuation of Hanyecz's expense is calculated. Memes are reproduced. A subset of bitcoiners pay for pizza in bitcoin, often via the Lightning Network, both to honor the original transaction and to demonstrate that a bitcoin pizza purchase can now be done in seconds rather than days.
 
-The ritual is, in its way, the closest thing bitcoin has to a religious holiday. It commemorates a foundational act, marks the passage of time, and renews the community's connection to its origin. The fact that the original transaction was, on a strictly financial basis, ruinous is part of what makes it sacred.
+The ritual is, in its way, the closest thing bitcoin has to a religious holiday. It commemorates a foundational act and renews the community's connection to its origin. The fact that the original transaction was, on a strictly financial basis, ruinous is part of what makes it sacred.

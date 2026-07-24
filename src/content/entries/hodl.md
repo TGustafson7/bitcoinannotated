@@ -12,7 +12,7 @@ creator: "GameKyuubi"
 sourcePlatform: "BitcoinTalk"
 locked: true
 heroImage: "/images/entries/hodl.png"
-heroImageCaption: "GameKyuubi's original 'I AM HODLING' post on the BitcoinTalk forum, December 18, 2013."
+heroImageCaption: "GameKyuubi's original 'I AM HODLING' post on the BitcoinTalk forum, December 18, 2013. The merit tally and signature address are later additions the forum renders onto the original post."
 heroImageCredit: "Screenshot from bitcointalk.org, thread 375643."
 sources:
   - url: "https://bitcointalk.org/index.php?topic=375643.0"
@@ -25,9 +25,9 @@ related:
   - "squares-buy"
 ---
 
-On the night of December 18, 2013, a forum user posting under the handle GameKyuubi opened a thread on BitcoinTalk titled — by his own intention — *I AM HODLING*. The misspelling was not strategic. It was, by his own admission within the post, the result of being drunk while trying to type. The thread that followed became scripture.
+On the night of December 18, 2013, a forum user posting under the handle GameKyuubi opened a thread on BitcoinTalk titled, by his own intention, *I AM HODLING*. The misspelling was not strategic. It was, by his own admission within the post, the result of being drunk while trying to type. The thread that followed became scripture.
 
-Bitcoin had crashed roughly fifty percent that week, from an all-time high near $1,150 in early December to the low five hundreds by the eighteenth — triggered in significant part by the People's Bank of China's December 5 ruling barring financial institutions from handling bitcoin — and the BitcoinTalk forums were thick with traders explaining what they were going to do about it. GameKyuubi's post was a refusal of strategy. He wasn't going to sell. He wasn't going to trade. He wasn't a good trader and never would be. He was, in his words, holding. He was, with the typo intact, *hodling*.
+Bitcoin had crashed roughly fifty percent that week, from an all-time high near $1,150 in early December to the low five hundreds by the eighteenth (triggered in significant part by the People's Bank of China's December 5 ruling barring financial institutions from handling bitcoin), and the BitcoinTalk forums were thick with traders explaining what they were going to do about it. GameKyuubi's post was a refusal of strategy. He wasn't going to sell. He wasn't going to trade. He wasn't a good trader and never would be. He was, in his words, holding. He was, with the typo intact, *hodling*.
 
 ## What the post actually said
 
@@ -41,7 +41,7 @@ The post is also, it should be said, quite funny. There is a digression involvin
 
 Within hours, the misspelling had begun to circulate as a meme. Within days, the bitcoin community had largely abandoned the correct spelling. By 2014 the term had appeared in mainstream financial press; by 2017 it was standard vocabulary across cryptocurrency journalism; by 2021 it had been backronymed (Hold On for Dear Life) by writers seeking an explanation for a word that did not, in fact, originate as an acronym.
 
-The backronym is wrong. The drunken typo is the truth. This distinction matters to bitcoiners in a way that is difficult to explain to outsiders — the unsanitized origin is the point.
+The backronym is wrong. The drunken typo is the truth. This distinction matters to bitcoiners in a way that is difficult to explain to outsiders: the unsanitized origin is the point.
 
 ## Why the term endured
 

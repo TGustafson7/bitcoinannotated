@@ -29,4 +29,4 @@ The cultural significance was disproportionate to the transaction volume. Bitcoi
 
 The Robocoin business itself did not last. The company filed for bankruptcy in 2016, undone by the licensing requirements that had made Canada attractive in the first place becoming standard everywhere. By then bitcoin ATMs were a category. Bratislava had received Europe's first installation six weeks after Vancouver. Albuquerque had received the first U.S. machine in February 2014. By 2020 there were ten thousand bitcoin ATMs in the United States alone. By 2025 the number was approximately thirty thousand. The Robocoin in Vancouver had been retired years earlier, replaced and replaced again by simpler machines that did one direction only.
 
-The line formed at nine. The machine accepted twenty-dollar bills. The corner at Howe and Smithe is still there. People walk past it. The currency, until that morning, had not had a place you could go.
+The line formed at nine. The machine accepted twenty-dollar bills. The corner at Howe and Smithe is still there, and people walk past it. The currency, until that morning, had not had a place you could go.
