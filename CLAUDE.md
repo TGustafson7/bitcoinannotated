@@ -44,3 +44,23 @@ When starting a new entry:
 3. Draft the frontmatter with all required fields
 4. Write the body in Markdown — not as a Wikipedia article, as an editorial artifact essay
 5. Run `npm run dev` to preview before committing
+
+## Deploying (when Claude edits from the cloud sandbox)
+
+Claude edits files directly in this repo and can `git commit`, but the cloud sandbox
+**cannot delete git's lock files**. So every sandbox commit leaves stale `.lock` and
+`tmp_obj_*` files that will block a push from the Mac. Workflow:
+
+1. Claude makes the edits and commits locally (sanity-check with `git fsck --connectivity-only`).
+2. Todd pushes from the Mac terminal, clearing the leftovers first:
+
+   ```
+   rm -f .git/index.lock .git/HEAD.lock .git/index.lock.claude-stale .git/objects/maintenance.lock
+   find .git/objects -name 'tmp_obj_*' -delete
+   git push
+   ```
+
+3. Push to main → Cloudflare Pages rebuilds → live in ~30s.
+
+Don't run `git add . && git commit` on the Mac after Claude has already committed —
+it sweeps in unrelated working-tree edits. Just push.
