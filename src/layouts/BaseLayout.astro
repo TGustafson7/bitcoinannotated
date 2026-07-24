@@ -32,7 +32,7 @@ const ogImage = new URL(ogImageSrc, Astro.site).href;
 <body>
   <div class="page-wrap">
     <header class="topbar">
-      <a href="/" class="brand" style="display:inline-flex;align-items:center;"><img src="/ba-mark-small.svg" alt="" aria-hidden="true" style="height:46px;width:auto;margin-right:13px;" />The Bitcoin <em>Annotated</em></a>
+      <a href="/" class="brand" style="display:inline-flex;align-items:center;"><img src="/ba-mark-small.svg" alt="" aria-hidden="true" style="height:40px;width:auto;margin-right:12px;transform:translateY(-2px);" />The Bitcoin <em>Annotated</em></a>
       <nav>
         <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Catalog</a>
         <a href="/timechain/" class={Astro.url.pathname === '/timechain/' ? 'active' : ''}>Timechain</a>
