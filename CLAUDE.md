@@ -18,7 +18,9 @@ This file holds tone preferences and editorial guardrails. Future Claude session
 - **No personality profiles.** Every entry is a cultural artifact. Influencers appear inside entries as creators, sources, or subjects — never as the subject of a biography.
 - **Honest attribution.** When origins are diffuse, write "earliest known appearance ~X, exact origin unsettled" rather than guessing confidently.
 - **Sources are mandatory.** Every entry has at least one verifiable primary source in the `sources` array. If we can't source it, we don't ship it.
-- **Visual standard is the moat.** Paper-cream background, EB Garamond display, single deep-orange accent. The museum-card aesthetic is part of the product. Don't ship sloppy entries to keep momentum.
+- **Visual standard is the moat.** Paper-cream background, **Newsreader** display serif, **Archivo** grotesque for UI chrome (nav, search, sort, filters), **JetBrains Mono kept only for ledger/specimen data** (catalog dates + type labels, era dividers, plate corners), single deep-orange accent. The museum-card aesthetic is part of the product. Don't ship sloppy entries to keep momentum.
+  - *EB Garamond was retired as the display face (July 2026)* — it read as an AI-default trio (Garamond + Inter + JetBrains Mono). Do not reintroduce it as the site display face.
+  - **Plate font pass still pending.** The 28 plate SVGs in `public/images/entries/` still bake EB Garamond + JetBrains Mono, so entry-page heroes have a serif seam vs the Newsreader H1. Re-render plates to Newsreader to close it — text positions are tuned to Garamond metrics, so verify each render by eye.
 - **Resist confident claims that aren't sourceable.** The project's authority depends on intellectual honesty.
 
 ## Anti-patterns to avoid
