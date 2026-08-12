@@ -7,6 +7,9 @@ date: 2025-10-10
 sourcePlatform: "GitHub"
 locked: false
 blockHeightAtOrigin: 918450
+heroImage: "/images/entries/the-op-return-war.png"
+heroImageCaption: "The pull request to remove OP_RETURN's data limit — Bitcoin Core #32359, 2025."
+heroImageCredit: "GitHub / Bitcoin Core"
 related:
   - "ordinals"
   - "the-block-size-wars"

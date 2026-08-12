@@ -7,6 +7,9 @@ date: 2026-03-09
 sourcePlatform: "Bitcoin blockchain"
 locked: false
 blockHeightAtOrigin: 940000
+heroImage: "/images/entries/the-20-millionth-bitcoin.png"
+heroImageCaption: "Block 940,000 on mempool.space, mined March 9, 2026: the twenty-millionth bitcoin."
+heroImageCredit: "mempool.space"
 related:
   - "infinity-divided-by-21m"
   - "the-halving"
