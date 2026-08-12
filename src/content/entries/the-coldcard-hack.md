@@ -4,6 +4,7 @@ deck: "The largest self-custody failure to date was not stolen keys but a build 
 era: "Now"
 type: "Event"
 date: 2026-07-30
+blockHeightAtOrigin: 960267
 sourcePlatform: "Coinkite Blog"
 locked: false
 related:
