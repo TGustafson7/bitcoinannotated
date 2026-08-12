@@ -5,6 +5,9 @@ era: "Now"
 type: "Event"
 date: 2026-07-30
 blockHeightAtOrigin: 960267
+heroImage: "/images/entries/the-coldcard-hack.png"
+heroImageCaption: "Coinkite security advisory, July 30, 2026, disclosing the Coldcard seed-generation flaw."
+heroImageCredit: "Coinkite"
 sourcePlatform: "Coinkite Blog"
 locked: false
 related:
