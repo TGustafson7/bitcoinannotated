@@ -6,7 +6,13 @@ type: "Event"
 date: 2026-07-30
 sourcePlatform: "Coinkite Blog"
 locked: false
-related: []
+related:
+  - "be-your-own-bank"
+  - "not-your-keys"
+  - "dont-trust-verify"
+  - "the-seed-phrase"
+  - "the-mt-gox-collapse"
+  - "the-ftx-collapse"
 sources:
   - url: "https://blog.coinkite.com/coldcard-mk3-seed-generation-warning/"
     label: "Coinkite, COLDCARD Security Advisory (Jul 30, 2026)"
